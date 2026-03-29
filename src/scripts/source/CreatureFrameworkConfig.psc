@@ -1,4 +1,4 @@
-Scriptname CFConfigMenu extends SKI_ConfigBase
+Scriptname CreatureFrameworkConfig extends SKI_ConfigBase
 {The Mod Configuration Menu script | Creature Framework}
 
 ; General properties
@@ -49,12 +49,12 @@ int creaturePage
 
 ; Get the version of the mod
 int function GetVersion()
-	return CreatureFrameworkUtil.GetVersion()
+	return CreatureFrameworkUtility.GetVersion()
 endFunction
 
 ; Get the textual representation of the version of the mod
 string function GetVersionString()
-	return CreatureFrameworkUtil.GetVersionString()
+	return CreatureFrameworkUtility.GetVersionString()
 endFunction
 
 ; The mod has been updated
@@ -74,7 +74,7 @@ event OnGameReload()
 	Pages[3] = "$Puppeteer"
 
 	creaturePage = 1
-	API = CreatureFrameworkUtil.GetAPI()
+	API = CreatureFrameworkUtility.GetAPI()
 	API.Initialize()
 endEvent
 
@@ -163,6 +163,7 @@ function PageGeneral()
 		AddSliderOption("$CF_SettingName_GenArousalThreshold", GenArousalThreshold, "{0}", OPTION_FLAG_DISABLED)
 	endIf
 
+	AddEmptyOption()
 	AddHeaderOption("$Debug")
 	AddToggleOptionST("DBG_OutputLog", "$CF_SettingName_DbgOutputLog", DbgOutputLog)
 	AddToggleOptionST("DBG_OutputConsole", "$CF_SettingName_DbgOutputConsole", DbgOutputConsole)
@@ -352,7 +353,7 @@ state CLN_Uninstall
 				ForcePageReset()
 			endIf
 		else
-			CFDebug.Log("[Config] Not uninstalling; no mucking about!")
+			CreatureFrameworkUtility.Log("[Config] Not uninstalling; no mucking about!")
 		endIf
 	endEvent
 	event OnHighlightST()
@@ -380,7 +381,7 @@ state PRF_CloakMaxCreature
 	event OnSliderOpenST()
 		SetSliderDialogStartValue(PrfCloakCreatures)
 		SetSliderDialogDefaultValue(6)
-		SetSliderDialogRange(0, API.Detect.GetNumAliases())
+		SetSliderDialogRange(0, API.CFQuestDetectCreature.GetNumAliases())
 		SetSliderDialogInterval(2)
 	endEvent
 	event OnSliderAcceptST(float value)
@@ -460,7 +461,7 @@ function PageCreatures()
 		if creaturePage > creaturePages
 			creaturePage = 1
 		endIf
-		CFDebug.Log("[Config] Creatures page opened; Race count: " + creaturesRaceCount + "; pages: " + creaturePages + "; current page: " + creaturePage)
+		CreatureFrameworkUtility.Log("[Config] Creatures page opened; Race count: " + creaturesRaceCount + "; pages: " + creaturePages + "; current page: " + creaturePage)
 	endIf
 
 	; Make the paginator
@@ -497,9 +498,9 @@ function PageCreatures()
 			int skinsSize = JArray.Count(jSkinsArr)
 
 			; Add fake skin (we do this separately to make sure it's the first option in the list)
-			if JArray.FindForm(jSkinsArr, API.FakeSkin) != -1
+			if JArray.FindForm(jSkinsArr, API.CFFakeSkin) != -1
 				; Get the active mod name
-				string theModName = API.GetActiveModName(raceForm, API.FakeSkin)
+				string theModName = API.GetActiveModName(raceForm, API.CFFakeSkin)
 				if theModName == ""
 					theModName = "$Disabled"
 				endIf
@@ -508,7 +509,7 @@ function PageCreatures()
 				int jCreatureOptionMap = JMap.Object()
 				JMap.SetInt(jCreatureOptionMap, "id", AddMenuOption("$All skins", theModName))
 				JMap.SetForm(jCreatureOptionMap, "race", raceForm)
-				JMap.SetForm(jCreatureOptionMap, "skin", API.FakeSkin)
+				JMap.SetForm(jCreatureOptionMap, "skin", API.CFFakeSkin)
 				JArray.AddObj(jCreatureOptionsArr, jCreatureOptionMap)
 			endIf
 
@@ -517,7 +518,7 @@ function PageCreatures()
 			while s < skinsSize
 				Armor skinForm = JArray.GetForm(jSkinsArr, s) as Armor
 
-				if skinForm != API.FakeSkin
+				if skinForm != API.CFFakeSkin
 					; Get the active mod name
 					string theModName = API.GetActiveModName(raceForm, skinForm)
 					if theModName == ""
@@ -678,7 +679,7 @@ endEvent
 function PagePuppeteer()
 	Actor puppet = API.GetPuppet()
 	if puppet
-		string name = CreatureFrameworkUtil.GetActorName(puppet)
+		string name = CreatureFrameworkUtility.GetActorName(puppet)
 		Race raceForm = puppet.GetRace()
 		string raceName = API.GetRaceName(raceForm)
 		if raceName == ""

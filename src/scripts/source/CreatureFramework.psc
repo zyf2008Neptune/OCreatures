@@ -2,28 +2,25 @@ Scriptname CreatureFramework extends Quest
 {The framework script to interact with | Creature Framework}
 
 ; General properties
-CFConfigMenu property Config auto hidden
-Armor property FakeSkin auto
-Keyword property ArmorNormalKeyword auto
-Keyword property ArmorArousedKeyword auto
-Keyword property AnimalKeyword auto
-Keyword property CreatureKeyword auto
-Keyword property DwarvenKeyword auto
-; EDIT----------------------------------------------------------------------------------------
-;
+CreatureFrameworkConfig property Config auto hidden
+Armor property CFFakeSkin auto
+Keyword property ActorTypeNPC auto
+Keyword property CFArmorAroused auto
+Keyword property CFArmorNormal auto
+Keyword property CFIgnoreThisCreature auto
 ;SexLabFramework property SexLab auto hidden
 slaUtilScr property SexLabAroused auto hidden
 ;
 ; EDIT----------------------------------------------------------------------------------------
 Faction property ArousedFaction auto hidden
-Spell property TargetPuppetSpell auto
-Quest Property Detect Auto
-Actor Property Player Auto
-int AltStartMod = 0
+Spell property CFTargetPuppetSpell auto
+Quest Property CFQuestDetectCreature Auto
+Actor Property PlayerRef Auto
+
 
 ;Keyword SLActive
 Actor[] ACreatures
-Int[] AFlags ; 0=notaroused, 1=aroused.
+Int[] AFlags ; 0=NotAroused, 1=Aroused.
 Int[] ACreaturesMaps
 bool rcGuard = false
 
@@ -60,13 +57,13 @@ Actor puppet
 ; Initialise (needs to be run on each startup)
 function Initialize()
 	muckingAboutPreventor += 1
-	Config = CreatureFrameworkUtil.GetConfig()
+	Config = CreatureFrameworkUtility.GetConfig()
 	UnregisterForAllModEvents()
 
 	; Validate JContainers version
 	if JContainers.APIVersion() >= 3 && JContainers.IsInstalled()
 	else
-		CFDebug.Log("[Framework] Aborting initialisation")
+		CreatureFrameworkUtility.Log("[Framework] Aborting initialisation")
 		Debug.MessageBox("Creature Framework's startup initialisation has failed, please make sure JContainers is installed and running correctly.")
 		return
 	endIf
@@ -140,29 +137,29 @@ function Initialize()
 	if version <= 20000 && version != 0
 		; Transfer old Form DB to new key
 		if JDB.SolveObj(".CFForm") == 0
-			CFDebug.Log("[Framework] Transferring .CreatureFrameworkForm to .CFForm in JDB")
+			CreatureFrameworkUtility.Log("[Framework] Transferring .CreatureFrameworkForm to .CFForm in JDB")
 			JDB.SetObj("CFForm", JDB.SolveObj(".CreatureFrameworkForm"))
 		endIf
 
 		; Wipe out old ones
 		if JDB.SolveObj(".CreatureFrameworkFormLog") != 0
-			CFDebug.Log("[Framework] Wiping out old JDB keys")
+			CreatureFrameworkUtility.Log("[Framework] Wiping out old JDB keys")
 			JDB.SetObj("CreatureFrameworkForm", 0)
 			JDB.SetObj("CreatureFrameworkFormLog", 0)
 		endIf
 	endIf
 	
 	; Display version notification
-	Int t = CreatureFrameworkUtil.GetVersion()
+	Int t = CreatureFrameworkUtility.GetVersion()
 	if version == 0
-		CFDebug.Log("[Framework] Installed")
+		CreatureFrameworkUtility.Log("[Framework] Installed")
 		Debug.Notification("$CF_InstallNotification")
 	elseIf version < t
-		CFDebug.Log("[Framework] Upgraded from version " + version)
+		CreatureFrameworkUtility.Log("[Framework] Upgraded from version " + version)
 		Debug.Notification("$CF_UpdateNotification")
 	elseIf version > t
-		CFDebug.Log("[Framework] Downgraded from version " + version)
-		CFDebug.Log("[Framework] Aborting initialisation")
+		CreatureFrameworkUtility.Log("[Framework] Downgraded from version " + version)
+		CreatureFrameworkUtility.Log("[Framework] Aborting initialisation")
 		Debug.MessageBox("Creature Framework has been downgraded to " + GetVersionString() + ". Things will be broken!")
 		return
 	endIf
@@ -196,7 +193,7 @@ function Initialize()
 	RegisterForModEvent("slaUpdateExposure", "OnModifyExposure")
 
 	RegisterForSingleUpdate(Config.PrfTimeout)
-	CFDebug.Log("[Framework] Creature Framework is done initialising")
+	CreatureFrameworkUtility.Log("[Framework] Creature Framework is done initialising")
 endFunction
 
 ; Initialize a container if necessary; type 0 = JMap, 1 = JFormMap, 2 = JArray
@@ -204,7 +201,7 @@ int function InitializeContainer(string containerKey, int containerType)
 	if JMap.ValueType(jMainMap, containerKey) == 5
 		return JMap.GetObj(jMainMap, containerKey)
 	else
-		CFDebug.Log("[Framework] Data map is missing \"" + containerKey + "\"; initialising")
+		CreatureFrameworkUtility.Log("[Framework] Data map is missing \"" + containerKey + "\"; initialising")
 		int obj
 		if containerType == 0
 			obj = JMap.Object()
@@ -227,7 +224,7 @@ Endfunction
 ; A key has been released
 event OnKeyUp(int keyCode, float holdTime)
 	if keyCode == Config.PupTargetKey
-		TargetPuppetSpell.Cast(Player)
+		CFTargetPuppetSpell.Cast(PlayerRef)
 	endIf
 endEvent
 
@@ -250,14 +247,14 @@ function RegisterMod(string modId, string modName)
 	JMap.SetObj(modMap, "races", JArray.Object())
 	JMap.SetObj(modMap, "skins", JArray.Object())
 	JMap.SetObj(jModsMap, modId, modMap)
-	CFDebug.Log("[Framework] Registered mod with ID \"" + modId + "\" and name \"" + modName + "\"")
+	CreatureFrameworkUtility.Log("[Framework] Registered mod with ID \"" + modId + "\" and name \"" + modName + "\"")
 endFunction
 
 ; Unregister a mod from the framework
 function UnregisterMod(string modId)
 	UnregisterAllCreaturesFromMod(modId)
 	JMap.RemoveKey(jModsMap, modId)
-	CFDebug.Log("[Framework] Unregistered mod with ID \"" + modId + "\"")
+	CreatureFrameworkUtility.Log("[Framework] Unregistered mod with ID \"" + modId + "\"")
 endFunction
 
 ; Unregister all mods from the framework
@@ -266,14 +263,14 @@ function UnregisterAllMods()
 	JFormMap.Clear(jCreaturesMap)
 	JFormMap.Clear(jRacesMap)
 	JFormMap.Clear(jSkinsMap)
-	CFDebug.Log("[Framework] Unregistered all mods")
+	CreatureFrameworkUtility.Log("[Framework] Unregistered all mods")
 endFunction
 
 ; Unregister all mods and send the register event
 function ReregisterAllMods()
 	if !muckingAboutPreventor
 		muckingAboutPreventor += 1
-		CFDebug.Log("[Framework] Reregistering all mods")
+		CreatureFrameworkUtility.Log("[Framework] Reregistering all mods")
 		UnregisterAllMods()
 		SendRegisterEvent()
 		ResetLoadedFiles()
@@ -304,11 +301,11 @@ endFunction
 function SendRegisterEvent()
 	int handle = ModEvent.Create("CFRegister")
 	if handle
-		CFDebug.Log("[Framework] Sending register event")
+		CreatureFrameworkUtility.Log("[Framework] Sending register event")
 		ModEvent.PushForm(handle, self)
 		ModEvent.Send(handle)
 	else
-		CFDebug.Log("[Framework] Unable to send register event; invalid handle")
+		CreatureFrameworkUtility.Log("[Framework] Unable to send register event; invalid handle")
 	endIf
 endFunction
 
@@ -323,7 +320,7 @@ function RegisterCreatureToMod(string modId, Race raceForm, Armor skinForm, stri
 	if skinForm
 		realSkin = skinForm
 	else
-		realSkin = FakeSkin
+		realSkin = CFFakeSkin
 	endif
 	if IsModRegistered(modId)
 		if type >= 0 && type < types.length
@@ -339,10 +336,10 @@ function RegisterCreatureToMod(string modId, Race raceForm, Armor skinForm, stri
 				JMap.SetObj(jRaceMap, "skins", JArray.Object())
 				JFormMap.SetObj(jRacesMap, raceForm, jRaceMap)
 				JFormMap.SetObj(jCreaturesMap, raceForm, JFormMap.Object())
-				CFDebug.Log("[Framework] Added race " + CreatureFrameworkUtil.GetDetailedFormName(raceForm))
+				CreatureFrameworkUtility.Log("[Framework] Added race " + CreatureFrameworkUtility.GetDetailedFormName(raceForm))
 			endIf
 			if !IsCreatureRegistered(raceForm, realSkin, false)
-				if realSkin == FakeSkin
+				if realSkin == CFFakeSkin
 					skinName = ""
 				endIf
 
@@ -357,7 +354,7 @@ function RegisterCreatureToMod(string modId, Race raceForm, Armor skinForm, stri
 				JMap.SetStr(jSkinMap, "name", skinName)
 				JMap.SetObj(jSkinMap, "mods", JArray.Object())
 				JFormMap.SetObj(jSkinsMap, realSkin, jSkinMap)
-				CFDebug.Log("[Framework] Added skin " + CreatureFrameworkUtil.GetDetailedFormName(realSkin) + " to race " + CreatureFrameworkUtil.GetDetailedFormName(raceForm))
+				CreatureFrameworkUtility.Log("[Framework] Added skin " + CreatureFrameworkUtility.GetDetailedFormName(realSkin) + " to race " + CreatureFrameworkUtility.GetDetailedFormName(raceForm))
 			endIf
 
 			; Add the race and skin to the mod and the mod to the race and skin
@@ -386,11 +383,11 @@ function RegisterCreatureToMod(string modId, Race raceForm, Armor skinForm, stri
 			endIf
 			JMap.SetInt(jCreatureModMap, "stripArmor", stripArmor as int)
 			JMap.SetInt(jCreatureModMap, "stripWeapons", stripWeapons as int)
-			JMap.SetObj(jCreatureModMap, "stripFormBlacklist", CreatureFrameworkUtil.JArrayObjectFromForms(stripFormBlacklist))
+			JMap.SetObj(jCreatureModMap, "stripFormBlacklist", CreatureFrameworkUtility.JArrayObjectFromForms(stripFormBlacklist))
 			JMap.SetObj(jCreatureModMap, "stripSlotBlacklist", JArray.ObjectWithInts(stripSlotBlacklist))
 			JMap.SetObj(jCreatureModMap, "restrictedSlots", JArray.ObjectWithInts(restrictedSlots))
 			JMap.SetObj(JMap.GetObj(JFormMap.GetObj(JFormMap.GetObj(jCreaturesMap, raceForm), realSkin), "mods"), modId, jCreatureModMap)
-			CFDebug.Log("[Framework] Registered " + CreatureFrameworkUtil.GetDetailedFormName(raceForm) + CreatureFrameworkUtil.GetDetailedFormName(realSkin) + " " + types[type] + " to mod \"" + modId + "\"")
+			CreatureFrameworkUtility.Log("[Framework] Registered " + CreatureFrameworkUtility.GetDetailedFormName(raceForm) + CreatureFrameworkUtility.GetDetailedFormName(realSkin) + " " + types[type] + " to mod \"" + modId + "\"")
 		endIf
 	endIf
 endFunction
@@ -451,7 +448,7 @@ function UnregisterAllCreaturesFromMod(string modId)
 		JArray.EraseIndex(jSkinModsArr, JArray.FindStr(jSkinModsArr, modId))
 		s = JFormMap.NextKey(jSkinsMap, s)
 	endWhile
-		CFDebug.Log("[Framework] Unregistered all creatures from mod ID \"" + modId + "\"")
+		CreatureFrameworkUtility.Log("[Framework] Unregistered all creatures from mod ID \"" + modId + "\"")
 endFunction
 
 ; Get the JFormMap of all registered creatures
@@ -459,12 +456,12 @@ int function GetRegisteredCreatures()
 	return jCreaturesMap
 endFunction
 
-; Test to see if a creature is registered (will still return true if the FakeSkin is registered, but the specified skin isn't)
+; Test to see if a creature is registered (will still return true if the fake skin is registered, but the specified skin isn't)
 bool function IsCreatureRegistered(Race raceForm, Armor skinForm, bool checkFake = true)
-	return JFormMap.HasKey(jCreaturesMap, raceForm) && (JFormMap.HasKey(JFormMap.GetObj(jCreaturesMap, raceForm), GetSkinOrFake(skinForm)) || (checkFake && JFormMap.HasKey(JFormMap.GetObj(jCreaturesMap, raceForm), FakeSkin)))
+	return JFormMap.HasKey(jCreaturesMap, raceForm) && (JFormMap.HasKey(JFormMap.GetObj(jCreaturesMap, raceForm), GetSkinOrFake(skinForm)) || (checkFake && JFormMap.HasKey(JFormMap.GetObj(jCreaturesMap, raceForm), CFFakeSkin)))
 endFunction
 
-; Test to see if an exact creature is registered (will not return true if the FakeSkin is registered, but the specified skin isn't)
+; Test to see if an exact creature is registered (will not return true if the fake skin is registered, but the specified skin isn't)
 bool function IsExactCreatureRegistered(Race raceForm, Armor skinForm)
 	return JFormMap.HasKey(jCreaturesMap, raceForm) && JFormMap.HasKey(JFormMap.GetObj(jCreaturesMap, raceForm), GetSkinOrFake(skinForm))
 endFunction
@@ -642,7 +639,7 @@ endFunction
 
 ; Get the name of a skin
 string function GetSkinName(Armor skinForm)
-	if skinForm != none && skinForm != FakeSkin
+	if skinForm != none && skinForm != CFFakeSkin
 		return JMap.GetStr(JFormMap.GetObj(jSkinsMap, skinForm), "name")
 	else
 		return ""
@@ -657,26 +654,26 @@ endFunction
 ; Parses any JSON files in the creatures.d directory and registers mods/creatures from them
 function LoadJSONRegistrations(bool reload = false)
 	if loadingJSON
-		CFDebug.Log("[Framework] Not loading JSON registrations; already loading")
+		CreatureFrameworkUtility.Log("[Framework] Not loading JSON registrations; already loading")
 		return
 	endIf
 
 	muckingAboutPreventor += 1
 	loadingJSON = true
-	CFDebug.Log("[Framework] Checking JSON registration")
+	CreatureFrameworkUtility.Log("[Framework] Checking JSON registration")
 	if config.DbgOutputLog || config.DbgOutputConsole
 		Debug.Notification("CF Checking JSON registration")
 	endIf
 	int jsonFiles = JValue.ReadFromDirectory("Data/creatures.d", ".json")
 	if jsonFiles && JMap.Count(jsonFiles)
 		JValue.Retain(jsonFiles)
-		CFDebug.Log("[Framework] Found " + JMap.Count(jsonFiles) + " JSON files in creatures.d")
+		CreatureFrameworkUtility.Log("[Framework] Found " + JMap.Count(jsonFiles) + " JSON files in creatures.d")
 		string fileName = JMap.NextKey(jsonFiles)
 		while fileName
 			if reload || JArray.FindStr(jLoadedFiles, fileName) == -1
 				int fileMap = JMap.GetObj(jsonFiles, fileName)
 				if fileMap != 0 && JMap.Count(fileMap) > 0
-					CFDebug.Log("[Framework] Reading file " + fileName)
+					CreatureFrameworkUtility.Log("[Framework] Reading file " + fileName)
 					string modID = JMap.GetStr(fileMap, "modID")
 					string modName = JMap.GetStr(fileMap, "modName")
 					int modCreatures = JMap.GetObj(fileMap, "creatures")
@@ -699,13 +696,13 @@ function LoadJSONRegistrations(bool reload = false)
 									Armor arousedArmor = JMap.GetForm(modCreatureMap, "arousedArmor") as Armor
 									bool stripArmor = JMap.GetInt(modCreatureMap, "stripArmor") as bool
 									bool stripWeapons = !JMap.HasKey(modCreatureMap, "stripWeapons") || JMap.GetInt(modCreatureMap, "stripWeapons")
-									Form[] stripFormBlacklist = CreatureFrameworkUtil.FormArrayFromJArray(JMap.GetObj(modCreatureMap, "stripFormBlacklist"))
-									int[] stripSlotBlacklist = CreatureFrameworkUtil.IntArrayFromJArray(JMap.GetObj(modCreatureMap, "stripSlotBlacklist"))
-									int[] restrictedSlots = CreatureFrameworkUtil.IntArrayFromJArray(JMap.GetObj(modCreatureMap, "restrictedSlots"))
+									Form[] stripFormBlacklist = CreatureFrameworkUtility.FormArrayFromJArray(JMap.GetObj(modCreatureMap, "stripFormBlacklist"))
+									int[] stripSlotBlacklist = CreatureFrameworkUtility.IntArrayFromJArray(JMap.GetObj(modCreatureMap, "stripSlotBlacklist"))
+									int[] restrictedSlots = CreatureFrameworkUtility.IntArrayFromJArray(JMap.GetObj(modCreatureMap, "restrictedSlots"))
 									RegisterCreatureArmorSwapToMod(modID, raceForm, skinForm, raceName, skinName, normalArmor, arousedArmor, stripArmor, stripWeapons, stripFormBlacklist, stripSlotBlacklist, restrictedSlots)
 								endIf
 							else
-								CFDebug.Log("[Framework] File " + filename + " creature " + c + " is missing its race or race name")
+								CreatureFrameworkUtility.Log("[Framework] File " + filename + " creature " + c + " is missing its race or race name")
 								if config.DbgOutputLog || config.DbgOutputConsole
 									Debug.Notification("CF File " + filename + " creature " + c + " is missing its race or race name")
 								endIf
@@ -715,19 +712,19 @@ function LoadJSONRegistrations(bool reload = false)
 
 						JArray.AddStr(jLoadedFiles, fileName)
 					else
-						CFDebug.Log("[Framework] File " + fileName + " is missing a mod ID or name, or has no creatures")
+						CreatureFrameworkUtility.Log("[Framework] File " + fileName + " is missing a mod ID or name, or has no creatures")
 						if config.DbgOutputLog || config.DbgOutputConsole
 							Debug.Notification("CF File " + fileName + " is missing a mod ID or name, or has no creatures")
 						endIf
 					endIf
 				else
-					CFDebug.Log("[Framework] File " + fileName + " is invalid or empty")
+					CreatureFrameworkUtility.Log("[Framework] File " + fileName + " is invalid or empty")
 					if config.DbgOutputLog || config.DbgOutputConsole
 						Debug.Notification("CF File " + fileName + " is invalid or empty")
 					endIf
 				endIf
 			else
-				CFDebug.Log("[Framework] Already loaded file " + fileName + "; skipping")
+				CreatureFrameworkUtility.Log("[Framework] Already loaded file " + fileName + "; skipping")
 			endIf
 
 			fileName = JMap.NextKey(jsonFiles, fileName)
@@ -738,7 +735,7 @@ function LoadJSONRegistrations(bool reload = false)
 		JValue.ZeroLifetime(jsonFiles)
 	endIf
 
-	CFDebug.Log("[Framework] Finished JSON registration")
+	CreatureFrameworkUtility.Log("[Framework] Finished JSON registration")
 	if config.DbgOutputLog || config.DbgOutputConsole
 		Debug.Notification("CF Finished JSON registration")
 	endIf
@@ -756,7 +753,7 @@ endFunction
 
 ; Clears the list of loaded JSON files
 function ResetLoadedFiles()
-	CFDebug.Log("[Framework] Reset loaded JSON files")
+	CreatureFrameworkUtility.Log("[Framework] Reset loaded JSON files")
 	JArray.Clear(jLoadedFiles)
 endFunction
 
@@ -765,30 +762,31 @@ endFunction
 ; Active mod methods						|
 ;----------------------------------------------------------------
 
-; Select an active mod for a creature, used in function SetActiveModUsingIndex, function ClearActiveForMod and CFConfigMenu script
+; Select an active mod for a creature, used in function SetActiveModUsingIndex, function ClearActiveForMod and CreatureFrameworkConfig script
 function SetActiveMod(Race raceForm, Armor skinForm, string modId)
 	Armor realSkin
 	if skinForm
 		realSkin = skinForm
 	else
-		realSkin = FakeSkin
+		realSkin = CFFakeSkin
 	endif
 	if modId != ""
 		if IsCreatureRegisteredToMod(modId, raceForm, realSkin)
 			JMap.SetStr(JFormMap.GetObj(JFormMap.GetObj(jCreaturesMap, raceForm), realSkin), "activeMod", modId)
 			TriggerUpdate(raceForm, realSkin)
-			CFDebug.Log("[Framework] Set the active mod to \"" + modId + "\" for " + CreatureFrameworkUtil.GetDetailedFormName(raceForm) + CreatureFrameworkUtil.GetDetailedFormName(realSkin))
+			CreatureFrameworkUtility.Log("[Framework] Set the active mod to \"" + modId + "\" for " + CreatureFrameworkUtility.GetDetailedFormName(raceForm) + CreatureFrameworkUtility.GetDetailedFormName(realSkin))
 		else
-			CFDebug.Log("[Framework] Failed to set the active mod to \"" + modId + "\" for " + CreatureFrameworkUtil.GetDetailedFormName(raceForm) + CreatureFrameworkUtil.GetDetailedFormName(realSkin) + "; creature not registered")
+			CreatureFrameworkUtility.Log("[Framework] Failed to set the active mod to \"" + modId + "\" for " + CreatureFrameworkUtility.GetDetailedFormName(raceForm) + CreatureFrameworkUtility.GetDetailedFormName(realSkin) + "; creature not registered")
 		endIf
 	else
 		JMap.SetStr(JFormMap.GetObj(JFormMap.GetObj(jCreaturesMap, raceForm), realSkin), "activeMod", modId)
 		TriggerUpdate(raceForm, realSkin)
-		CFDebug.Log("[Framework] Cleared the active mod for " + CreatureFrameworkUtil.GetDetailedFormName(raceForm) + CreatureFrameworkUtil.GetDetailedFormName(realSkin))
+		CreatureFrameworkUtility.Log("[Framework] Cleared the active mod for " + CreatureFrameworkUtility.GetDetailedFormName(raceForm) + CreatureFrameworkUtility.GetDetailedFormName(realSkin))
 	endIf
 endFunction
 
-; Select an active mod for a creature using the mod's relative index rather than the ID, used in CFConfigMenu script
+
+; Select an active mod for a creature using the mod's relative index rather than the ID, used in CreatureFrameworkConfig script
 function SetActiveModUsingIndex(Race raceForm, Armor skinForm, int modIndex)
 	If modIndex != -1
 		SetActiveMod(raceForm, skinForm, JArray.GetStr(GetModsRegisteredWithCreature(raceForm, skinForm), modIndex))
@@ -796,6 +794,7 @@ function SetActiveModUsingIndex(Race raceForm, Armor skinForm, int modIndex)
 		SetActiveMod(raceForm, skinForm, "")
 	endIf
 endFunction
+
 
 ; Clear active mod of creatures that had it set to a specific one
 function ClearActiveForMod(string modId)
@@ -835,14 +834,15 @@ Int function GetActorMapA(Actor ak)
 			if tt
 				t = tt
 			else
-				t = JFormMap.GetObj(t, FakeSkin)
+				t = JFormMap.GetObj(t, CFFakeSkin)
 			endif
 		else
-			t = JFormMap.GetObj(t, FakeSkin)
+			t = JFormMap.GetObj(t, CFFakeSkin)
 		endif
 	endif
 	return t
 endfunction
+
 
 ; Get the active mod's ID for a creature, used in function ClearActiveForMod.
 string function GetActiveMod(Race raceForm, Armor skinForm)
@@ -853,10 +853,10 @@ string function GetActiveMod(Race raceForm, Armor skinForm)
 			if tt
 				t = tt
 			else
-				t = JFormMap.GetObj(t, FakeSkin)
+				t = JFormMap.GetObj(t, CFFakeSkin)
 			endif
 		else
-			t = JFormMap.GetObj(t, FakeSkin)
+			t = JFormMap.GetObj(t, CFFakeSkin)
 		endif
 		if t
 			return JMap.GetStr(t, "activeMod")
@@ -865,15 +865,18 @@ string function GetActiveMod(Race raceForm, Armor skinForm)
 	return ""
 endFunction
 
-; Get the active mod's relative index for a creature, used in CFConfigMenu script
+
+; Get the active mod's relative index for a creature, used in CreatureFrameworkConfig script
 int function GetActiveModIndex(Race raceForm, Armor skinForm)
 	return JArray.FindStr(GetModsRegisteredWithCreature(raceForm, skinForm), GetActiveMod(raceForm, skinForm))
 endFunction
 
-; Get the active mod's name for a creature, used in CFConfigMenu script
+
+; Get the active mod's name for a creature, used in CreatureFrameworkConfig script
 string function GetActiveModName(Race raceForm, Armor skinForm)
 	return GetModName(GetActiveMod(raceForm, skinForm))
 endFunction
+
 
 ; Trigger an update for a creature, used in function SetActiveMod
 function TriggerUpdate(Race raceForm, Armor skinForm)
@@ -885,10 +888,11 @@ function TriggerUpdate(Race raceForm, Armor skinForm)
 				Int i
 				while i < 32
 					actor akCreature = ACreatures[i]
+					string TrueName = CreatureFrameworkUtility.GetActorName(akCreature)
 					if akCreature && ACreaturesMaps[i] == t && akCreature.Is3DLoaded()
-						if akCreature.IsDisabled() || (Player.GetDistance(akCreature) > (Config.PrfCloakRange + 1000))
+						if akCreature.IsDisabled() || (PlayerRef.GetDistance(akCreature) > (Config.PrfCloakRange + 1000))
 							RemoveArmors(akCreature)
-							CFDebug.Log("[Framework] Function TriggerUpdate RemoveArmors" + akCreature)
+							CreatureFrameworkUtility.Log("[Framework] Function TriggerUpdate RemoveArmors (Too far from Player) " + TrueName)
 							if AFlags[i] >= 1
 								EquipA(akCreature, true, true)
 							endif
@@ -899,10 +903,10 @@ function TriggerUpdate(Race raceForm, Armor skinForm)
 							if OActor.IsInOstim(akCreature) || Config.GenAroused && akCreature.GetFactionRank(ArousedFaction) >= Config.GenArousalThreshold
 ;EDIT----------------------------------------------------------------------------------------
 							ChangeArousal(i, 1, true)
-								CFDebug.Log("[Framework] Function TriggerUpdate ChangeArousal (is Aroused)" + akCreature)
+								CreatureFrameworkUtility.Log("[Framework] Function TriggerUpdate ChangeArousal (set to Aroused) " + TrueName)
 							else
 								ChangeArousal(i, 0, true)
-								CFDebug.Log("[Framework] Function TriggerUpdate ChangeArousal (not Aroused)" + akCreature)
+								CreatureFrameworkUtility.Log("[Framework] Function TriggerUpdate ChangeArousal (set to NOT Aroused) " + TrueName)
 							endif
 						endif
 					endif
@@ -913,29 +917,34 @@ function TriggerUpdate(Race raceForm, Armor skinForm)
 	endif
 endFunction
 
-; Trigger an update for an actor, used in CFConfigMenu script
+
+; Trigger an update for an actor, used in CreatureFrameworkConfig script
 function TriggerUpdateForActor(Actor actorForm)
+	string TrueName = CreatureFrameworkUtility.GetActorName(actorForm)
 	if actorForm && actorForm.Is3DLoaded()
 		Int i = ACreatures.Find(actorForm)
-		if i == -1 || actorForm.IsDisabled() || (Player.GetDistance(actorForm) > (Config.PrfCloakRange + 500))
+		if actorForm.IsDisabled() || (PlayerRef.GetDistance(actorForm) > (Config.PrfCloakRange + 500))
 			RemoveArmors(actorForm)
-			CFDebug.Log("[Framework] Function TriggerUpdateForActor RemoveArmors" + actorForm)
+			CreatureFrameworkUtility.Log("[Framework] Function TriggerUpdateForActor RemoveArmors (Too far from Player) " + TrueName)
 			if i >= 0
 				if AFlags[i] >= 1
 					EquipA(actorForm, true, true)
 				endif
 				ACreatures[i] = none
 			endif
+		elseif i == -1
+			ActivateActor(actorForm)
+			CreatureFrameworkUtility.Log("[Framework] Function TriggerUpdateForActor ActivateActor (Forcefully Activating) " + TrueName)
 		else
 ;EDIT----------------------------------------------------------------------------------------
 ;			if SexLab.IsActorActive(actorForm)
 			if OActor.IsInOstim(actorForm) || Config.GenAroused && actorForm.GetFactionRank(ArousedFaction) >= Config.GenArousalThreshold
 ;EDIT----------------------------------------------------------------------------------------
 			ChangeArousal(i, 1, true)
-				CFDebug.Log("[Framework] Function TriggerUpdateForActor ChangeArousal (is Aroused)" + actorForm)
+				CreatureFrameworkUtility.Log("[Framework] Function TriggerUpdateForActor ChangeArousal (set to Aroused) " + TrueName)
 			else
 				ChangeArousal(i, 0, true)
-				CFDebug.Log("[Framework] Function TriggerUpdateForActor ChangeArousal (not Aroused)" + actorForm)
+				CreatureFrameworkUtility.Log("[Framework] Function TriggerUpdateForActor ChangeArousal (set to NOT Aroused) " + TrueName)
 			endif
 		endif
 	endif
@@ -959,7 +968,7 @@ bool function IsAroused(Actor actorForm, bool havingSex = false)
 	endIf
 endFunction
 
-; Get the source of arousal for a creature, used in CFConfigMenu script.
+; Get the source of arousal for a creature, used in CreatureFrameworkConfig script.
 int function GetArousalSource(Actor actorForm, bool havingSex = false)
 	If havingSex || IsOnSexScene(actorForm)
 		return 1
@@ -970,7 +979,7 @@ int function GetArousalSource(Actor actorForm, bool havingSex = false)
 	endIf
 endFunction
 
-; Get the textual form of an arousal source, used in CFConfigMenu script.
+; Get the textual form of an arousal source, used in CreatureFrameworkConfig script.
 string function GetArousalSourceText(int arousalSource)
 	if arousalSource > -1 && arousalSource < arousalSources.length
 		return arousalSources[arousalSource]
@@ -979,13 +988,13 @@ string function GetArousalSourceText(int arousalSource)
 	endIf
 endFunction
 
-; used in CFConfigMenu script for Cloak cooldown setting
+; used in CreatureFrameworkConfig script for Cloak cooldown setting
 Function TimeSettingChanged()
 	UnregisterForUpdate()
 	RegisterForSingleUpdate(Config.PrfTimeout)
 endFunction
 
-; used in CFConfigMenu script for Arousal threshold setting
+; used in CreatureFrameworkConfig script for Arousal threshold setting
 Function ArousedSettingChanged()
 	int i
 	while i < 32
@@ -994,7 +1003,7 @@ Function ArousedSettingChanged()
 			if akCreature.Is3DLoaded()
 				if AFlags[i] < 1
 					ChangeArousal(i, 0, true) ;default false
-					CFDebug.Log("[Framework] Function ArousedSettingChanged ChangeArousal" +akCreature)
+					CreatureFrameworkUtility.Log("[Framework] Function ArousedSettingChanged ChangeArousal (Set to NOT Aroused) " + CreatureFrameworkUtility.GetActorName(akCreature))
 					Utility.Wait(0.1)
 				endif
 			else
@@ -1011,6 +1020,7 @@ Endfunction
 
 ; Fire an arousal event, used in function ChangeArousal.
 string function FireEvent(string modId, Actor actorForm, bool aroused, Race raceForm = none, Armor skinForm = none, bool fromSex = true, bool fromArousal = false, bool fromUnequip = false, int arousalRating = -1, Armor unequippedArmor = none)
+	string TrueName = CreatureFrameworkUtility.GetActorName(actorForm)
 	; Create the event
 	int eventHandle = ModEvent.Create("CFArousalChange_" + modId)
 	if eventHandle
@@ -1026,8 +1036,8 @@ string function FireEvent(string modId, Actor actorForm, bool aroused, Race race
 		endIf
 		if skinForm == none
 			skinForm = GetSkinOrFakeFromActor(actorForm)
-			if !IsCreatureRegisteredToMod(modId, raceForm, skinForm) && skinForm != FakeSkin
-				skinForm = FakeSkin
+			if !IsCreatureRegisteredToMod(modId, raceForm, skinForm) && skinForm != CFFakeSkin
+				skinForm = CFFakeSkin
 			endIf
 		endIf
 
@@ -1051,18 +1061,18 @@ string function FireEvent(string modId, Actor actorForm, bool aroused, Race race
 		JMap.SetObj(jEventsMap, eventId, eventMap)
 
 		; Fire away
-		CFDebug.Log("[Framework] Firing event \"" + eventId + "\" for " + actorForm)
+		CreatureFrameworkUtility.Log("[Framework] Firing event \"" + eventId + "\" for " + TrueName)
 		ModEvent.Send(eventHandle)
 		return eventId
 	else
-		CFDebug.Log("[Framework] Unable to fire event for " + actorForm + "; invalid handle")
+		CreatureFrameworkUtility.Log("[Framework] Unable to fire event for " + TrueName + "; invalid handle")
 	endIf
 
 	return none
 endFunction
 
 
-; MadMansGun: no clue what any of the following is used for.
+; MadMansGun note: i have no clue what any of the following is used for.
 ;==================================================================
 
 ; Dispose of an event
@@ -1139,6 +1149,7 @@ endfunction
 ;EDIT----------------------------------------------------------------------------------------
 ;bool function ActivateActorA(Actor actorForm, bool IsSexLabActive)
 bool function ActivateActorA(Actor actorForm, bool IsOstimActive)
+	string TrueName = CreatureFrameworkUtility.GetActorName(actorForm)
 	if !restartingActiveActors
 		int f
 		;if IsSexLabActive
@@ -1154,8 +1165,8 @@ bool function ActivateActorA(Actor actorForm, bool IsOstimActive)
 				if ActorMapz && JMap.GetStr(ActorMapz, "activeMod")
 					ACreatures[i] = actorForm
 					ACreaturesMaps[i] = ActorMapz
-					ChangeArousal(i, f, false) ;default false
-					CFDebug.Log("[Framework] function ActivateActorA ActorMapz ChangeArousal" + actorForm)
+					ChangeArousal(i, f, true)
+					CreatureFrameworkUtility.Log("[Framework] Function ActivateActorA ActorMapz ChangeArousal " + TrueName)
 					return true
 				endif
 			endif
@@ -1164,22 +1175,26 @@ bool function ActivateActorA(Actor actorForm, bool IsOstimActive)
 		elseif  OActor.IsInOstim(actorForm) || Config.GenAroused && actorForm.GetFactionRank(ArousedFaction) >= Config.GenArousalThreshold
 ;EDIT----------------------------------------------------------------------------------------		
 			if actorForm.WornHasKeyword(ArmorArousedKeyword)
-				ChangeArousal(i, 1, false) ;default false
-				CFDebug.Log("[Framework] function ActivateActorA ChangeArousal (is Aroused)" + actorForm)
+			;	ChangeArousal(i, 1, false) ;default false
+				CreatureFrameworkUtility.Log("[Framework] Function ActivateActorA (Already has CFArmorAroused Keyword) " + TrueName)
 				return true
 			else
-				ChangeArousal(i, 1, true) ;default true
-				CFDebug.Log("[Framework] function ActivateActorA ChangeArousal (should be Aroused but is not)" + actorForm)
+				ChangeArousal(i, 1, true)
+				CreatureFrameworkUtility.Log("[Framework] Function ActivateActorA ChangeArousal (should be Aroused but is NOT) " + TrueName)
 				return true
 			endif
 		else
-			if  actorForm.WornHasKeyword(ArmorNormalKeyword)
-				ChangeArousal(i, 0, false) ;default false
-				CFDebug.Log("[Framework] function ActivateActorA ChangeArousal (not Aroused)" + actorForm)
+			if actorForm.WornHasKeyword(CFArmorAroused)
+				ChangeArousal(i, 0, true)
+				CreatureFrameworkUtility.Log("[Framework] Function ActivateActorA ChangeArousal (Should NOT be Aroused) " + TrueName)
+				return true
+			elseif actorForm.WornHasKeyword(CFArmorNormal)
+			;	ChangeArousal(i, 0, false)
+				CreatureFrameworkUtility.Log("[Framework] Function ActivateActorA (Already has CFArmorNormal Keyword) " + TrueName)
 				return true
 			else
-				ChangeArousal(i, 0, true) ;default false
-				CFDebug.Log("[Framework] function ActivateActorA ChangeArousal (should not be Aroused)" + actorForm)
+				ChangeArousal(i, 0, false) ; default true
+				CreatureFrameworkUtility.Log("[Framework] Function ActivateActorA ChangeArousal (NOT Aroused) " + TrueName)
 				return true
 			endif
 		endIf
@@ -1187,35 +1202,37 @@ bool function ActivateActorA(Actor actorForm, bool IsOstimActive)
 	return false
 endFunction
 
-; Remove an active actor.
-; MadMansGun: not sure if actually used, i can't find any calls.
-bool function DeactivateActor(Actor actorForm)
-	if !restartingActiveActors
-		int i = ACreatures.Find(actorForm)
-		if i == -1
-			return false
-		else
-			RemoveArmors(actorForm)
-			CFDebug.Log("[Framework] Function DeactivateActor RemoveArmors" + actorForm)
-			if AFlags[i] >= 1
-				EquipA(actorForm, true, true)
-			endif
-			ACreatures[i] = none
-			return true
-		endIf
-	else
-		return false
-	endIf
-endFunction
 
-; Test to see if an actor is active.
-; MadMansGun: not sure if actually used or not, i can only find "SexLab.IsActorActive" being used.
+; MadMansGun note: i don't think this script is used by anything, i can't find any calls for it and nothing seems effected by removing it.
+; Remove an active actor.
+;bool function DeactivateActor(Actor actorForm)
+;	if !restartingActiveActors
+;		int i = ACreatures.Find(actorForm)
+;		if i == -1
+;			return false
+;		else
+;			RemoveArmors(actorForm)
+;			CreatureFrameworkUtility.Log("[Framework] Function DeactivateActor RemoveArmors (Actor has been Deactivated) " + actorForm)
+;			if AFlags[i] >= 1
+;				EquipA(actorForm, true, true)
+;			endif
+;			ACreatures[i] = none
+;			return true
+;		endIf
+;	else
+;		return false
+;	endIf
+;endFunction
+
+
+; Test to see if an actor is active, used in the CreatureFrameworkConfig script.
 bool function IsActorActive(Actor actorForm)
 	if !actorForm || actorForm == none
 		return false
 	endIf
 	return ACreatures.Find(actorForm) != -1
 endFunction
+
 
 ;used in function GetArousalSource, function ChangeArousal.
 bool function IsOnSexScene(Actor actorForm)
@@ -1242,12 +1259,13 @@ function RestartActiveActors()
 	Int i = 0
 	while i < 32
 		actor akCreature = ACreatures[i]
+		string TrueName = CreatureFrameworkUtility.GetActorName(akCreature)
 		if akCreature && akCreature != none
 			if !akCreature.Is3DLoaded()
 				ACreatures[i] = none
-			elseif akCreature.IsDisabled() || (Player.GetDistance(akCreature) > (Config.PrfCloakRange + 500))
+			elseif akCreature.IsDisabled() || (PlayerRef.GetDistance(akCreature) > (Config.PrfCloakRange + 500))
 				RemoveArmors(akCreature)
-				CFDebug.Log("[Framework] Function RestartActiveActors RemoveArmors" + akCreature)
+				CreatureFrameworkUtility.Log("[Framework] Function RestartActiveActors RemoveArmors (Too far from Player) " + TrueName)
 				if AFlags[i] >= 1
 					AFlags[i] = 1
 					EquipA(akCreature, true, true)
@@ -1255,8 +1273,8 @@ function RestartActiveActors()
 				ACreatures[i] = none
 			elseif AFlags[i] <= 0
 				AFlags[i] = 0
-				ChangeArousal(i, 0, true) ;default true
-				CFDebug.Log("[Framework] Function RestartActiveActors ChangeArousal" + akCreature)
+				ChangeArousal(i, 0, true)
+				CreatureFrameworkUtility.Log("[Framework] Function RestartActiveActors ChangeArousal (Set to NOT Aroused) " + TrueName)
 			endif
 		endif
 		i += 1
@@ -1286,10 +1304,13 @@ event OnOstimAnimationStart(string EventName, string argString, Float argNum, fo
 			if IsCreature(actors[a])
 				Int i = ACreatures.Find(actors[a])
 				if i >= 0 
-					if actors[a].WornHasKeyword(ArmorArousedKeyword)
-						ChangeArousal(i, 1, false)
+					string TrueName = CreatureFrameworkUtility.GetActorName(actors[a])
+					if actors[a].WornHasKeyword(CFArmorAroused)
+					;	ChangeArousal(i, 1, false)
+						CreatureFrameworkUtility.Log("[Framework] Event OnSexLabAnimationStart (Already has CFArmorAroused Keyword) " + TrueName)
 					else
 						ChangeArousal(i, 1, true)
+						CreatureFrameworkUtility.Log("[Framework] Event OnSexLabAnimationStart ChangeArousal (Should be Aroused but is NOT) " + TrueName)
 					endif
 				endif
 				Cell ParentCell = actors[a].GetParentCell()
@@ -1315,12 +1336,13 @@ event OnOstimAnimationEnd(string EventName, string argString, Float argNum, form
 			if IsCreature(actors[a])
 				int i = ACreatures.Find(actors[a])
 				if i >= 0
+					string TrueName = CreatureFrameworkUtility.GetActorName(actors[a])
 					if Config.GenAroused && actors[a].GetFactionRank(ArousedFaction) >= Config.GenArousalThreshold
-						ChangeArousal(i, 1, false)
-						CFDebug.Log("[Framework] event OnSexLabAnimationEnd ChangeArousal (Stay Aroused)" + actors[a])
+					;	ChangeArousal(i, 1, false)
+						CreatureFrameworkUtility.Log("[Framework] Event OnSexLabAnimationEnd (Staying Aroused) " + TrueName)
 					else
 						ChangeArousal(i, 0, true)
-						CFDebug.Log("[Framework] event OnSexLabAnimationEnd ChangeArousal (not Aroused)" + actors[a])
+						CreatureFrameworkUtility.Log("[Framework] Event OnSexLabAnimationEnd ChangeArousal (Should NOT be Aroused) " + TrueName)
 					endif
 				endIf
 			endif
@@ -1329,16 +1351,18 @@ event OnOstimAnimationEnd(string EventName, string argString, Float argNum, form
 	endIf
 endEvent
 
+
 event OnModifyExposure(Form actorForm, Float exposureValue)
 
 	actor akCreature = actorForm As Actor
+	string TrueName = CreatureFrameworkUtility.GetActorName(akCreature)
 		if akCreature && akCreature != none && !IsCreature(akCreature)	
 			int i = ACreatures.Find(akCreature)
 			if i >= 0
 				if akCreature.Is3DLoaded()
-					if (Player.GetDistance(akCreature) > (Config.PrfCloakRange + 500))
+					if (PlayerRef.GetDistance(akCreature) > (Config.PrfCloakRange + 500))
 						RemoveArmors(akCreature)
-						CFDebug.Log("[Framework] Event OnModifyExposure RemoveArmors" + akCreature)
+						CreatureFrameworkUtility.Log("[Framework] Event OnModifyExposure RemoveArmors (Too far from Player) " + TrueName)
 						if AFlags[i] >= 1
 							EquipA(akCreature, true, true)
 						endif
@@ -1347,34 +1371,25 @@ event OnModifyExposure(Form actorForm, Float exposureValue)
 ;					elseif  SexLab.IsActorActive(akCreature) || Config.GenAroused && akCreature.GetFactionRank(ArousedFaction) >= Config.GenArousalThreshold
 					elseif  OActor.IsInOstim(akCreature) || Config.GenAroused && akCreature.GetFactionRank(ArousedFaction) >= Config.GenArousalThreshold
 ;EDIT----------------------------------------------------------------------------------------
-						if akCreature.WornHasKeyword(ArmorArousedKeyword)
-							ChangeArousal(i, 1, false) ;default false
-							CFDebug.Log("[Framework] Event OnModifyExposure ChangeArousal (is Aroused)" + akCreature)
+						ChangeArousal(i, 1, true)
+						CreatureFrameworkUtility.Log("[Framework] Event OnModifyExposure ChangeArousal (Set to Aroused) " + TrueName)
 						else
-							ChangeArousal(i, 1, true) ;default true
-							CFDebug.Log("[Framework] Event OnModifyExposure ChangeArousal (should be Aroused but is not)" + akCreature)
-						endif
-					else
-						if  akCreature.WornHasKeyword(ArmorNormalKeyword)
-							ChangeArousal(i, 0, false) ;default false
-							CFDebug.Log("[Framework] Event OnModifyExposure ChangeArousal (not Aroused)" + akCreature)
-						else
-							ChangeArousal(i, 0, true) ;default false
-							CFDebug.Log("[Framework] Event OnModifyExposure ChangeArousal (should not be Aroused)" + akCreature)
-						endif
+						ChangeArousal(i, 0, true)
+						CreatureFrameworkUtility.Log("[Framework] Event OnModifyExposure ChangeArousal (Set to NOT Aroused) " + TrueName)
 					endIf
 				else
 					ACreatures[i] = none
 				endif
 				Utility.Wait(0.1)
-			elseif IsAroused(akCreature) && (Player.GetDistance(akCreature) < Config.PrfCloakRange)
+			elseif IsAroused(akCreature) && (PlayerRef.GetDistance(akCreature) < Config.PrfCloakRange)
 				ActivateActor(akCreature)
-				CFDebug.Log("[Framework] event OnModifyExposure ActivateActor" + akCreature)
+				CreatureFrameworkUtility.Log("[Framework] Event OnModifyExposure ActivateActor " + TrueName)
 				Utility.Wait(0.1)
 			endif
 		endif
     
 endEvent
+
 
 ;----------------------------------------------------------------
 ; Puppet methods						|
@@ -1383,7 +1398,7 @@ endEvent
 ; Set the puppet
 function SetPuppet(Actor actorForm)
 	puppet = actorForm
-	CFDebug.Log("[Framework] function Setpuppet " + CreatureFrameworkUtil.GetDetailedActorName(puppet))
+	CreatureFrameworkUtility.Log("[Framework] Function Setpuppet " + CreatureFrameworkUtility.GetActorName(puppet))
 endFunction
 
 ; Get the puppet
@@ -1415,12 +1430,12 @@ endFunction
 
 ; Get the version of the mod
 int function GetVersion()
-	return CreatureFrameworkUtil.GetVersion()
+	return CreatureFrameworkUtility.GetVersion()
 endFunction
 
 ; Get the textual representation of the version of the mod
 string function GetVersionString()
-	return CreatureFrameworkUtil.GetVersionString()
+	return CreatureFrameworkUtility.GetVersionString()
 endFunction
 ;EDIT----------------------------------------------------------------------------------------
 ; Test to see if SexLab is installed
@@ -1443,13 +1458,12 @@ bool function IsArousedEnabled()
 	return SexLabAroused && Config.GenAroused
 endFunction
 
-; Test to see if an actor is on valid stage to be updated, used in event OnUpdate.
+; Test to see if an actor is in a valid state to be updated (but mostly checking for flying to avoid Dragon issues), used in event OnUpdate.
 bool function IsValidForUpdate(Actor actorForm)
 	if !actorForm || actorForm == none
 		return false
 	endIf
-	return !(actorForm.GetFlyingState() > 0 || actorForm.GetCurrentScene() != none || actorForm.IsInKillMove())
-	CFDebug.Log("[Framework] function IsValidForUpdate" + actorForm)
+	return !((actorForm.GetFlyingState() > 0 && actorForm.GetFlyingState() < 5) || actorForm.GetCurrentScene() != none || actorForm.IsInKillMove())
 endFunction
 
 ; Test to see if an actor is a creature, used in almost everything.
@@ -1469,7 +1483,7 @@ bool function IsCreatureRace(Race raceForm)
 	if !raceForm || raceForm == none
 		return false
 	endIf
-	return (raceForm.HasKeyword(CreatureKeyword) || raceForm.HasKeyword(AnimalKeyword) || raceForm.HasKeyword(DwarvenKeyword))
+	return !(raceForm.HasKeyword(ActorTypeNPC) || raceForm.HasKeyword(CFIgnoreThisCreature))
 endFunction
 
 ; Get the fake skin if the skin passed is none, or the skin itself if not
@@ -1477,7 +1491,7 @@ Armor function GetSkinOrFake(Armor skinForm)
 	if skinForm && skinForm != none
 		return skinForm
 	else
-		return FakeSkin
+		return CFFakeSkin
 	endIf
 endFunction
 
@@ -1497,7 +1511,7 @@ Armor function GetSkinOrFakeFromActor(Actor actorForm)
 			return skinForm
 		endIf
 	endIf
-	return FakeSkin
+	return CFFakeSkin
 endFunction
 
 ; Remove the unaroused and aroused armours from an actor, used in almost everything.
@@ -1510,11 +1524,11 @@ function RemoveArmors(Actor actorForm, bool removeNormal = true, bool removeArou
 		Form item = actorForm.GetNthForm(i)
 ;EDIT----------------------------------------------------------------------------------------		
 ;		if (removeNormal && item.HasKeyword(ArmorNormalKeyword)) || (removeAroused && item.HasKeyword(ArmorArousedKeyword) && !SexLab.IsActorActive(actorForm))
-if (removeNormal && item.HasKeyword(ArmorNormalKeyword)) || (removeAroused && item.HasKeyword(ArmorArousedKeyword) && !OActor.IsInOstim(actorForm))
+if (removeNormal && item.HasKeyword(CFArmorNormal)) || (removeAroused && item.HasKeyword(CFArmorAroused) && !OActor.IsInOstim(actorForm))
 ;EDIT----------------------------------------------------------------------------------------		
 		actorForm.UnequipItem(item, false, true)
 			actorForm.RemoveItem(item, 5, true)
-			CFDebug.Log("[Framework] Function RemoveArmors" + actorForm)
+			CreatureFrameworkUtility.Log("[Framework] Function RemoveArmors" + actorForm)
 		else
 			i += 1
 		endIf
@@ -1529,7 +1543,7 @@ endFunction
 ; Dump the framework data to "CreatureFramework.json"
 function Dump()
 	JValue.WriteToFile(jMainMap, "CreatureFramework.json")
-	CFDebug.Log("[Framework] Dumped framework data to Skyrim directory")
+	CreatureFrameworkUtility.Log("[Framework] Dumped framework data to Skyrim directory")
 endFunction
 
 ;----------------------------------------------------------------
@@ -1573,13 +1587,13 @@ event OnUpdate()
 		int i
 		while i < 32
 			actor akCreature = ACreatures[i]
-			if akCreature && akCreature != none && IsValidForUpdate(akCreature) ; Mostly checking for flying to avoid Dragon issues.
-				;CFDebug.Log("[Framework] Event OnUpdate Updating:["+i+"]"+ akCreature)
-				CFDebug.Log("[Framework] Event OnUpdate Updating:"+ akCreature)
+		string TrueName = CreatureFrameworkUtility.GetActorName(akCreature)
+		if akCreature && (akCreature != none && IsValidForUpdate(akCreature))
+			CreatureFrameworkUtility.Log("[Framework] Event OnUpdate Updating: " + TrueName)
 				if akCreature.Is3DLoaded()
-					if (Player.GetDistance(akCreature) > (Config.PrfCloakRange + 1000)) || !IsCreature(akCreature)
+				if (PlayerRef.GetDistance(akCreature) > (Config.PrfCloakRange + 1000)) || !IsCreature(akCreature)
 						RemoveArmors(akCreature)
-						CFDebug.Log("[Framework] Event OnUpdate RemoveArmors" + akCreature)
+					CreatureFrameworkUtility.Log("[Framework] Event OnUpdate RemoveArmors (Too far from Player) " + TrueName)
 						if AFlags[i] >= 1
 							EquipA(akCreature, true, true)
 						endif
@@ -1588,56 +1602,72 @@ event OnUpdate()
 ;					elseif  SexLab.IsActorActive(akCreature) || Config.GenAroused && akCreature.GetFactionRank(ArousedFaction) >= Config.GenArousalThreshold
 					elseif  OActor.IsInOstim(akCreature) || Config.GenAroused && akCreature.GetFactionRank(ArousedFaction) >= Config.GenArousalThreshold
 ;EDIT----------------------------------------------------------------------------------------
-						if akCreature.WornHasKeyword(ArmorArousedKeyword)
-							ChangeArousal(i, 1, false) ;default false
-							CFDebug.Log("[Framework] Event OnUpdate ChangeArousal (is Aroused)" + akCreature)
+						if akCreature.WornHasKeyword(CFArmorAroused)
+					;	ChangeArousal(i, 1, false)
+						CreatureFrameworkUtility.Log("[Framework] Event OnUpdate (Already has CFArmorAroused Keyword) " + TrueName)
 						else
-							ChangeArousal(i, 1, true) ;default true
-							CFDebug.Log("[Framework] Event OnUpdate ChangeArousal (should be Aroused but is not)" + akCreature)
+						ChangeArousal(i, 1, true)
+						CreatureFrameworkUtility.Log("[Framework] Event OnUpdate ChangeArousal (should be Aroused but is NOT) " + TrueName)
 						endif
 					else
-						if  akCreature.WornHasKeyword(ArmorNormalKeyword)
-							ChangeArousal(i, 0, false) ;default false
-							CFDebug.Log("[Framework] Event OnUpdate ChangeArousal (not Aroused)" + akCreature)
-						else
-							ChangeArousal(i, 0, true) ;default false
-							CFDebug.Log("[Framework] Event OnUpdate ChangeArousal (should not be Aroused)" + akCreature)
+					if akCreature.WornHasKeyword(CFArmorAroused)
+						ChangeArousal(i, 0, true)
+						CreatureFrameworkUtility.Log("[Framework] Event OnUpdate ChangeArousal (Should NOT be Aroused) " + TrueName)
+					elseif akCreature.WornHasKeyword(CFArmorNormal)
+					;	ChangeArousal(i, 0, false)
+						CreatureFrameworkUtility.Log("[Framework] Event OnUpdate (Already has CFArmorNormal Keyword) " + TrueName)
+					else
+						ChangeArousal(i, 0, false) ;default true
+						CreatureFrameworkUtility.Log("[Framework] Event OnUpdate ChangeArousal (NOT Aroused) " + TrueName)
 						endif
 					endIf
 				elseIf ACreatures[i] != none
-					CFDebug.Log("[Framework] event OnUpdate Removing Unloaded Actor")
+				CreatureFrameworkUtility.Log("[Framework] Event OnUpdate Removing Unloaded Actor")
 					ACreatures[i] = none
 				endif
 				Utility.Wait(0.1)
+			elseif akCreature && (akCreature != none && !IsValidForUpdate(akCreature))
+				if (akCreature.GetFlyingState() > 0 && akCreature.GetFlyingState() < 5)
+					CreatureFrameworkUtility.Log("[Framework] Event OnUpdate (ABORT!: Actor is flying, State=" + akCreature.GetFlyingState() + ") " + TrueName)
+				elseif akCreature.GetCurrentScene() != none || akCreature.IsInKillMove()
+					CreatureFrameworkUtility.Log("[Framework] Event OnUpdate (ABORT!: Actor is in a scene) " + TrueName)
+				endif
 			endif
 			i += 1
 		endwhile
-		Detect.Start()
+		CFQuestDetectCreature.Start() ; start running CFQuestDetectCreature
 		Utility.Wait(0.1)
-		if !Detect.IsRunning()
-			CFDebug.Log("[Framework] ScanQuest(Detect) can't Start OnUpdate")
+		if !CFQuestDetectCreature.IsRunning()
+			CreatureFrameworkUtility.Log("[Framework] Event OnUpdate failed to start CFQuestDetectCreature")
 			RegisterForSingleUpdate(120)
 		else
 			i = 0
-			int AliasCount = Detect.GetNumAliases()
+			int AliasCount = CFQuestDetectCreature.GetNumAliases()
 			if AliasCount > Config.PrfCloakCreatures
 				AliasCount = Config.PrfCloakCreatures
 			endIf
 			while i < AliasCount
-				Actor ta = (Detect.GetNthAlias(i) As ReferenceAlias).GetActorReference()
-				CFDebug.Log("[Framework] event OnUpdate Detecting:["+i+"]"+ ta)
-				if ta && IsValidForUpdate(ta) && (Player.GetDistance(ta) < Config.PrfCloakRange) ; Check Flying to avoid Dragon issues.
+			Actor ta = (CFQuestDetectCreature.GetNthAlias(i) As ReferenceAlias).GetActorReference()
+			if ta != none
+				CreatureFrameworkUtility.Log("[Framework] Event OnUpdate Detecting:["+i+"]"+ CreatureFrameworkUtility.GetActorName(ta))
+			endif
+			if ta && IsValidForUpdate(ta) && (PlayerRef.GetDistance(ta) < Config.PrfCloakRange)
 					ActivateActor(ta)
-					CFDebug.Log("[Framework] event OnUpdate ActivateActor:"+ ta)
+			;	CreatureFrameworkUtility.Log("[Framework] Event OnUpdate ActivateActor: "+ TA)
 					Utility.Wait(0.1)
+			elseif ta && !IsValidForUpdate(ta)
+				if (ta.GetFlyingState() > 0 && ta.GetFlyingState() < 5)
+					CreatureFrameworkUtility.Log("[Framework] Event OnUpdate Detecting (ABORT!: Actor is flying, State=" + ta.GetFlyingState() + ") " + CreatureFrameworkUtility.GetActorName(ta))
+				elseif ta.GetCurrentScene() != none || ta.IsInKillMove()
+					CreatureFrameworkUtility.Log("[Framework] Event OnUpdate Detecting (ABORT!: Actor is in a scene) " + CreatureFrameworkUtility.GetActorName(ta))
+				endif
 				endif
 				i += 1
 			endwhile
-			Detect.Stop()
+		CFQuestDetectCreature.Stop()
 			RegisterForSingleUpdate(Config.PrfTimeout)
 		endif
-	endIf
-
+	endif	
 endEvent
 
 function ClearCreatures()
@@ -1646,7 +1676,7 @@ function ClearCreatures()
 		actor akCreature = ACreatures[i]
 		if akCreature
 			RemoveArmors(akCreature)
-			CFDebug.Log("[Framework] Function ClearCreatures RemoveArmors" + akCreature)
+			CreatureFrameworkUtility.Log("[Framework] Function ClearCreatures RemoveArmors " + CreatureFrameworkUtility.GetActorName(akCreature))
 			if AFlags[i] >= 1
 				EquipA(akCreature, true, true)
 			endif
@@ -1670,6 +1700,7 @@ function ChangeArousal(Int CreatureI, Int OstimState, Bool ForceChange)
 		return
 	endif
 	Actor thisCreature = ACreatures[CreatureI] 
+	string TrueName = CreatureFrameworkUtility.GetActorName(thisCreature)
 	if rcGuard
 		Utility.wait(0.15)
 		if rcGuard
@@ -1708,7 +1739,7 @@ function ChangeArousal(Int CreatureI, Int OstimState, Bool ForceChange)
 			; Ensure the restricted slots are empty if necessary
 ;EDIT----------------------------------------------------------------------------------------			
 ;			if !(SexLabState && stripArmor) && CreatureFrameworkUtil.ActorHasAnyEquippedSlot(thisCreature, jRestrictedSlots)
-			if !(OstimState && stripArmor) && CreatureFrameworkUtil.ActorHasAnyEquippedSlot(thisCreature, jRestrictedSlots)
+			if !(OstimState && stripArmor) && CreatureFrameworkUtility.ActorHasAnyEquippedSlot(thisCreature, jRestrictedSlots)
 ;EDIT----------------------------------------------------------------------------------------			
 			AFlags[CreatureI] = NewFlag
 				rcGuard = false
@@ -1771,8 +1802,78 @@ function ChangeArousal(Int CreatureI, Int OstimState, Bool ForceChange)
 			endif
 		else
 			RemoveArmors(thisCreature)
-			CFDebug.Log("[Framework] Function ChangeArousal RemoveArmors" + thisCreature)
-			if OldFlag == 1
+			CreatureFrameworkUtility.Log("[Framework] Function ChangeArousal OldFlag =/= NewFlag else RemoveArmors (Not ActiveMod) " + TrueName)
+			if OldFlag != 1
+				EquipA(thisCreature, true, true)
+			endif
+			thisCreature = none
+		endif
+		
+		AFlags[CreatureI] = NewFlag
+	elseif ForceChange
+		string activeMod = JMap.GetStr(ACreaturesMaps[CreatureI], "activeMod")
+		if activeMod
+			int creatureModMap = JMap.GetObj(JMap.GetObj(ACreaturesMaps[CreatureI], "mods"), activeMod)
+			int creatureModType = JMap.GetInt(creatureModMap, "type")
+			int jRestrictedSlots = JMap.GetObj(creatureModMap, "restrictedSlots")
+			bool stripArmor = JMap.GetInt(creatureModMap, "stripArmor") as bool
+			bool stripWeapons = JMap.GetInt(creatureModMap, "stripWeapons") as bool
+			; Ensure the restricted slots are empty if necessary
+			if !(OstimState && stripArmor) && CreatureFrameworkUtility.ActorHasAnyEquippedSlot(thisCreature, jRestrictedSlots)
+				AFlags[CreatureI] = NewFlag
+				rcGuard = false
+				return
+			endIf
+			; Strip/restore armour if we came from sex
+			if OstimState
+				if IsCreature(thisCreature)
+					if OstimState == 1 && NewFlag == 1
+						StripA(thisCreature, creatureModMap, stripArmor, stripWeapons)
+					else
+						EquipA(thisCreature, stripArmor, stripWeapons)
+					endif
+				else
+					OstimState = 0
+				endif
+			endif
+			; Handle the armour swap
+			if creatureModType == 1
+				if true
+					Armor normalArmor
+					Armor arousedArmor
+					if creatureModType == 1
+						normalArmor = JMap.GetForm(creatureModMap, "normalArmor") as Armor
+						arousedArmor = JMap.GetForm(creatureModMap, "arousedArmor") as Armor
+					endIf
+					if !arousedArmor
+						arousedArmor = normalArmor
+					endif
+					if normalArmor != arousedArmor || (ForceChange && arousedArmor)
+						RemoveArmors(thisCreature)
+						CreatureFrameworkUtility.Log("[Framework] Function ChangeArousal ForceChange RemoveArmors " + TrueName)
+						;Utility.Wait(0.05)
+						if NewFlag
+							CreatureFrameworkUtility.AddAndEquipArmor(thisCreature, arousedArmor)
+						else
+							if normalArmor
+								CreatureFrameworkUtility.AddAndEquipArmor(thisCreature, normalArmor)
+							endIf
+						endif
+					endif
+				endif
+			endif
+			; Handle the event
+			if creatureModType == 0 || creatureModType == 2
+				FireEvent(activeMod, thisCreature, NewFlag as Bool, none, none, SexLabState as Bool, !SexLabState, false)
+			endIf
+			; Strip the weapons and armour extra hard
+			if OstimState == 1
+				UnequipSomeMore(thisCreature, stripArmor, stripWeapons)
+			endif
+		else
+			RemoveArmors(thisCreature)
+			CreatureFrameworkUtility.Log("[Framework] Function ChangeArousal ForceChange else RemoveArmors (Not ActiveMod) " + TrueName)
+			if OldFlag != 1
 				EquipA(thisCreature, true, true)
 			endif
 			thisCreature = none
@@ -1782,6 +1883,8 @@ function ChangeArousal(Int CreatureI, Int OstimState, Bool ForceChange)
 	endif
 	rcGuard = false
 Endfunction
+
+
 function EquipA(Actor target, Bool stripArmor, Bool stripWeapons)
 	if !target || target == none
 		return
@@ -1804,18 +1907,20 @@ function EquipA(Actor target, Bool stripArmor, Bool stripWeapons)
 	if stripWeapons
 		Form aHand = JFormDB.GetForm(target, ".CFForm.StrippedWeaponLeft")
 		if aHand
-			CreatureFrameworkUtil.GenericEquip(target, aHand, false, 0)
+			CreatureFrameworkUtility.GenericEquip(target, aHand, false, 0)
 			JFormDB.SetForm(target, ".CFForm.StrippedWeaponLeft", none)
 			Utility.Wait(0.05)
 		endIf
 		aHand = JFormDB.GetForm(target, ".CFForm.StrippedWeaponRight")
 		if aHand
-			CreatureFrameworkUtil.GenericEquip(target, aHand, false, 1)
+			CreatureFrameworkUtility.GenericEquip(target, aHand, false, 1)
 			JFormDB.SetForm(target, ".CFForm.StrippedWeaponRight", none)
 		endIf
 	endIf
 	Utility.Wait(0.05)
 Endfunction
+
+
 function StripA(Actor target, Int creatureModMap, Bool stripArmor, Bool stripWeapons)
 	if !target || target == none
 		return
@@ -1828,7 +1933,7 @@ function StripA(Actor target, Int creatureModMap, Bool stripArmor, Bool stripWea
 		while s < armorSlots.length
 			Armor wornArmor = target.GetWornForm(armorSlots[s]) as Armor
 			if wornArmor
-				if !wornArmor.HasKeyword(ArmorNormalKeyword) && !wornArmor.HasKeyword(ArmorArousedKeyword)
+				if !wornArmor.HasKeyword(CFArmorNormal) && !wornArmor.HasKeyword(CFArmorAroused)
 					if JArray.FindForm(jFormBlacklist, wornArmor) == -1 && JArray.FindInt(jSlotBlacklist, armorSlots[s]) == -1
 						target.UnequipItem(wornArmor, true, true)
 						JFormDB.SetForm(target, ".CFForm.StrippedArmor" + s, wornArmor)
@@ -1845,18 +1950,20 @@ function StripA(Actor target, Int creatureModMap, Bool stripArmor, Bool stripWea
 		Form aHand = target.GetEquippedObject(0)
 		if aHand
 			JFormDB.SetForm(target, ".CFForm.StrippedWeaponLeft", aHand)
-			CreatureFrameworkUtil.GenericUnequip(target, aHand, true, 0)
+			CreatureFrameworkUtility.GenericUnequip(target, aHand, true, 0)
 			Utility.Wait(0.05)
 		endIf
 		aHand = target.GetEquippedObject(1)
 		if aHand
 			JFormDB.SetForm(target, ".CFForm.StrippedWeaponRight", aHand)
-			CreatureFrameworkUtil.GenericUnequip(target, aHand, true, 1)
+			CreatureFrameworkUtility.GenericUnequip(target, aHand, true, 1)
 			Utility.Wait(0.05)
 		endIf
 	endIf
 	Utility.Wait(0.05)
 Endfunction
+
+
 ; Unequip extra hard, because Skyrim is dumb
 function UnequipSomeMore(Actor target, Bool stripArmor, Bool stripWeapons)
 	if !target || target == none
@@ -1876,12 +1983,12 @@ function UnequipSomeMore(Actor target, Bool stripArmor, Bool stripWeapons)
 	if stripWeapons
 		Form aHand = target.GetEquippedObject(0)
 		if aHand
-			CreatureFrameworkUtil.GenericUnequip(target, aHand, true, 0, 3)
+			CreatureFrameworkUtility.GenericUnequip(target, aHand, true, 0, 3)
 			Utility.Wait(0.05)
 		endIf
 		aHand = target.GetEquippedObject(1)
 		if aHand
-			CreatureFrameworkUtil.GenericUnequip(target, aHand, true, 1, 3)
+			CreatureFrameworkUtility.GenericUnequip(target, aHand, true, 1, 3)
 		endIf
 	endif
 endFunction
