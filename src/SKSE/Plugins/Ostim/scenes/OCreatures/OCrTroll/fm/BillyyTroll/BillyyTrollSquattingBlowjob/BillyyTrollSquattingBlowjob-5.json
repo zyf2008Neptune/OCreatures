@@ -1,0 +1,47 @@
+{
+    "name": "Billyy Troll Squatting Blowjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyTrollSquattingBlowjob-4",
+    "speeds": [
+        {
+            "animation": "B_Troll_B_SquatBJ_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crTroll",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "squatting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "handjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Troll"
+    ]
+}

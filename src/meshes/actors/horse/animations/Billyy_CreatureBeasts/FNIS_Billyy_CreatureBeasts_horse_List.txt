@@ -1,0 +1,100 @@
+Version V1.0
+
+' B_Horse_B_Dog2
+b -Tn B_Horse_B_Dog2_S1_0 Horse_B_Dog2_A2_S1.hkx 
+b -Tn B_Horse_B_Dog2_S2_0 Horse_B_Dog2_A2_S2.hkx 
+b -Tn B_Horse_B_Dog2_S3_0 Horse_B_Dog2_A2_S3.hkx 
+b -Tn B_Horse_B_Dog2_S4_0 Horse_B_Dog2_A2_S4.hkx 
+b -Tn B_Horse_B_Dog2_S5_0 Horse_B_Dog2_A2_S5.hkx 
+
+' B_Horse_B_Behind
+b -Tn B_Horse_B_Behind_S1_0 Horse_B_Behind_A2_S1.hkx 
+b -Tn B_Horse_B_Behind_S2_0 Horse_B_Behind_A2_S2.hkx 
+b -Tn B_Horse_B_Behind_S3_0 Horse_B_Behind_A2_S3.hkx 
+b -Tn B_Horse_B_Behind_S4_0 Horse_B_Behind_A2_S4.hkx 
+b -Tn B_Horse_B_Behind_S5_0 Horse_B_Behind_A2_S5.hkx 
+
+' B_Horse_B_Stand2
+b -Tn B_Horse_B_Stand2_S1_0 Horse_B_Stand2_A2_S1.hkx 
+b -Tn B_Horse_B_Stand2_S2_0 Horse_B_Stand2_A2_S2.hkx 
+b -Tn B_Horse_B_Stand2_S3_0 Horse_B_Stand2_A2_S3.hkx 
+b -Tn B_Horse_B_Stand2_S4_0 Horse_B_Stand2_A2_S4.hkx 
+b -Tn B_Horse_B_Stand2_S5_0 Horse_B_Stand2_A2_S5.hkx 
+
+' B_Horse_B_Cow
+b -Tn B_Horse_B_Cow_S1_0 Horse_B_Cow_A2_S1.hkx 
+b -Tn B_Horse_B_Cow_S2_0 Horse_B_Cow_A2_S2.hkx 
+b -Tn B_Horse_B_Cow_S3_0 Horse_B_Cow_A2_S3.hkx 
+b -Tn B_Horse_B_Cow_S4_0 Horse_B_Cow_A2_S4.hkx 
+b -Tn B_Horse_B_Cow_S5_0 Horse_B_Cow_A2_S5.hkx 
+
+' B_Horse_B_Service
+b -Tn B_Horse_B_Service_S1_0 Horse_B_Service_A2_S1.hkx 
+b -Tn B_Horse_B_Service_S2_0 Horse_B_Service_A2_S2.hkx 
+b -Tn B_Horse_B_Service_S3_0 Horse_B_Service_A2_S3.hkx 
+b -Tn B_Horse_B_Service_S4_0 Horse_B_Service_A2_S4.hkx 
+b -Tn B_Horse_B_Service_S5_0 Horse_B_Service_A2_S5.hkx 
+
+' B_Horse_B_Service2
+b -Tn B_Horse_B_Service2_S1_0 Horse_B_Service2_A2_S1.hkx 
+b -Tn B_Horse_B_Service2_S2_0 Horse_B_Service2_A2_S2.hkx 
+b -Tn B_Horse_B_Service2_S3_0 Horse_B_Service2_A2_S3.hkx 
+b -Tn B_Horse_B_Service2_S4_0 Horse_B_Service2_A2_S4.hkx 
+b -Tn B_Horse_B_Service2_S5_0 Horse_B_Service2_A2_S5.hkx 
+
+' B_Horse_B_SerBucket
+b -Tn B_Horse_B_SerBucket_S1_0 Horse_B_SerBucket_A2_S1.hkx 
+b -Tn B_Horse_B_SerBucket_S2_0 Horse_B_SerBucket_A2_S2.hkx 
+b -Tn B_Horse_B_SerBucket_S3_0 Horse_B_SerBucket_A2_S3.hkx 
+b -Tn B_Horse_B_SerBucket_S4_0 Horse_B_SerBucket_A2_S4.hkx 
+b -Tn,o B_Horse_B_SerBucket_S5_0 Horse_B_SerBucket_A2_S5.hkx AOHorseCumAD3
+b -Tn,o B_Horse_B_SerBucket_S6_0 Horse_B_SerBucket_A2_S6.hkx AOHorseCumWAD
+
+' B_Horse_B_Footjob
+b -Tn B_Horse_B_Footjob_S1_0 Horse_B_Footjob_A2_S1.hkx 
+b -Tn B_Horse_B_Footjob_S2_0 Horse_B_Footjob_A2_S2.hkx 
+b -Tn B_Horse_B_Footjob_S3_0 Horse_B_Footjob_A2_S3.hkx 
+b -Tn B_Horse_B_Footjob_S4_0 Horse_B_Footjob_A2_S4.hkx 
+b -Tn,o B_Horse_B_Footjob_S5_0 Horse_B_Footjob_A2_S5.hkx AOHorseCumAD2
+
+' B_Horse_B_PileA
+b -Tn B_Horse_B_PileA_S1_0 Horse_B_PileA_A2_S1.hkx 
+b -Tn B_Horse_B_PileA_S2_0 Horse_B_PileA_A2_S2.hkx 
+b -Tn B_Horse_B_PileA_S3_0 Horse_B_PileA_A2_S3.hkx 
+b -Tn B_Horse_B_PileA_S4_0 Horse_B_PileA_A2_S4.hkx 
+b -Tn B_Horse_B_PileA_S5_0 Horse_B_PileA_A2_S5.hkx 
+
+' B_Horse_B_StandA
+b -Tn B_Horse_B_StandA_S1_0 Horse_B_StandA_A2_S1.hkx 
+b -Tn B_Horse_B_StandA_S2_0 Horse_B_StandA_A2_S2.hkx 
+b -Tn B_Horse_B_StandA_S3_0 Horse_B_StandA_A2_S3.hkx 
+b -Tn B_Horse_B_StandA_S4_0 Horse_B_StandA_A2_S4.hkx 
+b -Tn B_Horse_B_StandA_S5_0 Horse_B_StandA_A2_S5.hkx 
+
+' B_Horse_B_DogA2
+b -Tn B_Horse_B_DogA2_S1_0 Horse_B_DogA2_A2_S1.hkx 
+b -Tn B_Horse_B_DogA2_S2_0 Horse_B_DogA2_A2_S2.hkx 
+b -Tn B_Horse_B_DogA2_S3_0 Horse_B_DogA2_A2_S3.hkx 
+b -Tn B_Horse_B_DogA2_S4_0 Horse_B_DogA2_A2_S4.hkx 
+b -Tn B_Horse_B_DogA2_S5_0 Horse_B_DogA2_A2_S5.hkx 
+
+' B_Horse_B_3pDPSide
+b -Tn B_Horse_B_3pDPSide_S1_0 Horse_B_3pDPSide_A2_S1.hkx 
+b -Tn B_Horse_B_3pDPSide_S2_0 Horse_B_3pDPSide_A2_S2.hkx 
+b -Tn B_Horse_B_3pDPSide_S3_0 Horse_B_3pDPSide_A2_S3.hkx 
+b -Tn B_Horse_B_3pDPSide_S4_0 Horse_B_3pDPSide_A2_S4.hkx 
+b -Tn B_Horse_B_3pDPSide_S5_0 Horse_B_3pDPSide_A2_S5.hkx 
+b -Tn B_Horse_B_3pDPSide_S1_2 Horse_B_3pDPSide_A3_S1.hkx 
+b -Tn B_Horse_B_3pDPSide_S2_2 Horse_B_3pDPSide_A3_S2.hkx 
+b -Tn B_Horse_B_3pDPSide_S3_2 Horse_B_3pDPSide_A3_S3.hkx 
+b -Tn B_Horse_B_3pDPSide_S4_2 Horse_B_3pDPSide_A3_S4.hkx 
+b -Tn B_Horse_B_3pDPSide_S5_2 Horse_B_3pDPSide_A3_S5.hkx 
+
+' B_Horse_B_FFC1
+b -Tn B_Horse_B_FFC1_S1_0 Horse_B_FFC1_A3_S1.hkx 
+b -Tn B_Horse_B_FFC1_S2_0 Horse_B_FFC1_A3_S2.hkx 
+b -Tn B_Horse_B_FFC1_S3_0 Horse_B_FFC1_A3_S3.hkx 
+b -Tn B_Horse_B_FFC1_S4_0 Horse_B_FFC1_A3_S4.hkx 
+b -Tn B_Horse_B_FFC1_S5_0 Horse_B_FFC1_A3_S5.hkx 
+b -Tn B_Horse_B_FFC1_S6_0 Horse_B_FFC1_A3_S6.hkx 
+b -Tn,o B_Horse_B_FFC1_S7_0 Horse_B_FFC1_A3_S7.hkx AOHorseCumAD

@@ -1,0 +1,73 @@
+{
+    "name": "BillyyDraugr3pHangingSpitroast",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDraugr3pHangingSpitroast-4",
+    "speeds": [
+        {
+            "animation": "B_Drau_B_3pHangSpit_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 2
+        },
+        {
+            "type": "deepthroat",
+            "actor": 2,
+            "target": 0,
+            "performer": 0
+        },
+        {
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 2
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "draugr"
+    ]
+}

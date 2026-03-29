@@ -1,0 +1,58 @@
+{
+    "name": "Billyy Fox Missionary",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyFoxMissionary-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+		{
+            "destination": "BillyyFoxMissionary-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyFoxHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Fox/Fox"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Fox_B_Miss_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFox",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"spreadlegs"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Fox"
+    ]
+}

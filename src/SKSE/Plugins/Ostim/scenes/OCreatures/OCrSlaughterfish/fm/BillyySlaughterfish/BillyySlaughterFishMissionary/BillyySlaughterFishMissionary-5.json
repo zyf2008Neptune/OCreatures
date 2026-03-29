@@ -1,0 +1,43 @@
+{
+    "name": "Billyy SlaughterFish Missionary",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySlaughterFishMissionary-4",
+    "speeds": [
+        {
+            "animation": "B_SlaughterFish_BillyyMissionary_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSlaughterFish",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"SlaughterFish"
+    ]
+}

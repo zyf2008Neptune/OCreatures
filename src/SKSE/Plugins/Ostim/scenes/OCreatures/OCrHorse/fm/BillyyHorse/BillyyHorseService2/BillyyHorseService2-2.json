@@ -1,0 +1,62 @@
+{
+    "name": "Billyy Horse Service 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyHorseService2-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyHorseService2-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyHorseHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/Horse/Horse"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Horse_B_Service2_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crhorse",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "handjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "lickingtesticles",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"horse"
+    ]
+}

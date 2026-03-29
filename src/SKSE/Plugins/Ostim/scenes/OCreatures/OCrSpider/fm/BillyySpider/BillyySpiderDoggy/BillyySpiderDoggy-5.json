@@ -1,0 +1,53 @@
+{
+    "name": "Billyy Spider Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySpiderDoggy-4",
+    "speeds": [
+        {
+            "animation": "B_Spid_B_Dog_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpider",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spider"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Billyy Riekling Standing Cunnilingus",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyRieklingHubFM",
+            "description": "Billyy Riekling Standing Cunnilingus",
+            "icon": "OCreatures/Riekling/Rieklingoral"
+        },
+        {
+            "destination": "BillyyRieklingStandingCunnilingus-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyRieklingHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Riekling/Riekling"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Riek_B_Cunn1_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalfingering",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Riekling"
+    ]
+}

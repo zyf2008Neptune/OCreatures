@@ -1,0 +1,91 @@
+{
+    "name": "BillyyRieklingFFCFacefucks",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyRieklingFFCFacefucks-7",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyRieklingFFCFacefucks-5",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyRieklingHubFFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/riekling/riekling"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Riek_B_FFCFaceF_S6"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyRieklingFFCFacefucks-7"
+			},
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "kneeling"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingfront",
+				"ontop"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 2,
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+        {
+            "type": "kissing",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghand",
+            "actor": 2,
+            "target": 1
+        },
+		{
+            "type": "tribbing",
+            "actor": 1,
+            "target": 2
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "riekling"
+    ]
+}

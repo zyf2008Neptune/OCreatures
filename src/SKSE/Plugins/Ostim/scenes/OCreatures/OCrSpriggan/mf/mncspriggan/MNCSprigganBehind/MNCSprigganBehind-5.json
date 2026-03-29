@@ -1,0 +1,54 @@
+{
+    "name": "MNCSprigganBehind",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCSprigganBehind-4",
+    "speeds": [
+        {
+            "animation": "MNCsprbehind_S5"
+        }
+    ],
+    "actors": [
+        {
+            "intendedSex": "male",
+			"animationIndex": 1,
+            "requirements": [],
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        },
+        {
+            "type": "crspriggan",
+            "intendedSex": "female",
+			"animationIndex": 0,
+            "requirements": [],
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "kissingneck",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "spriggan"
+    ]
+}

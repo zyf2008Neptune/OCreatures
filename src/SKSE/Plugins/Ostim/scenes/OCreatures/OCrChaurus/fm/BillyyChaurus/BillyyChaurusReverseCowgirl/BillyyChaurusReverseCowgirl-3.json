@@ -1,0 +1,58 @@
+{
+    "name": "Billyy Chaurus Reverse Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyChaurusReverseCowgirl-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyChaurusReverseCowgirl-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyChaurusHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Chaurus/Chaurus"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Chaur_B_RCG_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurus",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "squatting",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

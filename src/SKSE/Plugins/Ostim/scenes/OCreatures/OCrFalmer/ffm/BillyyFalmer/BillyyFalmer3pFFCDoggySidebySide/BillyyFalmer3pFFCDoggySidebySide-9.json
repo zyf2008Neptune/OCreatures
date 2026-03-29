@@ -1,0 +1,64 @@
+{
+    "name": "BillyyFalmer3pFFCDoggySidebySide",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyFalmer3pFFCDoggySidebySide-8",
+    "speeds": [
+        {
+            "animation": "B_Falm_B_FFCDog_S9"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+			"intendedSex": "male",
+			"animationIndex": 0,
+            "tags": [
+                "squatting",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 2,
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "kissing",
+            "actor": 2,
+            "target": 1
+        },
+		{
+            "type": "holdinghand",
+            "actor": 2,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "falmer"
+    ]
+}

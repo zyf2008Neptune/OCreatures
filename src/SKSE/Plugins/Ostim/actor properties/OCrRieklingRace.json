@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrRieklingRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd6E"
+	},
+	"type": "crriekling",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

@@ -1,0 +1,68 @@
+{
+    "name": "Billyy Falmer Holding Nelson Anal",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyFalmerHoldingNelsonAnal-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyFalmerHoldingNelsonAnal-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyFalmerHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Falmer/Falmer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Falm_B_HoldNelA_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyFalmerHoldingNelsonAnal-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyFalmerHoldingNelsonAnal-5"
+			},
+            "tags": [
+                "suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Falmer"
+    ]
+}

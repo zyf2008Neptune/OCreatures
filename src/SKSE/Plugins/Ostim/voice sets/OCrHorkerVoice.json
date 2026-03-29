@@ -1,0 +1,14 @@
+{
+	"target":{
+		"mod":"Skyrim.esm",
+		"formid":"0001f22d"
+	},
+	"moan":{
+		"mod":"MoreNastyCritters.esp",
+		"formid":"0xAbb7"
+	},
+	"climax":{
+		"mod":"MoreNastyCritters.esp",
+		"formid":"0xAbb6"
+	}
+}

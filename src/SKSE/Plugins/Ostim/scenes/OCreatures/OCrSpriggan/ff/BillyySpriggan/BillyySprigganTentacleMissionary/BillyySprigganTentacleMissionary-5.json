@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Spriggan Tentacle Missionary",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySprigganTentacleMissionary-4",
+    "speeds": [
+        {
+            "animation": "B_Sprig_B_TMiss_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpriggan",
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"ontop",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"spreadlegs",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginaltoying",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "kissing",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghand",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spriggan"
+    ]
+}

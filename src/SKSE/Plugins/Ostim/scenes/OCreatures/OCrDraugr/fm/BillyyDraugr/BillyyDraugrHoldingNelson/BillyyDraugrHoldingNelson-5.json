@@ -1,0 +1,53 @@
+{
+    "name": "Billyy Draugr Holding Nelson",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDraugrHoldingNelson-4",
+    "speeds": [
+        {
+            "animation": "B_Drau_B_HoldNel_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Draugr"
+    ]
+}

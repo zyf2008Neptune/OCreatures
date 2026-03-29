@@ -1,0 +1,73 @@
+{
+    "name": "Billyy Draugr Holding Nelson",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDraugrHoldingNelson-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyDraugrHoldingNelson-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyDraugrHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Draugr/Draugr"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Drau_B_HoldNel_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyDraugrHoldingNelson-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyDraugrHoldingNelson-5"
+			},
+            "tags": [
+                "suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Draugr"
+    ]
+}

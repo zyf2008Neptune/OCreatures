@@ -1,0 +1,91 @@
+{
+    "name": "BillyyCanine4pDoggy",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyCanine4pDoggy-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyCanine4pDoggy-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyCanineHubFMMM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/canine/canine"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Can_B_4pDog_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crcanine",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crcanine",
+            "intendedSex": "male",
+			"animationIndex": 3,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 2,
+            "target": 0
+        },
+        {
+            "type": "blowjob",
+            "actor": 2,
+            "target": 1
+        },
+        {
+            "type": "handjob",
+            "actor": 2,
+            "target": 3
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "canine"
+    ]
+}

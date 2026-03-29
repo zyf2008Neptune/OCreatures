@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrGoatRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd82"
+	},
+	"type": "crgoat",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

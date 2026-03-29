@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Chaurus Behind",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusBehind-4",
+    "speeds": [
+        {
+            "animation": "B_Chaurus_B_Behind_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurus",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

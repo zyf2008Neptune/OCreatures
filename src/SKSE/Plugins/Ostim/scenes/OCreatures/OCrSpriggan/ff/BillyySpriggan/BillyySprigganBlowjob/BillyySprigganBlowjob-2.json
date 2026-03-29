@@ -1,0 +1,54 @@
+{
+    "name": "Billyy Spriggan Blowjob",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyySprigganBlowjob-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyySprigganBlowjob-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyySprigganHubFF",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Spriggan/Spriggan"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Sprig_B_BJ_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpriggan",
+            "intendedSex": "female",
+            "tags": [
+                "sitting"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spriggan"
+    ]
+}

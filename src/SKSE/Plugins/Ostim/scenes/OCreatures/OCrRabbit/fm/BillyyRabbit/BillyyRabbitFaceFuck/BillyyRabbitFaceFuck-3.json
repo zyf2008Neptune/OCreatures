@@ -1,0 +1,63 @@
+{
+    "name": "BillyyRabbitFaceFuck",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyRabbitFaceFuck-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyRabbitFaceFuck-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyRabbitHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/rabbit/rabbit"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Rabbit_BillyyFaceFuck_S3"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crrabbit",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "oralsex",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+            "performer": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "rabbit"
+    ]
+}

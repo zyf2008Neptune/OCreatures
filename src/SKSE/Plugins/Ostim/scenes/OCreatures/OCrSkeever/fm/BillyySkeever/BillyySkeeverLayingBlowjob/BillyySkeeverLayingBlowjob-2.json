@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Skeever Laying Blowjob",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyySkeeverLayingBlowjob-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyySkeeverLayingBlowjob-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyySkeeverHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/skeever/skeever"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Skee_B_LayBJ_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crskeever",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "lickingpenis",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"skeever"
+    ]
+}

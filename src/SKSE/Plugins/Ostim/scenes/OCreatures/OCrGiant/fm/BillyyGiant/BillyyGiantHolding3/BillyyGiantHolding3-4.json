@@ -1,0 +1,73 @@
+{
+    "name": "Billyy Giant Holding 3",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyGiantHolding3-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyGiantHolding3-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyGiantHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Giant/Giant"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Giant_B_Hold3_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGiant",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyGiantHolding3-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyGiantHolding3-5"
+			},
+            "tags": [
+                "suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+			"type": "holdingneck",
+			"actor": 0,
+			"target": 1
+		},
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Giant"
+    ]
+}

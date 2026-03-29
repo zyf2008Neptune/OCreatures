@@ -1,0 +1,44 @@
+{
+    "name": "BillyyMammothHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrMammothIdleFM",
+            "description": "Billyy Mammoth Hub",
+            "icon": "OCreatures/Mammoth/Mammoth"
+        },
+		{
+            "destination": "OCrMammothIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_Mammoth_BillyyService_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crMammoth",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"Mammoth"
+    ]
+}

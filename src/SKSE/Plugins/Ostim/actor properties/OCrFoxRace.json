@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrFoxRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd8c"
+	},
+	"type": "crfox",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

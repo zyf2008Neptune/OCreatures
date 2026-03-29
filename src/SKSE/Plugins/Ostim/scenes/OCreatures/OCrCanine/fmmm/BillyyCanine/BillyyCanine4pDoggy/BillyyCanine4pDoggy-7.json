@@ -1,0 +1,79 @@
+{
+    "name": "BillyyCanine4pDoggy",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyCanine4pDoggy-6",
+    "speeds": [
+        {
+            "animation": "B_Can_B_4pDog_S7"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crcanine",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "sitting"
+            ]
+        },
+		{
+			"type": "crcanine",
+            "intendedSex": "male",
+			"animationIndex": 3,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 2,
+            "target": 0,
+			"performer": 0
+        },
+        {
+            "type": "spectating",
+            "actor": 1,
+            "target": 2
+        },
+        {
+            "type": "vaginalsex",
+            "actor": 3,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "canine"
+    ]
+}

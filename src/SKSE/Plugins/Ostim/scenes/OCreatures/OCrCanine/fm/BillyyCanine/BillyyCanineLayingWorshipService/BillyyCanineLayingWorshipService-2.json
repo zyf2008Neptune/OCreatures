@@ -1,0 +1,62 @@
+{
+    "name": "Billyy Canine Laying Worship Service",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyCanineLayingWorshipService-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyCanineLayingWorshipService-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyCanineHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/canine/canine"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Can_B_LayBJW_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "gropingtesticles",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "kissing",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

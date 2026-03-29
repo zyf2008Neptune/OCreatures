@@ -1,0 +1,72 @@
+{
+    "name": "Billyy Seeker Tentacle Love 3",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyySeekerTentacleLove3-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyySeekerTentacleLove3-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyySeekerHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Seeker/Seeker"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Seek_B_TLov3_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSeeker",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Seeker"
+    ]
+}

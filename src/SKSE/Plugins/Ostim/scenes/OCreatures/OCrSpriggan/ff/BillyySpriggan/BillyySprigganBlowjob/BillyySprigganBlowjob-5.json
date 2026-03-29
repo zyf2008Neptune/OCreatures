@@ -1,0 +1,45 @@
+{
+    "name": "Billyy Spriggan Blowjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySprigganBlowjob-4",
+    "speeds": [
+        {
+            "animation": "B_Sprig_B_BJ_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpriggan",
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spriggan"
+    ]
+}

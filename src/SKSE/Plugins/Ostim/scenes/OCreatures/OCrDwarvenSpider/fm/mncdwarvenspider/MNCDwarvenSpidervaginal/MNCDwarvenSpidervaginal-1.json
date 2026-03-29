@@ -1,0 +1,57 @@
+{
+    "name": "MNCDwarvenSpidervaginal",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "MNCDwarvenSpiderHubFM",
+            "description": "MNCDwarvenSpidervaginal",
+            "icon": "OCreatures/dwarven/dwarvenvag"
+        },
+        {
+            "destination": "MNCDwarvenSpidervaginal-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "MNCDwarvenSpiderHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/dwarven/dwarvenspider"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCdwarvenspidervaginal_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdwarvenspider",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "spectating",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "dwarvenspider"
+    ]
+}

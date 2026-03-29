@@ -1,0 +1,73 @@
+{
+    "name": "Billyy Spider Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyySpiderDoggy-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyySpiderDoggy-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyySpiderHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Spider/Spider"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Spid_B_Dog_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpider",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyySpiderDoggy-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyySpiderDoggy-5"
+			},
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spider"
+    ]
+}

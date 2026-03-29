@@ -1,0 +1,66 @@
+{
+    "name": "BillyyFalmer3pFFCDoggyMissionary",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyFalmer3pFFCDoggyMissionary-7",
+    "speeds": [
+        {
+            "animation": "B_Falm_B_FFCDogMis_S8"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+			"intendedSex": "male",
+			"animationIndex": 0,
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingback",
+				"spreadlegs",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 2,
+            "tags": [
+                "sitting",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "leglocking",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "cunnilingus",
+            "actor": 1,
+            "target": 2
+        },
+		{
+            "type": "holdinghand",
+            "actor": 2,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "falmer"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Falmer Hanging",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyFalmerHubFM",
+            "description": "Billyy Falmer Hanging",
+            "icon": "OCreatures/Falmer/Falmervag"
+        },
+        {
+            "destination": "BillyyFalmerHanging-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyFalmerHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Falmer/Falmer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Falm_B_Hang_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Falmer"
+    ]
+}

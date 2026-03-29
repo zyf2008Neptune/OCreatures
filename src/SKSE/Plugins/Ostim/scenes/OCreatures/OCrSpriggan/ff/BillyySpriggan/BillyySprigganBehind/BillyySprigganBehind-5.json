@@ -1,0 +1,55 @@
+{
+    "name": "Billyy Spriggan Behind",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySprigganBehind-4",
+    "speeds": [
+        {
+            "animation": "B_Sprig_B_Behind_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpriggan",
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "kissingneck",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spriggan"
+    ]
+}

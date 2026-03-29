@@ -1,0 +1,48 @@
+{
+    "name": "MNCDraugranalDoggy",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCDraugranalDoggy-4",
+    "speeds": [
+        {
+            "animation": "MNCleitodraugranaldoggy_S5"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdraugr",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "draugr"
+    ]
+}

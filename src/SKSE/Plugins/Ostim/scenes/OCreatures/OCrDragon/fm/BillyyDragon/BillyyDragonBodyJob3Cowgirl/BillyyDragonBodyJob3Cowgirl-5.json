@@ -1,0 +1,42 @@
+{
+    "name": "BillyyDragonBodyJob3Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDragonBodyJob3Cowgirl-4",
+    "speeds": [
+        {
+            "animation": "B_Dragon_BillyyBodyJob3Cowgirl_S5"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdragon",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "handjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "dragon"
+    ]
+}

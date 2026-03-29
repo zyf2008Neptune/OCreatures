@@ -1,0 +1,67 @@
+{
+    "name": "Billyy Scrib Crab",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyScribCrab-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyScribCrab-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyScribHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Scrib/Scrib"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_AHop_B_Crab_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crScrib",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "squatting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "kissing",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Scrib"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "name": "MNCBearonBack",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCBearonBack-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "MNCBearonBack-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCBearHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/bear/bear"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCSmokeyonBack_S2"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crbear",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1,
+			"performer": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "bear"
+    ]
+}

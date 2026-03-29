@@ -1,0 +1,70 @@
+{
+    "name": "OCrCanineIdleFMMMM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [],
+    "speeds": [
+        {
+            "animation": "B_Can_B_5pDog_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crcanine",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crcanine",
+            "intendedSex": "male",
+			"animationIndex": 3,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crcanine",
+            "intendedSex": "male",
+			"animationIndex": 4,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"canine"
+    ]
+}

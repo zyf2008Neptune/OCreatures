@@ -1,0 +1,67 @@
+{
+    "name": "Billyy Falmer Doggy 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyFalmerDoggy2-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyFalmerDoggy2-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyFalmerHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Falmer/Falmer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Falm_B_Dog2_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "kneeling"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+				"allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "pullinghair",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Falmer"
+    ]
+}

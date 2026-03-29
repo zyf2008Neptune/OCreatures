@@ -1,0 +1,68 @@
+{
+    "name": "Billyy VampireLord Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyVampireLordDoggy-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyVampireLordDoggy-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyVampireLordHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/VampireLord/VampireLord"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Vamp_B_Dog_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crVampireLord",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyVampireLordDoggy-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyVampireLordDoggy-5"
+			},
+            "tags": [
+				"kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "pullinghair",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"VampireLord"
+    ]
+}

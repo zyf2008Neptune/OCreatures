@@ -1,0 +1,52 @@
+{
+    "name": "Billyy Troll Handjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyTrollHandjob-4",
+    "speeds": [
+        {
+            "animation": "B_Troll_B_HJ_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crTroll",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "handjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+			"type": "facial",
+			"actor": 0,
+			"target": 1
+		},
+		{
+            "type": "cumonchest",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Troll"
+    ]
+}

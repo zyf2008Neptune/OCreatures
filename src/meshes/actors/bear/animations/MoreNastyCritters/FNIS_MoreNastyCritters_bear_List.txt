@@ -1,0 +1,14 @@
+Version V1.0
+
+' MNCSmokeyStanding
+b -Tn MNCSmokeyStanding_S1_0 SmokeyStanding_A2_S1.HKX
+b -Tn MNCSmokeyStanding_S2_0 SmokeyStanding_A2_S2.HKX
+b -Tn MNCSmokeyStanding_S3_0 SmokeyStanding_A2_S3.HKX
+b -Tn MNCSmokeyStanding_S4_0 SmokeyStanding_A2_S4.HKX
+
+' MNCSmokeyonBack
+b -Tn MNCSmokeyonBack_S1_0 SmokeyonBack_A2_S1.HKX
+b -Tn MNCSmokeyonBack_S2_0 SmokeyonBack_A2_S2.HKX
+b -Tn MNCSmokeyonBack_S3_0 SmokeyonBack_A2_S3.HKX
+b -Tn MNCSmokeyonBack_S4_0 SmokeyonBack_A2_S4.HKX
+b -Tn MNCSmokeyonBack_S5_0 SmokeyonBack_A2_S5.HKX

@@ -1,0 +1,62 @@
+{
+    "name": "Billyy Canine FaceFuck",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyCanineFaceFuck-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyCanineFaceFuck-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyCanineHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/canine/canine"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Can_B_FaceF_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "femalemasturbation",
+            "actor": 1,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

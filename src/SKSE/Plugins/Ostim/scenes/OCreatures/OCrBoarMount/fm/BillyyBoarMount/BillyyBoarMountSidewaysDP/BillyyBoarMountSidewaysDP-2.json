@@ -1,0 +1,67 @@
+{
+    "name": "Billyy Boar Mount Sideways DP",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyBoarMountSidewaysDP-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+             "destination": "BillyyBoarMountSidewaysDP-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyBoarMountHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/boar/boarMount"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Boar_B_SideDP_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crboarMount",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingside"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"boarMount"
+    ]
+}

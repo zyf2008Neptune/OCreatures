@@ -1,0 +1,43 @@
+Version V1.0
+
+' B_Giant_B_Miss
+b -Tn B_Giant_B_Miss_S1_0 Giant_B_Miss_A2_S1.hkx 
+b -Tn B_Giant_B_Miss_S2_0 Giant_B_Miss_A2_S2.hkx 
+b -Tn B_Giant_B_Miss_S3_0 Giant_B_Miss_A2_S3.hkx 
+b -Tn B_Giant_B_Miss_S4_0 Giant_B_Miss_A2_S4.hkx 
+b -Tn B_Giant_B_Miss_S5_0 Giant_B_Miss_A2_S5.hkx 
+
+' B_Giant_B_Dog
+b -Tn B_Giant_B_Dog_S1_0 Giant_B_Dog_A2_S1.hkx 
+b -Tn B_Giant_B_Dog_S2_0 Giant_B_Dog_A2_S2.hkx 
+b -Tn B_Giant_B_Dog_S3_0 Giant_B_Dog_A2_S3.hkx 
+b -Tn B_Giant_B_Dog_S4_0 Giant_B_Dog_A2_S4.hkx 
+b -Tn B_Giant_B_Dog_S5_0 Giant_B_Dog_A2_S5.hkx 
+
+' B_Giant_B_CG
+b -Tn B_Giant_B_CG_S1_0 Giant_B_CG_A2_S1.hkx 
+b -Tn B_Giant_B_CG_S2_0 Giant_B_CG_A2_S2.hkx 
+b -Tn B_Giant_B_CG_S3_0 Giant_B_CG_A2_S3.hkx 
+b -Tn B_Giant_B_CG_S4_0 Giant_B_CG_A2_S4.hkx 
+b -Tn B_Giant_B_CG_S5_0 Giant_B_CG_A2_S5.hkx 
+
+' B_Giant_B_Hold2
+b -Tn B_Giant_B_Hold2_S1_0 Giant_B_Hold2_A2_S1.hkx 
+b -Tn B_Giant_B_Hold2_S2_0 Giant_B_Hold2_A2_S2.hkx 
+b -Tn B_Giant_B_Hold2_S3_0 Giant_B_Hold2_A2_S3.hkx 
+b -Tn B_Giant_B_Hold2_S4_0 Giant_B_Hold2_A2_S4.hkx 
+b -Tn B_Giant_B_Hold2_S5_0 Giant_B_Hold2_A2_S5.hkx 
+
+' B_Giant_B_Hold3
+b -Tn B_Giant_B_Hold3_S1_0 Giant_B_Hold3_A2_S1.hkx 
+b -Tn B_Giant_B_Hold3_S2_0 Giant_B_Hold3_A2_S2.hkx 
+b -Tn B_Giant_B_Hold3_S3_0 Giant_B_Hold3_A2_S3.hkx 
+b -Tn B_Giant_B_Hold3_S4_0 Giant_B_Hold3_A2_S4.hkx 
+b -Tn B_Giant_B_Hold3_S5_0 Giant_B_Hold3_A2_S5.hkx 
+
+' B_Giant_B_StdServ
+b -Tn B_Giant_B_StdServ_S1_0 Giant_B_StdServ_A2_S1.hkx 
+b -Tn B_Giant_B_StdServ_S2_0 Giant_B_StdServ_A2_S2.hkx 
+b -Tn B_Giant_B_StdServ_S3_0 Giant_B_StdServ_A2_S3.hkx 
+b -Tn B_Giant_B_StdServ_S4_0 Giant_B_StdServ_A2_S4.hkx 
+b -Tn,o B_Giant_B_StdServ_S5_0 Giant_B_StdServ_A2_S5.hkx AO_BGiantCumSrv

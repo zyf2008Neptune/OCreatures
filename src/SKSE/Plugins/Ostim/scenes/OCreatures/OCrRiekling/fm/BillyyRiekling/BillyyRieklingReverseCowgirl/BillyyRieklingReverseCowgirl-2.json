@@ -1,0 +1,59 @@
+{
+    "name": "Billyy Riekling Reverse Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyRieklingReverseCowgirl-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyRieklingReverseCowgirl-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyRieklingHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Riekling/Riekling"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Riek_B_RCow_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+				"squatting",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1,
+			"performer": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Riekling"
+    ]
+}

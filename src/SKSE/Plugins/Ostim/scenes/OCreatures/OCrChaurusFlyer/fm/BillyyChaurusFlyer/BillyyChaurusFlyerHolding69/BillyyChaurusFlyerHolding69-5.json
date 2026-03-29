@@ -1,0 +1,55 @@
+{
+    "name": "Billyy Chaurus Flyer Holding 69",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusFlyerHolding69-4",
+    "speeds": [
+        {
+            "animation": "B_ChauH_B_Hold69_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurusFlyer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing",
+				"upsidedown"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "cunnilingus",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "analtoying",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Canine Doggy Anal",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyCanineDoggyAnal-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyCanineDoggyAnal-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyCanineHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/canine/canine"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Can_B_DogA_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Giant Holding 3",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyGiantHolding3-4",
+    "speeds": [
+        {
+            "animation": "B_Giant_B_Hold3_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGiant",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Giant"
+    ]
+}

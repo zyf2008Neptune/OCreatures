@@ -1,0 +1,7 @@
+Version V1.0
+
+' MNCnetchstuffed
+b -Tn MNCnetchstuffed_S1_0 netchstuffed_A2_S1.hkx
+b -Tn MNCnetchstuffed_S2_0 netchstuffed_A2_S2.hkx
+b -Tn MNCnetchstuffed_S3_0 netchstuffed_A2_S3.hkx
+b -Tn MNCnetchstuffed_S4_0 netchstuffed_A2_S4.hkx

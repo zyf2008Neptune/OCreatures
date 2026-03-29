@@ -1,0 +1,49 @@
+{
+    "name": "MNCSprigganMissionary",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCSprigganMissionary-4",
+    "speeds": [
+        {
+            "animation": "MNCsprmissionary_S5"
+        }
+    ],
+    "actors": [
+        {
+            "intendedSex": "male",
+			"animationIndex": 1,
+            "requirements": [],
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        },
+        {
+            "type": "crspriggan",
+            "intendedSex": "female",
+			"animationIndex": 0,
+            "requirements": [],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "spriggan"
+    ]
+}

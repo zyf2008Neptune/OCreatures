@@ -1,0 +1,44 @@
+{
+    "name": "Billyy Draugr Behind Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDraugrBehindAnal-4",
+    "speeds": [
+        {
+            "animation": "B_Drau_B_BehA_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing",
+				"bendover"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Draugr"
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "name": "BillyyRiekling4pGangbang2Spitroast",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyRiekling4pGangbang2Spitroast-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyRiekling4pGangbang2Spitroast-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyRieklingHubFMMM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/riekling/riekling"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Riek_B_4pGB2v2_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 3,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingfront"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 3,
+            "target": 0,
+			"performer": 0
+        },
+        {
+            "type": "pullinghair",
+            "actor": 0,
+            "target": 3
+        },
+		{
+            "type": "analsex",
+            "actor": 1,
+            "target": 3
+        },
+		{
+            "type": "holdinghips",
+            "actor": 1,
+            "target": 3
+        },
+		{
+            "type": "vaginalsex",
+            "actor": 2,
+            "target": 3
+        },
+		{
+            "type": "holdingbody",
+            "actor": 2,
+            "target": 3
+        },
+		{
+            "type": "breastsmothering",
+            "actor": 3,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "riekling"
+    ]
+}

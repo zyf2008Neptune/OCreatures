@@ -1,0 +1,72 @@
+{
+    "name": "Billyy Chaurus Flyer Behind",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyChaurusFlyerBehind-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyChaurusFlyerBehind-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyChaurusFlyerHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Chaurus/Chaurusflyer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_ChauH_B_Behind_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurusFlyer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analtoying",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

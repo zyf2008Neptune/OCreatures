@@ -1,0 +1,73 @@
+{
+    "name": "Billyy Skeever 69",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyySkeever69-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyySkeever69-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyySkeeverHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/skeever/skeever"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Skee_B_69_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crskeever",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+       {
+            "type": "cunnilingus",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "gropingtesticles",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"skeever"
+    ]
+}

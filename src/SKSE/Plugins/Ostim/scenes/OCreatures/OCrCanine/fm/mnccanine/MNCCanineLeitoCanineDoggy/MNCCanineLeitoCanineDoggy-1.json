@@ -1,0 +1,57 @@
+{
+    "name": "MNCCanineLeitoCanineDoggy",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "MNCCanineHubFM",
+            "description": "MNCCanineLeitoCanineDoggy",
+            "icon": "OCreatures/canine/caninevag"
+        },
+        {
+            "destination": "MNCCanineLeitoCanineDoggy-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "MNCCanineHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/canine/canine"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCleitoCaninedoggy_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crcanine",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "lickingvagina",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "canine"
+    ]
+}

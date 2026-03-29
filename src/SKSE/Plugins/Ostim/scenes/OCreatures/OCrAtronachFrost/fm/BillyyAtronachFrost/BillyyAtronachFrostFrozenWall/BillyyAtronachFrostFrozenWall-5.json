@@ -1,0 +1,59 @@
+{
+    "name": "Billyy Atronach Frost Frozen Wall",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyAtronachFrostFrozenWall-4",
+    "speeds": [
+        {
+            "animation": "B_FrostA_B_FrozW_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crAtronachFrost",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"bendover",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"AtronachFrost"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Horse Standing Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyHorseStandingAnal-4",
+    "speeds": [
+        {
+            "animation": "B_Horse_B_StandA_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crhorse",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"horse"
+    ]
+}

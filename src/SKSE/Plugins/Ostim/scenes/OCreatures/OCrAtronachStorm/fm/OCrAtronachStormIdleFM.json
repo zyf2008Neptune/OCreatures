@@ -1,0 +1,35 @@
+{
+    "name": "OCrAtronachStormIdleFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [],
+    "speeds": [
+        {
+            "animation": "B_StormA_B_Hold_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crAtronachStorm",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"AtronachStorm"
+    ]
+}

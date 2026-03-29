@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Riekling Kneeling Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyRieklingKneelingAnal-4",
+    "speeds": [
+        {
+            "animation": "B_Riek_B_KneelA_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "Kneeling",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Riekling"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Spider Large Missionary Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySpiderLargeMissionaryAnal-4",
+    "speeds": [
+        {
+            "animation": "B_LSpid_B_MissA_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpiderLarge",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spider"
+    ]
+}

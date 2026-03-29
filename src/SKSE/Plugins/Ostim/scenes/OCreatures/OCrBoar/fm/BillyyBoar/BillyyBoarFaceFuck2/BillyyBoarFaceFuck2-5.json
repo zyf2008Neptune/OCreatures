@@ -1,0 +1,42 @@
+{
+    "name": "Billyy Boar FaceFuck 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyBoarFaceFuck2-4",
+    "speeds": [
+        {
+            "animation": "B_Boar_B_FaceF2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crBoar",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Boar"
+    ]
+}

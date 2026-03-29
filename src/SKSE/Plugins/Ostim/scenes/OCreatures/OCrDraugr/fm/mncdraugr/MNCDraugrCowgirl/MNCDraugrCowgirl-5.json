@@ -1,0 +1,49 @@
+{
+    "name": "MNCDraugrCowgirl",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCDraugrCowgirl-4",
+    "speeds": [
+        {
+            "animation": "MNCleitodraugrcowgirl_S5"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdraugr",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "gropingbreast",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "draugr"
+    ]
+}

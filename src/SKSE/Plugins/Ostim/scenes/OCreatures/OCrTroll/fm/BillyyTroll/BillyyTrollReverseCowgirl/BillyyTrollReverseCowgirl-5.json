@@ -1,0 +1,49 @@
+{
+    "name": "Billyy Troll Reverse Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyTrollReverseCowgirl-4",
+    "speeds": [
+        {
+            "animation": "B_Troll_B_RCG_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crTroll",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Troll"
+    ]
+}

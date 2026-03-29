@@ -1,0 +1,58 @@
+{
+    "name": "BillyyCanineFFC1DoggyCunn",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyCanineFFC1DoggyCunn-4",
+    "speeds": [
+        {
+            "animation": "B_Can_B_FFC1_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 2,
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "lickingvagina",
+            "actor": 0,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "canine"
+    ]
+}

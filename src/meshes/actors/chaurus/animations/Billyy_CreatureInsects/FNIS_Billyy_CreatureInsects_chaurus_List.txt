@@ -1,0 +1,160 @@
+Version V1.0
+
+' B_Chaur_B_Miss2
+b -Tn B_Chaur_B_Miss2_S1_0 Chaur_B_Miss2_A2_S1.hkx 
+b -Tn B_Chaur_B_Miss2_S2_0 Chaur_B_Miss2_A2_S2.hkx 
+b -Tn B_Chaur_B_Miss2_S3_0 Chaur_B_Miss2_A2_S3.hkx 
+b -Tn B_Chaur_B_Miss2_S4_0 Chaur_B_Miss2_A2_S4.hkx 
+b -Tn B_Chaur_B_Miss2_S5_0 Chaur_B_Miss2_A2_S5.hkx 
+
+' B_Chaurus_B_Behind
+b -Tn B_Chaurus_B_Behind_S1_0 Chaurus_B_Behind_A2_S1.hkx 
+b -Tn B_Chaurus_B_Behind_S2_0 Chaurus_B_Behind_A2_S2.hkx 
+b -Tn B_Chaurus_B_Behind_S3_0 Chaurus_B_Behind_A2_S3.hkx 
+b -Tn B_Chaurus_B_Behind_S4_0 Chaurus_B_Behind_A2_S4.hkx 
+b -Tn B_Chaurus_B_Behind_S5_0 Chaurus_B_Behind_A2_S5.hkx 
+
+' B_Chaurus_B_Dog2
+b -Tn B_Chaurus_B_Dog2_S1_0 Chaurus_B_Dog2_A2_S1.hkx 
+b -Tn B_Chaurus_B_Dog2_S2_0 Chaurus_B_Dog2_A2_S2.hkx 
+b -Tn B_Chaurus_B_Dog2_S3_0 Chaurus_B_Dog2_A2_S3.hkx 
+b -Tn B_Chaurus_B_Dog2_S4_0 Chaurus_B_Dog2_A2_S4.hkx 
+b -Tn B_Chaurus_B_Dog2_S5_0 Chaurus_B_Dog2_A2_S5.hkx 
+
+' B_Chaur_B_Cowgirl
+b -Tn B_Chaur_B_Cowgirl_S1_0 Chaur_B_Cowgirl_A2_S1.hkx 
+b -Tn B_Chaur_B_Cowgirl_S2_0 Chaur_B_Cowgirl_A2_S2.hkx 
+b -Tn B_Chaur_B_Cowgirl_S3_0 Chaur_B_Cowgirl_A2_S3.hkx 
+b -Tn B_Chaur_B_Cowgirl_S4_0 Chaur_B_Cowgirl_A2_S4.hkx 
+b -Tn B_Chaur_B_Cowgirl_S5_0 Chaur_B_Cowgirl_A2_S5.hkx 
+
+' B_Chaur_B_RCG
+b -Tn B_Chaur_B_RCG_S1_0 Chaur_B_RCG_A2_S1.hkx 
+b -Tn B_Chaur_B_RCG_S2_0 Chaur_B_RCG_A2_S2.hkx 
+b -Tn B_Chaur_B_RCG_S3_0 Chaur_B_RCG_A2_S3.hkx 
+b -Tn B_Chaur_B_RCG_S4_0 Chaur_B_RCG_A2_S4.hkx 
+b -Tn B_Chaur_B_RCG_S5_0 Chaur_B_RCG_A2_S5.hkx 
+b -Tn B_Chaur_B_RCG_S6_0 Chaur_B_RCG_A2_S6.hkx 
+
+' B_Chaurus_B_Breed
+b -Tn B_Chaurus_B_Breed_S1_0 Chaurus_B_Breed_A2_S1.hkx 
+b -Tn B_Chaurus_B_Breed_S2_0 Chaurus_B_Breed_A2_S2.hkx 
+b -Tn B_Chaurus_B_Breed_S3_0 Chaurus_B_Breed_A2_S3.hkx 
+b -Tn B_Chaurus_B_Breed_S4_0 Chaurus_B_Breed_A2_S4.hkx 
+b -Tn B_Chaurus_B_Breed_S5_0 Chaurus_B_Breed_A2_S5.hkx 
+
+' B_Chaurus_B_PileD
+b -Tn B_Chaurus_B_PileD_S1_0 Chaurus_B_PileD_A2_S1.hkx 
+b -Tn B_Chaurus_B_PileD_S2_0 Chaurus_B_PileD_A2_S2.hkx 
+b -Tn B_Chaurus_B_PileD_S3_0 Chaurus_B_PileD_A2_S3.hkx 
+b -Tn B_Chaurus_B_PileD_S4_0 Chaurus_B_PileD_A2_S4.hkx 
+b -Tn B_Chaurus_B_PileD_S5_0 Chaurus_B_PileD_A2_S5.hkx 
+
+' B_Chaur_B_InsS
+b -Tn B_Chaur_B_InsS_S1_0 Chaur_B_InsS_A2_S1.hkx 
+b -Tn B_Chaur_B_InsS_S2_0 Chaur_B_InsS_A2_S2.hkx 
+b -Tn B_Chaur_B_InsS_S3_0 Chaur_B_InsS_A2_S3.hkx 
+b -Tn B_Chaur_B_InsS_S4_0 Chaur_B_InsS_A2_S4.hkx 
+b -Tn B_Chaur_B_InsS_S5_0 Chaur_B_InsS_A2_S5.hkx 
+b -Tn B_Chaur_B_InsS_S6_0 Chaur_B_InsS_A2_S6.hkx 
+
+' B_Chaur_B_LayBackHold
+b -Tn B_Chaur_B_LayBackHold_S1_0 Chaur_B_LayBackHold_A2_S1.hkx 
+b -Tn B_Chaur_B_LayBackHold_S2_0 Chaur_B_LayBackHold_A2_S2.hkx 
+b -Tn B_Chaur_B_LayBackHold_S3_0 Chaur_B_LayBackHold_A2_S3.hkx 
+b -Tn B_Chaur_B_LayBackHold_S4_0 Chaur_B_LayBackHold_A2_S4.hkx 
+b -Tn B_Chaur_B_LayBackHold_S5_0 Chaur_B_LayBackHold_A2_S5.hkx 
+
+' B_Chaur_B_BoobJ
+b -Tn B_Chaur_B_BoobJ_S1_0 Chaur_B_BoobJ_A2_S1.hkx 
+b -Tn B_Chaur_B_BoobJ_S2_0 Chaur_B_BoobJ_A2_S2.hkx 
+b -Tn B_Chaur_B_BoobJ_S3_0 Chaur_B_BoobJ_A2_S3.hkx 
+b -Tn B_Chaur_B_BoobJ_S4_0 Chaur_B_BoobJ_A2_S4.hkx 
+b -Tn B_Chaur_B_BoobJ_S5_0 Chaur_B_BoobJ_A2_S5.hkx 
+
+' B_Chaur_B_BJ
+b -Tn B_Chaur_B_BJ_S1_0 Chaur_B_BJ_A2_S1.hkx 
+b -Tn B_Chaur_B_BJ_S2_0 Chaur_B_BJ_A2_S2.hkx 
+b -Tn B_Chaur_B_BJ_S3_0 Chaur_B_BJ_A2_S3.hkx 
+b -Tn B_Chaur_B_BJ_S4_0 Chaur_B_BJ_A2_S4.hkx 
+b -Tn B_Chaur_B_BJ_S5_0 Chaur_B_BJ_A2_S5.hkx 
+
+' B_Chaur_B_HoldFF2
+b -Tn B_Chaur_B_HoldFF2_S1_0 Chaur_B_HoldFF2_A2_S1.hkx 
+b -Tn B_Chaur_B_HoldFF2_S2_0 Chaur_B_HoldFF2_A2_S2.hkx 
+b -Tn B_Chaur_B_HoldFF2_S3_0 Chaur_B_HoldFF2_A2_S3.hkx 
+b -Tn B_Chaur_B_HoldFF2_S4_0 Chaur_B_HoldFF2_A2_S4.hkx 
+b -Tn B_Chaur_B_HoldFF2_S5_0 Chaur_B_HoldFF2_A2_S5.hkx 
+
+' B_Chaur_B_FJ
+b -Tn B_Chaur_B_FJ_S1_0 Chaur_B_FJ_A2_S1.hkx 
+b -Tn B_Chaur_B_FJ_S2_0 Chaur_B_FJ_A2_S2.hkx 
+b -Tn B_Chaur_B_FJ_S3_0 Chaur_B_FJ_A2_S3.hkx 
+b -Tn B_Chaur_B_FJ_S4_0 Chaur_B_FJ_A2_S4.hkx 
+b -Tn,o B_Chaur_B_FJ_S5_0 Chaur_B_FJ_A2_S5.hkx AO_BChaurCumFJ
+
+' B_Chaur_B_LayA
+b -Tn B_Chaur_B_LayA_S1_0 Chaur_B_LayA_A2_S1.hkx 
+b -Tn B_Chaur_B_LayA_S2_0 Chaur_B_LayA_A2_S2.hkx 
+b -Tn B_Chaur_B_LayA_S3_0 Chaur_B_LayA_A2_S3.hkx 
+b -Tn B_Chaur_B_LayA_S4_0 Chaur_B_LayA_A2_S4.hkx 
+b -Tn B_Chaur_B_LayA_S5_0 Chaur_B_LayA_A2_S5.hkx 
+b -Tn B_Chaur_B_LayA_S6_0 Chaur_B_LayA_A2_S6.hkx 
+
+' B_Chaur_B_CGUTA
+b -Tn B_Chaur_B_CGUTA_S1_0 Chaur_B_CGUTA_A2_S1.hkx 
+b -Tn B_Chaur_B_CGUTA_S2_0 Chaur_B_CGUTA_A2_S2.hkx 
+b -Tn B_Chaur_B_CGUTA_S3_0 Chaur_B_CGUTA_A2_S3.hkx 
+b -Tn B_Chaur_B_CGUTA_S4_0 Chaur_B_CGUTA_A2_S4.hkx 
+b -Tn B_Chaur_B_CGUTA_S5_0 Chaur_B_CGUTA_A2_S5.hkx 
+b -Tn B_Chaur_B_CGUTA_S6_0 Chaur_B_CGUTA_A2_S6.hkx 
+
+' B_ChauR_B_Dog2
+b -Tn B_ChauR_B_Dog2_S1_0 ChauR_B_Dog2_A2_S1.hkx 
+b -Tn B_ChauR_B_Dog2_S2_0 ChauR_B_Dog2_A2_S2.hkx 
+b -Tn B_ChauR_B_Dog2_S3_0 ChauR_B_Dog2_A2_S3.hkx 
+b -Tn B_ChauR_B_Dog2_S4_0 ChauR_B_Dog2_A2_S4.hkx 
+b -Tn B_ChauR_B_Dog2_S5_0 ChauR_B_Dog2_A2_S5.hkx 
+
+' B_ChauR_B_Hold2
+b -Tn B_ChauR_B_Hold2_S1_0 ChauR_B_Hold2_A2_S1.hkx 
+b -Tn B_ChauR_B_Hold2_S2_0 ChauR_B_Hold2_A2_S2.hkx 
+b -Tn B_ChauR_B_Hold2_S3_0 ChauR_B_Hold2_A2_S3.hkx 
+b -Tn B_ChauR_B_Hold2_S4_0 ChauR_B_Hold2_A2_S4.hkx 
+b -Tn B_ChauR_B_Hold2_S5_0 ChauR_B_Hold2_A2_S5.hkx 
+
+' B_ChauR_B_Miss
+b -Tn B_ChauR_B_Miss_S1_0 ChauR_B_Miss_A2_S1.hkx 
+b -Tn B_ChauR_B_Miss_S2_0 ChauR_B_Miss_A2_S2.hkx 
+b -Tn B_ChauR_B_Miss_S3_0 ChauR_B_Miss_A2_S3.hkx 
+b -Tn B_ChauR_B_Miss_S4_0 ChauR_B_Miss_A2_S4.hkx 
+b -Tn B_ChauR_B_Miss_S5_0 ChauR_B_Miss_A2_S5.hkx 
+
+' B_ChauR_B_CG
+b -Tn B_ChauR_B_CG_S1_0 ChauR_B_CG_A2_S1.hkx 
+b -Tn B_ChauR_B_CG_S2_0 ChauR_B_CG_A2_S2.hkx 
+b -Tn B_ChauR_B_CG_S3_0 ChauR_B_CG_A2_S3.hkx 
+b -Tn B_ChauR_B_CG_S4_0 ChauR_B_CG_A2_S4.hkx 
+b -Tn B_ChauR_B_CG_S5_0 ChauR_B_CG_A2_S5.hkx 
+
+' B_ChauR_B_Lotus
+b -Tn B_ChauR_B_Lotus_S1_0 ChauR_B_Lotus_A2_S1.hkx 
+b -Tn B_ChauR_B_Lotus_S2_0 ChauR_B_Lotus_A2_S2.hkx 
+b -Tn B_ChauR_B_Lotus_S3_0 ChauR_B_Lotus_A2_S3.hkx 
+b -Tn B_ChauR_B_Lotus_S4_0 ChauR_B_Lotus_A2_S4.hkx 
+b -Tn B_ChauR_B_Lotus_S5_0 ChauR_B_Lotus_A2_S5.hkx 
+
+' B_ChauR_B_Serv
+b -Tn B_ChauR_B_Serv_S1_0 ChauR_B_Serv_A2_S1.hkx 
+b -Tn B_ChauR_B_Serv_S2_0 ChauR_B_Serv_A2_S2.hkx 
+b -Tn B_ChauR_B_Serv_S3_0 ChauR_B_Serv_A2_S3.hkx 
+b -Tn B_ChauR_B_Serv_S4_0 ChauR_B_Serv_A2_S4.hkx 
+b -Tn B_ChauR_B_Serv_S5_0 ChauR_B_Serv_A2_S5.hkx 
+
+' B_ChaurR_B_LayA
+b -Tn B_ChaurR_B_LayA_S1_0 ChaurR_B_LayA_A2_S1.hkx 
+b -Tn B_ChaurR_B_LayA_S2_0 ChaurR_B_LayA_A2_S2.hkx 
+b -Tn B_ChaurR_B_LayA_S3_0 ChaurR_B_LayA_A2_S3.hkx 
+b -Tn B_ChaurR_B_LayA_S4_0 ChaurR_B_LayA_A2_S4.hkx 
+b -Tn B_ChaurR_B_LayA_S5_0 ChaurR_B_LayA_A2_S5.hkx 
+b -Tn B_ChaurR_B_LayA_S6_0 ChaurR_B_LayA_A2_S6.hkx 

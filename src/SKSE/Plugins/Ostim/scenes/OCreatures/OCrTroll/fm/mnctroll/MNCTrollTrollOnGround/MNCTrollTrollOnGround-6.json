@@ -1,0 +1,59 @@
+{
+    "name": "MNCTrollTrollOnGround",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCTrollTrollOnGround-5",
+    "speeds": [
+        {
+            "animation": "MNCTrollOnGround_S6"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crtroll",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingside",
+				"spreadlegs",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "gropingbreast",
+            "actor": 1,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "troll"
+    ]
+}

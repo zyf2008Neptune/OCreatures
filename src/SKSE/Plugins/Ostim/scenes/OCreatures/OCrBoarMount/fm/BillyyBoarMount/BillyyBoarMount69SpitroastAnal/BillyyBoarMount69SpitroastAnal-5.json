@@ -1,0 +1,58 @@
+{
+    "name": "Billyy Boar Mount 69 Spitroast Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyBoarMount69SpitroastAnal-4",
+    "speeds": [
+        {
+            "animation": "B_Boar_B_69Spit_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crboarMount",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "lickingvagina",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"boarMount"
+    ]
+}

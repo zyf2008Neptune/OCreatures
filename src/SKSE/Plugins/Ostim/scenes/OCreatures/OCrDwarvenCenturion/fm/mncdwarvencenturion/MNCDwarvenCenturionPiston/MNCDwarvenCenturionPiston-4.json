@@ -1,0 +1,47 @@
+{
+    "name": "MNCDwarvenCenturionPiston",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCDwarvenCenturionPiston-3",
+    "speeds": [
+        {
+            "animation": "MNCcenturionpiston_S4"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdwarvencenturion",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "dwarvencenturion"
+    ]
+}

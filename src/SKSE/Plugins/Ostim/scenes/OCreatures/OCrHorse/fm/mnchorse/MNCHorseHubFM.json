@@ -1,0 +1,46 @@
+{
+    "name": "MNCHorseHubFM",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrHorseIdleFM",
+            "description": "mnc Horse Hub",
+            "icon": "OCreatures/horse/horse"
+        },
+        {
+            "destination": "OCrHorseIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Horse_B_Service_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crhorse",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "horse"
+    ]
+}

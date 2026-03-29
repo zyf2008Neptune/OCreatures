@@ -1,0 +1,47 @@
+{
+    "name": "MNCDraugrBlowjob",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCDraugrBlowjob-4",
+    "speeds": [
+        {
+            "animation": "MNCleitodraugrbj_S5"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdraugr",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "draugr"
+    ]
+}

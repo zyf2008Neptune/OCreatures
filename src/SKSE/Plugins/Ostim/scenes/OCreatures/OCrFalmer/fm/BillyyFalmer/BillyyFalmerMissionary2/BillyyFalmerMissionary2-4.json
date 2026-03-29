@@ -1,0 +1,64 @@
+{
+    "name": "Billyy Falmer Missionary 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyFalmerMissionary2-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyFalmerMissionary2-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyFalmerHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Falmer/Falmer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Falm_B_Miss2_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyFalmerMissionary2-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "allfours"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyFalmerMissionary2-5"
+			},
+            "tags": [
+                "lyingback",
+				"spreadlegs"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Falmer"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "MNCWolfPanicsWolfR1",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCWolfPanicsWolfR1-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "MNCWolfPanicsWolfR1-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCCanineHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/canine/canine"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCWolfR1_S2"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crcanine",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "canine"
+    ]
+}

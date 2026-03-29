@@ -1,0 +1,63 @@
+{
+    "name": "MNCDeerDoggy",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCDeerDoggy-4",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "MNCDeerDoggy-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCDeerHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/deer/deer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCdeerSLDdoggy_S3"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdeer",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ],
+            "autoTransitions": {
+                "climax": "MNCDeerDoggy-4"
+            }
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ],
+            "autoTransitions": {
+                "climax": "MNCDeerDoggy-4"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "deer"
+    ]
+}

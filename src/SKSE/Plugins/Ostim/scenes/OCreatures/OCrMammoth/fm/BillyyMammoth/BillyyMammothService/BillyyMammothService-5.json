@@ -1,0 +1,52 @@
+{
+    "name": "Billyy Mammoth Service",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyMammothService-4",
+    "speeds": [
+        {
+            "animation": "B_Mammoth_BillyyService_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crMammoth",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "facial",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "cumonchest",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "cumonvulva",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Mammoth"
+    ]
+}

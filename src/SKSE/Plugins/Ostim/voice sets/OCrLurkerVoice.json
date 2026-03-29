@@ -1,0 +1,14 @@
+{
+	"target":{
+		"mod":"Dragonborn.esm",
+		"formid":"04020767"
+	},
+	"moan":{
+		"mod":"MoreNastyCritters.esp",
+		"formid":"0xAbc0"
+	},
+	"climax":{
+		"mod":"MoreNastyCritters.esp",
+		"formid":"0xAbbf"
+	}
+}

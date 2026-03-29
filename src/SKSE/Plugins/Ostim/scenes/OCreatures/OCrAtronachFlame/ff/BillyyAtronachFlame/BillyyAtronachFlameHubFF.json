@@ -1,0 +1,44 @@
+{
+    "name": "BillyyAtronachFlameHubFF",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrAtronachFlameIdleFF",
+            "description": "Billyy Atronach Flame Hub",
+            "icon": "OCreatures/Atronach/AtronachFlame"
+        },
+		{
+            "destination": "OCrAtronachFlameIdleFF",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_FlameA_B_FMDil2_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crAtronachFlame",
+			"intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"AtronachFlame"
+    ]
+}

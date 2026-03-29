@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrDragonpriestRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd70"
+	},
+	"type": "crdragonpriest",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

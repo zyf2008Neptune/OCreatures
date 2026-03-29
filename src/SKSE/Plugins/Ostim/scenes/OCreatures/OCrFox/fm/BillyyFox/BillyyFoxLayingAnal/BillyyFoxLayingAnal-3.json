@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Fox Laying Anal",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyFoxLayingAnal-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+		{
+            "destination": "BillyyFoxLayingAnal-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyFoxHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Fox/Fox"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Fox_B_LayA_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFox",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Fox"
+    ]
+}

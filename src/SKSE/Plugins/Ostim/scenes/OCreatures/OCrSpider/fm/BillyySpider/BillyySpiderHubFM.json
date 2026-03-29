@@ -1,0 +1,44 @@
+{
+    "name": "BillyySpiderHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrSpiderIdleFM",
+            "description": "Billyy Spider Hub",
+            "icon": "OCreatures/Spider/Spider"
+        },
+		{
+            "destination": "OCrSpiderIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_Spider_B_Miss_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpider",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"Spider"
+    ]
+}

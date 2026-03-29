@@ -1,0 +1,80 @@
+{
+    "name": "BillyyFalmer3pFFCLayingService",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyFalmer3pFFCLayingService-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyFalmer3pFFCLayingService-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyFalmerHubFFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/falmer/falmer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Falm_B_FFCLaySrv_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+			"intendedSex": "male",
+			"animationIndex": 0,
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingside",
+				"ontop"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 2,
+            "tags": [
+                "lyingfront",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "handjob",
+            "actor": 2,
+            "target": 0
+        },
+        {
+            "type": "kissing",
+            "actor": 2,
+            "target": 0
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "falmer"
+    ]
+}

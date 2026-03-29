@@ -1,0 +1,49 @@
+{
+    "name": "Billyy Skeever Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySkeeverCowgirl-4",
+    "speeds": [
+        {
+            "animation": "B_Skee_B_Cow_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crskeever",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"skeever"
+    ]
+}

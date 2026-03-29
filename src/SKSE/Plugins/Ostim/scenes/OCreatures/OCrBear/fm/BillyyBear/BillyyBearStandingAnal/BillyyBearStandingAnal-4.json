@@ -1,0 +1,68 @@
+{
+    "name": "Billyy Bear Standing Anal",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyBearStandingAnal-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyBearStandingAnal-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyBearHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/bear/bear"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Bear_B_StandA_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crbear",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyBearStandingAnal-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyBearStandingAnal-5"
+			},
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"bear"
+    ]
+}

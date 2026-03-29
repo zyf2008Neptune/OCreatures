@@ -1,0 +1,71 @@
+{
+    "name": "BillyyFalmer3pKneelingService",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyFalmer3pKneelingService-5",
+    "speeds": [
+        {
+            "animation": "B_Falm_B_3pServ2_S6"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "handjob",
+            "actor": 2,
+            "target": 0
+        },
+        {
+            "type": "handjob",
+            "actor": 2,
+            "target": 1
+        },
+		{
+            "type": "facial",
+            "actor": 0,
+            "target": 2
+        },
+		{
+            "type": "facial",
+            "actor": 1,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "falmer"
+    ]
+}

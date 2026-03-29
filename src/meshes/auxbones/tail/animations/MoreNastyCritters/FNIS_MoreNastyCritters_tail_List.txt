@@ -1,0 +1,131 @@
+b -Tn MNCDogR1_S1_1 DogR1_A1_S1.HKX
+b -Tn MNCDogR1_S2_1 DogR1_A1_S2.HKX
+b -Tn MNCDogR1_S3_1 DogR1_A1_S3.HKX
+b -Tn MNCDogR1_S4_1 DogR1_A1_S4.HKX
+b -Tn MNCDogR1_S5_1 DogR1_A1_S5.HKX
+b -Tn MNCDogR1_S6_1 DogR1_A1_S6.HKX
+
+b -Tn MNCWolfR1_S1_1 WolfR1_A1_S1.HKX
+b -Tn MNCWolfR1_S2_1 WolfR1_A1_S2.HKX
+b -Tn MNCWolfR1_S3_1 WolfR1_A1_S3.HKX
+b -Tn MNCWolfR1_S4_1 WolfR1_A1_S4.HKX
+b -Tn MNCWolfR1_S5_1 WolfR1_A1_S5.HKX
+b -Tn MNCWolfR1_S6_1 WolfR1_A1_S6.HKX
+
+b -Tn MNCCanineC1_S1_1 CanineC1_A1_S1.hkx
+b -Tn MNCCanineC1_S2_1 CanineC1_A1_S2.hkx
+b -Tn MNCCanineC1_S3_1 CanineC1_A1_S3.hkx
+b -Tn MNCCanineC1_S4_1 CanineC1_A1_S4.hkx
+
+b -Tn MNCCanineonback_S1_1 Canineonback_A1_S1.HKX
+b -Tn MNCCanineonback_S2_1 Canineonback_A1_S2.HKX
+b -Tn MNCCanineonback_S3_1 Canineonback_A1_S3.HKX
+b -Tn MNCCanineonback_S4_1 Canineonback_A1_S4.HKX
+b -Tn MNCCanineonback_S5_1 Canineonback_A1_S5.HKX
+b -Tn MNCCanineonback_S6_1 Canineonback_A1_S6.HKX
+
+b -Tn MNCCaninespooning_S1_1 Caninespooning_A1_S1.HKX
+b -Tn MNCCaninespooning_S2_1 Caninespooning_A1_S2.HKX
+b -Tn MNCCaninespooning_S3_1 Caninespooning_A1_S3.HKX
+
+b -Tn MNCCanineC2_S1_1 CanineC2_A1_S1.hkx
+b -Tn MNCCanineC2_S2_1 CanineC2_A1_S2.hkx
+b -Tn MNCCanineC2_S3_1 CanineC2_A1_S3.hkx
+b -Tn MNCCanineC2_S4_1 CanineC2_A1_S4.hkx
+
+b -Tn MNCleitoCanineanaldoggy_S1_1 leitoCanineanaldoggy_a1_s1.hkx
+b -Tn MNCleitoCanineanaldoggy_S2_1 leitoCanineanaldoggy_a1_s2.hkx
+b -Tn MNCleitoCanineanaldoggy_S3_1 leitoCanineanaldoggy_a1_s3.hkx
+b -Tn MNCleitoCanineanaldoggy_S4_1 leitoCanineanaldoggy_a1_s4.hkx
+b -Tn MNCleitoCanineanaldoggy_S5_1 leitoCanineanaldoggy_a1_s5.hkx
+
+b -Tn MNCleitoCaninedoggy_S1_1 leitoCaninedoggy_a1_s1.hkx
+b -Tn MNCleitoCaninedoggy_S2_1 leitoCaninedoggy_a1_s2.hkx
+b -Tn MNCleitoCaninedoggy_S3_1 leitoCaninedoggy_a1_s3.hkx
+b -Tn MNCleitoCaninedoggy_S4_1 leitoCaninedoggy_a1_s4.hkx
+b -Tn MNCleitoCaninedoggy_S5_1 leitoCaninedoggy_a1_s5.hkx
+
+b -Tn MNCleitoCaninemfc1_S1_1 leitoCaninemfc1_a1_s1.hkx
+b -Tn MNCleitoCaninemfc1_S2_1 leitoCaninemfc1_a1_s2.hkx
+b -Tn MNCleitoCaninemfc1_S3_1 leitoCaninemfc1_a1_s3.hkx
+b -Tn MNCleitoCaninemfc1_S4_1 leitoCaninemfc1_a1_s4.hkx
+b -Tn MNCleitoCaninemfc1_S5_1 leitoCaninemfc1_a1_s5.hkx
+
+b -Tn MNCleitoCaninemfc1_S1_0 leitoCaninemfc1_a2_s1.hkx
+b -Tn MNCleitoCaninemfc1_S2_0 leitoCaninemfc1_a2_s2.hkx
+b -Tn MNCleitoCaninemfc1_S3_0 leitoCaninemfc1_a2_s3.hkx
+b -Tn MNCleitoCaninemfc1_S4_0 leitoCaninemfc1_a2_s4.hkx
+b -Tn MNCleitoCaninemfc1_S5_0 leitoCaninemfc1_a2_s5.hkx
+
+b -Tn MNCleitoCaninemfc2_S1_1 leitoCaninemfc2_a1_s1.hkx
+b -Tn MNCleitoCaninemfc2_S2_1 leitoCaninemfc2_a1_s2.hkx
+b -Tn MNCleitoCaninemfc2_S3_1 leitoCaninemfc2_a1_s3.hkx
+b -Tn MNCleitoCaninemfc2_S4_1 leitoCaninemfc2_a1_s4.hkx
+b -Tn MNCleitoCaninemfc2_S5_1 leitoCaninemfc2_a1_s5.hkx
+
+b -Tn MNCleitoCaninemfc2_S1_0 leitoCaninemfc2_a2_s1.hkx
+b -Tn MNCleitoCaninemfc2_S2_0 leitoCaninemfc2_a2_s2.hkx
+b -Tn MNCleitoCaninemfc2_S3_0 leitoCaninemfc2_a2_s3.hkx
+b -Tn MNCleitoCaninemfc2_S4_0 leitoCaninemfc2_a2_s4.hkx
+b -Tn MNCleitoCaninemfc2_S5_0 leitoCaninemfc2_a2_s5.hkx
+
+b -Tn MNCleitoCaninencboundmfc_S1_1 leitoCaninencboundmfc_a1_s1.hkx
+b -Tn MNCleitoCaninencboundmfc_S2_1 leitoCaninencboundmfc_a1_s2.hkx
+b -Tn MNCleitoCaninencboundmfc_S3_1 leitoCaninencboundmfc_a1_s3.hkx
+b -Tn MNCleitoCaninencboundmfc_S4_1 leitoCaninencboundmfc_a1_s4.hkx
+b -Tn MNCleitoCaninencboundmfc_S5_1 leitoCaninencboundmfc_a1_s5.hkx
+
+b -Tn MNCleitoCaninencboundmfc_S1_0 leitoCaninencboundmfc_a2_s1.hkx
+b -Tn MNCleitoCaninencboundmfc_S2_0 leitoCaninencboundmfc_a2_s2.hkx
+b -Tn MNCleitoCaninencboundmfc_S3_0 leitoCaninencboundmfc_a2_s3.hkx
+b -Tn MNCleitoCaninencboundmfc_S4_0 leitoCaninencboundmfc_a2_s4.hkx
+b -Tn MNCleitoCaninencboundmfc_S5_0 leitoCaninencboundmfc_a2_s5.hkx
+
+b -Tn MNCWerewolfBehindTest_S1_1 WerewolfBehindTest_A1_S1.hkx
+b -Tn MNCWerewolfBehindTest_S2_1 WerewolfBehindTest_A1_S2.hkx
+b -Tn MNCWerewolfBehindTest_S3_1 WerewolfBehindTest_A1_S3.hkx
+
+b -Tn MNCWerewolfMissionaryTest_S1_1 WerewolfMissionaryTest_A1_S1.hkx
+b -Tn MNCWerewolfMissionaryTest_S2_1 WerewolfMissionaryTest_A1_S2.hkx
+b -Tn MNCWerewolfMissionaryTest_S3_1 WerewolfMissionaryTest_A1_S3.hkx
+
+b -Tn MNCWerewolfontopTest_S1_1 WerewolfontopTest_A1_S1.hkx
+b -Tn MNCWerewolfontopTest_S2_1 WerewolfontopTest_A1_S2.hkx
+b -Tn MNCWerewolfontopTest_S3_1 WerewolfontopTest_A1_S3.hkx
+b -Tn MNCWerewolfontopTest_S4_1 WerewolfontopTest_A1_S4.hkx
+
+b -Tn MNCWerewolfRedone_S1_1 WerewolfRedone_A1_S1.hkx
+b -Tn MNCWerewolfRedone_S2_1 WerewolfRedone_A1_S2.hkx
+b -Tn MNCWerewolfRedone_S3_1 WerewolfRedone_A1_S3.hkx
+b -Tn MNCWerewolfRedone_S4_1 WerewolfRedone_A1_S4.hkx
+
+b -Tn MNCWerewolfR2_S1_1 WerewolfR2_A1_S1.hkx
+b -Tn MNCWerewolfR2_S2_1 WerewolfR2_A1_S2.hkx
+b -Tn MNCWerewolfR2_S3_1 WerewolfR2_A1_S3.hkx
+b -Tn MNCWerewolfR2_S4_1 WerewolfR2_A1_S4.hkx
+
+b -Tn MNCHorseDoggystyle2_S1_1 HorseDoggystyle2_A1_S1.HKX
+b -Tn MNCHorseDoggystyle2_S2_1 HorseDoggystyle2_A1_S2.HKX
+b -Tn MNCHorseDoggystyle2_S3_1 HorseDoggystyle2_A1_S3.HKX
+b -Tn MNCHorseDoggystyle2_S4_1 HorseDoggystyle2_A1_S4.HKX
+
+b -Tn MNCHorseC4_S1_1 HorseC4_A1_S1.hkx
+b -Tn MNCHorseC4_S2_1 HorseC4_A1_S2.hkx
+b -Tn MNCHorseC4_S3_1 HorseC4_A1_S3.hkx
+b -Tn MNCHorseC4_S4_1 HorseC4_A1_S4.hkx
+b -Tn MNCHorseC4_S5_1 HorseC4_A1_S5.hkx
+
+b -Tn MNCSmokeyStanding_S1_1 SmokeyStanding_A1_S1.HKX
+b -Tn MNCSmokeyStanding_S2_1 SmokeyStanding_A1_S2.HKX
+b -Tn MNCSmokeyStanding_S3_1 SmokeyStanding_A1_S3.HKX
+b -Tn MNCSmokeyStanding_S4_1 SmokeyStanding_A1_S4.HKX
+
+b -Tn MNCsabrecatvaginal_S1_1 sabrecatvaginal_A1_S1.hkx
+b -Tn MNCsabrecatvaginal_S2_1 sabrecatvaginal_A1_S2.hkx
+b -Tn MNCsabrecatvaginal_S3_1 sabrecatvaginal_A1_S3.hkx
+b -Tn MNCsabrecatvaginal_S4_1 sabrecatvaginal_A1_S4.hkx
+
+b -Tn MNCTrollDoggystyleAlt_S1_1 TrollDoggystyleAlt_A1_S1.hkx
+b -Tn MNCTrollDoggystyleAlt_S2_1 TrollDoggystyleAlt_A1_S2.hkx
+b -Tn MNCTrollDoggystyleAlt_S3_1 TrollDoggystyleAlt_A1_S3.hkx
+b -Tn MNCTrollDoggystyleAlt_S4_1 TrollDoggystyleAlt_A1_S4.hkx

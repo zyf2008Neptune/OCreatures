@@ -1,0 +1,44 @@
+{
+    "name": "BillyyDeerHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrDeerIdleFM",
+            "description": "Billyy Deer Hub",
+            "icon": "OCreatures/Deer/Deer"
+        },
+		{
+            "destination": "OCrDeerIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_Deer_B_Dog_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDeer",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"Deer"
+    ]
+}

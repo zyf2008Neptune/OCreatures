@@ -1,0 +1,59 @@
+{
+    "name": "Billyy Chaurus Reaper Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyChaurusReaperHubFM",
+            "description": "Billyy Chaurus Reaper Cowgirl",
+            "icon": "OCreatures/Chaurus/Chaurusvag"
+        },
+        {
+            "destination": "BillyyChaurusReaperCowgirl-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyChaurusReaperHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Chaurus/Chaurus"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_ChauR_B_CG_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurusReaper",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1,
+			"performer": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

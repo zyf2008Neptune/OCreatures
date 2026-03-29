@@ -1,0 +1,63 @@
+{
+    "name": "MNCCanineLeitoCanineMission",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCCanineLeitoCanineMission-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "MNCCanineLeitoCanineMission-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCCanineHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/canine/canine"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCleitoCaninemissionary_S4"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crcanine",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ],
+            "autoTransitions": {
+                "climax": "MNCCanineLeitoCanineMission-5"
+            }
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ],
+            "autoTransitions": {
+                "climax": "MNCCanineLeitoCanineMission-5"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "canine"
+    ]
+}

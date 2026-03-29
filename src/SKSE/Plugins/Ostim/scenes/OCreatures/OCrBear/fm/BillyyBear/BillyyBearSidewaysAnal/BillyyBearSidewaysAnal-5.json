@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Bear Sideways Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyBearSidewaysAnal-4",
+    "speeds": [
+        {
+            "animation": "B_Bear_B_SideA_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crbear",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingside",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"bear"
+    ]
+}

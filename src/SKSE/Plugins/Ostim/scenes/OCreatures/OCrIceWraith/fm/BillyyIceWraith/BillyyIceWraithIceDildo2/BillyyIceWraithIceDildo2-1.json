@@ -1,0 +1,62 @@
+{
+    "name": "BillyyIceWraithIceDildo2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "BillyyIceWraithHubFM",
+            "description": "BillyyIceWraithIceDildo2",
+            "icon": "OCreatures/icewraith/icewraithvaganal"
+        },
+        {
+            "destination": "BillyyIceWraithIceDildo2-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyIceWraithHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/icewraith/icewraith"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_IceWraith_BillyyIceDildo2_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "cricewraith",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "icewraith"
+    ]
+}

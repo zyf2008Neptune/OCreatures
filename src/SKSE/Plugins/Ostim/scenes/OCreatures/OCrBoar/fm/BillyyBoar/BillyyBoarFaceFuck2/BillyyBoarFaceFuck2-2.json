@@ -1,0 +1,58 @@
+{
+    "name": "Billyy Boar FaceFuck 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyBoarFaceFuck2-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+             "destination": "BillyyBoarFaceFuck2-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyBoarHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/boar/boar"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Boar_B_FaceF2_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crBoar",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Boar"
+    ]
+}

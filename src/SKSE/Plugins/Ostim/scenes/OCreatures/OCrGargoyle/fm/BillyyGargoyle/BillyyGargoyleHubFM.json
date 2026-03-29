@@ -1,0 +1,44 @@
+{
+    "name": "BillyyGargoyleHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrGargoyleIdleFM",
+            "description": "Billyy Gargoyle Hub",
+            "icon": "OCreatures/Gargoyle/Gargoyle"
+        },
+		{
+            "destination": "OCrGargoyleIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_Garg_B_Doggy2_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGargoyle",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"Gargoyle"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "MNCWerewolfGetsBlowJob",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCWerewolfGetsBlowJob-4",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "MNCWerewolfGetsBlowJob-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCWerewolfHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/werewolf/werewolf"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCWerewolfR2_S3"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crwerewolf",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ],
+            "autoTransitions": {
+                "climax": "MNCWerewolfGetsBlowJob-4"
+            }
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ],
+            "autoTransitions": {
+                "climax": "MNCWerewolfGetsBlowJob-4"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "werewolf"
+    ]
+}

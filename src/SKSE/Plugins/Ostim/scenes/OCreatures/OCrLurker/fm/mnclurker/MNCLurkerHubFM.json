@@ -1,0 +1,46 @@
+{
+    "name": "MNCLurkerHubFM",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrLurkerIdleFM",
+            "description": "mnc Lurker Hub",
+            "icon": "OCreatures/lurker/lurker"
+        },
+        {
+            "destination": "OCrLurkerIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Lurker_B_StdServ_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crlurker",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "lurker"
+    ]
+}

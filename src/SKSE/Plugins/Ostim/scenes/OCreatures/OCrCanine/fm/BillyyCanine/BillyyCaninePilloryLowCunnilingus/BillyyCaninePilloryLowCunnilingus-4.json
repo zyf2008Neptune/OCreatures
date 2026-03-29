@@ -1,0 +1,62 @@
+{
+    "name": "Billyy Canine Pillory Low Cunnilingus",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyCaninePilloryLowCunnilingus-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyCaninePilloryLowCunnilingus-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyCanineHubFM",
+            "description": "Return",
+            "icon": "OCreatures/canine/canine"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Can_B_LPillCunn_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyCaninePilloryLowCunnilingus-5"
+			},
+            "tags": [
+                "standing",
+				"bendover",
+				"suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "cunnilingus",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Chaurus Footjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusFootjob-4",
+    "speeds": [
+        {
+            "animation": "B_Chaur_B_FJ_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurus",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "footjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "cumonchest",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

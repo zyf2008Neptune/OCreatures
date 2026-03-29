@@ -1,0 +1,42 @@
+{
+    "name": "Billyy Draugr Kneeling Blowjob 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDraugrKneelingBlowjob2-4",
+    "speeds": [
+        {
+            "animation": "B_Drau_B_KBJ2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Draugr"
+    ]
+}

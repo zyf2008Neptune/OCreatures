@@ -1,0 +1,62 @@
+{
+    "name": "Billyy Troll Doggy 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyTrollDoggy2-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyTrollDoggy2-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyTrollHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Troll/Troll"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Troll_B_Dog2_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crTroll",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Troll"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Canine Spooning Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyCanineSpooningAnal-4",
+    "speeds": [
+        {
+            "animation": "B_Can_B_SpoonA_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingside",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingside",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "kissing",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

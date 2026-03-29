@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrSabreCatRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd75"
+	},
+	"type": "crsabrecat",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

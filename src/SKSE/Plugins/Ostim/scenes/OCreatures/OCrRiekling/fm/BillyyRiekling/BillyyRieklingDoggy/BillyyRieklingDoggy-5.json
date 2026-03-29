@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Riekling Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyRieklingDoggy-4",
+    "speeds": [
+        {
+            "animation": "B_Riek_B_Dog_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Riekling"
+    ]
+}

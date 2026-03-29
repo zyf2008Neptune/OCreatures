@@ -1,0 +1,36 @@
+Version V1.0
+
+' MNCWerewolfBehindTest
+b -Tn MNCWerewolfBehindTest_S1_0 WerewolfBehindTest_A2_S1.hkx
+b -Tn MNCWerewolfBehindTest_S2_0 WerewolfBehindTest_A2_S2.hkx
+b -Tn MNCWerewolfBehindTest_S3_0 WerewolfBehindTest_A2_S3.hkx
+
+' MNCWerewolfBlowjobTest
+b -Tn MNCWerewolfBlowjobTest_S1_0 WerewolfBlowjobTest_A2_S1.hkx
+b -Tn MNCWerewolfBlowjobTest_S2_0 WerewolfBlowjobTest_A2_S2.hkx
+b -Tn MNCWerewolfBlowjobTest_S3_0 WerewolfBlowjobTest_A2_S3.hkx
+b -Tn MNCWerewolfBlowjobTest_S4_0 WerewolfBlowjobTest_A2_S4.hkx
+b -Tn MNCWerewolfBlowjobTest_S5_0 WerewolfBlowjobTest_A2_S5.hkx
+
+' MNCWerewolfMissionaryTest
+b -Tn MNCWerewolfMissionaryTest_S1_0 WerewolfMissionaryTest_A2_S1.hkx
+b -Tn MNCWerewolfMissionaryTest_S2_0 WerewolfMissionaryTest_A2_S2.hkx
+b -Tn MNCWerewolfMissionaryTest_S3_0 WerewolfMissionarytest_A2_S3.hkx
+
+' MNCWerewolfontopTest
+b -Tn MNCWerewolfontopTest_S1_0 werewolfontoptest_A2_S1.hkx
+b -Tn MNCWerewolfontopTest_S2_0 werewolfontoptest_A2_S2.hkx
+b -Tn MNCWerewolfontopTest_S3_0 werewolfontoptest_A2_S3.hkx
+b -Tn MNCWerewolfontopTest_S4_0 werewolfontoptest_A2_S4.hkx
+
+' MNCWerewolfRedone
+b -Tn MNCWerewolfRedone_S1_0 WerewolfRedone_A2_S1.hkx
+b -Tn MNCWerewolfRedone_S2_0 WerewolfRedone_A2_S2.hkx
+b -Tn MNCWerewolfRedone_S3_0 WerewolfRedone_A2_S3.hkx
+b -Tn MNCWerewolfRedone_S4_0 WerewolfRedone_A2_S4.hkx
+
+' MNCWerewolfR2
+b -Tn MNCWerewolfR2_S1_0 WerewolfR2_A2_S1.hkx
+b -Tn MNCWerewolfR2_S2_0 WerewolfR2_A2_S2.hkx
+b -Tn MNCWerewolfR2_S3_0 WerewolfR2_A2_S3.hkx
+b -Tn MNCWerewolfR2_S4_0 WerewolfR2_A2_S4.hkx

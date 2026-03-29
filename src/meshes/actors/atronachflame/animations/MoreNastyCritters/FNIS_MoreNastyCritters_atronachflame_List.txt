@@ -1,0 +1,38 @@
+Version V1.0
+
+' MNCAtronachgrind
+b -Tn MNCAtronachgrind_S1_0 Atronachgrind_A2_S1.HKX
+b -Tn MNCAtronachgrind_S2_0 Atronachgrind_A2_S2.HKX
+b -Tn MNCAtronachgrind_S3_0 Atronachgrind_A2_S3.HKX
+b -Tn MNCAtronachgrind_S4_0 Atronachgrind_A2_S4.HKX
+b -Tn MNCAtronachgrind_S5_0 Atronachgrind_A2_S5.HKX
+b -Tn MNCAtronachgrind_S6_0 Atronachgrind_A2_S6.HKX
+b -Tn MNCAtronachgrind_S7_0 Atronachgrind_A2_S7.HKX
+
+' MNCAtronachbehind
+b -Tn MNCAtronachbehind_S1_0 Atronachbehind_A2_S1.hkx
+b -Tn MNCAtronachbehind_S2_0 Atronachbehind_A2_S2.hkx
+b -Tn MNCAtronachbehind_S3_0 Atronachbehind_A2_S3.hkx
+b -Tn MNCAtronachbehind_S4_0 Atronachbehind_A2_S4.hkx
+b -Tn MNCAtronachbehind_S5_0 Atronachbehind_A2_S5.hkx
+b -Tn MNCAtronachbehind_S6_0 Atronachbehind_A2_S6.hkx
+
+' MNCAtronachmis
+b -Tn MNCAtronachmis_S1_0 Atronachmis_A2_S1.hkx
+b -Tn MNCAtronachmis_S2_0 Atronachmis_A2_S2.hkx
+b -Tn MNCAtronachmis_S3_0 Atronachmis_A2_S3.hkx
+b -Tn MNCAtronachmis_S4_0 Atronachmis_A2_S4.hkx
+b -Tn MNCAtronachmis_S5_0 Atronachmis_A2_S5.hkx
+
+' MNCAtronachspoon
+b -Tn MNCAtronachspoon_S1_0 Atronachspoon_A2_S1.hkx
+b -Tn MNCAtronachspoon_S2_0 Atronachspoon_A2_S2.hkx
+b -Tn MNCAtronachspoon_S3_0 Atronachspoon_A2_S3.hkx
+b -Tn MNCAtronachspoon_S4_0 Atronachspoon_A2_S4.hkx
+
+' MNCAtronachrevcw
+b -Tn MNCAtronachrevcw_S1_0 Atronachrevcw_A2_S1.hkx
+b -Tn MNCAtronachrevcw_S2_0 Atronachrevcw_A2_S2.hkx
+b -Tn MNCAtronachrevcw_S3_0 Atronachrevcw_A2_S3.hkx
+b -Tn MNCAtronachrevcw_S4_0 Atronachrevcw_A2_S4.hkx
+b -Tn MNCAtronachrevcw_S5_0 Atronachrevcw_A2_S5.hkx

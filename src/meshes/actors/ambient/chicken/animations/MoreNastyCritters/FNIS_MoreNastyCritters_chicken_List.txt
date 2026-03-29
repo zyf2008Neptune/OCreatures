@@ -1,0 +1,7 @@
+Version V1.0
+
+' MNCchickenpoke
+b -Tn MNCchickenpoke_S1_0 chickenpoke_A2_S1.hkx
+b -Tn MNCchickenpoke_S2_0 chickenpoke_A2_S2.hkx
+b -Tn MNCchickenpoke_S3_0 chickenpoke_A2_S3.hkx
+b -Tn MNCchickenpoke_S4_0 chickenpoke_A2_S4.hkx

@@ -1,0 +1,48 @@
+{
+    "name": "MNCMammothTrunking",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCMammothTrunking-3",
+    "speeds": [
+        {
+            "animation": "MNCmammothtrunk_S4"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crmammoth",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "cunnilingus",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "mammoth"
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "name": "MNCRieklingHubFM",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrRieklingIdleFM",
+            "description": "mnc Riekling Hub",
+            "icon": "OCreatures/riekling/riekling"
+        },
+        {
+            "destination": "OCrRieklingIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Riek_B_KnelBJ_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crriekling",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "riekling"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "name": "MNCSabrecatMissionary",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCSabrecatMissionary-4",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "MNCSabrecatMissionary-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCSabreCatHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/sabrecat/sabrecat"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCsabrecatvaginal_S3"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crsabrecat",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ],
+            "autoTransitions": {
+                "climax": "MNCSabrecatMissionary-4"
+            }
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ],
+            "autoTransitions": {
+                "climax": "MNCSabrecatMissionary-4"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghand",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "sabrecat"
+    ]
+}

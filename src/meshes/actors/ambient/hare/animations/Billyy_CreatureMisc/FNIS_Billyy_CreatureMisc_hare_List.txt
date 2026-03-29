@@ -1,0 +1,15 @@
+Version V1.0
+
+' B_Rabbit_BillyyMissionary
+b -Tn B_Rabbit_BillyyMissionary_S1_0 Rabbit_BillyyMissionary_A2_S1.hkx
+b -Tn B_Rabbit_BillyyMissionary_S2_0 Rabbit_BillyyMissionary_A2_S2.hkx
+b -Tn B_Rabbit_BillyyMissionary_S3_0 Rabbit_BillyyMissionary_A2_S3.hkx
+b -Tn B_Rabbit_BillyyMissionary_S4_0 Rabbit_BillyyMissionary_A2_S4.hkx
+b -Tn B_Rabbit_BillyyMissionary_S5_0 Rabbit_BillyyMissionary_A2_S5.hkx
+
+' B_Rabbit_BillyyFaceFuck
+b -Tn B_Rabbit_BillyyFaceFuck_S1_0 Rabbit_BillyyFaceFuck_A2_S1.hkx
+b -Tn B_Rabbit_BillyyFaceFuck_S2_0 Rabbit_BillyyFaceFuck_A2_S2.hkx
+b -Tn B_Rabbit_BillyyFaceFuck_S3_0 Rabbit_BillyyFaceFuck_A2_S3.hkx
+b -Tn B_Rabbit_BillyyFaceFuck_S4_0 Rabbit_BillyyFaceFuck_A2_S4.hkx
+b -Tn B_Rabbit_BillyyFaceFuck_S5_0 Rabbit_BillyyFaceFuck_A2_S5.hkx

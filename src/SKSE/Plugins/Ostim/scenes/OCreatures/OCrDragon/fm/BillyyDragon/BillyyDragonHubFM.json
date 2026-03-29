@@ -1,0 +1,47 @@
+{
+    "name": "BillyyDragonHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrDragonIdleFM",
+            "description": "billyy Dragon Hub",
+            "icon": "OCreatures/dragon/dragon"
+        },
+        {
+            "destination": "OCrDragonIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Dragon_BillyyBodyJob1_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdragon",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "dragon"
+    ]
+}

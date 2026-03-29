@@ -1,0 +1,63 @@
+{
+    "name": "BillyyRieklingFFCDoggyandBlowjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyRieklingFFCDoggyandBlowjob-10",
+    "speeds": [
+        {
+            "animation": "B_Riek_B_FFCDogBJ_S11"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 2,
+            "tags": [
+                "sitting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+            "performer": 0
+        },
+        {
+            "type": "vaginalfingering",
+            "actor": 2,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "riekling"
+    ]
+}

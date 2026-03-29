@@ -1,0 +1,49 @@
+{
+    "name": "Billyy Horker Missionary",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyHorkerMissionary-4",
+    "speeds": [
+        {
+            "animation": "B_Hork_B_Miss_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crHorker",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"spreadlegs",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Horker"
+    ]
+}

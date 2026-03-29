@@ -1,0 +1,44 @@
+{
+    "name": "BillyyDwarvenSpiderHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrDwarvenSpiderIdleFM",
+            "description": "Billyy Dwarven Spider Hub",
+            "icon": "OCreatures/Dwarven/DwarvenSpider"
+        },
+		{
+            "destination": "OCrDwarvenSpiderIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_DSpider_B_Doggy_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenSpider",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"DwarvenSpider"
+    ]
+}

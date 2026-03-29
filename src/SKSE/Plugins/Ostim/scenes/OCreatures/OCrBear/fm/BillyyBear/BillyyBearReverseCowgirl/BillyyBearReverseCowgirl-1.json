@@ -1,0 +1,58 @@
+{
+    "name": "Billyy Bear Reverse Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyBearHubFM",
+            "description": "Billyy Bear Reverse Cowgirl",
+            "icon": "OCreatures/bear/bearvag"
+        },
+        {
+            "destination": "BillyyBearReverseCowgirl-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyBearHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/bear/bear"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Bear_B_RCow_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crbear",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "ontop",
+				"squatting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "thighjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"bear"
+    ]
+}

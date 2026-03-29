@@ -1,0 +1,36 @@
+Version V1.0
+
+' B_DSphere_B_Stand
+b -Tn B_DSphere_B_Stand_S1_0 DSphere_B_Stand_A2_S1.hkx 
+b -Tn B_DSphere_B_Stand_S2_0 DSphere_B_Stand_A2_S2.hkx 
+b -Tn B_DSphere_B_Stand_S3_0 DSphere_B_Stand_A2_S3.hkx 
+b -Tn B_DSphere_B_Stand_S4_0 DSphere_B_Stand_A2_S4.hkx 
+b -Tn B_DSphere_B_Stand_S5_0 DSphere_B_Stand_A2_S5.hkx 
+
+' B_DSphere_B_Hold
+b -Tn B_DSphere_B_Hold_S1_0 DSphere_B_Hold_A2_S1.hkx 
+b -Tn B_DSphere_B_Hold_S2_0 DSphere_B_Hold_A2_S2.hkx 
+b -Tn B_DSphere_B_Hold_S3_0 DSphere_B_Hold_A2_S3.hkx 
+b -Tn B_DSphere_B_Hold_S4_0 DSphere_B_Hold_A2_S4.hkx 
+b -Tn B_DSphere_B_Hold_S5_0 DSphere_B_Hold_A2_S5.hkx 
+
+' B_DSphere_B_PileD
+b -Tn B_DSphere_B_PileD_S1_0 DSphere_B_PileD_A2_S1.hkx 
+b -Tn B_DSphere_B_PileD_S2_0 DSphere_B_PileD_A2_S2.hkx 
+b -Tn B_DSphere_B_PileD_S3_0 DSphere_B_PileD_A2_S3.hkx 
+b -Tn B_DSphere_B_PileD_S4_0 DSphere_B_PileD_A2_S4.hkx 
+b -Tn B_DSphere_B_PileD_S5_0 DSphere_B_PileD_A2_S5.hkx 
+
+' B_DSphere_B_Doggy
+b -Tn B_DSphere_B_Doggy_S1_0 DSphere_B_Doggy_A2_S1.hkx 
+b -Tn B_DSphere_B_Doggy_S2_0 DSphere_B_Doggy_A2_S2.hkx 
+b -Tn B_DSphere_B_Doggy_S3_0 DSphere_B_Doggy_A2_S3.hkx 
+b -Tn B_DSphere_B_Doggy_S4_0 DSphere_B_Doggy_A2_S4.hkx 
+b -Tn B_DSphere_B_Doggy_S5_0 DSphere_B_Doggy_A2_S5.hkx 
+
+' B_DSphere_B_BhdA
+b -Tn B_DSphere_B_BhdA_S1_0 DSphere_B_BhdA_A2_S1.hkx 
+b -Tn B_DSphere_B_BhdA_S2_0 DSphere_B_BhdA_A2_S2.hkx 
+b -Tn B_DSphere_B_BhdA_S3_0 DSphere_B_BhdA_A2_S3.hkx 
+b -Tn B_DSphere_B_BhdA_S4_0 DSphere_B_BhdA_A2_S4.hkx 
+b -Tn B_DSphere_B_BhdA_S5_0 DSphere_B_BhdA_A2_S5.hkx 

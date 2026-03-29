@@ -1,0 +1,49 @@
+{
+    "name": "Billyy Chaurus Cowgirl Upthrust Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusCowgirlUpthrustAnal-4",
+    "speeds": [
+        {
+            "animation": "B_Chaur_B_CGUTA_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurus",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "vaginaltoying",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

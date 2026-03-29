@@ -1,0 +1,15 @@
+Version V1.0
+
+' B_Vamp_B_Miss
+b -Tn B_Vamp_B_Miss_S1_0 Vamp_B_Miss_A2_S1.hkx 
+b -Tn B_Vamp_B_Miss_S2_0 Vamp_B_Miss_A2_S2.hkx 
+b -Tn B_Vamp_B_Miss_S3_0 Vamp_B_Miss_A2_S3.hkx 
+b -Tn B_Vamp_B_Miss_S4_0 Vamp_B_Miss_A2_S4.hkx 
+b -Tn B_Vamp_B_Miss_S5_0 Vamp_B_Miss_A2_S5.hkx 
+
+' B_Vamp_B_Dog
+b -Tn B_Vamp_B_Dog_S1_0 Vamp_B_Dog_A2_S1.hkx 
+b -Tn B_Vamp_B_Dog_S2_0 Vamp_B_Dog_A2_S2.hkx 
+b -Tn B_Vamp_B_Dog_S3_0 Vamp_B_Dog_A2_S3.hkx 
+b -Tn B_Vamp_B_Dog_S4_0 Vamp_B_Dog_A2_S4.hkx 
+b -Tn B_Vamp_B_Dog_S5_0 Vamp_B_Dog_A2_S5.hkx 

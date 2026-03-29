@@ -1,0 +1,86 @@
+{
+    "name": "BillyySkeever3pMissionarySpit",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyySkeever3pMissionarySpit-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyySkeever3pMissionarySpit-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyySkeeverHubFMM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/skeever/skeever"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Skee_B_3pMissSpit_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crskeever",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crskeever",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 2,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 2
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 1,
+            "target": 2
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "skeever"
+    ]
+}

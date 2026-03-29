@@ -1,0 +1,69 @@
+{
+    "name": "BillyySkeever3pDoggySpit",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySkeever3pDoggySpit-4",
+    "speeds": [
+        {
+            "animation": "B_Skee_B_3pDogSpit_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crskeever",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crskeever",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"ontop",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 2,
+            "target": 0,
+            "performer": 0
+        },
+        {
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 2
+        },
+		{
+            "type": "holdinghip",
+            "actor": 1,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "skeever"
+    ]
+}

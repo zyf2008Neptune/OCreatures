@@ -1,0 +1,50 @@
+{
+    "name": "Billyy Riekling Standing",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyRieklingStanding-4",
+    "speeds": [
+        {
+            "animation": "B_Riek_B_Stand_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingfront",
+				"ontop",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "squatting",
+				"bendover",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Riekling"
+    ]
+}

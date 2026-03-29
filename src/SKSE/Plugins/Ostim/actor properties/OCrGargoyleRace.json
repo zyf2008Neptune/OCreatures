@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrGargoyleRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd6A"
+	},
+	"type": "crgargoyle",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

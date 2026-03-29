@@ -1,0 +1,47 @@
+{
+    "name": "BillyyIceWraithHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrIceWraithIdleFM",
+            "description": "billyy IceWraith Hub",
+            "icon": "OCreatures/icewraith/icewraith"
+        },
+        {
+            "destination": "OCrIceWraithIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_IceWraith_BillyyIceDildo1_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "cricewraith",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "icewraith"
+    ]
+}

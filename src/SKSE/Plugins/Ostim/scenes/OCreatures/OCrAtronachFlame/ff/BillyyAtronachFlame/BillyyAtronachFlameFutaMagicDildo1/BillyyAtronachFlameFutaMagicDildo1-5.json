@@ -1,0 +1,50 @@
+{
+    "name": "Billyy AtronachFlame Futa Magic Dildo 1",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyAtronachFlameFutaMagicDildo1-4",
+    "speeds": [
+        {
+            "animation": "B_FlameA_B_FMDil1_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crAtronachFlame",
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing",
+				"spreadlegs"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"AtronachFlame"
+    ]
+}

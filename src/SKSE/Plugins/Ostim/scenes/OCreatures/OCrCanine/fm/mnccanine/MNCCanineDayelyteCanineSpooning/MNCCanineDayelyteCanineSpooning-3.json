@@ -1,0 +1,53 @@
+{
+    "name": "MNCCanineDayelyteCanineSpooning",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCCanineDayelyteCanineSpooning-2",
+    "speeds": [
+        {
+            "animation": "MNCCaninespooning_S3"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crcanine",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingside",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingside",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "canine"
+    ]
+}

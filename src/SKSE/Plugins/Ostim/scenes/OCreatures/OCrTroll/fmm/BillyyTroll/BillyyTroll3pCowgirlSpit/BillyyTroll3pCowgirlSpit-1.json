@@ -1,0 +1,77 @@
+{
+    "name": "BillyyTroll3pCowgirlSpit",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "BillyyTrollHubFMM",
+            "description": "BillyyTroll3pCowgirlSpit",
+            "icon": "OCreatures/troll/trollvagoral"
+        },
+        {
+            "destination": "BillyyTroll3pCowgirlSpit-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyTrollHubFMM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/troll/troll"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Troll_B_3pCowSpit_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crTroll",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crTroll",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "squatting",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "handjob",
+            "actor": 2,
+            "target": 0
+        },
+        {
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 2,
+			"performer": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "troll"
+    ]
+}

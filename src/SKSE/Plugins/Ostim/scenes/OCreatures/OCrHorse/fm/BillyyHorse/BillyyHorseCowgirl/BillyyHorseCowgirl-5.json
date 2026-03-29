@@ -1,0 +1,44 @@
+{
+    "name": "Billyy Horse Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyHorseCowgirl-4",
+    "speeds": [
+        {
+            "animation": "B_Horse_B_Cow_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crhorse",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"horse"
+    ]
+}

@@ -1,0 +1,22 @@
+Version V1.0
+
+' B_Dragon_BillyyBodyJob1
+b -Tn B_Dragon_BillyyBodyJob1_S1_0 Dragon_BillyyBodyJob1_A2_S1.hkx
+b -Tn B_Dragon_BillyyBodyJob1_S2_0 Dragon_BillyyBodyJob1_A2_S2.hkx
+b -Tn B_Dragon_BillyyBodyJob1_S3_0 Dragon_BillyyBodyJob1_A2_S3.hkx
+b -Tn B_Dragon_BillyyBodyJob1_S4_0 Dragon_BillyyBodyJob1_A2_S4.hkx
+b -Tn,o B_Dragon_BillyyBodyJob1_S5_0 Dragon_BillyyBodyJob1_A2_S5.hkx AOMMGDragonCum1
+
+' B_Dragon_BillyyBodyJob2
+b -Tn,o B_Dragon_BillyyBodyJob2_S1_0 Dragon_BillyyBodyJob2_A2_S1.hkx AOCumshotBigMagicNode
+b -Tn,o B_Dragon_BillyyBodyJob2_S2_0 Dragon_BillyyBodyJob2_A2_S2.hkx AOCumshotBigMagicNode
+b -Tn,o B_Dragon_BillyyBodyJob2_S3_0 Dragon_BillyyBodyJob2_A2_S3.hkx AOCumshotBigMagicNode
+b -Tn,o B_Dragon_BillyyBodyJob2_S4_0 Dragon_BillyyBodyJob2_A2_S4.hkx AOCumshotBigMagicNode
+b -Tn,o B_Dragon_BillyyBodyJob2_S5_0 Dragon_BillyyBodyJob2_A2_S5.hkx AOCumshotBigMagicNode
+
+' B_Dragon_BillyyBodyJob3Cowgirl
+b -Tn B_Dragon_BillyyBodyJob3Cowgirl_S1_0 Dragon_BillyyBodyJob3Cowgirl_A2_S1.hkx
+b -Tn B_Dragon_BillyyBodyJob3Cowgirl_S2_0 Dragon_BillyyBodyJob3Cowgirl_A2_S2.hkx
+b -Tn B_Dragon_BillyyBodyJob3Cowgirl_S3_0 Dragon_BillyyBodyJob3Cowgirl_A2_S3.hkx
+b -Tn B_Dragon_BillyyBodyJob3Cowgirl_S4_0 Dragon_BillyyBodyJob3Cowgirl_A2_S4.hkx
+b -Tn,o B_Dragon_BillyyBodyJob3Cowgirl_S5_0 Dragon_BillyyBodyJob3Cowgirl_A2_S5.hkx AOMMGDragonCum2

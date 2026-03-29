@@ -1,0 +1,62 @@
+{
+    "name": "Billyy Chaurus Flyer Hanging",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyChaurusFlyerHanging-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyChaurusFlyerHanging-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyChaurusFlyerHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Chaurus/Chaurusflyer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_ChauH_B_Hang_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurusFlyer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analtoying",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

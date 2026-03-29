@@ -1,0 +1,44 @@
+{
+    "name": "BillyyScribHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrScribIdleFM",
+            "description": "Billyy Scrib Hub",
+            "icon": "OCreatures/Scrib/Scrib"
+        },
+		{
+            "destination": "OCrScribIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_AHop_B_Crab_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crScrib",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"Scrib"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "name": "Billyy Chaurus Boobjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusBoobjob-4",
+    "speeds": [
+        {
+            "animation": "B_Chaur_B_BoobJ_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurus",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "boobjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

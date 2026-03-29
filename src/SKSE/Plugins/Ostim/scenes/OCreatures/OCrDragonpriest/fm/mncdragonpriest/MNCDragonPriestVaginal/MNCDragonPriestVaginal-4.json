@@ -1,0 +1,49 @@
+{
+    "name": "MNCDragonPriestVaginal",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCDragonPriestVaginal-3",
+    "speeds": [
+        {
+            "animation": "MNCdragonpriestvaginal_S4"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdragonpriest",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "dragonpriest"
+    ]
+}

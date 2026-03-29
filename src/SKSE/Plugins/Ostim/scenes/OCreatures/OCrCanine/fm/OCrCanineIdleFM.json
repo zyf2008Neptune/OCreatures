@@ -1,0 +1,35 @@
+{
+    "name": "OCrCanineIdleFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [],
+    "speeds": [
+        {
+            "animation": "B_Can_B_Dog_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+			"intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"canine"
+    ]
+}

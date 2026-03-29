@@ -1,0 +1,63 @@
+{
+    "name": "MNCDragonPriestVaginal",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCDragonPriestVaginal-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "MNCDragonPriestVaginal-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCDragonPriestHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/draugr/dragonpriest"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCdragonpriestvaginal_S2"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdragonpriest",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"bendover"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "dragonpriest"
+    ]
+}

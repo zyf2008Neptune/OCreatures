@@ -1,0 +1,34 @@
+{
+    "name": "OcrNetchIdleFM",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "speeds": [
+        {
+            "animation": "MNCnetchstuffed_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crnetch",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "netch"
+    ]
+}

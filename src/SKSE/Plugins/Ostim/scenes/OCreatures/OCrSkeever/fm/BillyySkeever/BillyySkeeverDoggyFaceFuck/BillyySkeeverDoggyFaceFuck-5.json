@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Skeever Doggy FaceFuck",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySkeeverDoggyFaceFuck-4",
+    "speeds": [
+        {
+            "animation": "B_Skee_B_DogF_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crskeever",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 1
+        },
+		{
+            "type": "rimjob",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"skeever"
+    ]
+}

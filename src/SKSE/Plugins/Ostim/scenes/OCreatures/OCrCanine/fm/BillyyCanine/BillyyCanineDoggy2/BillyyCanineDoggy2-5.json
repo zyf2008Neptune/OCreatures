@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Canine Doggy 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyCanineDoggy2-4",
+    "speeds": [
+        {
+            "animation": "B_Can_B_Dog2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

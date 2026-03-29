@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrMammothRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd86"
+	},
+	"type": "crmammoth",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Chaurus Flyer Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusFlyerDoggy-4",
+    "speeds": [
+        {
+            "animation": "B_ChauH_B_Dog_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurusFlyer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analtoying",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

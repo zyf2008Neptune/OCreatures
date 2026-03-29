@@ -1,0 +1,42 @@
+{
+    "name": "Billyy Dwarven Spider Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDwarvenSpiderDoggy-4",
+    "speeds": [
+        {
+            "animation": "B_DSpider_B_Doggy_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenSpider",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenSpider"
+    ]
+}

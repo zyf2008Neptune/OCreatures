@@ -1,0 +1,45 @@
+{
+    "name": "Billyy Deer Piledriver Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDeerPiledriverAnal-4",
+    "speeds": [
+        {
+            "animation": "B_Deer_B_PileA_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDeer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"spreadlegs",
+				"upsidedown",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Deer"
+    ]
+}

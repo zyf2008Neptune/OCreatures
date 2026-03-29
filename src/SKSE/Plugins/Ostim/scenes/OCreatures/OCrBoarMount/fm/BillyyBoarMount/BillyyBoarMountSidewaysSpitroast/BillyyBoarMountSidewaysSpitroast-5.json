@@ -1,0 +1,53 @@
+{
+    "name": "Billyy Boar Mount Sideways Spitroast",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyBoarMountSidewaysSpitroast-4",
+    "speeds": [
+        {
+            "animation": "B_Boar_B_SideSpit_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crboarMount",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"boarMount"
+    ]
+}

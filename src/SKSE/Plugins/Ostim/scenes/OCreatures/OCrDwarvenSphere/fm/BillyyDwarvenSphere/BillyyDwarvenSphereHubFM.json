@@ -1,0 +1,44 @@
+{
+    "name": "BillyyDwarvenSphereHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrDwarvenSphereIdleFM",
+            "description": "Billyy Dwarven Sphere Hub",
+            "icon": "OCreatures/Dwarven/DwarvenSphere"
+        },
+		{
+            "destination": "OCrDwarvenSphereIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_DwBall_B_Hold_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenSphere",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"DwarvenSphere"
+    ]
+}

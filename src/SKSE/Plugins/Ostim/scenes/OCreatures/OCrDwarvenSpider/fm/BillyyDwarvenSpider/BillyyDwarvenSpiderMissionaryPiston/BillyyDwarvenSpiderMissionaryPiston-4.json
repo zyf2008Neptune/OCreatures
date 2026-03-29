@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Dwarven Spider Missionary Piston",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDwarvenSpiderMissionaryPiston-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyDwarvenSpiderMissionaryPiston-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyDwarvenSpiderHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Dwarven/DwarvenSpider"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_DSpider_B_MissPist_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenSpider",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyDwarvenSpiderMissionaryPiston-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyDwarvenSpiderMissionaryPiston-5"
+			},
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenSpider"
+    ]
+}

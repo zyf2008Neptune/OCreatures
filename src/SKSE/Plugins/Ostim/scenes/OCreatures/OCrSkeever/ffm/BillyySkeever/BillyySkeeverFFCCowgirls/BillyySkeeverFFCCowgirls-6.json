@@ -1,0 +1,87 @@
+{
+    "name": "BillyySkeeverFFCCowgirls",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyySkeeverFFCCowgirls-7",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyySkeeverFFCCowgirls-5",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyySkeeverHubFFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/skeever/skeever"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Skee_B_FFCCowgirls_S6"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crskeever",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyySkeeverFFCCowgirls-7"
+			},
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyySkeeverFFCCowgirls-7"
+			},
+			"animationIndex": 1,
+            "tags": [
+                "squatting",
+				"ontop"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyySkeeverFFCCowgirls-7"
+			},
+			"animationIndex": 2,
+            "tags": [
+                "kneeling",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "lickingvagina",
+            "actor": 0,
+            "target": 2
+        },
+		{
+            "type": "hugging",
+            "actor": 2,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "skeever"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Chaurus Reaper Doggy 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyChaurusReaperDoggy2-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyChaurusReaperDoggy2-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyChaurusReaperHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Chaurus/Chaurus"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_ChauR_B_Dog2_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurusReaper",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyChaurusReaperDoggy2-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyChaurusReaperDoggy2-5"
+			},
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "name": "Billyy Riekling Laying Face Fuck",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyRieklingLayingFaceFuck-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyRieklingLayingFaceFuck-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyRieklingHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Riekling/Riekling"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Riek_B_LayFF_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyRieklingLayingFaceFuck-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "allfours"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyRieklingLayingFaceFuck-5"
+			},
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "femalemasturbation",
+            "actor": 1,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Riekling"
+    ]
+}

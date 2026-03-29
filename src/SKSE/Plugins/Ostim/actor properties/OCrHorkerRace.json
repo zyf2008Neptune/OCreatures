@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrHorkerRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd84"
+	},
+	"type": "crhorker",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

@@ -1,0 +1,59 @@
+{
+    "name": "Billyy Falmer Spooning",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyFalmerSpooning-4",
+    "speeds": [
+        {
+            "animation": "B_Falm_B_Spoon_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingside",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingside",
+				"spreadlegs",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "kissing",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Falmer"
+    ]
+}

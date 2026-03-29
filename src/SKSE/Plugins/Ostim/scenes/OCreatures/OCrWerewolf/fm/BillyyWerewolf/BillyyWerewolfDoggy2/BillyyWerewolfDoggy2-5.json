@@ -1,0 +1,53 @@
+{
+    "name": "Billyy Werewolf Doggy 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyWerewolfDoggy2-4",
+    "speeds": [
+        {
+            "animation": "B_WW_B_Dog2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Werewolf"
+    ]
+}

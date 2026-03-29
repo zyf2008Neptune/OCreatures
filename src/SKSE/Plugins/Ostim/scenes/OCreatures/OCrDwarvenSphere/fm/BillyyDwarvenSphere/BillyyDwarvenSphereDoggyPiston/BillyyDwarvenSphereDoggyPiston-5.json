@@ -1,0 +1,47 @@
+{
+    "name": "Billyy Dwarven Sphere Doggy Piston",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDwarvenSphereDoggyPiston-4",
+    "speeds": [
+        {
+            "animation": "B_DSphere_B_Doggy_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenSphere",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenSphere"
+    ]
+}

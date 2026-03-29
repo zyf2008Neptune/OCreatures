@@ -1,0 +1,86 @@
+{
+    "name": "BillyyDraugr3pFFCHoldingAnal",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDraugr3pFFCHoldingAnal-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyDraugr3pFFCHoldingAnal-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyDraugrHubFFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/draugr/draugr"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Drau_B_FFCHoldA_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 2,
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "rubbingclitoris",
+            "actor": 2,
+            "target": 1
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 2,
+            "target": 1
+        },
+		{
+            "type": "holdingneck",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "draugr"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Chaurus Doggy 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusDoggy2-4",
+    "speeds": [
+        {
+            "animation": "B_Chaurus_B_Dog2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurus",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

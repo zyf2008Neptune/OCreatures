@@ -1,0 +1,15 @@
+Version V1.0
+
+' B_DwBall_B_Bhd
+b -Tn B_DwBall_B_Bhd_S1_0 DwBall_B_Bhd_A2_S1.hkx 
+b -Tn B_DwBall_B_Bhd_S2_0 DwBall_B_Bhd_A2_S2.hkx 
+b -Tn B_DwBall_B_Bhd_S3_0 DwBall_B_Bhd_A2_S3.hkx 
+b -Tn B_DwBall_B_Bhd_S4_0 DwBall_B_Bhd_A2_S4.hkx 
+b -Tn B_DwBall_B_Bhd_S5_0 DwBall_B_Bhd_A2_S5.hkx 
+
+' B_DBall_B_Stand
+b -Tn B_DBall_B_Stand_S1_0 DBall_B_Stand_A2_S1.hkx 
+b -Tn B_DBall_B_Stand_S2_0 DBall_B_Stand_A2_S2.hkx 
+b -Tn B_DBall_B_Stand_S3_0 DBall_B_Stand_A2_S3.hkx 
+b -Tn B_DBall_B_Stand_S4_0 DBall_B_Stand_A2_S4.hkx 
+b -Tn B_DBall_B_Stand_S5_0 DBall_B_Stand_A2_S5.hkx 

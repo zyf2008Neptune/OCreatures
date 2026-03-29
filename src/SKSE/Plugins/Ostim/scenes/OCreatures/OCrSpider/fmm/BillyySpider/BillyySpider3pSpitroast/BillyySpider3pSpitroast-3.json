@@ -1,0 +1,81 @@
+{
+    "name": "BillyySpider3pSpitroast",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyySpider3pSpitroast-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyySpider3pSpitroast-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyySpiderHubFMM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/spider/spider"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Spider_B_3pSpit_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpider",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crSpider",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "oralsex",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+            "performer": 1
+        },
+        {
+            "type": "lickingvagina",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "spider"
+    ]
+}

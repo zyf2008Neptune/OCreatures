@@ -1,0 +1,49 @@
+{
+    "name": "Billyy Canine 69 FaceFuck",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyCanine69FaceFuck-4",
+    "speeds": [
+        {
+            "animation": "B_Can_B_69FaceF_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 1
+        },
+		{
+            "type": "lickingvagina",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

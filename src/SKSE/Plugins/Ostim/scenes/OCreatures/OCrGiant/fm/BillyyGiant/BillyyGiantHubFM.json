@@ -1,0 +1,44 @@
+{
+    "name": "BillyyGiantHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrGiantIdleFM",
+            "description": "Billyy Giant Hub",
+            "icon": "OCreatures/Giant/Giant"
+        },
+		{
+            "destination": "OCrGiantIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_Giant_B_StdServ_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGiant",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"Giant"
+    ]
+}

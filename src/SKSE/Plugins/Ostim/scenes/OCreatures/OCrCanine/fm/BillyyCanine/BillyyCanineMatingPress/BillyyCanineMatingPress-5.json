@@ -1,0 +1,44 @@
+{
+    "name": "Billyy Canine Mating Press",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyCanineMatingPress-4",
+    "speeds": [
+        {
+            "animation": "B_Can_B_Mating_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"spreadlegs",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

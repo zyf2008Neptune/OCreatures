@@ -1,0 +1,50 @@
+{
+    "name": "MNCFlameAtronachBehind",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCFlameAtronachBehind-5",
+    "speeds": [
+        {
+            "animation": "MNCAtronachbehind_S6"
+        }
+    ],
+    "actors": [
+        {
+            "intendedSex": "male",
+			"animationIndex": 1,
+            "requirements": [],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+			"type": "cratronachflame",
+            "intendedSex": "female",
+			"animationIndex": 0,
+            "requirements": [],
+            "tags": [
+                "allfours",
+				"bendover",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "atronachflame"
+    ]
+}

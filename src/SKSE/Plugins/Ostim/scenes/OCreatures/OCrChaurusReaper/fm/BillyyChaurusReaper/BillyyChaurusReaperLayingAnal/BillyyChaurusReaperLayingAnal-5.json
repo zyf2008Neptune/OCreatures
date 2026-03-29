@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Chaurus Reaper Laying Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusReaperLayingAnal-4",
+    "speeds": [
+        {
+            "animation": "B_ChauR_B_LayA_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurusReaper",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

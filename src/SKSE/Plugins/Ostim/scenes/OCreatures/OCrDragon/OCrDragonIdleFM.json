@@ -1,0 +1,35 @@
+{
+    "name": "OCrDragonIdleFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [],
+    "speeds": [
+        {
+            "animation": "B_Dragon_BillyyBodyJob1_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDragon",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"Dragon"
+    ]
+}

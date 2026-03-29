@@ -1,0 +1,65 @@
+{
+    "name": "Billyy Horker Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyHorkerCowgirl-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+		{
+            "destination": "BillyyHorkerCowgirl-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyHorkerHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/Horker/Horker"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Horker_BillyyCowgirl_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crHorker",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyHorkerCowgirl-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyHorkerCowgirl-5"
+			},
+            "tags": [
+                "allfours",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1,
+			"performer": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Horker"
+    ]
+}

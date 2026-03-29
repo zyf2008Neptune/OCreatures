@@ -1,0 +1,43 @@
+{
+    "name": "MNCDeerDoggy",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCDeerDoggy-3",
+    "speeds": [
+        {
+            "animation": "MNCdeerSLDdoggy_S4"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdeer",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "deer"
+    ]
+}

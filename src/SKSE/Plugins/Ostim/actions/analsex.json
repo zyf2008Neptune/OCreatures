@@ -1,0 +1,114 @@
+{
+	"aliases":[
+		"anal"
+	],
+	"actor":{
+		"info": "the one with the penis",
+		"stimulation":1.0,
+		"fullStrip":true,
+		"moan":true,
+		"talk":true,
+		"requirements":[
+			"penis"
+		],
+		"strippingSlots":[
+			32,
+			49,
+			52,
+			53,
+			54
+		],
+		"faction":[
+			{
+				"info": "OStimAnalSexActorFaction",
+				"mod": "OStim.esp",
+				"formid": "0xE4F"
+			},
+			{
+				"info": "OStimAnySexMateFaction",
+				"mod": "OStim.esp",
+				"formid": "0xEC9"
+			}
+		],
+		"toySlot": "genital"
+	},
+	"target":{
+		"info": "the one with the butt",
+		"stimulation":0.3,
+		"fullStrip":true,
+		"moan":true,
+		"talk":true,
+		"requirements":[
+			"anus"
+		],
+		"strippingSlots":[
+			32,
+			49,
+			52,
+			53,
+			54
+		],
+		"faction":[
+			{
+				"info": "OStimAnalSexTargetFaction",
+				"mod": "OStim.esp",
+				"formid": "0xE50"
+			},
+			{
+				"info": "OStimAnySexMateFaction",
+				"mod": "OStim.esp",
+				"formid": "0xEC9"
+			}
+		],
+		"stringLists":{
+			"cum":[
+				"rectum"
+			]
+		},
+		"toySlot": "anus"
+	},
+	"performer":{
+		"faction":{
+			"info": "OStimAnalSexPerformerFaction",
+			"mod": "OStim.esp",
+			"formid": "0xE51"
+		},
+		"floats":{
+			"stamina":1.0
+		}
+	},
+	"sounds":[
+		{
+			"type":"peak",
+			"sound":{
+				"mod":"OStim.esp",
+				"formid":"0xE14"
+			}
+		}	
+	],
+	"peak":{
+		"type":"bonedistance",
+		"actorBone":[
+			"NPC Genitals01 [Gen01]",
+			"BearD 2",
+			"CDPenis 3",
+			"CO 3",
+			"ElkD02",
+			"GD 3",
+			"GS 2",
+			"BoarDick01",
+			"RD 2",
+			"DD 2",
+			"DwarvenSpiderDildo01",
+			"FD 3",
+			"HS 2",
+			"SCD 2",
+			"SkeeverD 02",
+			"TD 2"
+		],
+		"targetBone":"NPC Anus Deep1"
+	},
+	"tags":[
+		"sexual"
+	]
+}

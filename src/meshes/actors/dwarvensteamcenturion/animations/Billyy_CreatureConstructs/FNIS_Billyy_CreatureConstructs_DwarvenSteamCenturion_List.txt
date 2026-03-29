@@ -1,0 +1,15 @@
+Version V1.0
+
+' B_DCent_B_ClawHold1
+b -Tn B_DCent_B_ClawHold1_S1_0 DCent_B_ClawHold1_A2_S1.hkx 
+b -Tn B_DCent_B_ClawHold1_S2_0 DCent_B_ClawHold1_A2_S2.hkx 
+b -Tn B_DCent_B_ClawHold1_S3_0 DCent_B_ClawHold1_A2_S3.hkx 
+b -Tn B_DCent_B_ClawHold1_S4_0 DCent_B_ClawHold1_A2_S4.hkx 
+b -Tn B_DCent_B_ClawHold1_S5_0 DCent_B_ClawHold1_A2_S5.hkx 
+
+' B_DCent_B_ClawHold2
+b -Tn B_DCent_B_ClawHold2_S1_0 DCent_B_ClawHold2_A2_S1.hkx 
+b -Tn B_DCent_B_ClawHold2_S2_0 DCent_B_ClawHold2_A2_S2.hkx 
+b -Tn B_DCent_B_ClawHold2_S3_0 DCent_B_ClawHold2_A2_S3.hkx 
+b -Tn B_DCent_B_ClawHold2_S4_0 DCent_B_ClawHold2_A2_S4.hkx 
+b -Tn B_DCent_B_ClawHold2_S5_0 DCent_B_ClawHold2_A2_S5.hkx 

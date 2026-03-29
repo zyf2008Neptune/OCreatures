@@ -1,0 +1,52 @@
+{
+    "name": "Billyy Skeever Handjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySkeeverHandjob-4",
+    "speeds": [
+        {
+            "animation": "B_Skee_B_HJ_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crskeever",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "handjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "kissing",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "cumonchest",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"skeever"
+    ]
+}

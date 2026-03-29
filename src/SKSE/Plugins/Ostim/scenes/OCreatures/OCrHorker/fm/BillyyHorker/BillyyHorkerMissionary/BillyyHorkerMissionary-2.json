@@ -1,0 +1,58 @@
+{
+    "name": "Billyy Horker Missionary",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyHorkerMissionary-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+		{
+            "destination": "BillyyHorkerMissionary-1",
+			"description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyHorkerHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/Horker/Horker"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Hork_B_Miss_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crHorker",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"spreadlegs"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Horker"
+    ]
+}

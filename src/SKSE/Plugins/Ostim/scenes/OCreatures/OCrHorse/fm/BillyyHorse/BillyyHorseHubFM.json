@@ -1,0 +1,44 @@
+{
+    "name": "BillyyHorseHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrHorseIdleFM",
+            "description": "Billyy Horse Hub",
+            "icon": "OCreatures/Horse/Horse"
+        },
+		{
+            "destination": "OCrHorseIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_Horse_B_Service_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crHorse",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"Horse"
+    ]
+}

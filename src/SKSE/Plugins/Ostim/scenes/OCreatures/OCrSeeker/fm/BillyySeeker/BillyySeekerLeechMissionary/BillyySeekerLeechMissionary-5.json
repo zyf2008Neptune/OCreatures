@@ -1,0 +1,69 @@
+{
+    "name": "Billyy Seeker Leech Missionary",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySeekerLeechMissionary-4",
+    "speeds": [
+        {
+            "animation": "B_Seek_B_LMiss_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSeeker",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginaltoying",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "rubbingclitoris",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Seeker"
+    ]
+}

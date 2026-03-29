@@ -1,0 +1,47 @@
+{
+    "name": "Billyy Spriggan Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySprigganDoggy-4",
+    "speeds": [
+        {
+            "animation": "B_Sprig_B_Doggy_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpriggan",
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"ontop",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+		
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spriggan"
+    ]
+}

@@ -1,0 +1,15 @@
+Version V1.0
+
+' B_Horse_B_HayDog
+b -Tn B_Horse_B_HayDog_S1_0 Horse_B_HayDog_A2_S1.hkx 
+b -Tn B_Horse_B_HayDog_S2_0 Horse_B_HayDog_A2_S2.hkx 
+b -Tn B_Horse_B_HayDog_S3_0 Horse_B_HayDog_A2_S3.hkx 
+b -Tn B_Horse_B_HayDog_S4_0 Horse_B_HayDog_A2_S4.hkx 
+b -Tn B_Horse_B_HayDog_S5_0 Horse_B_HayDog_A2_S5.hkx 
+
+' B_Horse_B_HayFF
+b -Tn B_Horse_B_HayFF_S1_0 Horse_B_HayFF_A2_S1.hkx 
+b -Tn B_Horse_B_HayFF_S2_0 Horse_B_HayFF_A2_S2.hkx 
+b -Tn B_Horse_B_HayFF_S3_0 Horse_B_HayFF_A2_S3.hkx 
+b -Tn B_Horse_B_HayFF_S4_0 Horse_B_HayFF_A2_S4.hkx 
+b -Tn B_Horse_B_HayFF_S5_0 Horse_B_HayFF_A2_S5.hkx 

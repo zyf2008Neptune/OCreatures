@@ -1,0 +1,140 @@
+Version V1.0
+
+' B_Troll_B_CG2
+b -Tn B_Troll_B_CG2_S1_0 Troll_B_CG2_A2_S1.hkx 
+b -Tn B_Troll_B_CG2_S2_0 Troll_B_CG2_A2_S2.hkx 
+b -Tn B_Troll_B_CG2_S3_0 Troll_B_CG2_A2_S3.hkx 
+b -Tn B_Troll_B_CG2_S4_0 Troll_B_CG2_A2_S4.hkx 
+b -Tn B_Troll_B_CG2_S5_0 Troll_B_CG2_A2_S5.hkx 
+
+' B_Troll_B_CG3
+b -Tn B_Troll_B_CG3_S1_0 Troll_B_CG3_A2_S1.hkx 
+b -Tn B_Troll_B_CG3_S2_0 Troll_B_CG3_A2_S2.hkx 
+b -Tn B_Troll_B_CG3_S3_0 Troll_B_CG3_A2_S3.hkx 
+b -Tn B_Troll_B_CG3_S4_0 Troll_B_CG3_A2_S4.hkx 
+b -Tn B_Troll_B_CG3_S5_0 Troll_B_CG3_A2_S5.hkx 
+b -Tn B_Troll_B_CG3_S6_0 Troll_B_CG3_A2_S6.hkx 
+
+' B_Troll_B_RCG
+b -Tn B_Troll_B_RCG_S1_0 Troll_B_RCG_A2_S1.hkx 
+b -Tn B_Troll_B_RCG_S2_0 Troll_B_RCG_A2_S2.hkx 
+b -Tn B_Troll_B_RCG_S3_0 Troll_B_RCG_A2_S3.hkx 
+b -Tn B_Troll_B_RCG_S4_0 Troll_B_RCG_A2_S4.hkx 
+b -Tn B_Troll_B_RCG_S5_0 Troll_B_RCG_A2_S5.hkx 
+
+' B_Troll_B_Dog2
+b -Tn B_Troll_B_Dog2_S1_0 Troll_B_Dog2_A2_S1.hkx 
+b -Tn B_Troll_B_Dog2_S2_0 Troll_B_Dog2_A2_S2.hkx 
+b -Tn B_Troll_B_Dog2_S3_0 Troll_B_Dog2_A2_S3.hkx 
+b -Tn B_Troll_B_Dog2_S4_0 Troll_B_Dog2_A2_S4.hkx 
+b -Tn B_Troll_B_Dog2_S5_0 Troll_B_Dog2_A2_S5.hkx 
+
+' B_Troll_B_Miss2
+b -Tn B_Troll_B_Miss2_S1_0 Troll_B_Miss2_A2_S1.hkx 
+b -Tn B_Troll_B_Miss2_S2_0 Troll_B_Miss2_A2_S2.hkx 
+b -Tn B_Troll_B_Miss2_S3_0 Troll_B_Miss2_A2_S3.hkx 
+b -Tn B_Troll_B_Miss2_S4_0 Troll_B_Miss2_A2_S4.hkx 
+b -Tn B_Troll_B_Miss2_S5_0 Troll_B_Miss2_A2_S5.hkx 
+
+' B_Troll_B_MPress
+b -Tn B_Troll_B_MPress_S1_0 Troll_B_MPress_A2_S1.hkx 
+b -Tn B_Troll_B_MPress_S2_0 Troll_B_MPress_A2_S2.hkx 
+b -Tn B_Troll_B_MPress_S3_0 Troll_B_MPress_A2_S3.hkx 
+b -Tn B_Troll_B_MPress_S4_0 Troll_B_MPress_A2_S4.hkx 
+b -Tn B_Troll_B_MPress_S5_0 Troll_B_MPress_A2_S5.hkx 
+
+' B_Troll_B_Hold2
+b -Tn B_Troll_B_Hold2_S1_0 Troll_B_Hold2_A2_S1.hkx 
+b -Tn B_Troll_B_Hold2_S2_0 Troll_B_Hold2_A2_S2.hkx 
+b -Tn B_Troll_B_Hold2_S3_0 Troll_B_Hold2_A2_S3.hkx 
+b -Tn B_Troll_B_Hold2_S4_0 Troll_B_Hold2_A2_S4.hkx 
+b -Tn B_Troll_B_Hold2_S5_0 Troll_B_Hold2_A2_S5.hkx 
+
+' B_Troll_B_Stand2
+b -Tn B_Troll_B_Stand2_S1_0 Troll_B_Stand2_A2_S1.hkx 
+b -Tn B_Troll_B_Stand2_S2_0 Troll_B_Stand2_A2_S2.hkx 
+b -Tn B_Troll_B_Stand2_S3_0 Troll_B_Stand2_A2_S3.hkx 
+b -Tn B_Troll_B_Stand2_S4_0 Troll_B_Stand2_A2_S4.hkx 
+b -Tn B_Troll_B_Stand2_S5_0 Troll_B_Stand2_A2_S5.hkx 
+
+' B_Troll_B_LayBJ
+b -Tn B_Troll_B_LayBJ_S1_0 Troll_B_LayBJ_A2_S1.hkx 
+b -Tn B_Troll_B_LayBJ_S2_0 Troll_B_LayBJ_A2_S2.hkx 
+b -Tn B_Troll_B_LayBJ_S3_0 Troll_B_LayBJ_A2_S3.hkx 
+b -Tn B_Troll_B_LayBJ_S4_0 Troll_B_LayBJ_A2_S4.hkx 
+b -Tn B_Troll_B_LayBJ_S5_0 Troll_B_LayBJ_A2_S5.hkx 
+
+' B_Troll_B_SquatBJ
+b -Tn B_Troll_B_SquatBJ_S1_0 Troll_B_SquatBJ_A2_S1.hkx 
+b -Tn B_Troll_B_SquatBJ_S2_0 Troll_B_SquatBJ_A2_S2.hkx 
+b -Tn B_Troll_B_SquatBJ_S3_0 Troll_B_SquatBJ_A2_S3.hkx 
+b -Tn B_Troll_B_SquatBJ_S4_0 Troll_B_SquatBJ_A2_S4.hkx 
+b -Tn B_Troll_B_SquatBJ_S5_0 Troll_B_SquatBJ_A2_S5.hkx 
+
+' B_Troll_B_HJ
+b -Tn B_Troll_B_HJ_S1_0 Troll_B_HJ_A2_S1.hkx 
+b -Tn B_Troll_B_HJ_S2_0 Troll_B_HJ_A2_S2.hkx 
+b -Tn B_Troll_B_HJ_S3_0 Troll_B_HJ_A2_S3.hkx 
+b -Tn B_Troll_B_HJ_S4_0 Troll_B_HJ_A2_S4.hkx 
+b -Tn,o B_Troll_B_HJ_S5_0 Troll_B_HJ_A2_S5.hkx AO_BTrollCumHJ
+
+' B_Troll_B_DogA2
+b -Tn B_Troll_B_DogA2_S1_0 Troll_B_DogA2_A2_S1.hkx 
+b -Tn B_Troll_B_DogA2_S2_0 Troll_B_DogA2_A2_S2.hkx 
+b -Tn B_Troll_B_DogA2_S3_0 Troll_B_DogA2_A2_S3.hkx 
+b -Tn B_Troll_B_DogA2_S4_0 Troll_B_DogA2_A2_S4.hkx 
+b -Tn B_Troll_B_DogA2_S5_0 Troll_B_DogA2_A2_S5.hkx 
+
+' B_Troll_B_3pCowSpit
+b -Tn B_Troll_B_3pCowSpit_S1_0 Troll_B_3pCowSpit_A2_S1.hkx 
+b -Tn B_Troll_B_3pCowSpit_S2_0 Troll_B_3pCowSpit_A2_S2.hkx 
+b -Tn B_Troll_B_3pCowSpit_S3_0 Troll_B_3pCowSpit_A2_S3.hkx 
+b -Tn B_Troll_B_3pCowSpit_S4_0 Troll_B_3pCowSpit_A2_S4.hkx 
+b -Tn B_Troll_B_3pCowSpit_S5_0 Troll_B_3pCowSpit_A2_S5.hkx 
+b -Tn B_Troll_B_3pCowSpit_S1_2 Troll_B_3pCowSpit_A3_S1.hkx 
+b -Tn B_Troll_B_3pCowSpit_S2_2 Troll_B_3pCowSpit_A3_S2.hkx 
+b -Tn B_Troll_B_3pCowSpit_S3_2 Troll_B_3pCowSpit_A3_S3.hkx 
+b -Tn B_Troll_B_3pCowSpit_S4_2 Troll_B_3pCowSpit_A3_S4.hkx 
+b -Tn B_Troll_B_3pCowSpit_S5_2 Troll_B_3pCowSpit_A3_S5.hkx 
+
+' B_Troll_B_3pStaDP
+b -Tn B_Troll_B_3pStaDP_S1_0 Troll_B_3pStaDP_A2_S1.hkx 
+b -Tn B_Troll_B_3pStaDP_S2_0 Troll_B_3pStaDP_A2_S2.hkx 
+b -Tn B_Troll_B_3pStaDP_S3_0 Troll_B_3pStaDP_A2_S3.hkx 
+b -Tn B_Troll_B_3pStaDP_S4_0 Troll_B_3pStaDP_A2_S4.hkx 
+b -Tn B_Troll_B_3pStaDP_S5_0 Troll_B_3pStaDP_A2_S5.hkx 
+b -Tn B_Troll_B_3pStaDP_S1_2 Troll_B_3pStaDP_A3_S1.hkx 
+b -Tn B_Troll_B_3pStaDP_S2_2 Troll_B_3pStaDP_A3_S2.hkx 
+b -Tn B_Troll_B_3pStaDP_S3_2 Troll_B_3pStaDP_A3_S3.hkx 
+b -Tn B_Troll_B_3pStaDP_S4_2 Troll_B_3pStaDP_A3_S4.hkx 
+b -Tn B_Troll_B_3pStaDP_S5_2 Troll_B_3pStaDP_A3_S5.hkx 
+
+' B_Troll_B_5pGB1
+b -Tn B_Troll_B_5pGB1_S1_0 Troll_B_5pGB1_A2_S1.hkx 
+b -Tn B_Troll_B_5pGB1_S2_0 Troll_B_5pGB1_A2_S2.hkx 
+b -Tn B_Troll_B_5pGB1_S3_0 Troll_B_5pGB1_A2_S3.hkx 
+b -Tn B_Troll_B_5pGB1_S4_0 Troll_B_5pGB1_A2_S4.hkx 
+b -Tn B_Troll_B_5pGB1_S5_0 Troll_B_5pGB1_A2_S5.hkx 
+b -Tn B_Troll_B_5pGB1_S6_0 Troll_B_5pGB1_A2_S6.hkx 
+b -Tn B_Troll_B_5pGB1_S7_0 Troll_B_5pGB1_A2_S7.hkx 
+b -Tn B_Troll_B_5pGB1_S1_2 Troll_B_5pGB1_A3_S1.hkx 
+b -Tn B_Troll_B_5pGB1_S2_2 Troll_B_5pGB1_A3_S2.hkx 
+b -Tn B_Troll_B_5pGB1_S3_2 Troll_B_5pGB1_A3_S3.hkx 
+b -Tn B_Troll_B_5pGB1_S4_2 Troll_B_5pGB1_A3_S4.hkx 
+b -Tn B_Troll_B_5pGB1_S5_2 Troll_B_5pGB1_A3_S5.hkx 
+b -Tn B_Troll_B_5pGB1_S6_2 Troll_B_5pGB1_A3_S6.hkx 
+b -Tn B_Troll_B_5pGB1_S7_2 Troll_B_5pGB1_A3_S7.hkx 
+b -Tn B_Troll_B_5pGB1_S1_3 Troll_B_5pGB1_A4_S1.hkx 
+b -Tn B_Troll_B_5pGB1_S2_3 Troll_B_5pGB1_A4_S2.hkx 
+b -Tn B_Troll_B_5pGB1_S3_3 Troll_B_5pGB1_A4_S3.hkx 
+b -Tn B_Troll_B_5pGB1_S4_3 Troll_B_5pGB1_A4_S4.hkx 
+b -Tn B_Troll_B_5pGB1_S5_3 Troll_B_5pGB1_A4_S5.hkx 
+b -Tn B_Troll_B_5pGB1_S6_3 Troll_B_5pGB1_A4_S6.hkx 
+b -Tn B_Troll_B_5pGB1_S7_3 Troll_B_5pGB1_A4_S7.hkx 
+b -Tn B_Troll_B_5pGB1_S1_4 Troll_B_5pGB1_A5_S1.hkx 
+b -Tn B_Troll_B_5pGB1_S2_4 Troll_B_5pGB1_A5_S2.hkx 
+b -Tn B_Troll_B_5pGB1_S3_4 Troll_B_5pGB1_A5_S3.hkx 
+b -Tn B_Troll_B_5pGB1_S4_4 Troll_B_5pGB1_A5_S4.hkx 
+b -Tn B_Troll_B_5pGB1_S5_4 Troll_B_5pGB1_A5_S5.hkx 
+b -Tn B_Troll_B_5pGB1_S6_4 Troll_B_5pGB1_A5_S6.hkx 
+b -Tn B_Troll_B_5pGB1_S7_4 Troll_B_5pGB1_A5_S7.hkx 

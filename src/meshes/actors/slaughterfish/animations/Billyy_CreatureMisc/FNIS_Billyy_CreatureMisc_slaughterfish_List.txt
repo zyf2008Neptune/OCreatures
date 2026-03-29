@@ -1,0 +1,15 @@
+Version V1.0
+
+' B_SlaughterFish_BillyyDoggy
+b -Tn B_SlaughterFish_BillyyDoggy_S1_0 SlaughterFish_BillyyDoggy_A2_S1.hkx
+b -Tn B_SlaughterFish_BillyyDoggy_S2_0 SlaughterFish_BillyyDoggy_A2_S2.hkx
+b -Tn B_SlaughterFish_BillyyDoggy_S3_0 SlaughterFish_BillyyDoggy_A2_S3.hkx
+b -Tn B_SlaughterFish_BillyyDoggy_S4_0 SlaughterFish_BillyyDoggy_A2_S4.hkx
+b -Tn B_SlaughterFish_BillyyDoggy_S5_0 SlaughterFish_BillyyDoggy_A2_S5.hkx
+
+' B_SlaughterFish_BillyyMissionary
+b -Tn B_SlaughterFish_BillyyMissionary_S1_0 SlaughterFish_BillyyMissionary_A2_S1.hkx
+b -Tn B_SlaughterFish_BillyyMissionary_S2_0 SlaughterFish_BillyyMissionary_A2_S2.hkx
+b -Tn B_SlaughterFish_BillyyMissionary_S3_0 SlaughterFish_BillyyMissionary_A2_S3.hkx
+b -Tn B_SlaughterFish_BillyyMissionary_S4_0 SlaughterFish_BillyyMissionary_A2_S4.hkx
+b -Tn B_SlaughterFish_BillyyMissionary_S5_0 SlaughterFish_BillyyMissionary_A2_S5.hkx

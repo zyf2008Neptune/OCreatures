@@ -1,0 +1,55 @@
+{
+    "name": "Billyy Mammoth Bodyjob 1",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyMammothBodyjob1-4",
+    "speeds": [
+        {
+            "animation": "B_Mammoth_BillyyBodyjob1_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crMammoth",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"bendover"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "facial",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "boobjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "grindingpenis",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Mammoth"
+    ]
+}

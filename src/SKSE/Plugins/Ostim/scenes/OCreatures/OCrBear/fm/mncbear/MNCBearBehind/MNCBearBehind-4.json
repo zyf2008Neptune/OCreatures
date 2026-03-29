@@ -1,0 +1,44 @@
+{
+    "name": "MNCBearBehind",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCBearBehind-3",
+    "speeds": [
+        {
+            "animation": "MNCSmokeyStanding_S4"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crbear",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"bendover",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "bear"
+    ]
+}

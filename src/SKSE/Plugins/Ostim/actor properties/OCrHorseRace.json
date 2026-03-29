@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrHorseRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd63"
+	},
+	"type": "crhorse",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

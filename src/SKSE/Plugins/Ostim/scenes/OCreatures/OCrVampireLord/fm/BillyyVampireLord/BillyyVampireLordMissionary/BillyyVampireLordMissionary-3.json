@@ -1,0 +1,57 @@
+{
+    "name": "Billyy VampireLord Missionary",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyVampireLordMissionary-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyVampireLordMissionary-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyVampireLordHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/VampireLord/VampireLord"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Vamp_B_Miss_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crVampireLord",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"VampireLord"
+    ]
+}

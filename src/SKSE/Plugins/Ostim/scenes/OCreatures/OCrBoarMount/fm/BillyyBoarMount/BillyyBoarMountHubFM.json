@@ -1,0 +1,44 @@
+{
+    "name": "BillyyBoarMountHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrBoarMountIdleFM",
+            "description": "Billyy Boar Mount Hub",
+            "icon": "OCreatures/Boar/BoarMount"
+        },
+		{
+            "destination": "OCrBoarMountIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_Boar_B_69Spit_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crBoarMount",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"BoarMount"
+    ]
+}

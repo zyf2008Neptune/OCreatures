@@ -1,0 +1,53 @@
+{
+    "name": "Billyy Werewolf Spooning",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyWerewolfSpooning-4",
+    "speeds": [
+        {
+            "animation": "B_WW_B_Spoon_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingside",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingside",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Werewolf"
+    ]
+}

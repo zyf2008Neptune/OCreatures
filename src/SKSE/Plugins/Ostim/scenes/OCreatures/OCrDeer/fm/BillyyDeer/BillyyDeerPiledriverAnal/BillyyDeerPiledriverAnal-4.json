@@ -1,0 +1,65 @@
+{
+    "name": "Billyy Deer Piledriver Anal",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDeerPiledriverAnal-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+		{
+            "destination": "BillyyDeerPiledriverAnal-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyDeerHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/Deer/Deer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Deer_B_PileA_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDeer",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyDeerPiledriverAnal-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyDeerPiledriverAnal-5"
+			},
+            "tags": [
+                "lyingback",
+				"spreadlegs",
+				"upsidedown"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Deer"
+    ]
+}

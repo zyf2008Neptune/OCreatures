@@ -1,0 +1,42 @@
+{
+    "name": "MNCCanineLeitoCanineCunni",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCCanineLeitoCanineCunni-4",
+    "speeds": [
+        {
+            "animation": "MNCleitoCaninecunnilingus_S5"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crcanine",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "lickingvagina",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "canine"
+    ]
+}

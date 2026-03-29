@@ -1,0 +1,69 @@
+{
+    "name": "MNCSprigganMissionary",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCSprigganMissionary-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "MNCSprigganMissionary-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCSprigganHubMF",
+            "description": "Return to Hub",
+            "icon": "OCreatures/spriggan/spriggan"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCsprmissionary_S4"
+        }
+    ],
+    "actors": [
+        {
+            "intendedSex": "male",
+			"animationIndex": 1,
+            "requirements": [],
+            "tags": [
+                "kneeling"
+            ],
+            "autoTransitions": {
+                "climax": "MNCSprigganMissionary-5"
+            }
+        },
+        {
+            "type": "crspriggan",
+            "intendedSex": "female",
+			"animationIndex": 0,
+            "requirements": [],
+            "tags": [
+                "lyingback"
+            ],
+            "autoTransitions": {
+                "climax": "MNCSprigganMissionary-5"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "spriggan"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "name": "BillyyHagRavenFlyStanding",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyHagRavenFlyStanding-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyHagRavenFlyStanding-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyHagravenHubFF",
+            "description": "Return to Hub",
+            "icon": "OCreatures/hagraven/hagraven"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Hag_B_Fly1_S2"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crhagraven",
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "kissing",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingneck",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "hagraven"
+    ]
+}

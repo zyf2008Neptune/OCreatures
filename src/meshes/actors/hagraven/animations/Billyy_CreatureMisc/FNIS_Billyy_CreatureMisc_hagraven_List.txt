@@ -1,0 +1,8 @@
+Version V1.0
+
+' B_Hag_B_Fly1
+b -Tn B_Hag_B_Fly1_S1_0 Hag_B_Fly1_A2_S1.hkx 
+b -Tn B_Hag_B_Fly1_S2_0 Hag_B_Fly1_A2_S2.hkx 
+b -Tn B_Hag_B_Fly1_S3_0 Hag_B_Fly1_A2_S3.hkx 
+b -Tn B_Hag_B_Fly1_S4_0 Hag_B_Fly1_A2_S4.hkx 
+b -Tn B_Hag_B_Fly1_S5_0 Hag_B_Fly1_A2_S5.hkx 

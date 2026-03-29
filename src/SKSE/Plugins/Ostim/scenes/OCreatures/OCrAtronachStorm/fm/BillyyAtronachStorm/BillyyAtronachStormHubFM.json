@@ -1,0 +1,44 @@
+{
+    "name": "BillyyAtronachStormHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrAtronachStormIdleFM",
+            "description": "Billyy Atronach Storm Hub",
+            "icon": "OCreatures/Atronach/AtronachStorm"
+        },
+		{
+            "destination": "OCrAtronachStormIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_StormA_B_Hold_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crAtronachStorm",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"AtronachStorm"
+    ]
+}

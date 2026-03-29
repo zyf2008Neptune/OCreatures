@@ -1,0 +1,14 @@
+{
+	"condition":{
+		"info": "OCrSeekerRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd6D"
+	},
+	"type": "crseeker",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"mouth": true,
+		"hand": true
+	}
+}

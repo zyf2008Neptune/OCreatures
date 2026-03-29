@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Chaurus Flyer Behind",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusFlyerBehind-4",
+    "speeds": [
+        {
+            "animation": "B_ChauH_B_Behind_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurusFlyer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "kissing",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analtoying",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

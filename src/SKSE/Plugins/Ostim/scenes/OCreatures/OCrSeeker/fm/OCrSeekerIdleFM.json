@@ -1,0 +1,35 @@
+{
+    "name": "OCrSeekerIdleFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [],
+    "speeds": [
+        {
+            "animation": "B_Seek_B_TLov3_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSeeker",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"Seeker"
+    ]
+}

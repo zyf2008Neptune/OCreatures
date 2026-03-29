@@ -1,0 +1,44 @@
+{
+    "name": "Billyy Horker Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyHorkerCowgirl-4",
+    "speeds": [
+        {
+            "animation": "B_Horker_BillyyCowgirl_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crHorker",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Horker"
+    ]
+}

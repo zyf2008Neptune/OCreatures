@@ -1,0 +1,62 @@
+{
+    "name": "Billyy Chaurus Flyer Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyChaurusFlyerHubFM",
+            "description": "Billyy Chaurus Flyer Doggy",
+            "icon": "OCreatures/Chaurus/Chaurusvag"
+        },
+        {
+            "destination": "BillyyChaurusFlyerDoggy-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyChaurusFlyerHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Chaurus/Chaurusflyer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_ChauH_B_Dog_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurusFlyer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analtoying",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "anilingus",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

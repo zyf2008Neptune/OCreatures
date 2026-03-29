@@ -1,0 +1,78 @@
+{
+    "name": "Billyy Dwarven Centurion Claw Holding 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDwarvenCenturionClawHolding2-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyDwarvenCenturionClawHolding2-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyDwarvenCenturionHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Dwarven/DwarvenCenturion"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_DCent_B_ClawHold2_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenCenturion",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyDwarvenCenturionClawHolding2-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyDwarvenCenturionClawHolding2-5"
+			},
+            "tags": [
+                "supsended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginaltoying",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analtoying",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenCenturion"
+    ]
+}

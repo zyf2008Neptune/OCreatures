@@ -1,0 +1,58 @@
+{
+    "name": "Billyy Spider Large FaceFuck",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyySpiderLargeFaceFuck-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyySpiderLargeFaceFuck-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyySpiderLargeHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Spider/Spider"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_LSpid_B_FaceF_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpiderLarge",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spider"
+    ]
+}

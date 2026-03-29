@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Werewolf Missionary Hanging 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyWerewolfHubFM",
+            "description": "Billyy Werewolf Missionary Hanging 2",
+            "icon": "OCreatures/Werewolf/Werewolfvag"
+        },
+        {
+            "destination": "BillyyWerewolfMissionaryHanging2-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyWerewolfHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Werewolf/Werewolf"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_WW_B_MissHang2_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "allfours"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"spreadlegs"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "kissing",
+			"actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Werewolf"
+    ]
+}

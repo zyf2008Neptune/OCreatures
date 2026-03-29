@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Horse Doggy Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyHorseDoggyAnal-4",
+    "speeds": [
+        {
+            "animation": "B_Horse_B_DogA2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crhorse",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"horse"
+    ]
+}

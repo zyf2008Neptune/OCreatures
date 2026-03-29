@@ -1,0 +1,55 @@
+{
+    "name": "Billyy Atronach Storm Floating Rock Dildos 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyAtronachStormFloatingRockDildos2-4",
+    "speeds": [
+        {
+            "animation": "B_StormA_B_FRDil2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crAtronachStorm",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"climaxing",
+				"spreadlegs"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"AtronachStorm"
+    ]
+}

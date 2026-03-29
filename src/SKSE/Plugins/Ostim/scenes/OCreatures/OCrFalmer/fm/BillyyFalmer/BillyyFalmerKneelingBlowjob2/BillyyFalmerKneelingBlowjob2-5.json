@@ -1,0 +1,42 @@
+{
+    "name": "Billyy Falmer Kneeling Blowjob 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyFalmerKneelingBlowjob2-4",
+    "speeds": [
+        {
+            "animation": "B_Falm_B_KneelBJ2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "Kneeling",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "Kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Falmer"
+    ]
+}

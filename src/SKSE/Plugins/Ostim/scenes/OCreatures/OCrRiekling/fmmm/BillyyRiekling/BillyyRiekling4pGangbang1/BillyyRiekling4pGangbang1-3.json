@@ -1,0 +1,107 @@
+{
+    "name": "BillyyRiekling4pGangbang1",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyRiekling4pGangbang1-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyRiekling4pGangbang1-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyRieklingHubFMMM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/riekling/riekling"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Riek_B_4pGB1_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "allfours"
+            ]
+        },
+		{
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "kneeling"
+            ]
+        },
+		{
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 3,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "kneeling"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 3
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 3
+        },
+		{
+            "type": "holdingarm",
+            "actor": 1,
+            "target": 3
+        },
+		{
+            "type": "holdingarm",
+            "actor": 2,
+            "target": 3
+        },
+		{
+            "type": "blowjob",
+            "actor": 3,
+            "target": 2,
+			"performer": 2
+        },
+		{
+            "type": "holdinghead",
+            "actor": 2,
+            "target": 3
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "riekling"
+    ]
+}

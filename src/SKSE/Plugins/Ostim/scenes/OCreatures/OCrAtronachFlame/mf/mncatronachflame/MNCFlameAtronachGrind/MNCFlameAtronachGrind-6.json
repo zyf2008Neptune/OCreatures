@@ -1,0 +1,69 @@
+{
+    "name": "MNCFlameAtronachGrind",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCFlameAtronachGrind-7",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "MNCFlameAtronachGrind-5",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCAtronachFlameHubMF",
+            "description": "Return to Hub",
+            "icon": "OCreatures/atronach/atronachflame"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCAtronachgrind_S6"
+        }
+    ],
+    "actors": [
+        {
+            "intendedSex": "male",
+			"animationIndex": 1,
+            "requirements": [],
+            "tags": [
+                "kneeling"
+            ],
+            "autoTransitions": {
+                "climax": "MNCFlameAtronachGrind-7"
+            }
+        },
+        {
+            "type": "cratronachflame",
+            "intendedSex": "female",
+			"animationIndex": 0,
+            "requirements": [],
+            "tags": [
+                "allfours"
+            ],
+            "autoTransitions": {
+                "climax": "MNCFlameAtronachGrind-7"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "atronachflame"
+    ]
+}

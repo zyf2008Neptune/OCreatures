@@ -1,0 +1,41 @@
+{
+    "name": "MNCWerewolfGetsBlowJob",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCWerewolfGetsBlowJob-3",
+    "speeds": [
+        {
+            "animation": "MNCWerewolfR2_S4"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crwerewolf",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "werewolf"
+    ]
+}

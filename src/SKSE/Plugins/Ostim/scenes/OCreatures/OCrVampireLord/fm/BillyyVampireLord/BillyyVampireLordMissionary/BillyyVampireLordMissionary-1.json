@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Vampire Lord Missionary",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyVampireLordHubFM",
+            "description": "Billyy Vampire Lord Missionary",
+            "icon": "OCreatures/VampireLord/VampireLordvag"
+        },
+        {
+            "destination": "BillyyVampireLordMissionary-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyVampireLordHubFM",
+            "description": "Return",
+            "icon": "OCreatures/VampireLord/VampireLord"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Vamp_B_Miss_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crVampireLord",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "pullinghair",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"VampireLord"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Horse Standing 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyHorseStanding2-4",
+    "speeds": [
+        {
+            "animation": "B_Horse_B_Stand2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crhorse",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"horse"
+    ]
+}

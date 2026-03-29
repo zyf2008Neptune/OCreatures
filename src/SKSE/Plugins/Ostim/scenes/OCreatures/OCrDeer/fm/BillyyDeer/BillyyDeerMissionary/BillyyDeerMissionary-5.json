@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Deer Missionary",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDeerMissionary-4",
+    "speeds": [
+        {
+            "animation": "B_Deer_B_Miss_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDeer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Deer"
+    ]
+}

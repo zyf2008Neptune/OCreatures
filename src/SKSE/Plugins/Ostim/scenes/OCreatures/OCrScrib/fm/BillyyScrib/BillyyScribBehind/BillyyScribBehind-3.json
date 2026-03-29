@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Scrib Behind",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyScribBehind-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyScribBehind-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyScribHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Scrib/Scrib"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_AHop_B_Behind_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crScrib",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Scrib"
+    ]
+}

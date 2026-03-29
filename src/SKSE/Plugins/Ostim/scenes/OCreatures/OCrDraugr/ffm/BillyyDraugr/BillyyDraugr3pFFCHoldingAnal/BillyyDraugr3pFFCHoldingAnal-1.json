@@ -1,0 +1,76 @@
+{
+    "name": "BillyyDraugr3pFFCHoldingAnal",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "BillyyDraugrHubFFM",
+            "description": "BillyyDraugr3pFFCHoldingAnal",
+            "icon": "OCreatures/draugr/draugranaloral"
+        },
+        {
+            "destination": "BillyyDraugr3pFFCHoldingAnal-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyDraugrHubFFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/draugr/draugr"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Drau_B_FFCHoldA_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 2,
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "rubbingclitoris",
+            "actor": 2,
+            "target": 1
+        },
+		{
+            "type": "kissing",
+            "actor": 2,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "draugr"
+    ]
+}

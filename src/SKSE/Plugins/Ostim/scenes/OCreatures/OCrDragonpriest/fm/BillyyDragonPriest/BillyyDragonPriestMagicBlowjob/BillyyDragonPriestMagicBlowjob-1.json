@@ -1,0 +1,58 @@
+{
+    "name": "Billyy Dragon Priest Magic Blowjob",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyDragonPriestHubFM",
+            "description": "Billyy Dragon Priest Magic Blowjob",
+            "icon": "OCreatures/Draugr/Draugroral"
+        },
+        {
+            "destination": "BillyyDragonPriestMagicBlowjob-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyDragonPriestHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Draugr/DragonPriest"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_DPriest_B_MBJ_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDragonPriest",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DragonPriest"
+    ]
+}

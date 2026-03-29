@@ -1,0 +1,64 @@
+{
+    "name": "Billyy Horker Sideways",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyHorkerSideways-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+		{
+            "destination": "BillyyHorkerSideways-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyHorkerHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/Horker/Horker"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Hork_B_Side_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crHorker",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyHorkerSideways-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingside"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyHorkerSideways-5"
+			},
+            "tags": [
+                "lyingside",
+				"spreadlegs"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Horker"
+    ]
+}

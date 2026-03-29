@@ -1,0 +1,15 @@
+{
+	"condition":{
+		"info": "OCrDwarvenSpiderRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd80"
+	},
+	"type": "crdwarvenspider",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

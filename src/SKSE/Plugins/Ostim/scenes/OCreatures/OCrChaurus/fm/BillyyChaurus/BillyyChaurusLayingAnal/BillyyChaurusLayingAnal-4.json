@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Chaurus Laying Anal",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyChaurusLayingAnal-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyChaurusLayingAnal-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyChaurusHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Chaurus/Chaurus"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Chaur_B_LayA_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurus",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyChaurusLayingAnal-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyChaurusLayingAnal-5"
+			},
+            "tags": [
+                "lyingfront"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

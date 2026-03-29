@@ -1,0 +1,75 @@
+{
+    "name": "BillyyDraugr3pGangbang1Hanging",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDraugr3pGangbang1Hanging-4",
+    "speeds": [
+        {
+            "animation": "B_Drau_B_3pGangHang_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "feetOnGround": false,
+            "tags": [
+                "suspended",
+				"climaxing",
+				"spreadlegs"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 2
+        },
+        {
+            "type": "deepthroat",
+            "actor": 0,
+            "target": 2,
+            "performer": 0
+        },
+        {
+            "type": "holdingthigh",
+            "actor": 1,
+            "target": 2
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "draugr"
+    ]
+}

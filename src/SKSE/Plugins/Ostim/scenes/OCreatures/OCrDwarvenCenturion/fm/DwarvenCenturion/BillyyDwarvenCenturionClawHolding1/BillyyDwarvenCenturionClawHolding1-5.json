@@ -1,0 +1,52 @@
+{
+    "name": "Billyy Dwarven Centurion Claw Holding 1",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDwarvenCenturionClawHolding1-4",
+    "speeds": [
+        {
+            "animation": "B_DCent_B_ClawHold1_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenCenturion",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginaltoying",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analtoying",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenCenturion"
+    ]
+}

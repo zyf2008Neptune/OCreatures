@@ -1,0 +1,43 @@
+{
+    "name": "MNCCanineLeitoCanineMission",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCCanineLeitoCanineMission-4",
+    "speeds": [
+        {
+            "animation": "MNCleitoCaninemissionary_S5"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crcanine",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "canine"
+    ]
+}

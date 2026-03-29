@@ -1,0 +1,67 @@
+{
+    "name": "Billyy Horker Sideways",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyHorkerHubFM",
+            "description": "Billyy Horker Sideways",
+            "icon": "OCreatures/Horker/Horkervag"
+        },
+        {
+            "destination": "BillyyHorkerSideways-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyHorkerHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Horker/Horker"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Hork_B_Side_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crHorker",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingside"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "femalemasturbation",
+            "actor": 1,
+            "target": 1
+        },
+		{
+            "type": "handjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "lickingpenis",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Horker"
+    ]
+}

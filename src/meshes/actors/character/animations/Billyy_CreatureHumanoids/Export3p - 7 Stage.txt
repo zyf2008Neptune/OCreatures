@@ -1,0 +1,23 @@
+hktcnv.exe A1S1.xml Riek_B_FFCCow_A1_S1.hkx
+hktcnv.exe A1S2.xml Riek_B_FFCCow_A1_S2.hkx
+hktcnv.exe A1S3.xml Riek_B_FFCCow_A1_S3.hkx
+hktcnv.exe A1S4.xml Riek_B_FFCCow_A1_S4.hkx
+hktcnv.exe A1S5.xml Riek_B_FFCCow_A1_S5.hkx
+hktcnv.exe A1S6.xml Riek_B_FFCCow_A1_S6.hkx
+hktcnv.exe A1S7.xml Riek_B_FFCCow_A1_S7.hkx
+
+hktcnv.exe A2S1.xml Riek_B_FFCCow_A2_S1.hkx
+hktcnv.exe A2S2.xml Riek_B_FFCCow_A2_S2.hkx
+hktcnv.exe A2S3.xml Riek_B_FFCCow_A2_S3.hkx
+hktcnv.exe A2S4.xml Riek_B_FFCCow_A2_S4.hkx
+hktcnv.exe A2S5.xml Riek_B_FFCCow_A2_S5.hkx
+hktcnv.exe A2S6.xml Riek_B_FFCCow_A2_S6.hkx
+hktcnv.exe A2S7.xml Riek_B_FFCCow_A2_S7.hkx
+
+hktcnv.exe A3S1.xml Riek_B_FFCCow_A3_S1.hkx
+hktcnv.exe A3S2.xml Riek_B_FFCCow_A3_S2.hkx
+hktcnv.exe A3S3.xml Riek_B_FFCCow_A3_S3.hkx
+hktcnv.exe A3S4.xml Riek_B_FFCCow_A3_S4.hkx
+hktcnv.exe A3S5.xml Riek_B_FFCCow_A3_S5.hkx
+hktcnv.exe A3S6.xml Riek_B_FFCCow_A3_S6.hkx
+hktcnv.exe A3S7.xml Riek_B_FFCCow_A3_S7.hkx

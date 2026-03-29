@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Spider Web Hanging",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyySpiderWebHanging-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyySpiderWebHanging-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyySpiderHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Spider/Spider"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Spider_B_WebHang_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpider",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"spreadlegs"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "cunnilingus",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spider"
+    ]
+}

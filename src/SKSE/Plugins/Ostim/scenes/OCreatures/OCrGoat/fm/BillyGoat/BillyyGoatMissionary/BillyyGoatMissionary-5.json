@@ -1,0 +1,49 @@
+{
+    "name": "Billyy Goat Missionary",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyGoatMissionary-4",
+    "speeds": [
+        {
+            "animation": "B_Goat_BillyyMissionary_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGoat",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingfront",
+				"ontop",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "leglocking",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Goat"
+    ]
+}

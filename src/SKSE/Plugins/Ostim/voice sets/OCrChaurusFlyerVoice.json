@@ -1,0 +1,14 @@
+{
+	"target":{
+		"mod":"Dawnguard.esm",
+		"formid":"02009400"
+	},
+	"moan":{
+		"mod":"MoreNastyCritters.esp",
+		"formid":"0xAb86"
+	},
+	"climax":{
+		"mod":"MoreNastyCritters.esp",
+		"formid":"0xAb85"
+	}
+}

@@ -1,0 +1,22 @@
+Version V1.0
+
+' B_DPriest_B_MMiss
+b -Tn B_DPriest_B_MMiss_S1_0 DPriest_B_MMiss_A2_S1.hkx 
+b -Tn B_DPriest_B_MMiss_S2_0 DPriest_B_MMiss_A2_S2.hkx 
+b -Tn B_DPriest_B_MMiss_S3_0 DPriest_B_MMiss_A2_S3.hkx 
+b -Tn B_DPriest_B_MMiss_S4_0 DPriest_B_MMiss_A2_S4.hkx 
+b -Tn B_DPriest_B_MMiss_S5_0 DPriest_B_MMiss_A2_S5.hkx 
+
+' B_DPriest_B_MBJ
+b -Tn B_DPriest_B_MBJ_S1_0 DPriest_B_MBJ_A2_S1.hkx 
+b -Tn B_DPriest_B_MBJ_S2_0 DPriest_B_MBJ_A2_S2.hkx 
+b -Tn B_DPriest_B_MBJ_S3_0 DPriest_B_MBJ_A2_S3.hkx 
+b -Tn B_DPriest_B_MBJ_S4_0 DPriest_B_MBJ_A2_S4.hkx 
+b -Tn B_DPriest_B_MBJ_S5_0 DPriest_B_MBJ_A2_S5.hkx 
+
+' B_DPriest_B_MBehindA
+b -Tn B_DPriest_B_MBehindA_S1_0 DPriest_B_MBehindA_A2_S1.hkx 
+b -Tn B_DPriest_B_MBehindA_S2_0 DPriest_B_MBehindA_A2_S2.hkx 
+b -Tn B_DPriest_B_MBehindA_S3_0 DPriest_B_MBehindA_A2_S3.hkx 
+b -Tn B_DPriest_B_MBehindA_S4_0 DPriest_B_MBehindA_A2_S4.hkx 
+b -Tn B_DPriest_B_MBehindA_S5_0 DPriest_B_MBehindA_A2_S5.hkx 

@@ -1,0 +1,64 @@
+{
+    "name": "Billyy Dwarven Sphere Piledriver Piston",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDwarvenSpherePiledriverPiston-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyDwarvenSpherePiledriverPiston-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyDwarvenSphereHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Dwarven/DwarvenSphere"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_DSphere_B_PileD_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenSphere",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyDwarvenSpherePiledriverPiston-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyDwarvenSpherePiledriverPiston-5"
+			},
+            "tags": [
+                "lyingback",
+				"upsidedown"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenSphere"
+    ]
+}

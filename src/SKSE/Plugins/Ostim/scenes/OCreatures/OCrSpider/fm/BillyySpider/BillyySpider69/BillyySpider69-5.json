@@ -1,0 +1,65 @@
+{
+    "name": "Billyy Spider 69",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySpider69-4",
+    "speeds": [
+        {
+            "animation": "B_Spid_B_69_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpider",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"upsidedown",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "cunnilingus",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spider"
+    ]
+}

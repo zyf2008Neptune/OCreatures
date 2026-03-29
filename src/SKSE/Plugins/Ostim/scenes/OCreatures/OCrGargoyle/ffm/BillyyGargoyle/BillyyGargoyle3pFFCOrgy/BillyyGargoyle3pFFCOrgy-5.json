@@ -1,0 +1,70 @@
+{
+    "name": "BillyyGargoyle3pFFCOrgy",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyGargoyle3pFFCOrgy-4",
+    "speeds": [
+        {
+            "animation": "B_Garg_B_3pFFC_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGargoyle",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingback",
+				"spreadlegs",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 2,
+            "tags": [
+                "allfours",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "kissing",
+            "actor": 2,
+            "target": 1
+        },
+		{
+            "type": "holdinghand",
+            "actor": 2,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "gargoyle"
+    ]
+}

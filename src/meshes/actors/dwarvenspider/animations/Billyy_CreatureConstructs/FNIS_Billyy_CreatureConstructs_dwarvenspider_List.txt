@@ -1,0 +1,29 @@
+Version V1.0
+
+' B_DSpider_B_Doggy
+b -Tn B_DSpider_B_Doggy_S1_0 DSpider_B_Doggy_A2_S1.hkx 
+b -Tn B_DSpider_B_Doggy_S2_0 DSpider_B_Doggy_A2_S2.hkx 
+b -Tn B_DSpider_B_Doggy_S3_0 DSpider_B_Doggy_A2_S3.hkx 
+b -Tn B_DSpider_B_Doggy_S4_0 DSpider_B_Doggy_A2_S4.hkx 
+b -Tn B_DSpider_B_Doggy_S5_0 DSpider_B_Doggy_A2_S5.hkx 
+
+' B_DSpider_B_Side
+b -Tn B_DSpider_B_Side_S1_0 DSpider_B_Side_A2_S1.hkx 
+b -Tn B_DSpider_B_Side_S2_0 DSpider_B_Side_A2_S2.hkx 
+b -Tn B_DSpider_B_Side_S3_0 DSpider_B_Side_A2_S3.hkx 
+b -Tn B_DSpider_B_Side_S4_0 DSpider_B_Side_A2_S4.hkx 
+b -Tn B_DSpider_B_Side_S5_0 DSpider_B_Side_A2_S5.hkx 
+
+' B_DSpider_B_MissPist
+b -Tn B_DSpider_B_MissPist_S1_0 DSpider_B_MissPist_A2_S1.hkx 
+b -Tn B_DSpider_B_MissPist_S2_0 DSpider_B_MissPist_A2_S2.hkx 
+b -Tn B_DSpider_B_MissPist_S3_0 DSpider_B_MissPist_A2_S3.hkx 
+b -Tn B_DSpider_B_MissPist_S4_0 DSpider_B_MissPist_A2_S4.hkx 
+b -Tn B_DSpider_B_MissPist_S5_0 DSpider_B_MissPist_A2_S5.hkx 
+
+' B_DSpider_B_MissA
+b -Tn B_DSpider_B_MissA_S1_0 DSpider_B_MissA_A2_S1.hkx 
+b -Tn B_DSpider_B_MissA_S2_0 DSpider_B_MissA_A2_S2.hkx 
+b -Tn B_DSpider_B_MissA_S3_0 DSpider_B_MissA_A2_S3.hkx 
+b -Tn B_DSpider_B_MissA_S4_0 DSpider_B_MissA_A2_S4.hkx 
+b -Tn B_DSpider_B_MissA_S5_0 DSpider_B_MissA_A2_S5.hkx 

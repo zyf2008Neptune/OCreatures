@@ -1,0 +1,65 @@
+{
+    "name": "Billyy Werewolf Laying Service",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyWerewolfLayingService-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyWerewolfLayingService-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyWerewolfHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Werewolf/Werewolf"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_WW_B_LaySrv_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyWerewolfLayingService-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "handjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Werewolf"
+    ]
+}

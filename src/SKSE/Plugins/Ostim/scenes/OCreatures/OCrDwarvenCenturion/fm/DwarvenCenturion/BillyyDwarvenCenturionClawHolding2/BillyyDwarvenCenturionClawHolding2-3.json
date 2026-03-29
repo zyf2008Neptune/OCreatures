@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Dwarven Centurion Claw Holding 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDwarvenCenturionClawHolding2-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyDwarvenCenturionClawHolding2-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyDwarvenCenturionHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Dwarven/DwarvenCenturion"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_DCent_B_ClawHold2_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenCenturion",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"bendover"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenCenturion"
+    ]
+}

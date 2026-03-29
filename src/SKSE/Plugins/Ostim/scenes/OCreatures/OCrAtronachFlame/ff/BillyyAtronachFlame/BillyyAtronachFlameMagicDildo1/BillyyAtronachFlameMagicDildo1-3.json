@@ -1,0 +1,60 @@
+{
+    "name": "Billyy AtronachFlame Magic Dildo 1",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyAtronachFlameMagicDildo1-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+		{
+            "destination": "BillyyAtronachFlameMagicDildo1-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyAtronachFlameHubFF",
+            "description": "Return To Hub",
+            "icon": "OCreatures/Atronach/AtronachFlame"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_FlameA_B_MDil1_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crAtronachFlame",
+            "tags": [
+                "sitting",
+				"ontop"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"bendover"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"AtronachFlame"
+    ]
+}

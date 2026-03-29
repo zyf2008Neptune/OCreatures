@@ -1,0 +1,59 @@
+{
+    "name": "BillyyIceWraithIceDildo2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyIceWraithIceDildo2-4",
+    "speeds": [
+        {
+            "animation": "B_IceWraith_BillyyIceDildo2_S5"
+        }
+    ],
+    "actors": [
+        {
+            "type": "cricewraith",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"upsidedown",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "icewraith"
+    ]
+}

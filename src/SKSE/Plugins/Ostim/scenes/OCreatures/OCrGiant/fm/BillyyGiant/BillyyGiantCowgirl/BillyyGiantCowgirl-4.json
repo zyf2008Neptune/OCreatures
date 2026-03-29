@@ -1,0 +1,70 @@
+{
+    "name": "Billyy Giant Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyGiantCowgirl-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyGiantCowgirl-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyGiantHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Giant/Giant"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Giant_B_CG_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGiant",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyGiantCowgirl-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyGiantCowgirl-5"
+			},
+            "tags": [
+                "sitting",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1,
+			"performer": 1
+        },
+		{
+			"type": "holdinghand",
+			"actor": 1,
+			"target": 0
+		}
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Giant"
+    ]
+}

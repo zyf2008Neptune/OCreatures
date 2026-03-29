@@ -1,0 +1,44 @@
+{
+    "name": "Billyy Werewolf Piledriver",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyWerewolfPiledriver-4",
+    "speeds": [
+        {
+            "animation": "B_WW_B_PilD_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"upsidedown",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Werewolf"
+    ]
+}

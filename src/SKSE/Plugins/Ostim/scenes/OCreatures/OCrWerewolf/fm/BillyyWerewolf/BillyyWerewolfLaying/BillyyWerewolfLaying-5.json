@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Werewolf Laying",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyWerewolfLaying-4",
+    "speeds": [
+        {
+            "animation": "B_WW_B_Lay_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Werewolf"
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "name": "Billyy Bear Face Fuck",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyBearFaceFuck-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+             "destination": "BillyyBearFaceFuck-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyBearHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/bear/bear"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Bear_B_FaceF_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crbear",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"bear"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Billyy Dragon Priest Magic Blowjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDragonPriestMagicBlowjob-4",
+    "speeds": [
+        {
+            "animation": "B_DPriest_B_MBJ_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDragonPriest",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginaltoying",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performmer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DragonPriest"
+    ]
+}

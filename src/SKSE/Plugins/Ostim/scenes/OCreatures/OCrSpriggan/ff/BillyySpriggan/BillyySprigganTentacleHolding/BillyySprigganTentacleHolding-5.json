@@ -1,0 +1,46 @@
+{
+    "name": "Billyy Spriggan Tentacle Holding",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySprigganTentacleHolding-4",
+    "speeds": [
+        {
+            "animation": "B_Sprig_B_THold_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpriggan",
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"spreadlegs",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spriggan"
+    ]
+}

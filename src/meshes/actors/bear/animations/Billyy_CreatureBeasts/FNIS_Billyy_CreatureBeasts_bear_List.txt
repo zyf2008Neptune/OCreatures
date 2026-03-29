@@ -1,0 +1,43 @@
+Version V1.0
+
+' B_Bear_B_Miss
+b -Tn B_Bear_B_Miss_S1_0 Bear_B_Miss_A2_S1.hkx 
+b -Tn B_Bear_B_Miss_S2_0 Bear_B_Miss_A2_S2.hkx 
+b -Tn B_Bear_B_Miss_S3_0 Bear_B_Miss_A2_S3.hkx 
+b -Tn B_Bear_B_Miss_S4_0 Bear_B_Miss_A2_S4.hkx 
+b -Tn B_Bear_B_Miss_S5_0 Bear_B_Miss_A2_S5.hkx 
+
+' B_Bear_B_Dog2
+b -Tn B_Bear_B_Dog2_S1_0 Bear_B_Dog2_A2_S1.hkx 
+b -Tn B_Bear_B_Dog2_S2_0 Bear_B_Dog2_A2_S2.hkx 
+b -Tn B_Bear_B_Dog2_S3_0 Bear_B_Dog2_A2_S3.hkx 
+b -Tn B_Bear_B_Dog2_S4_0 Bear_B_Dog2_A2_S4.hkx 
+b -Tn B_Bear_B_Dog2_S5_0 Bear_B_Dog2_A2_S5.hkx 
+
+' B_Bear_B_RCow
+b -Tn B_Bear_B_RCow_S1_0 Bear_B_RCow_A2_S1.hkx 
+b -Tn B_Bear_B_RCow_S2_0 Bear_B_RCow_A2_S2.hkx 
+b -Tn B_Bear_B_RCow_S3_0 Bear_B_RCow_A2_S3.hkx 
+b -Tn B_Bear_B_RCow_S4_0 Bear_B_RCow_A2_S4.hkx 
+b -Tn B_Bear_B_RCow_S5_0 Bear_B_RCow_A2_S5.hkx 
+
+' B_Bear_B_FaceF
+b -Tn B_Bear_B_FaceF_S1_0 Bear_B_FaceF_A2_S1.hkx 
+b -Tn B_Bear_B_FaceF_S2_0 Bear_B_FaceF_A2_S2.hkx 
+b -Tn B_Bear_B_FaceF_S3_0 Bear_B_FaceF_A2_S3.hkx 
+b -Tn B_Bear_B_FaceF_S4_0 Bear_B_FaceF_A2_S4.hkx 
+b -Tn B_Bear_B_FaceF_S5_0 Bear_B_FaceF_A2_S5.hkx 
+
+' B_Bear_B_SideA
+b -Tn B_Bear_B_SideA_S1_0 Bear_B_SideA_A2_S1.hkx 
+b -Tn B_Bear_B_SideA_S2_0 Bear_B_SideA_A2_S2.hkx 
+b -Tn B_Bear_B_SideA_S3_0 Bear_B_SideA_A2_S3.hkx 
+b -Tn B_Bear_B_SideA_S4_0 Bear_B_SideA_A2_S4.hkx 
+b -Tn B_Bear_B_SideA_S5_0 Bear_B_SideA_A2_S5.hkx 
+
+' B_Bear_B_StandA
+b -Tn B_Bear_B_StandA_S1_0 Bear_B_StandA_A2_S1.hkx 
+b -Tn B_Bear_B_StandA_S2_0 Bear_B_StandA_A2_S2.hkx 
+b -Tn B_Bear_B_StandA_S3_0 Bear_B_StandA_A2_S3.hkx 
+b -Tn B_Bear_B_StandA_S4_0 Bear_B_StandA_A2_S4.hkx 
+b -Tn B_Bear_B_StandA_S5_0 Bear_B_StandA_A2_S5.hkx 

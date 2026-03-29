@@ -1,0 +1,68 @@
+{
+    "name": "BillyyDraugr3pCowgirlDP",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDraugr3pCowgirlDP-4",
+    "speeds": [
+        {
+            "animation": "B_Drau_B_3pCGDP_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "sitting",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "sitting",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "squatting",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 2
+        },
+        {
+            "type": "analsex",
+            "actor": 1,
+            "target": 2
+        },
+        {
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "draugr"
+    ]
+}

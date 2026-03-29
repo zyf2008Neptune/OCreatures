@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Bear Doggy 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyBearDoggy2-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyBearDoggy2-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyBearHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/bear/bear"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Bear_B_Dog2_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crbear",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyBearDoggy2-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyBearDoggy2-5"
+			},
+            "tags": [
+                "lyingfront"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"bear"
+    ]
+}

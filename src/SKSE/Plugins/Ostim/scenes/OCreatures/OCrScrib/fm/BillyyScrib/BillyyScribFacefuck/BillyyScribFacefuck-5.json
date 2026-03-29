@@ -1,0 +1,45 @@
+{
+    "name": "Billyy Scrib Facefuck",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyScribFacefuck-4",
+    "speeds": [
+        {
+            "animation": "B_AHop_B_FF_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crScrib",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"spreadlegs",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Scrib"
+    ]
+}

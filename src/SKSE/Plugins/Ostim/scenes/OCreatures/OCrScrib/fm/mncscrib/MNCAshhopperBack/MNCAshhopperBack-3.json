@@ -1,0 +1,70 @@
+{
+    "name": "MNCAshhopperBack",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCAshhopperBack-4",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "MNCAshhopperBack-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCScribHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/scrib/scrib"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNChopperSLDanal_S3"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crscrib",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"ontop"
+            ],
+            "autoTransitions": {
+                "climax": "MNCAshhopperBack-4"
+            }
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ],
+            "autoTransitions": {
+                "climax": "MNCAshhopperBack-4"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "scrib",
+		"aggressive"
+    ]
+}

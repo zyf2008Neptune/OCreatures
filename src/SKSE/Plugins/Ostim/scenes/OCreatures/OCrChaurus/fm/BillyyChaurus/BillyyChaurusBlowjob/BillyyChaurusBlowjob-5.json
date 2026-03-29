@@ -1,0 +1,52 @@
+{
+    "name": "Billyy Chaurus Blowjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusBlowjob-4",
+    "speeds": [
+        {
+            "animation": "B_Chaur_B_BJ_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurus",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "femalemasturbation",
+            "actor": 1,
+            "target": 1
+        },
+		{
+            "type": "vaginaltoying",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

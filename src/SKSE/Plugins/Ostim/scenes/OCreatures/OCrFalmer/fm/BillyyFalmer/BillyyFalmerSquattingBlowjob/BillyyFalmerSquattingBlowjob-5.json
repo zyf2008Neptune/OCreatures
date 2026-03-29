@@ -1,0 +1,53 @@
+{
+    "name": "Billyy Falmer Squatting Blowjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyFalmerSquattingBlowjob-4",
+    "speeds": [
+        {
+            "animation": "B_Falm_B_SquatBJ_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "Squatting",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "gropingtesticles",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Falmer"
+    ]
+}

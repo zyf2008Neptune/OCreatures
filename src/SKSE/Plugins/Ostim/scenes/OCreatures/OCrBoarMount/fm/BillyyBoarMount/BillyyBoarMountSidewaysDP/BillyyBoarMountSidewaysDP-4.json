@@ -1,0 +1,74 @@
+{
+    "name": "Billyy Boar Mount Sideways DP",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyBoarMountSidewaysDP-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyBoarMountSidewaysDP-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyBoarMountHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/boar/boarMount"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Boar_B_SideDP_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crboarMount",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyBoarMountSidewaysDP-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyBoarMountSidewaysDP-5"
+			},
+            "tags": [
+                "lyingback",
+				"spreadlegs"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"boarMount"
+    ]
+}

@@ -1,0 +1,77 @@
+Version V1.0
+
+' B_Can_B_LPillDog
+b -Tn,o,AVbHumanoidFootIKDisable B_Can_B_LPillDog_S1_1 Can_B_LPillDog_A1_S1.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillDog_S2_1 Can_B_LPillDog_A1_S2.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillDog_S3_1 Can_B_LPillDog_A1_S3.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillDog_S4_1 Can_B_LPillDog_A1_S4.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillDog_S5_1 Can_B_LPillDog_A1_S5.hkx AO_BPilloryLow
+
+' B_Can_B_LPillCunn
+b -Tn,o,AVbHumanoidFootIKDisable B_Can_B_LPillCunn_S1_1 Can_B_LPillCunn_A1_S1.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillCunn_S2_1 Can_B_LPillCunn_A1_S2.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillCunn_S3_1 Can_B_LPillCunn_A1_S3.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillCunn_S4_1 Can_B_LPillCunn_A1_S4.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillCunn_S5_1 Can_B_LPillCunn_A1_S5.hkx AO_BPilloryLow
+
+' B_Can_B_LPillFF
+b -Tn,o,AVbHumanoidFootIKDisable B_Can_B_LPillFF_S1_1 Can_B_LPillFF_A1_S1.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillFF_S2_1 Can_B_LPillFF_A1_S2.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillFF_S3_1 Can_B_LPillFF_A1_S3.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillFF_S4_1 Can_B_LPillFF_A1_S4.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillFF_S5_1 Can_B_LPillFF_A1_S5.hkx AO_BPilloryLow
+
+' B_Can_B_LPillDAnal
+b -Tn,o,AVbHumanoidFootIKDisable B_Can_B_LPillDAnal_S1_1 Can_B_LPillDAnal_A1_S1.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillDAnal_S2_1 Can_B_LPillDAnal_A1_S2.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillDAnal_S3_1 Can_B_LPillDAnal_A1_S3.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillDAnal_S4_1 Can_B_LPillDAnal_A1_S4.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_LPillDAnal_S5_1 Can_B_LPillDAnal_A1_S5.hkx AO_BPilloryLow
+
+' B_Can_B_3pLPillSpit
+b -Tn,o,AVbHumanoidFootIKDisable B_Can_B_3pLPillSpit_S1_1 Can_B_3pLPillSpit_A1_S1.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_3pLPillSpit_S2_1 Can_B_3pLPillSpit_A1_S2.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_3pLPillSpit_S3_1 Can_B_3pLPillSpit_A1_S3.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_3pLPillSpit_S4_1 Can_B_3pLPillSpit_A1_S4.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_3pLPillSpit_S5_1 Can_B_3pLPillSpit_A1_S5.hkx AO_BPilloryLow
+b -Tn,o B_Can_B_3pLPillSpit_S6_1 Can_B_3pLPillSpit_A1_S6.hkx AO_BPilloryLow
+
+' B_Chaur_B_CageD
+b -Tn,o,AVbHumanoidFootIKDisable B_Chaur_B_CageD_S1_1 Chaur_B_CageD_A1_S1.hkx AOCCage
+b -Tn,o B_Chaur_B_CageD_S2_1 Chaur_B_CageD_A1_S2.hkx AOCCage
+b -Tn,o B_Chaur_B_CageD_S3_1 Chaur_B_CageD_A1_S3.hkx AOCCage
+b -Tn,o B_Chaur_B_CageD_S4_1 Chaur_B_CageD_A1_S4.hkx AOCCage
+b -Tn,o B_Chaur_B_CageD_S5_1 Chaur_B_CageD_A1_S5.hkx AOCCage
+
+' B_Garg_B_3pFFC
+b -Tn,o,AVbHumanoidFootIKDisable B_Garg_B_3pFFC_S1_1 Garg_B_3pFFC_A1_S1.hkx AOCoffin
+b -Tn,o B_Garg_B_3pFFC_S2_1 Garg_B_3pFFC_A1_S2.hkx AOCoffin
+b -Tn,o B_Garg_B_3pFFC_S3_1 Garg_B_3pFFC_A1_S3.hkx AOCoffin
+b -Tn,o B_Garg_B_3pFFC_S4_1 Garg_B_3pFFC_A1_S4.hkx AOCoffin
+b -Tn,o B_Garg_B_3pFFC_S5_1 Garg_B_3pFFC_A1_S5.hkx AOCoffin
+b -Tn,AVbHumanoidFootIKDisable B_Garg_B_3pFFC_S1_2 Garg_B_3pFFC_A2_S1.hkx 
+b -Tn B_Garg_B_3pFFC_S2_2 Garg_B_3pFFC_A2_S2.hkx 
+b -Tn B_Garg_B_3pFFC_S3_2 Garg_B_3pFFC_A2_S3.hkx 
+b -Tn B_Garg_B_3pFFC_S4_2 Garg_B_3pFFC_A2_S4.hkx 
+b -Tn B_Garg_B_3pFFC_S5_2 Garg_B_3pFFC_A2_S5.hkx 
+
+' B_Horse_B_HayDog
+b -Tn,o,AVbHumanoidFootIKDisable B_Horse_B_HayDog_S1_1 Horse_B_HayDog_A1_S1.hkx AO_BHaybaleMoved01
+b -Tn,o B_Horse_B_HayDog_S2_1 Horse_B_HayDog_A1_S2.hkx AO_BHaybaleMoved01
+b -Tn,o B_Horse_B_HayDog_S3_1 Horse_B_HayDog_A1_S3.hkx AO_BHaybaleMoved01
+b -Tn,o B_Horse_B_HayDog_S4_1 Horse_B_HayDog_A1_S4.hkx AO_BHaybaleMoved01
+b -Tn,o B_Horse_B_HayDog_S5_1 Horse_B_HayDog_A1_S5.hkx AO_BHaybaleMoved01
+
+' B_Horse_B_HayFF
+b -Tn,o,AVbHumanoidFootIKDisable B_Horse_B_HayFF_S1_1 Horse_B_HayFF_A1_S1.hkx AO_BHaybaleMoved01
+b -Tn,o B_Horse_B_HayFF_S2_1 Horse_B_HayFF_A1_S2.hkx AO_BHaybaleMoved01
+b -Tn,o B_Horse_B_HayFF_S3_1 Horse_B_HayFF_A1_S3.hkx AO_BHaybaleMoved01
+b -Tn,o B_Horse_B_HayFF_S4_1 Horse_B_HayFF_A1_S4.hkx AO_BHaybaleMoved01
+b -Tn,o B_Horse_B_HayFF_S5_1 Horse_B_HayFF_A1_S5.hkx AO_BHaybaleMoved01
+
+' B_Skee_B_WoodPD
+b -Tn,o,AVbHumanoidFootIKDisable B_Skee_B_WoodPD_S1_1 Skee_B_WoodPD_A1_S1.hkx AOSWoodH
+b -Tn,o B_Skee_B_WoodPD_S2_1 Skee_B_WoodPD_A1_S2.hkx AOSWoodH
+b -Tn,o B_Skee_B_WoodPD_S3_1 Skee_B_WoodPD_A1_S3.hkx AOSWoodH
+b -Tn,o B_Skee_B_WoodPD_S4_1 Skee_B_WoodPD_A1_S4.hkx AOSWoodH
+b -Tn,o B_Skee_B_WoodPD_S5_1 Skee_B_WoodPD_A1_S5.hkx AOSWoodH

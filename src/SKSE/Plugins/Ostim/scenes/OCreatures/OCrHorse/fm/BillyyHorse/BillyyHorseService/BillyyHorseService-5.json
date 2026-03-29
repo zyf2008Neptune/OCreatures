@@ -1,0 +1,42 @@
+{
+    "name": "Billyy Horse Service",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyHorseService-4",
+    "speeds": [
+        {
+            "animation": "B_Horse_B_Service_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crhorse",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"horse"
+    ]
+}

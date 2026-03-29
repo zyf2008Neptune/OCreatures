@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Goat Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyGoatDoggy-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+		{
+            "destination": "BillyyGoatDoggy-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyGoatHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/Goat/Goat"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Goat_B_Doggy_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGoat",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Goat"
+    ]
+}

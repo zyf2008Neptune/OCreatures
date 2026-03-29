@@ -1,0 +1,71 @@
+{
+    "name": "Billyy Werewolf Facefuck",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyWerewolfFacefuck-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyWerewolfFacefuck-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyWerewolfHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Werewolf/Werewolf"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_WW_B_FF_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyWerewolfFacefuck-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "pullinghair",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Werewolf"
+    ]
+}

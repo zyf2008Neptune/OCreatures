@@ -1,0 +1,59 @@
+{
+    "name": "Billyy Atronach Frost Frozen Hug",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyAtronachFrostHubFM",
+            "description": "Billyy Atronach Frost Frozen Hug",
+            "icon": "OCreatures/Atronach/Atronachvag"
+        },
+        {
+            "destination": "BillyyAtronachFrostFrozenHug-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyAtronachFrostHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Atronach/AtronachFrost"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_FrostA_B_FrozH_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crAtronachFrost",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1,
+			"performer": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"AtronachFrost"
+    ]
+}

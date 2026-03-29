@@ -1,0 +1,46 @@
+{
+    "name": "OCrCanineIdleFMMmnc",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "speeds": [
+        {
+            "animation": "MNCleitoCaninemfc1_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crcanine",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ],
+            "animationIndex": 0
+        },
+        {
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ],
+            "animationIndex": 1
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ],
+            "animationIndex": 2
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "canine"
+    ]
+}

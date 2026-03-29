@@ -1,0 +1,96 @@
+{
+	"aliases":[
+		"feetj",
+		"feetjob",
+		"fj",
+		"footj"	
+	],
+	"actor":{
+		"info": "the one with the feet",
+		"stimulation":0.1,
+		"maxStimulation":50,
+		"moan": true,
+		"talk":true,
+		"requirements":[
+			"foot"
+		],
+		"strippingSlots":[
+			37
+		],
+		"faction":{
+			"info": "OStimFootjobActorFaction",
+			"mod": "OStim.esp",
+			"formid": "0xE5F"
+		},
+		"stringLists":{
+			"cum":[
+				"feet"
+			]
+		}
+	},
+	"target":{
+		"info": "the one with the penis",
+		"stimulation":0.9,
+		"fullStrip":true,
+		"moan":true,
+		"talk":true,
+		"requirements":[
+			"penis"
+		],
+		"strippingSlots":[
+			32,
+			49,
+			52,
+			53,
+			54
+		],
+		"faction":{
+			"info": "OStimFootjobTargetFaction",
+			"mod": "OStim.esp",
+			"formid": "0xE60"
+		},
+		"toySlot": "genital"
+	},
+	"performer":{
+		"floats":{
+			"stamina":0.75
+		}
+	},
+	"sounds":[
+		{
+			"type":"peak",
+			"sound":{
+				"mod":"OStim.esp",
+				"formid":"0xE14"
+			}
+		}	
+	],
+	"peak":{
+		"type":"bonedistance",
+		"actorBone":[
+			"CME R Toe0 [RToe]",
+			"CME L Toe0 [LToe]"
+		],
+		"targetBone":[
+			"NPC Genitals01 [Gen01]",
+			"BearD 2",
+			"CDPenis 3",
+			"CO 3",
+			"ElkD02",
+			"GD 3",
+			"GS 2",
+			"BoarDick01",
+			"RD 2",
+			"DD 2",
+			"DwarvenSpiderDildo01",
+			"FD 3",
+			"HS 2",
+			"SCD 2",
+			"SkeeverD 02",
+			"TD 2"
+		]
+	},
+	"tags":[
+		"sexual"
+	]
+}

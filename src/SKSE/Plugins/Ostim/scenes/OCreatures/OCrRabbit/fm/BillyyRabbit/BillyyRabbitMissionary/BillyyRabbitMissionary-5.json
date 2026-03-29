@@ -1,0 +1,46 @@
+{
+    "name": "BillyyRabbitMissionary",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyRabbitMissionary-4",
+    "speeds": [
+        {
+            "animation": "B_Rabbit_BillyyMissionary_S5"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crrabbit",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "lickingvagina",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "rabbit"
+    ]
+}

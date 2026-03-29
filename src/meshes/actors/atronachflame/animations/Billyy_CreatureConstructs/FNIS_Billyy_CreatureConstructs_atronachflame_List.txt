@@ -1,0 +1,29 @@
+Version V1.0
+
+' B_FlameA_B_MDil1
+b -Tn B_FlameA_B_MDil1_S1_0 FlameA_B_MDil1_A2_S1.hkx 
+b -Tn B_FlameA_B_MDil1_S2_0 FlameA_B_MDil1_A2_S2.hkx 
+b -Tn B_FlameA_B_MDil1_S3_0 FlameA_B_MDil1_A2_S3.hkx 
+b -Tn B_FlameA_B_MDil1_S4_0 FlameA_B_MDil1_A2_S4.hkx 
+b -Tn B_FlameA_B_MDil1_S5_0 FlameA_B_MDil1_A2_S5.hkx 
+
+' B_FlameA_B_MDil2
+b -Tn B_FlameA_B_MDil2_S1_0 FlameA_B_MDil2_A2_S1.hkx 
+b -Tn B_FlameA_B_MDil2_S2_0 FlameA_B_MDil2_A2_S2.hkx 
+b -Tn B_FlameA_B_MDil2_S3_0 FlameA_B_MDil2_A2_S3.hkx 
+b -Tn B_FlameA_B_MDil2_S4_0 FlameA_B_MDil2_A2_S4.hkx 
+b -Tn B_FlameA_B_MDil2_S5_0 FlameA_B_MDil2_A2_S5.hkx 
+
+' B_FlameA_B_FMDil1
+b -Tn,o B_FlameA_B_FMDil1_S1_0 FlameA_B_FMDil1_A2_S1.hkx AOFlameChanDickPelvis
+b -Tn,o B_FlameA_B_FMDil1_S2_0 FlameA_B_FMDil1_A2_S2.hkx AOFlameChanDickPelvis
+b -Tn,o B_FlameA_B_FMDil1_S3_0 FlameA_B_FMDil1_A2_S3.hkx AOFlameChanDickPelvis
+b -Tn,o B_FlameA_B_FMDil1_S4_0 FlameA_B_FMDil1_A2_S4.hkx AOFlameChanDickPelvis
+b -Tn,o B_FlameA_B_FMDil1_S5_0 FlameA_B_FMDil1_A2_S5.hkx AOFlameChanDickPelvis
+
+' B_FlameA_B_FMDil2
+b -Tn,o B_FlameA_B_FMDil2_S1_0 FlameA_B_FMDil2_A2_S1.hkx AOFlameChanDickPelvis
+b -Tn,o B_FlameA_B_FMDil2_S2_0 FlameA_B_FMDil2_A2_S2.hkx AOFlameChanDickPelvis
+b -Tn,o B_FlameA_B_FMDil2_S3_0 FlameA_B_FMDil2_A2_S3.hkx AOFlameChanDickPelvis
+b -Tn,o B_FlameA_B_FMDil2_S4_0 FlameA_B_FMDil2_A2_S4.hkx AOFlameChanDickPelvis
+b -Tn,o B_FlameA_B_FMDil2_S5_0 FlameA_B_FMDil2_A2_S5.hkx AOFlameChanDickPelvis

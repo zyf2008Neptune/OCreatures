@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Scrib Crab",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyScribCrab-4",
+    "speeds": [
+        {
+            "animation": "B_AHop_B_Crab_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crScrib",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Scrib"
+    ]
+}

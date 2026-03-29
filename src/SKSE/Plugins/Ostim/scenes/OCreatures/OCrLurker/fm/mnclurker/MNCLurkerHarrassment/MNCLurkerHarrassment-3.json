@@ -1,0 +1,47 @@
+{
+    "name": "MNCLurkerHarrassment",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCLurkerHarrassment-2",
+    "speeds": [
+        {
+            "animation": "MNCbenthiclurkerPanicFondleTest_S3"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crlurker",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalfingering",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "lurker"
+    ]
+}

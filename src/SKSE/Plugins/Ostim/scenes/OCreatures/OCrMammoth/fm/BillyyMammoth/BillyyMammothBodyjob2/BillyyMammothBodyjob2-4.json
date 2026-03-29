@@ -1,0 +1,72 @@
+{
+    "name": "Billyy Mammoth Bodyjob 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyMammothBodyjob2-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyMammothBodyjob2-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyMammothHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Mammoth/Mammoth"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Mammoth_BillyyBodyjob2_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crMammoth",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyMammothBodyjob2-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "grindingpenis",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "handjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "rubbingpenisagainstface",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Mammoth"
+    ]
+}

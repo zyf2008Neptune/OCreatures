@@ -1,0 +1,78 @@
+{
+    "name": "BillyyFalmer3pFFCDoggySidebySide",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyFalmer3pFFCDoggySidebySide-5",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyFalmer3pFFCDoggySidebySide-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyFalmerHubFFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/falmer/falmer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Falm_B_FFCDog_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+			"intendedSex": "male",
+			"animationIndex": 0,
+            "tags": [
+                "kneeling"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "allfours"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 2,
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 2
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 2
+        },
+		{
+            "type": "spectating",
+            "actor": 1,
+            "target": 2
+        },
+		{
+            "type": "femalemasturbation",
+            "actor": 1,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "falmer"
+    ]
+}

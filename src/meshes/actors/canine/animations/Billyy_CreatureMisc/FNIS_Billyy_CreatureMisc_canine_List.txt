@@ -1,0 +1,22 @@
+Version V1.0
+
+' B_Fox_B_Doggy
+b -Tn B_Fox_B_Doggy_S1_0 Fox_B_Doggy_A2_S1.hkx 
+b -Tn B_Fox_B_Doggy_S2_0 Fox_B_Doggy_A2_S2.hkx 
+b -Tn B_Fox_B_Doggy_S3_0 Fox_B_Doggy_A2_S3.hkx 
+b -Tn B_Fox_B_Doggy_S4_0 Fox_B_Doggy_A2_S4.hkx 
+b -Tn B_Fox_B_Doggy_S5_0 Fox_B_Doggy_A2_S5.hkx 
+
+' B_Fox_B_Miss
+b -Tn B_Fox_B_Miss_S1_0 Fox_B_Miss_A2_S1.hkx 
+b -Tn B_Fox_B_Miss_S2_0 Fox_B_Miss_A2_S2.hkx 
+b -Tn B_Fox_B_Miss_S3_0 Fox_B_Miss_A2_S3.hkx 
+b -Tn B_Fox_B_Miss_S4_0 Fox_B_Miss_A2_S4.hkx 
+b -Tn B_Fox_B_Miss_S5_0 Fox_B_Miss_A2_S5.hkx 
+
+' B_Fox_B_LayA
+b -Tn B_Fox_B_LayA_S1_0 Fox_B_LayA_A2_S1.hkx 
+b -Tn B_Fox_B_LayA_S2_0 Fox_B_LayA_A2_S2.hkx 
+b -Tn B_Fox_B_LayA_S3_0 Fox_B_LayA_A2_S3.hkx 
+b -Tn B_Fox_B_LayA_S4_0 Fox_B_LayA_A2_S4.hkx 
+b -Tn B_Fox_B_LayA_S5_0 Fox_B_LayA_A2_S5.hkx 

@@ -1,0 +1,53 @@
+{
+    "name": "MNCLurkerHolding",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCLurkerHolding-3",
+    "speeds": [
+        {
+            "animation": "MNCbenthiclurkerPanicPenetrationTest_S4"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crlurker",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "lurker"
+    ]
+}

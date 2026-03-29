@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Atronach Frost Holding Chain",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyAtronachFrostHoldingChain-4",
+    "speeds": [
+        {
+            "animation": "B_FrostA_B_Chain1_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crAtronachFrost",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingneck",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analtoying",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"AtronachFrost"
+    ]
+}

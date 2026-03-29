@@ -1,0 +1,44 @@
+{
+    "name": "BillyyDwarvenCenturionHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrDwarvenCenturionIdleFM",
+            "description": "Billyy Dwarven Centurion Hub",
+            "icon": "OCreatures/Dwarven/DwarvenCenturion"
+        },
+		{
+            "destination": "OCrDwarvenCenturionIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_DCent_B_ClawHold1_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenCenturion",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"DwarvenCenturion"
+    ]
+}

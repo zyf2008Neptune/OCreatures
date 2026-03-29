@@ -1,0 +1,54 @@
+{
+    "name": "Billyy Gargoyle Behind",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyGargoyleBehind-4",
+    "speeds": [
+        {
+            "animation": "B_Garg_B_Behind_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGargoyle",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"bendover",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+			"type": "pullinghair",
+			"actor": 0,
+			"target": 1
+		},
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Gargoyle"
+    ]
+}

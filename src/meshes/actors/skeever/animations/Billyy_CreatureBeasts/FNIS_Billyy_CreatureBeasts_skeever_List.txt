@@ -1,0 +1,174 @@
+Version V1.0
+
+' B_Skee_B_Dog2
+b -Tn B_Skee_B_Dog2_S1_0 Skee_B_Dog2_A2_S1.hkx 
+b -Tn B_Skee_B_Dog2_S2_0 Skee_B_Dog2_A2_S2.hkx 
+b -Tn B_Skee_B_Dog2_S3_0 Skee_B_Dog2_A2_S3.hkx 
+b -Tn B_Skee_B_Dog2_S4_0 Skee_B_Dog2_A2_S4.hkx 
+b -Tn B_Skee_B_Dog2_S5_0 Skee_B_Dog2_A2_S5.hkx 
+
+' B_Skee_B_Dog3
+b -Tn B_Skee_B_Dog3_S1_0 Skee_B_Dog3_A2_S1.hkx 
+b -Tn B_Skee_B_Dog3_S2_0 Skee_B_Dog3_A2_S2.hkx 
+b -Tn B_Skee_B_Dog3_S3_0 Skee_B_Dog3_A2_S3.hkx 
+b -Tn B_Skee_B_Dog3_S4_0 Skee_B_Dog3_A2_S4.hkx 
+b -Tn B_Skee_B_Dog3_S5_0 Skee_B_Dog3_A2_S5.hkx 
+
+' B_Skee_B_Knee
+b -Tn B_Skee_B_Knee_S1_0 Skee_B_Knee_A2_S1.hkx 
+b -Tn B_Skee_B_Knee_S2_0 Skee_B_Knee_A2_S2.hkx 
+b -Tn B_Skee_B_Knee_S3_0 Skee_B_Knee_A2_S3.hkx 
+b -Tn B_Skee_B_Knee_S4_0 Skee_B_Knee_A2_S4.hkx 
+b -Tn B_Skee_B_Knee_S5_0 Skee_B_Knee_A2_S5.hkx 
+
+' B_Skee_B_Miss2
+b -Tn B_Skee_B_Miss2_S1_0 Skee_B_Miss2_A2_S1.hkx 
+b -Tn B_Skee_B_Miss2_S2_0 Skee_B_Miss2_A2_S2.hkx 
+b -Tn B_Skee_B_Miss2_S3_0 Skee_B_Miss2_A2_S3.hkx 
+b -Tn B_Skee_B_Miss2_S4_0 Skee_B_Miss2_A2_S4.hkx 
+b -Tn B_Skee_B_Miss2_S5_0 Skee_B_Miss2_A2_S5.hkx 
+
+' B_Skee_B_Spoon
+b -Tn B_Skee_B_Spoon_S1_0 Skee_B_Spoon_A2_S1.hkx 
+b -Tn B_Skee_B_Spoon_S2_0 Skee_B_Spoon_A2_S2.hkx 
+b -Tn B_Skee_B_Spoon_S3_0 Skee_B_Spoon_A2_S3.hkx 
+b -Tn B_Skee_B_Spoon_S4_0 Skee_B_Spoon_A2_S4.hkx 
+b -Tn B_Skee_B_Spoon_S5_0 Skee_B_Spoon_A2_S5.hkx 
+
+' B_Skee_B_Lay
+b -Tn B_Skee_B_Lay_S1_0 Skee_B_Lay_A2_S1.hkx 
+b -Tn B_Skee_B_Lay_S2_0 Skee_B_Lay_A2_S2.hkx 
+b -Tn B_Skee_B_Lay_S3_0 Skee_B_Lay_A2_S3.hkx 
+b -Tn B_Skee_B_Lay_S4_0 Skee_B_Lay_A2_S4.hkx 
+b -Tn B_Skee_B_Lay_S5_0 Skee_B_Lay_A2_S5.hkx 
+b -Tn B_Skee_B_Lay_S6_0 Skee_B_Lay_A2_S6.hkx 
+b -Tn B_Skee_B_Lay_S7_0 Skee_B_Lay_A2_S7.hkx 
+
+' B_Skee_B_Cow
+b -Tn B_Skee_B_Cow_S1_0 Skee_B_Cow_A2_S1.hkx 
+b -Tn B_Skee_B_Cow_S2_0 Skee_B_Cow_A2_S2.hkx 
+b -Tn B_Skee_B_Cow_S3_0 Skee_B_Cow_A2_S3.hkx 
+b -Tn B_Skee_B_Cow_S4_0 Skee_B_Cow_A2_S4.hkx 
+b -Tn B_Skee_B_Cow_S5_0 Skee_B_Cow_A2_S5.hkx 
+
+' B_Skee_B_RCow
+b -Tn B_Skee_B_RCow_S1_0 Skee_B_RCow_A2_S1.hkx 
+b -Tn B_Skee_B_RCow_S2_0 Skee_B_RCow_A2_S2.hkx 
+b -Tn B_Skee_B_RCow_S3_0 Skee_B_RCow_A2_S3.hkx 
+b -Tn B_Skee_B_RCow_S4_0 Skee_B_RCow_A2_S4.hkx 
+b -Tn B_Skee_B_RCow_S5_0 Skee_B_RCow_A2_S5.hkx 
+
+' B_Skee_B_FaceF2
+b -Tn B_Skee_B_FaceF2_S1_0 Skee_B_FaceF2_A2_S1.hkx 
+b -Tn B_Skee_B_FaceF2_S2_0 Skee_B_FaceF2_A2_S2.hkx 
+b -Tn B_Skee_B_FaceF2_S3_0 Skee_B_FaceF2_A2_S3.hkx 
+b -Tn B_Skee_B_FaceF2_S4_0 Skee_B_FaceF2_A2_S4.hkx 
+b -Tn B_Skee_B_FaceF2_S5_0 Skee_B_FaceF2_A2_S5.hkx 
+
+' B_Skee_B_DogF
+b -Tn B_Skee_B_DogF_S1_0 Skee_B_DogF_A2_S1.hkx 
+b -Tn B_Skee_B_DogF_S2_0 Skee_B_DogF_A2_S2.hkx 
+b -Tn B_Skee_B_DogF_S3_0 Skee_B_DogF_A2_S3.hkx 
+b -Tn B_Skee_B_DogF_S4_0 Skee_B_DogF_A2_S4.hkx 
+b -Tn B_Skee_B_DogF_S5_0 Skee_B_DogF_A2_S5.hkx 
+
+' B_Skee_B_LayBJ
+b -Tn B_Skee_B_LayBJ_S1_0 Skee_B_LayBJ_A2_S1.hkx 
+b -Tn B_Skee_B_LayBJ_S2_0 Skee_B_LayBJ_A2_S2.hkx 
+b -Tn B_Skee_B_LayBJ_S3_0 Skee_B_LayBJ_A2_S3.hkx 
+b -Tn B_Skee_B_LayBJ_S4_0 Skee_B_LayBJ_A2_S4.hkx 
+b -Tn B_Skee_B_LayBJ_S5_0 Skee_B_LayBJ_A2_S5.hkx 
+
+' B_Skee_B_69
+b -Tn B_Skee_B_69_S1_0 Skee_B_69_A2_S1.hkx 
+b -Tn B_Skee_B_69_S2_0 Skee_B_69_A2_S2.hkx 
+b -Tn B_Skee_B_69_S3_0 Skee_B_69_A2_S3.hkx 
+b -Tn B_Skee_B_69_S4_0 Skee_B_69_A2_S4.hkx 
+b -Tn B_Skee_B_69_S5_0 Skee_B_69_A2_S5.hkx 
+
+' B_Skee_B_Cunn
+b -Tn B_Skee_B_Cunn_S1_0 Skee_B_Cunn_A2_S1.hkx 
+b -Tn B_Skee_B_Cunn_S2_0 Skee_B_Cunn_A2_S2.hkx 
+b -Tn B_Skee_B_Cunn_S3_0 Skee_B_Cunn_A2_S3.hkx 
+b -Tn B_Skee_B_Cunn_S4_0 Skee_B_Cunn_A2_S4.hkx 
+b -Tn B_Skee_B_Cunn_S5_0 Skee_B_Cunn_A2_S5.hkx 
+
+' B_Skee_B_HJ
+b -Tn B_Skee_B_HJ_S1_0 Skee_B_HJ_A2_S1.hkx 
+b -Tn B_Skee_B_HJ_S2_0 Skee_B_HJ_A2_S2.hkx 
+b -Tn B_Skee_B_HJ_S3_0 Skee_B_HJ_A2_S3.hkx 
+b -Tn B_Skee_B_HJ_S4_0 Skee_B_HJ_A2_S4.hkx 
+b -Tn,o B_Skee_B_HJ_S5_0 Skee_B_HJ_A2_S5.hkx AOSkeCHJ
+
+' B_Skee_B_LayA
+b -Tn B_Skee_B_LayA_S1_0 Skee_B_LayA_A2_S1.hkx 
+b -Tn B_Skee_B_LayA_S2_0 Skee_B_LayA_A2_S2.hkx 
+b -Tn B_Skee_B_LayA_S3_0 Skee_B_LayA_A2_S3.hkx 
+b -Tn B_Skee_B_LayA_S4_0 Skee_B_LayA_A2_S4.hkx 
+b -Tn B_Skee_B_LayA_S5_0 Skee_B_LayA_A2_S5.hkx 
+
+' B_Skee_B_DogA2
+b -Tn B_Skee_B_DogA2_S1_0 Skee_B_DogA2_A2_S1.hkx 
+b -Tn B_Skee_B_DogA2_S2_0 Skee_B_DogA2_A2_S2.hkx 
+b -Tn B_Skee_B_DogA2_S3_0 Skee_B_DogA2_A2_S3.hkx 
+b -Tn B_Skee_B_DogA2_S4_0 Skee_B_DogA2_A2_S4.hkx 
+b -Tn B_Skee_B_DogA2_S5_0 Skee_B_DogA2_A2_S5.hkx 
+
+' B_Skee_B_3pDogSpit
+b -Tn B_Skee_B_3pDogSpit_S1_0 Skee_B_3pDogSpit_A2_S1.hkx 
+b -Tn B_Skee_B_3pDogSpit_S2_0 Skee_B_3pDogSpit_A2_S2.hkx 
+b -Tn B_Skee_B_3pDogSpit_S3_0 Skee_B_3pDogSpit_A2_S3.hkx 
+b -Tn B_Skee_B_3pDogSpit_S4_0 Skee_B_3pDogSpit_A2_S4.hkx 
+b -Tn B_Skee_B_3pDogSpit_S5_0 Skee_B_3pDogSpit_A2_S5.hkx 
+b -Tn B_Skee_B_3pDogSpit_S1_2 Skee_B_3pDogSpit_A3_S1.hkx 
+b -Tn B_Skee_B_3pDogSpit_S2_2 Skee_B_3pDogSpit_A3_S2.hkx 
+b -Tn B_Skee_B_3pDogSpit_S3_2 Skee_B_3pDogSpit_A3_S3.hkx 
+b -Tn B_Skee_B_3pDogSpit_S4_2 Skee_B_3pDogSpit_A3_S4.hkx 
+b -Tn B_Skee_B_3pDogSpit_S5_2 Skee_B_3pDogSpit_A3_S5.hkx 
+
+' B_Skee_B_3pMissSpit
+b -Tn B_Skee_B_3pMissSpit_S1_0 Skee_B_3pMissSpit_A2_S1.hkx 
+b -Tn B_Skee_B_3pMissSpit_S2_0 Skee_B_3pMissSpit_A2_S2.hkx 
+b -Tn B_Skee_B_3pMissSpit_S3_0 Skee_B_3pMissSpit_A2_S3.hkx 
+b -Tn B_Skee_B_3pMissSpit_S4_0 Skee_B_3pMissSpit_A2_S4.hkx 
+b -Tn B_Skee_B_3pMissSpit_S5_0 Skee_B_3pMissSpit_A2_S5.hkx 
+b -Tn B_Skee_B_3pMissSpit_S1_2 Skee_B_3pMissSpit_A3_S1.hkx 
+b -Tn B_Skee_B_3pMissSpit_S2_2 Skee_B_3pMissSpit_A3_S2.hkx 
+b -Tn B_Skee_B_3pMissSpit_S3_2 Skee_B_3pMissSpit_A3_S3.hkx 
+b -Tn B_Skee_B_3pMissSpit_S4_2 Skee_B_3pMissSpit_A3_S4.hkx 
+b -Tn B_Skee_B_3pMissSpit_S5_2 Skee_B_3pMissSpit_A3_S5.hkx 
+
+' B_Skee_B_3pDogDP
+b -Tn B_Skee_B_3pDogDP_S1_0 Skee_B_3pDogDP_A2_S1.hkx 
+b -Tn B_Skee_B_3pDogDP_S2_0 Skee_B_3pDogDP_A2_S2.hkx 
+b -Tn B_Skee_B_3pDogDP_S3_0 Skee_B_3pDogDP_A2_S3.hkx 
+b -Tn B_Skee_B_3pDogDP_S4_0 Skee_B_3pDogDP_A2_S4.hkx 
+b -Tn B_Skee_B_3pDogDP_S5_0 Skee_B_3pDogDP_A2_S5.hkx 
+b -Tn B_Skee_B_3pDogDP_S1_2 Skee_B_3pDogDP_A3_S1.hkx 
+b -Tn B_Skee_B_3pDogDP_S2_2 Skee_B_3pDogDP_A3_S2.hkx 
+b -Tn B_Skee_B_3pDogDP_S3_2 Skee_B_3pDogDP_A3_S3.hkx 
+b -Tn B_Skee_B_3pDogDP_S4_2 Skee_B_3pDogDP_A3_S4.hkx 
+b -Tn B_Skee_B_3pDogDP_S5_2 Skee_B_3pDogDP_A3_S5.hkx 
+
+' B_Skee_B_3pSideDP
+b -Tn B_Skee_B_3pSideDP_S1_0 Skee_B_3pSideDP_A2_S1.hkx 
+b -Tn B_Skee_B_3pSideDP_S2_0 Skee_B_3pSideDP_A2_S2.hkx 
+b -Tn B_Skee_B_3pSideDP_S3_0 Skee_B_3pSideDP_A2_S3.hkx 
+b -Tn B_Skee_B_3pSideDP_S4_0 Skee_B_3pSideDP_A2_S4.hkx 
+b -Tn B_Skee_B_3pSideDP_S5_0 Skee_B_3pSideDP_A2_S5.hkx 
+b -Tn B_Skee_B_3pSideDP_S6_0 Skee_B_3pSideDP_A2_S6.hkx 
+b -Tn B_Skee_B_3pSideDP_S1_2 Skee_B_3pSideDP_A3_S1.hkx 
+b -Tn B_Skee_B_3pSideDP_S2_2 Skee_B_3pSideDP_A3_S2.hkx 
+b -Tn B_Skee_B_3pSideDP_S3_2 Skee_B_3pSideDP_A3_S3.hkx 
+b -Tn B_Skee_B_3pSideDP_S4_2 Skee_B_3pSideDP_A3_S4.hkx 
+b -Tn B_Skee_B_3pSideDP_S5_2 Skee_B_3pSideDP_A3_S5.hkx 
+b -Tn B_Skee_B_3pSideDP_S6_2 Skee_B_3pSideDP_A3_S6.hkx 
+
+' B_Skee_B_FFCCowgirls
+b -Tn B_Skee_B_FFCCowgirls_S1_0 Skee_B_FFCCowgirls_A3_S1.hkx 
+b -Tn B_Skee_B_FFCCowgirls_S2_0 Skee_B_FFCCowgirls_A3_S2.hkx 
+b -Tn B_Skee_B_FFCCowgirls_S3_0 Skee_B_FFCCowgirls_A3_S3.hkx 
+b -Tn B_Skee_B_FFCCowgirls_S4_0 Skee_B_FFCCowgirls_A3_S4.hkx 
+b -Tn B_Skee_B_FFCCowgirls_S5_0 Skee_B_FFCCowgirls_A3_S5.hkx 
+b -Tn B_Skee_B_FFCCowgirls_S6_0 Skee_B_FFCCowgirls_A3_S6.hkx 
+b -Tn B_Skee_B_FFCCowgirls_S7_0 Skee_B_FFCCowgirls_A3_S7.hkx 

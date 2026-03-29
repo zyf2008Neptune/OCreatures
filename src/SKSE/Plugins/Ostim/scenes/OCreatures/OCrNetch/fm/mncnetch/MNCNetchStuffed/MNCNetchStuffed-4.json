@@ -1,0 +1,53 @@
+{
+    "name": "MNCNetchStuffed",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCNetchStuffed-3",
+    "speeds": [
+        {
+            "animation": "MNCnetchstuffed_S4"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crnetch",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "upsidedown",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "netch"
+    ]
+}

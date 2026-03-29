@@ -1,0 +1,69 @@
+{
+    "name": "BillyyWerewolf3pCowgirlDP",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyWerewolf3pCowgirlDP-4",
+    "speeds": [
+        {
+            "animation": "B_WW_B_3pCG_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingback",
+				"spreadlegs",
+				"climaxing",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 2
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 2
+        },
+        {
+            "type": "analsex",
+            "actor": 1,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "werewolf"
+    ]
+}

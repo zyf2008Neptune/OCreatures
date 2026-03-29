@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrFalmerRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd72"
+	},
+	"type": "crfalmer",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Troll Doggy 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyTrollDoggy2-4",
+    "speeds": [
+        {
+            "animation": "B_Troll_B_Dog2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crTroll",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Troll"
+    ]
+}

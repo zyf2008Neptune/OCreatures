@@ -1,0 +1,29 @@
+Version V1.0
+
+' B_FrostA_B_FrozF
+b -Tn B_FrostA_B_FrozF_S1_0 FrostA_B_FrozF_A2_S1.hkx 
+b -Tn B_FrostA_B_FrozF_S2_0 FrostA_B_FrozF_A2_S2.hkx 
+b -Tn B_FrostA_B_FrozF_S3_0 FrostA_B_FrozF_A2_S3.hkx 
+b -Tn B_FrostA_B_FrozF_S4_0 FrostA_B_FrozF_A2_S4.hkx 
+b -Tn B_FrostA_B_FrozF_S5_0 FrostA_B_FrozF_A2_S5.hkx 
+
+' B_FrostA_B_FrozH
+b -Tn B_FrostA_B_FrozH_S1_0 FrostA_B_FrozH_A2_S1.hkx 
+b -Tn B_FrostA_B_FrozH_S2_0 FrostA_B_FrozH_A2_S2.hkx 
+b -Tn B_FrostA_B_FrozH_S3_0 FrostA_B_FrozH_A2_S3.hkx 
+b -Tn B_FrostA_B_FrozH_S4_0 FrostA_B_FrozH_A2_S4.hkx 
+b -Tn B_FrostA_B_FrozH_S5_0 FrostA_B_FrozH_A2_S5.hkx 
+
+' B_FrostA_B_FrozW
+b -Tn B_FrostA_B_FrozW_S1_0 FrostA_B_FrozW_A2_S1.hkx 
+b -Tn B_FrostA_B_FrozW_S2_0 FrostA_B_FrozW_A2_S2.hkx 
+b -Tn B_FrostA_B_FrozW_S3_0 FrostA_B_FrozW_A2_S3.hkx 
+b -Tn B_FrostA_B_FrozW_S4_0 FrostA_B_FrozW_A2_S4.hkx 
+b -Tn B_FrostA_B_FrozW_S5_0 FrostA_B_FrozW_A2_S5.hkx 
+
+' B_FrostA_B_Chain1
+b -Tn B_FrostA_B_Chain1_S1_0 FrostA_B_Chain1_A2_S1.hkx 
+b -Tn B_FrostA_B_Chain1_S2_0 FrostA_B_Chain1_A2_S2.hkx 
+b -Tn B_FrostA_B_Chain1_S3_0 FrostA_B_Chain1_A2_S3.hkx 
+b -Tn B_FrostA_B_Chain1_S4_0 FrostA_B_Chain1_A2_S4.hkx 
+b -Tn B_FrostA_B_Chain1_S5_0 FrostA_B_Chain1_A2_S5.hkx 

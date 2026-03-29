@@ -1,0 +1,73 @@
+{
+    "name": "BillyyDraugr3pHoldingDP2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDraugr3pHoldingDP2-4",
+    "speeds": [
+        {
+            "animation": "B_Drau_B_3pHoldDP2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "feetOnGround": false,
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 2
+        },
+        {
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 2
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 2
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 1,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "draugr"
+    ]
+}

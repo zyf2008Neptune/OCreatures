@@ -1,0 +1,58 @@
+{
+    "name": "Billyy Dwarven Ballista Behind",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDwarvenBallistaBehind-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyDwarvenBallistaBehind-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyDwarvenBallistaHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Dwarven/DwarvenBallista"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_DwBall_B_Bhd_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenBallista",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"bendover"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenBallista"
+    ]
+}

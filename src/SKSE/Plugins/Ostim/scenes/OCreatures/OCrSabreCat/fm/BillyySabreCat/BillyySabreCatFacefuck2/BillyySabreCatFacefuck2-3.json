@@ -1,0 +1,58 @@
+{
+    "name": "Billyy Sabre Cat Facefuck 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyySabreCatFacefuck2-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyySabreCatFacefuck2-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyySabreCatHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/sabrecat/sabrecat"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Cat_B_FF2_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crsabrecat",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"sabrecat"
+    ]
+}

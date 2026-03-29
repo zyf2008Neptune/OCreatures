@@ -1,0 +1,38 @@
+Version V1.0
+
+' MNCsprcowgirl
+b -Tn MNCsprcowgirl_S1_0 sprcowgirl_A2_S1.hkx
+b -Tn MNCsprcowgirl_S2_0 sprcowgirl_A2_S2.hkx
+b -Tn MNCsprcowgirl_S3_0 sprcowgirl_A2_S3.hkx
+b -Tn MNCsprcowgirl_S4_0 sprcowgirl_A2_S4.hkx
+b -Tn MNCsprcowgirl_S5_0 sprcowgirl_A2_S5.hkx
+b -Tn MNCsprcowgirl_S6_0 sprcowgirl_A2_S6.hkx
+
+' MNCsprbehind
+b -Tn MNCsprbehind_S1_0 sprbehind_A2_S1.hkx
+b -Tn MNCsprbehind_S2_0 sprbehind_A2_S2.hkx
+b -Tn MNCsprbehind_S3_0 sprbehind_A2_S3.hkx
+b -Tn MNCsprbehind_S4_0 sprbehind_A2_S4.hkx
+b -Tn MNCsprbehind_S5_0 sprbehind_A2_S5.hkx
+
+' MNCSprlotus
+b -Tn MNCSprlotus_S1_0 Sprlotus_A2_S1.hkx
+b -Tn MNCSprlotus_S2_0 Sprlotus_A2_S2.hkx
+b -Tn MNCSprlotus_S3_0 Sprlotus_A2_S3.hkx
+b -Tn MNCSprlotus_S4_0 Sprlotus_A2_S4.hkx
+b -Tn MNCSprlotus_S5_0 Sprlotus_A2_S5.hkx
+b -Tn MNCSprlotus_S6_0 Sprlotus_A2_S6.hkx
+
+' MNCsprmissionary
+b -Tn MNCsprmissionary_S1_0 sprmissionary_A2_S1.hkx
+b -Tn MNCsprmissionary_S2_0 sprmissionary_A2_S2.hkx
+b -Tn MNCsprmissionary_S3_0 sprmissionary_A2_S3.hkx
+b -Tn MNCsprmissionary_S4_0 sprmissionary_A2_S4.hkx
+b -Tn MNCsprmissionary_S5_0 sprmissionary_A2_S5.hkx
+
+' MNCsprOG
+b -Tn MNCsprOG_S1_0 sprOG_A2_S1.hkx
+b -Tn MNCsprOG_S2_0 sprOG_A2_S2.hkx
+b -Tn MNCsprOG_S3_0 sprOG_A2_S3.hkx
+b -Tn MNCsprOG_S4_0 sprOG_A2_S4.hkx
+b -Tn MNCsprOG_S5_0 sprOG_A2_S5.hkx

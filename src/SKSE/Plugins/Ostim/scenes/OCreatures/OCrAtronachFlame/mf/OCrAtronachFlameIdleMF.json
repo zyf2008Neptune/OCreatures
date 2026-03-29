@@ -1,0 +1,35 @@
+{
+    "name": "OCrAtronachFlameIdleMF",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "speeds": [
+        {
+            "animation": "MNCAtronachbehind_S2"
+        }
+    ],
+    "actors": [
+        {
+            "intendedSex": "male",
+			"animationIndex": 1,
+            "requirements": [],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+            "type": "cratronachflame",
+            "intendedSex": "female",
+			"animationIndex": 0,
+            "requirements": [],
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "atronachflame"
+    ]
+}

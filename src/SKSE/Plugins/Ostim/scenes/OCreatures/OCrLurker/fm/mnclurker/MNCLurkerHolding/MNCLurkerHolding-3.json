@@ -1,0 +1,73 @@
+{
+    "name": "MNCLurkerHolding",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCLurkerHolding-4",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "MNCLurkerHolding-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCLurkerHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/lurker/lurker"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCbenthiclurkerPanicPenetrationTest_S3"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crlurker",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ],
+            "autoTransitions": {
+                "climax": "MNCLurkerHolding-4"
+            }
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended"
+            ],
+            "autoTransitions": {
+                "climax": "MNCLurkerHolding-4"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "lurker"
+    ]
+}

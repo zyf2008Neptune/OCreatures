@@ -1,0 +1,64 @@
+{
+    "name": "BillyyDragonBodyJob1",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDragonBodyJob1-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyDragonBodyJob1-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyDragonHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/dragon/dragon"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Dragon_BillyyBodyJob1_S3"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdragon",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "thighjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+        {
+            "type": "boobjob",
+            "actor": 1,
+            "target": 0,
+            "performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "dragon"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Dragon Priest Magic Missionary",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDragonPriestMagicMissionary-4",
+    "speeds": [
+        {
+            "animation": "B_DPriest_B_MMiss_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDragonPriest",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "gropingbreast",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DragonPriest"
+    ]
+}

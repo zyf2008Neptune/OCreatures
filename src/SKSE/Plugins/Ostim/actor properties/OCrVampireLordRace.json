@@ -1,0 +1,19 @@
+{
+	"condition":{
+		"info": "OCrVampireLordRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd79"
+	},
+	"type": "crvampirelord",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"vagina": true,
+		"breast": true,
+		"nipple": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

@@ -1,0 +1,225 @@
+Version V1.0
+
+' B_FlameA_B_MDil1
+b -Tn,o,AVbHumanoidFootIKDisable B_FlameA_B_MDil1_S1_1 FlameA_B_MDil1_A1_S1.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_MDil1_S2_1 FlameA_B_MDil1_A1_S2.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_MDil1_S3_1 FlameA_B_MDil1_A1_S3.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_MDil1_S4_1 FlameA_B_MDil1_A1_S4.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_MDil1_S5_1 FlameA_B_MDil1_A1_S5.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+
+' B_FlameA_B_MDil2
+b -Tn,o,AVbHumanoidFootIKDisable B_FlameA_B_MDil2_S1_1 FlameA_B_MDil2_A1_S1.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_MDil2_S2_1 FlameA_B_MDil2_A1_S2.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_MDil2_S3_1 FlameA_B_MDil2_A1_S3.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_MDil2_S4_1 FlameA_B_MDil2_A1_S4.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_MDil2_S5_1 FlameA_B_MDil2_A1_S5.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+
+' B_FlameA_B_FMDil1
+b -Tn,o,AVbHumanoidFootIKDisable B_FlameA_B_FMDil1_S1_1 FlameA_B_FMDil1_A1_S1.hkx AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_FMDil1_S2_1 FlameA_B_FMDil1_A1_S2.hkx AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_FMDil1_S3_1 FlameA_B_FMDil1_A1_S3.hkx AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_FMDil1_S4_1 FlameA_B_FMDil1_A1_S4.hkx AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_FMDil1_S5_1 FlameA_B_FMDil1_A1_S5.hkx AOShockyDogDildoFlameB
+
+' B_FlameA_B_FMDil2
+b -Tn,o,AVbHumanoidFootIKDisable B_FlameA_B_FMDil2_S1_1 FlameA_B_FMDil2_A1_S1.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_FMDil2_S2_1 FlameA_B_FMDil2_A1_S2.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_FMDil2_S3_1 FlameA_B_FMDil2_A1_S3.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_FMDil2_S4_1 FlameA_B_FMDil2_A1_S4.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+b -Tn,o B_FlameA_B_FMDil2_S5_1 FlameA_B_FMDil2_A1_S5.hkx AOShockyDogDildoFlameA AOShockyDogDildoFlameB
+
+' B_FrostA_B_FrozF
+b -Tn,AVbHumanoidFootIKDisable B_FrostA_B_FrozF_S1_1 FrostA_B_FrozF_A1_S1.hkx 
+b -Tn B_FrostA_B_FrozF_S2_1 FrostA_B_FrozF_A1_S2.hkx 
+b -Tn B_FrostA_B_FrozF_S3_1 FrostA_B_FrozF_A1_S3.hkx 
+b -Tn B_FrostA_B_FrozF_S4_1 FrostA_B_FrozF_A1_S4.hkx 
+b -Tn B_FrostA_B_FrozF_S5_1 FrostA_B_FrozF_A1_S5.hkx 
+
+' B_FrostA_B_FrozH
+b -Tn,AVbHumanoidFootIKDisable B_FrostA_B_FrozH_S1_1 FrostA_B_FrozH_A1_S1.hkx 
+b -Tn B_FrostA_B_FrozH_S2_1 FrostA_B_FrozH_A1_S2.hkx 
+b -Tn B_FrostA_B_FrozH_S3_1 FrostA_B_FrozH_A1_S3.hkx 
+b -Tn B_FrostA_B_FrozH_S4_1 FrostA_B_FrozH_A1_S4.hkx 
+b -Tn B_FrostA_B_FrozH_S5_1 FrostA_B_FrozH_A1_S5.hkx 
+
+' B_FrostA_B_FrozW
+b -Tn,o,AVbHumanoidFootIKDisable B_FrostA_B_FrozW_S1_1 FrostA_B_FrozW_A1_S1.hkx AOIceWallB
+b -Tn,o B_FrostA_B_FrozW_S2_1 FrostA_B_FrozW_A1_S2.hkx AOIceWallB
+b -Tn,o B_FrostA_B_FrozW_S3_1 FrostA_B_FrozW_A1_S3.hkx AOIceWallB
+b -Tn,o B_FrostA_B_FrozW_S4_1 FrostA_B_FrozW_A1_S4.hkx AOIceWallB
+b -Tn,o B_FrostA_B_FrozW_S5_1 FrostA_B_FrozW_A1_S5.hkx AOIceWallB
+
+' B_FrostA_B_Chain1
+b -Tn,AVbHumanoidFootIKDisable B_FrostA_B_Chain1_S1_1 FrostA_B_Chain1_A1_S1.hkx 
+b -Tn B_FrostA_B_Chain1_S2_1 FrostA_B_Chain1_A1_S2.hkx 
+b -Tn B_FrostA_B_Chain1_S3_1 FrostA_B_Chain1_A1_S3.hkx 
+b -Tn B_FrostA_B_Chain1_S4_1 FrostA_B_Chain1_A1_S4.hkx 
+b -Tn B_FrostA_B_Chain1_S5_1 FrostA_B_Chain1_A1_S5.hkx 
+
+' B_StormA_B_Bhd
+b -Tn,o,AVbHumanoidFootIKDisable B_StormA_B_Bhd_S1_1 StormA_B_Bhd_A1_S1.hkx AORockDildoA AORockDildoB
+b -Tn,o B_StormA_B_Bhd_S2_1 StormA_B_Bhd_A1_S2.hkx AORockDildoA AORockDildoB
+b -Tn,o B_StormA_B_Bhd_S3_1 StormA_B_Bhd_A1_S3.hkx AORockDildoA AORockDildoB
+b -Tn,o B_StormA_B_Bhd_S4_1 StormA_B_Bhd_A1_S4.hkx AORockDildoA AORockDildoB
+b -Tn,o B_StormA_B_Bhd_S5_1 StormA_B_Bhd_A1_S5.hkx AORockDildoA AORockDildoB
+
+' B_StormA_B_Hold
+b -Tn,o,AVbHumanoidFootIKDisable B_StormA_B_Hold_S1_1 StormA_B_Hold_A1_S1.hkx AORockDildoA AORockDildoBigB
+b -Tn,o B_StormA_B_Hold_S2_1 StormA_B_Hold_A1_S2.hkx AORockDildoA AORockDildoBigB
+b -Tn,o B_StormA_B_Hold_S3_1 StormA_B_Hold_A1_S3.hkx AORockDildoA AORockDildoBigB
+b -Tn,o B_StormA_B_Hold_S4_1 StormA_B_Hold_A1_S4.hkx AORockDildoA AORockDildoBigB
+b -Tn,o B_StormA_B_Hold_S5_1 StormA_B_Hold_A1_S5.hkx AORockDildoA AORockDildoBigB
+
+' B_StormA_B_FRDil1
+b -Tn,o,AVbHumanoidFootIKDisable B_StormA_B_FRDil1_S1_1 StormA_B_FRDil1_A1_S1.hkx AORockDildoA AORockDildoBigB
+b -Tn,o B_StormA_B_FRDil1_S2_1 StormA_B_FRDil1_A1_S2.hkx AORockDildoA AORockDildoBigB
+b -Tn,o B_StormA_B_FRDil1_S3_1 StormA_B_FRDil1_A1_S3.hkx AORockDildoA AORockDildoBigB
+b -Tn,o B_StormA_B_FRDil1_S4_1 StormA_B_FRDil1_A1_S4.hkx AORockDildoA AORockDildoBigB
+b -Tn,o B_StormA_B_FRDil1_S5_1 StormA_B_FRDil1_A1_S5.hkx AORockDildoA AORockDildoBigB
+
+' B_StormA_B_FRDil2
+b -Tn,o,AVbHumanoidFootIKDisable B_StormA_B_FRDil2_S1_1 StormA_B_FRDil2_A1_S1.hkx AORockDildoA AORockDildoB
+b -Tn,o B_StormA_B_FRDil2_S2_1 StormA_B_FRDil2_A1_S2.hkx AORockDildoA AORockDildoB
+b -Tn,o B_StormA_B_FRDil2_S3_1 StormA_B_FRDil2_A1_S3.hkx AORockDildoA AORockDildoB
+b -Tn,o B_StormA_B_FRDil2_S4_1 StormA_B_FRDil2_A1_S4.hkx AORockDildoA AORockDildoB
+b -Tn,o B_StormA_B_FRDil2_S5_1 StormA_B_FRDil2_A1_S5.hkx AORockDildoA AORockDildoB
+
+' B_StormA_B_LArm1
+b -Tn,o,AVbHumanoidFootIKDisable B_StormA_B_LArm1_S1_1 StormA_B_LArm1_A1_S1.hkx AORockDildoA AORockDildoB
+b -Tn,o B_StormA_B_LArm1_S2_1 StormA_B_LArm1_A1_S2.hkx AORockDildoA AORockDildoB
+b -Tn,o B_StormA_B_LArm1_S3_1 StormA_B_LArm1_A1_S3.hkx AORockDildoA AORockDildoB
+b -Tn,o B_StormA_B_LArm1_S4_1 StormA_B_LArm1_A1_S4.hkx AORockDildoA AORockDildoB
+b -Tn,o B_StormA_B_LArm1_S5_1 StormA_B_LArm1_A1_S5.hkx AORockDildoA AORockDildoB
+
+' B_DwBall_B_Bhd
+b -Tn,AVbHumanoidFootIKDisable B_DwBall_B_Bhd_S1_1 DwBall_B_Bhd_A1_S1.hkx 
+b -Tn B_DwBall_B_Bhd_S2_1 DwBall_B_Bhd_A1_S2.hkx 
+b -Tn B_DwBall_B_Bhd_S3_1 DwBall_B_Bhd_A1_S3.hkx 
+b -Tn B_DwBall_B_Bhd_S4_1 DwBall_B_Bhd_A1_S4.hkx 
+b -Tn B_DwBall_B_Bhd_S5_1 DwBall_B_Bhd_A1_S5.hkx 
+
+' B_DBall_B_Stand
+b -Tn,AVbHumanoidFootIKDisable B_DBall_B_Stand_S1_1 DBall_B_Stand_A1_S1.hkx 
+b -Tn B_DBall_B_Stand_S2_1 DBall_B_Stand_A1_S2.hkx 
+b -Tn B_DBall_B_Stand_S3_1 DBall_B_Stand_A1_S3.hkx 
+b -Tn B_DBall_B_Stand_S4_1 DBall_B_Stand_A1_S4.hkx 
+b -Tn B_DBall_B_Stand_S5_1 DBall_B_Stand_A1_S5.hkx 
+
+' B_DCent_B_ClawHold1
+b -Tn,AVbHumanoidFootIKDisable B_DCent_B_ClawHold1_S1_1 DCent_B_ClawHold1_A1_S1.hkx 
+b -Tn B_DCent_B_ClawHold1_S2_1 DCent_B_ClawHold1_A1_S2.hkx 
+b -Tn,o B_DCent_B_ClawHold1_S3_1 DCent_B_ClawHold1_A1_S3.hkx AO_BCumPool
+b -Tn,o B_DCent_B_ClawHold1_S4_1 DCent_B_ClawHold1_A1_S4.hkx AO_BCumPool
+b -Tn,o B_DCent_B_ClawHold1_S5_1 DCent_B_ClawHold1_A1_S5.hkx AO_BCumPool
+
+' B_DCent_B_ClawHold2
+b -Tn,AVbHumanoidFootIKDisable B_DCent_B_ClawHold2_S1_1 DCent_B_ClawHold2_A1_S1.hkx 
+b -Tn B_DCent_B_ClawHold2_S2_1 DCent_B_ClawHold2_A1_S2.hkx 
+b -Tn B_DCent_B_ClawHold2_S3_1 DCent_B_ClawHold2_A1_S3.hkx 
+b -Tn B_DCent_B_ClawHold2_S4_1 DCent_B_ClawHold2_A1_S4.hkx 
+b -Tn B_DCent_B_ClawHold2_S5_1 DCent_B_ClawHold2_A1_S5.hkx 
+
+' B_DSphere_B_Stand
+b -Tn,AVbHumanoidFootIKDisable B_DSphere_B_Stand_S1_1 DSphere_B_Stand_A1_S1.hkx 
+b -Tn B_DSphere_B_Stand_S2_1 DSphere_B_Stand_A1_S2.hkx 
+b -Tn B_DSphere_B_Stand_S3_1 DSphere_B_Stand_A1_S3.hkx 
+b -Tn B_DSphere_B_Stand_S4_1 DSphere_B_Stand_A1_S4.hkx 
+b -Tn B_DSphere_B_Stand_S5_1 DSphere_B_Stand_A1_S5.hkx 
+
+' B_DSphere_B_Hold
+b -Tn,AVbHumanoidFootIKDisable B_DSphere_B_Hold_S1_1 DSphere_B_Hold_A1_S1.hkx 
+b -Tn B_DSphere_B_Hold_S2_1 DSphere_B_Hold_A1_S2.hkx 
+b -Tn B_DSphere_B_Hold_S3_1 DSphere_B_Hold_A1_S3.hkx 
+b -Tn B_DSphere_B_Hold_S4_1 DSphere_B_Hold_A1_S4.hkx 
+b -Tn B_DSphere_B_Hold_S5_1 DSphere_B_Hold_A1_S5.hkx 
+
+' B_DSphere_B_PileD
+b -Tn,AVbHumanoidFootIKDisable B_DSphere_B_PileD_S1_1 DSphere_B_PileD_A1_S1.hkx 
+b -Tn B_DSphere_B_PileD_S2_1 DSphere_B_PileD_A1_S2.hkx 
+b -Tn B_DSphere_B_PileD_S3_1 DSphere_B_PileD_A1_S3.hkx 
+b -Tn B_DSphere_B_PileD_S4_1 DSphere_B_PileD_A1_S4.hkx 
+b -Tn B_DSphere_B_PileD_S5_1 DSphere_B_PileD_A1_S5.hkx 
+
+' B_DSphere_B_Doggy
+b -Tn,AVbHumanoidFootIKDisable B_DSphere_B_Doggy_S1_1 DSphere_B_Doggy_A1_S1.hkx 
+b -Tn B_DSphere_B_Doggy_S2_1 DSphere_B_Doggy_A1_S2.hkx 
+b -Tn B_DSphere_B_Doggy_S3_1 DSphere_B_Doggy_A1_S3.hkx 
+b -Tn B_DSphere_B_Doggy_S4_1 DSphere_B_Doggy_A1_S4.hkx 
+b -Tn B_DSphere_B_Doggy_S5_1 DSphere_B_Doggy_A1_S5.hkx 
+
+' B_DSphere_B_BhdA
+b -Tn,AVbHumanoidFootIKDisable B_DSphere_B_BhdA_S1_1 DSphere_B_BhdA_A1_S1.hkx 
+b -Tn B_DSphere_B_BhdA_S2_1 DSphere_B_BhdA_A1_S2.hkx 
+b -Tn B_DSphere_B_BhdA_S3_1 DSphere_B_BhdA_A1_S3.hkx 
+b -Tn B_DSphere_B_BhdA_S4_1 DSphere_B_BhdA_A1_S4.hkx 
+b -Tn B_DSphere_B_BhdA_S5_1 DSphere_B_BhdA_A1_S5.hkx 
+
+' B_DSpider_B_Doggy
+b -Tn,AVbHumanoidFootIKDisable B_DSpider_B_Doggy_S1_1 DSpider_B_Doggy_A1_S1.hkx 
+b -Tn B_DSpider_B_Doggy_S2_1 DSpider_B_Doggy_A1_S2.hkx 
+b -Tn B_DSpider_B_Doggy_S3_1 DSpider_B_Doggy_A1_S3.hkx 
+b -Tn B_DSpider_B_Doggy_S4_1 DSpider_B_Doggy_A1_S4.hkx 
+b -Tn B_DSpider_B_Doggy_S5_1 DSpider_B_Doggy_A1_S5.hkx 
+
+' B_DSpider_B_Side
+b -Tn,AVbHumanoidFootIKDisable B_DSpider_B_Side_S1_1 DSpider_B_Side_A1_S1.hkx 
+b -Tn B_DSpider_B_Side_S2_1 DSpider_B_Side_A1_S2.hkx 
+b -Tn B_DSpider_B_Side_S3_1 DSpider_B_Side_A1_S3.hkx 
+b -Tn B_DSpider_B_Side_S4_1 DSpider_B_Side_A1_S4.hkx 
+b -Tn B_DSpider_B_Side_S5_1 DSpider_B_Side_A1_S5.hkx 
+
+' B_DSpider_B_MissPist
+b -Tn,AVbHumanoidFootIKDisable B_DSpider_B_MissPist_S1_1 DSpider_B_MissPist_A1_S1.hkx 
+b -Tn B_DSpider_B_MissPist_S2_1 DSpider_B_MissPist_A1_S2.hkx 
+b -Tn B_DSpider_B_MissPist_S3_1 DSpider_B_MissPist_A1_S3.hkx 
+b -Tn B_DSpider_B_MissPist_S4_1 DSpider_B_MissPist_A1_S4.hkx 
+b -Tn B_DSpider_B_MissPist_S5_1 DSpider_B_MissPist_A1_S5.hkx 
+
+' B_DSpider_B_MissA
+b -Tn,AVbHumanoidFootIKDisable B_DSpider_B_MissA_S1_1 DSpider_B_MissA_A1_S1.hkx 
+b -Tn B_DSpider_B_MissA_S2_1 DSpider_B_MissA_A1_S2.hkx 
+b -Tn B_DSpider_B_MissA_S3_1 DSpider_B_MissA_A1_S3.hkx 
+b -Tn B_DSpider_B_MissA_S4_1 DSpider_B_MissA_A1_S4.hkx 
+b -Tn B_DSpider_B_MissA_S5_1 DSpider_B_MissA_A1_S5.hkx 
+
+' B_Sprig_B_Behind
+b -Tn,AVbHumanoidFootIKDisable B_Sprig_B_Behind_S1_1 Sprig_B_Behind_A1_S1.hkx 
+b -Tn B_Sprig_B_Behind_S2_1 Sprig_B_Behind_A1_S2.hkx 
+b -Tn B_Sprig_B_Behind_S3_1 Sprig_B_Behind_A1_S3.hkx 
+b -Tn B_Sprig_B_Behind_S4_1 Sprig_B_Behind_A1_S4.hkx 
+b -Tn B_Sprig_B_Behind_S5_1 Sprig_B_Behind_A1_S5.hkx 
+
+' B_Sprig_B_Doggy
+b -Tn,AVbHumanoidFootIKDisable B_Sprig_B_Doggy_S1_1 Sprig_B_Doggy_A1_S1.hkx 
+b -Tn B_Sprig_B_Doggy_S2_1 Sprig_B_Doggy_A1_S2.hkx 
+b -Tn B_Sprig_B_Doggy_S3_1 Sprig_B_Doggy_A1_S3.hkx 
+b -Tn B_Sprig_B_Doggy_S4_1 Sprig_B_Doggy_A1_S4.hkx 
+b -Tn B_Sprig_B_Doggy_S5_1 Sprig_B_Doggy_A1_S5.hkx 
+
+' B_Sprig_B_CG
+b -Tn,AVbHumanoidFootIKDisable B_Sprig_B_CG_S1_1 Sprig_B_CG_A1_S1.hkx 
+b -Tn B_Sprig_B_CG_S2_1 Sprig_B_CG_A1_S2.hkx 
+b -Tn B_Sprig_B_CG_S3_1 Sprig_B_CG_A1_S3.hkx 
+b -Tn B_Sprig_B_CG_S4_1 Sprig_B_CG_A1_S4.hkx 
+b -Tn B_Sprig_B_CG_S5_1 Sprig_B_CG_A1_S5.hkx 
+
+' B_Sprig_B_BJ
+b -Tn,AVbHumanoidFootIKDisable B_Sprig_B_BJ_S1_1 Sprig_B_BJ_A1_S1.hkx 
+b -Tn B_Sprig_B_BJ_S2_1 Sprig_B_BJ_A1_S2.hkx 
+b -Tn B_Sprig_B_BJ_S3_1 Sprig_B_BJ_A1_S3.hkx 
+b -Tn B_Sprig_B_BJ_S4_1 Sprig_B_BJ_A1_S4.hkx 
+b -Tn B_Sprig_B_BJ_S5_1 Sprig_B_BJ_A1_S5.hkx 
+
+' B_Sprig_B_THold
+b -Tn,AVbHumanoidFootIKDisable B_Sprig_B_THold_S1_1 Sprig_B_THold_A1_S1.hkx 
+b -Tn B_Sprig_B_THold_S2_1 Sprig_B_THold_A1_S2.hkx 
+b -Tn B_Sprig_B_THold_S3_1 Sprig_B_THold_A1_S3.hkx 
+b -Tn B_Sprig_B_THold_S4_1 Sprig_B_THold_A1_S4.hkx 
+b -Tn B_Sprig_B_THold_S5_1 Sprig_B_THold_A1_S5.hkx 
+
+' B_Sprig_B_TMiss
+b -Tn,AVbHumanoidFootIKDisable B_Sprig_B_TMiss_S1_1 Sprig_B_TMiss_A1_S1.hkx 
+b -Tn B_Sprig_B_TMiss_S2_1 Sprig_B_TMiss_A1_S2.hkx 
+b -Tn B_Sprig_B_TMiss_S3_1 Sprig_B_TMiss_A1_S3.hkx 
+b -Tn B_Sprig_B_TMiss_S4_1 Sprig_B_TMiss_A1_S4.hkx 
+b -Tn B_Sprig_B_TMiss_S5_1 Sprig_B_TMiss_A1_S5.hkx 

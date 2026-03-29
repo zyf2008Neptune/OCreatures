@@ -1,0 +1,44 @@
+{
+    "name": "BillyyDwarvenBallistaHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrDwarvenBallistaIdleFM",
+            "description": "Billyy Dwarven Ballista Hub",
+            "icon": "OCreatures/Dwarven/DwarvenBallista"
+        },
+		{
+            "destination": "OCrDwarvenBallistaIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_DwBall_B_Bhd_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenBallista",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"DwarvenBallista"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Billyy Horse Service Bucket",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyHorseServiceBucket-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyHorseServiceBucket-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyHorseHubFM",
+            "description": "Return To Hub",
+            "icon": "OCreatures/Horse/Horse"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Horse_B_SerBucket_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crhorse",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "lickingpenis",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "gropingtesticles",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"horse"
+    ]
+}

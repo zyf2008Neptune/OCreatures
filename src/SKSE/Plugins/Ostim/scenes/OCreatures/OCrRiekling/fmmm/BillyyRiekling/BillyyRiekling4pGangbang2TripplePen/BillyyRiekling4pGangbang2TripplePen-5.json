@@ -1,0 +1,90 @@
+{
+    "name": "BillyyRiekling4pGangbang2TripplePen",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyRiekling4pGangbang2TripplePen-4",
+    "speeds": [
+        {
+            "animation": "B_Riek_B_4pGB2v1_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "sitting",
+				"ontop",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "squatting",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 3,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 3
+        },
+        {
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 3
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 3
+        },
+		{
+            "type": "vaginalsex",
+            "actor": 2,
+            "target": 3
+        },
+		{
+            "type": "holdingbody",
+            "actor": 2,
+            "target": 3
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "riekling"
+    ]
+}

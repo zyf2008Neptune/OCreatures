@@ -1,0 +1,72 @@
+{
+    "name": "BillyyRiekling3pDoggyDP",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyRiekling3pDoggyDP-4",
+    "speeds": [
+        {
+            "animation": "B_Riek_B_3pDogDP_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingside",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 2
+        },
+        {
+            "type": "analsex",
+            "actor": 1,
+            "target": 2
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 2
+        },
+		{
+            "type": "breastsmothering",
+            "actor": 2,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "riekling"
+    ]
+}

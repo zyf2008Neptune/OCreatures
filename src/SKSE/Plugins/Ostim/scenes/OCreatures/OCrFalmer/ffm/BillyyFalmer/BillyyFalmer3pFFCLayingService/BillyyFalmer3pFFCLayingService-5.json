@@ -1,0 +1,66 @@
+{
+    "name": "BillyyFalmer3pFFCLayingService",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyFalmer3pFFCLayingService-4",
+    "speeds": [
+        {
+            "animation": "B_Falm_B_FFCLaySrv_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+			"intendedSex": "male",
+			"animationIndex": 0,
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingside",
+				"ontop"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 2,
+            "tags": [
+                "sitting",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "lickingpenis",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "blowjob",
+            "actor": 2,
+            "target": 0
+        },
+        {
+            "type": "lickingvagina",
+            "actor": 0,
+            "target": 2
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "falmer"
+    ]
+}

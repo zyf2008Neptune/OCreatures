@@ -1,0 +1,44 @@
+{
+    "name": "Billyy Horse Hay FaceFuck",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyHorseHayFaceFuck-4",
+    "speeds": [
+        {
+            "animation": "B_Horse_B_HayFF_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crhorse",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"horse"
+    ]
+}

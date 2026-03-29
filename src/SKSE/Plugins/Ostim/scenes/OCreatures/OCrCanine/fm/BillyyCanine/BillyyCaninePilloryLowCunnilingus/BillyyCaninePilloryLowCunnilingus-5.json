@@ -1,0 +1,44 @@
+{
+    "name": "Billyy Canine Pillory Low Cunnilingus",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyCaninePilloryLowCunnilingus-4",
+    "speeds": [
+        {
+            "animation": "B_Can_B_LPillCunn_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"bendover",
+				"climaxing",
+				"suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "cunnilingus",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "name": "Billyy Skeever Laying Blowjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySkeeverLayingBlowjob-4",
+    "speeds": [
+        {
+            "animation": "B_Skee_B_LayBJ_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crskeever",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"skeever"
+    ]
+}

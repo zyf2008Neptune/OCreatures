@@ -1,0 +1,62 @@
+{
+    "name": "Billyy Spider 69",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyySpiderHubFM",
+            "description": "Billyy Spider 69",
+            "icon": "OCreatures/Spider/Spideroral"
+        },
+        {
+            "destination": "BillyySpider69-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyySpiderHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Spider/Spider"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Spid_B_69_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpider",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "kissing",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spider"
+    ]
+}

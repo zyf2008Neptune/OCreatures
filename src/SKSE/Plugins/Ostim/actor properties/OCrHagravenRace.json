@@ -1,0 +1,19 @@
+{
+	"condition":{
+		"info": "OCrHagravenRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd83"
+	},
+	"type": "crhagraven",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"vagina": true,
+		"breast": true,
+		"nipple": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

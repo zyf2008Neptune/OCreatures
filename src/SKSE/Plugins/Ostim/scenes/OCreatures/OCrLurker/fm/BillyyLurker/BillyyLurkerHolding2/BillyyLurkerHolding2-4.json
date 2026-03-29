@@ -1,0 +1,73 @@
+{
+    "name": "Billyy Lurker Holding 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyLurkerHolding2-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyLurkerHolding2-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyLurkerHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Lurker/Lurker"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Lurk_B_Hold2_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crLurker",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyLurkerHolding2-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyLurkerHolding2-5"
+			},
+            "tags": [
+                "suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Lurker"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "MNCDraugrDoggy",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCDraugrDoggy-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "MNCDraugrDoggy-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCDraugrHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/draugr/draugr"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCleitodraugrdoggy_S4"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdraugr",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "squatting"
+            ],
+            "autoTransitions": {
+                "climax": "MNCDraugrDoggy-5"
+            }
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ],
+            "autoTransitions": {
+                "climax": "MNCDraugrDoggy-5"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "draugr"
+    ]
+}

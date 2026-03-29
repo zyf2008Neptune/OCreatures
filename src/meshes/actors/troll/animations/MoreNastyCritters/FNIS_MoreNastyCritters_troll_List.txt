@@ -1,0 +1,59 @@
+Version V1.0
+
+' MNCTrollBehind
+b -Tn MNCTrollBehind_S1_0 TrollBehind_A2_S1.hkx
+b -Tn MNCTrollBehind_S2_0 TrollBehind_A2_S2.hkx
+b -Tn MNCTrollBehind_S3_0 TrollBehind_A2_S3.hkx
+b -Tn MNCTrollBehind_S4_0 TrollBehind_A2_S4.hkx
+b -Tn MNCTrollBehind_S5_0 TrollBehind_A2_S5.hkx
+b -Tn MNCTrollBehind_S6_0 TrollBehind_A2_S6.hkx
+b -Tn MNCTrollBehind_S7_0 TrollBehind_A2_S7.hkx
+
+' MNCTrollMissionaryAlt
+b -Tn MNCTrollMissionaryAlt_S1_0 TrollMissionaryAlt_A2_S1.hkx
+b -Tn MNCTrollMissionaryAlt_S2_0 TrollMissionaryAlt_A2_S2.hkx
+b -Tn MNCTrollMissionaryAlt_S3_0 TrollMissionaryAlt_A2_S3.hkx
+b -Tn MNCTrollMissionaryAlt_S4_0 TrollMissionaryAlt_A2_S4.hkx
+b -Tn MNCTrollMissionaryAlt_S5_0 TrollMissionaryAlt_A2_S5.hkx
+b -Tn MNCTrollMissionaryAlt_S6_0 TrollMissionaryAlt_A2_S6.hkx
+b -Tn MNCTrollMissionaryAlt_S7_0 TrollMissionaryAlt_A2_S7.hkx
+
+' MNCTrollCowgirl
+b -Tn MNCTrollCowgirl_S1_0 TrollCowgirl_A2_S1.hkx
+b -Tn MNCTrollCowgirl_S2_0 TrollCowgirl_A2_S2.hkx
+b -Tn MNCTrollCowgirl_S3_0 TrollCowgirl_A2_S3.hkx
+b -Tn MNCTrollCowgirl_S4_0 TrollCowgirl_A2_S4.hkx
+b -Tn MNCTrollCowgirl_S5_0 TrollCowgirl_A2_S5.hkx
+b -Tn MNCTrollCowgirl_S6_0 TrollCowgirl_A2_S6.hkx
+b -Tn MNCTrollCowgirl_S7_0 TrollCowgirl_A2_S7.hkx
+
+' MNCTrollDoggystyleAlt
+b -Tn MNCTrollDoggystyleAlt_S1_0 TrollDoggystyleAlt_A2_S1.hkx
+b -Tn MNCTrollDoggystyleAlt_S2_0 TrollDoggystyleAlt_A2_S2.hkx
+b -Tn MNCTrollDoggystyleAlt_S3_0 TrollDoggystyleAlt_A2_S3.hkx
+b -Tn MNCTrollDoggystyleAlt_S4_0 TrollDoggystyleAlt_A2_S4.hkx
+
+' MNCTrollOnGround
+b -Tn MNCTrollOnGround_S1_0 TrollOnGround_A2_S1.hkx
+b -Tn MNCTrollOnGround_S2_0 TrollOnGround_A2_S2.hkx
+b -Tn MNCTrollOnGround_S3_0 TrollOnGround_A2_S3.hkx
+b -Tn MNCTrollOnGround_S4_0 TrollOnGround_A2_S4.hkx
+b -Tn MNCTrollOnGround_S5_0 TrollOnGround_A2_S5.hkx
+b -Tn MNCTrollOnGround_S6_0 TrollOnGround_A2_S6.hkx
+
+' MNCTrollSeXtreme
+b -Tn MNCTrollSeXtreme_S1_0 TrollSeXtreme_A2_S1.hkx
+b -Tn MNCTrollSeXtreme_S2_0 TrollSeXtreme_A2_S2.hkx
+b -Tn MNCTrollSeXtreme_S3_0 TrollSeXtreme_A2_S3.hkx
+b -Tn MNCTrollSeXtreme_S4_0 TrollSeXtreme_A2_S4.hkx
+b -Tn MNCTrollSeXtreme_S5_0 TrollSeXtreme_A2_S5.hkx
+b -Tn MNCTrollSeXtreme_S6_0 TrollSeXtreme_A2_S6.hkx
+
+' MNCTrollRewerceCowgirl
+b -Tn MNCTrollRewerceCowgirl_S1_0 TrollRewerceCowgirl_A2_S1.hkx
+b -Tn MNCTrollRewerceCowgirl_S2_0 TrollRewerceCowgirl_A2_S2.hkx
+b -Tn MNCTrollRewerceCowgirl_S3_0 TrollRewerceCowgirl_A2_S3.hkx
+b -Tn MNCTrollRewerceCowgirl_S4_0 TrollRewerceCowgirl_A2_S4.hkx
+b -Tn MNCTrollRewerceCowgirl_S5_0 TrollRewerceCowgirl_A2_S5.hkx
+b -Tn MNCTrollRewerceCowgirl_S6_0 TrollRewerceCowgirl_A2_S6.hkx
+b -Tn MNCTrollRewerceCowgirl_S7_0 TrollRewerceCowgirl_A2_S7.hkx

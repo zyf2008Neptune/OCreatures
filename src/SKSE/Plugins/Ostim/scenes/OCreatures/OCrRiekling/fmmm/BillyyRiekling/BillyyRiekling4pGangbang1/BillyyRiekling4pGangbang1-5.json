@@ -1,0 +1,110 @@
+{
+    "name": "BillyyRiekling4pGangbang1",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyRiekling4pGangbang1-4",
+    "speeds": [
+        {
+            "animation": "B_Riek_B_4pGB1_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"animationIndex": 3,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 3
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 3
+        },
+		{
+            "type": "breastsmothering",
+            "actor": 3,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "holdingarm",
+            "actor": 1,
+            "target": 3
+        },
+		{
+            "type": "holdingarm",
+            "actor": 2,
+            "target": 3
+        },
+		{
+            "type": "malemasturbation",
+            "actor": 1,
+            "target": 1
+        },
+		{
+            "type": "malemasturbation",
+            "actor": 2,
+            "target": 2
+        },
+		{
+            "type": "facial",
+            "actor": 1,
+            "target": 3
+        },
+		{
+            "type": "facial",
+            "actor": 2,
+            "target": 3
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "riekling"
+    ]
+}

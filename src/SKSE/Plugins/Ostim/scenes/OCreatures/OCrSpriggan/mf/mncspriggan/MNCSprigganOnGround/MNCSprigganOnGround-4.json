@@ -1,0 +1,65 @@
+{
+    "name": "MNCSprigganOnGround",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCSprigganOnGround-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "MNCSprigganOnGround-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCSprigganHubMF",
+            "description": "Return to Hub",
+            "icon": "OCreatures/spriggan/spriggan"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCsprOG_S4"
+        }
+    ],
+    "actors": [
+        {
+            "intendedSex": "male",
+			"animationIndex": 1,
+            "requirements": [],
+            "tags": [
+                "lyingfront",
+				"ontop"
+            ],
+            "autoTransitions": {
+                "climax": "MNCSprigganOnGround-5"
+            }
+        },
+        {
+            "type": "crspriggan",
+            "intendedSex": "female",
+			"animationIndex": 0,
+            "requirements": [],
+            "tags": [
+                "lyingfront"
+            ],
+            "autoTransitions": {
+                "climax": "MNCSprigganOnGround-5"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "spriggan"
+    ]
+}

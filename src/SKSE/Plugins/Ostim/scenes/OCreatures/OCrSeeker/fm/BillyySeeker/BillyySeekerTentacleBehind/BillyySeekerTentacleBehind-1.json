@@ -1,0 +1,78 @@
+{
+    "name": "Billyy Seeker Tentacle Behind",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyySeekerHubFM",
+            "description": "Billyy Seeker Tentacle Behind",
+            "icon": "OCreatures/Seeker/SeekerVAO"
+        },
+        {
+            "destination": "BillyySeekerTentacleBehind-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyySeekerHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Seeker/Seeker"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Seek_B_TBehind_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSeeker",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "gropingbreast",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingneck",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Seeker"
+    ]
+}

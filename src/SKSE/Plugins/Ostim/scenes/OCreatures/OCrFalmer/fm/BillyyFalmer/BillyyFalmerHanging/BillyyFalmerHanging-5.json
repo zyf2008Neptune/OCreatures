@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Falmer Hanging",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyFalmerHanging-4",
+    "speeds": [
+        {
+            "animation": "B_Falm_B_Hang_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "pullinghair",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Falmer"
+    ]
+}

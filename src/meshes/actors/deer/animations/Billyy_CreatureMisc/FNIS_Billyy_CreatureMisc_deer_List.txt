@@ -1,0 +1,29 @@
+Version V1.0
+
+' B_Deer_B_Miss
+b -Tn B_Deer_B_Miss_S1_0 Deer_B_Miss_A2_S1.hkx 
+b -Tn B_Deer_B_Miss_S2_0 Deer_B_Miss_A2_S2.hkx 
+b -Tn B_Deer_B_Miss_S3_0 Deer_B_Miss_A2_S3.hkx 
+b -Tn B_Deer_B_Miss_S4_0 Deer_B_Miss_A2_S4.hkx 
+b -Tn B_Deer_B_Miss_S5_0 Deer_B_Miss_A2_S5.hkx 
+
+' B_Deer_B_Dog
+b -Tn B_Deer_B_Dog_S1_0 Deer_B_Dog_A2_S1.hkx 
+b -Tn B_Deer_B_Dog_S2_0 Deer_B_Dog_A2_S2.hkx 
+b -Tn B_Deer_B_Dog_S3_0 Deer_B_Dog_A2_S3.hkx 
+b -Tn B_Deer_B_Dog_S4_0 Deer_B_Dog_A2_S4.hkx 
+b -Tn B_Deer_B_Dog_S5_0 Deer_B_Dog_A2_S5.hkx 
+
+' B_Deer_B_Blowjob
+b -Tn B_Deer_B_Blowjob_S1_0 Deer_B_Blowjob_A2_S1.hkx 
+b -Tn B_Deer_B_Blowjob_S2_0 Deer_B_Blowjob_A2_S2.hkx 
+b -Tn B_Deer_B_Blowjob_S3_0 Deer_B_Blowjob_A2_S3.hkx 
+b -Tn B_Deer_B_Blowjob_S4_0 Deer_B_Blowjob_A2_S4.hkx 
+b -Tn B_Deer_B_Blowjob_S5_0 Deer_B_Blowjob_A2_S5.hkx 
+
+' B_Deer_B_PileA
+b -Tn B_Deer_B_PileA_S1_0 Deer_B_PileA_A2_S1.hkx 
+b -Tn B_Deer_B_PileA_S2_0 Deer_B_PileA_A2_S2.hkx 
+b -Tn B_Deer_B_PileA_S3_0 Deer_B_PileA_A2_S3.hkx 
+b -Tn B_Deer_B_PileA_S4_0 Deer_B_PileA_A2_S4.hkx 
+b -Tn B_Deer_B_PileA_S5_0 Deer_B_PileA_A2_S5.hkx 

@@ -1,0 +1,73 @@
+{
+    "name": "Billyy Draugr 69",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDraugr69-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyDraugr69-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyDraugrHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Draugr/Draugr"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Drau_B_69_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "cunnilingus",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "handjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "lickingpenis",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "gropingbutt",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Draugr"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Horse Hay Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyHorseHayDoggy-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyHorseHayDoggy-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyHorseHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/horse/horse"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Horse_B_HayDog_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crhorse",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyHorseHayDoggy-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyHorseHayDoggy-5"
+			},
+            "tags": [
+                "lyingfront"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"horse"
+    ]
+}

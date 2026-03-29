@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrCDeerRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd69"
+	},
+	"type": "crdeer",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

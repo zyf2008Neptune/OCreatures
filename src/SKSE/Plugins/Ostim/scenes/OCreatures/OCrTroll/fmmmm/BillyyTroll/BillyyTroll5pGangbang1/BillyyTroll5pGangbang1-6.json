@@ -1,0 +1,128 @@
+{
+    "name": "BillyyTroll5pGangbang1",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyTroll5pGangbang1-7",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyTroll5pGangbang1-5",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyTrollHubFMMMM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/troll/troll"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Troll_B_5pGB1_S6"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crTroll",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyTroll5pGangbang1-7"
+			},
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "kneeling"
+            ]
+        },
+		{
+			"type": "crTroll",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyTroll5pGangbang1-7"
+			},
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "kneeling"
+            ]
+        },
+		{
+			"type": "crTroll",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyTroll5pGangbang1-7"
+			},
+			"animationIndex": 3,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+		{
+			"type": "crTroll",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyTroll5pGangbang1-7"
+			},
+			"animationIndex": 4,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "allfours"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyTroll5pGangbang1-7"
+			},
+			"animationIndex": 1,
+            "tags": [
+                "lyingfront",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "handjob",
+            "actor": 4,
+            "target": 0
+        },
+        {
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 4
+        },
+		{
+            "type": "vaginalsex",
+            "actor": 2,
+            "target": 4
+        },
+		{
+            "type": "holdinghip",
+            "actor": 2,
+            "target": 4
+        },
+		{
+            "type": "analsex",
+            "actor": 3,
+            "target": 4
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "troll"
+    ]
+}

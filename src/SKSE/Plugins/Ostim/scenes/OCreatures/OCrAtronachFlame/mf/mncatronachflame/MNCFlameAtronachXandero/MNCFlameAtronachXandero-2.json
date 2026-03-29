@@ -1,0 +1,64 @@
+{
+    "name": "MNCFlameAtronachXandero",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCFlameAtronachXandero-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "MNCFlameAtronachXandero-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCAtronachFlameHubMF",
+            "description": "Return to Hub",
+            "icon": "OCreatures/atronach/atronachflame"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCAtronachrevcw_S2"
+        }
+    ],
+    "actors": [
+        {
+            "intendedSex": "male",
+			"animationIndex": 1,
+            "requirements": [],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "type": "cratronachflame",
+            "intendedSex": "female",
+			"animationIndex": 0,
+            "requirements": [],
+            "tags": [
+                "allfours",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "atronachflame"
+    ]
+}

@@ -1,0 +1,117 @@
+Version V1.0
+
+' B_Spider_B_Miss
+b -Tn B_Spider_B_Miss_S1_0 Spider_B_Miss_A2_S1.hkx 
+b -Tn B_Spider_B_Miss_S2_0 Spider_B_Miss_A2_S2.hkx 
+b -Tn B_Spider_B_Miss_S3_0 Spider_B_Miss_A2_S3.hkx 
+b -Tn B_Spider_B_Miss_S4_0 Spider_B_Miss_A2_S4.hkx 
+b -Tn B_Spider_B_Miss_S5_0 Spider_B_Miss_A2_S5.hkx 
+
+' B_Spid_B_Dog
+b -Tn B_Spid_B_Dog_S1_0 Spid_B_Dog_A2_S1.hkx 
+b -Tn B_Spid_B_Dog_S2_0 Spid_B_Dog_A2_S2.hkx 
+b -Tn B_Spid_B_Dog_S3_0 Spid_B_Dog_A2_S3.hkx 
+b -Tn B_Spid_B_Dog_S4_0 Spid_B_Dog_A2_S4.hkx 
+b -Tn B_Spid_B_Dog_S5_0 Spid_B_Dog_A2_S5.hkx 
+
+' B_Spider_B_WebHang
+b -Tn B_Spider_B_WebHang_S1_0 Spider_B_WebHang_A2_S1.hkx 
+b -Tn B_Spider_B_WebHang_S2_0 Spider_B_WebHang_A2_S2.hkx 
+b -Tn B_Spider_B_WebHang_S3_0 Spider_B_WebHang_A2_S3.hkx 
+b -Tn B_Spider_B_WebHang_S4_0 Spider_B_WebHang_A2_S4.hkx 
+b -Tn B_Spider_B_WebHang_S5_0 Spider_B_WebHang_A2_S5.hkx 
+
+' B_Spid_B_69
+b -Tn B_Spid_B_69_S1_0 Spid_B_69_A2_S1.hkx 
+b -Tn B_Spid_B_69_S2_0 Spid_B_69_A2_S2.hkx 
+b -Tn B_Spid_B_69_S3_0 Spid_B_69_A2_S3.hkx 
+b -Tn B_Spid_B_69_S4_0 Spid_B_69_A2_S4.hkx 
+b -Tn B_Spid_B_69_S5_0 Spid_B_69_A2_S5.hkx 
+
+' B_Spid_B_HoldA
+b -Tn B_Spid_B_HoldA_S1_0 Spid_B_HoldA_A2_S1.hkx 
+b -Tn B_Spid_B_HoldA_S2_0 Spid_B_HoldA_A2_S2.hkx 
+b -Tn B_Spid_B_HoldA_S3_0 Spid_B_HoldA_A2_S3.hkx 
+b -Tn B_Spid_B_HoldA_S4_0 Spid_B_HoldA_A2_S4.hkx 
+b -Tn B_Spid_B_HoldA_S5_0 Spid_B_HoldA_A2_S5.hkx 
+
+' B_Spider_B_3pSpit
+b -Tn B_Spider_B_3pSpit_S1_0 Spider_B_3pSpit_A2_S1.hkx 
+b -Tn B_Spider_B_3pSpit_S2_0 Spider_B_3pSpit_A2_S2.hkx 
+b -Tn B_Spider_B_3pSpit_S3_0 Spider_B_3pSpit_A2_S3.hkx 
+b -Tn B_Spider_B_3pSpit_S4_0 Spider_B_3pSpit_A2_S4.hkx 
+b -Tn B_Spider_B_3pSpit_S5_0 Spider_B_3pSpit_A2_S5.hkx 
+b -Tn B_Spider_B_3pSpit_S1_2 Spider_B_3pSpit_A3_S1.hkx 
+b -Tn B_Spider_B_3pSpit_S2_2 Spider_B_3pSpit_A3_S2.hkx 
+b -Tn B_Spider_B_3pSpit_S3_2 Spider_B_3pSpit_A3_S3.hkx 
+b -Tn B_Spider_B_3pSpit_S4_2 Spider_B_3pSpit_A3_S4.hkx 
+b -Tn B_Spider_B_3pSpit_S5_2 Spider_B_3pSpit_A3_S5.hkx 
+
+' B_Spid_B_3pDP
+b -Tn B_Spid_B_3pDP_S1_0 Spid_B_3pDP_A2_S1.hkx 
+b -Tn B_Spid_B_3pDP_S2_0 Spid_B_3pDP_A2_S2.hkx 
+b -Tn B_Spid_B_3pDP_S3_0 Spid_B_3pDP_A2_S3.hkx 
+b -Tn B_Spid_B_3pDP_S4_0 Spid_B_3pDP_A2_S4.hkx 
+b -Tn B_Spid_B_3pDP_S5_0 Spid_B_3pDP_A2_S5.hkx 
+b -Tn B_Spid_B_3pDP_S1-2 Spid_B_3pDP_A3_S1.hkx 
+b -Tn B_Spid_B_3pDP_S2-2 Spid_B_3pDP_A3_S2.hkx 
+b -Tn B_Spid_B_3pDP_S3-2 Spid_B_3pDP_A3_S3.hkx 
+b -Tn B_Spid_B_3pDP_S4-2 Spid_B_3pDP_A3_S4.hkx 
+b -Tn B_Spid_B_3pDP_S5-2 Spid_B_3pDP_A3_S5.hkx 
+
+' B_LSpid_B_Behind
+b -Tn B_LSpid_B_Behind_S1_0 LSpid_B_Behind_A2_S1.hkx 
+b -Tn B_LSpid_B_Behind_S2_0 LSpid_B_Behind_A2_S2.hkx 
+b -Tn B_LSpid_B_Behind_S3_0 LSpid_B_Behind_A2_S3.hkx 
+b -Tn B_LSpid_B_Behind_S4_0 LSpid_B_Behind_A2_S4.hkx 
+b -Tn B_LSpid_B_Behind_S5_0 LSpid_B_Behind_A2_S5.hkx 
+
+' B_LSpid_B_Laying
+b -Tn B_LSpid_B_Laying_S1_0 LSpid_B_Laying_A2_S1.hkx 
+b -Tn B_LSpid_B_Laying_S2_0 LSpid_B_Laying_A2_S2.hkx 
+b -Tn B_LSpid_B_Laying_S3_0 LSpid_B_Laying_A2_S3.hkx 
+b -Tn B_LSpid_B_Laying_S4_0 LSpid_B_Laying_A2_S4.hkx 
+b -Tn B_LSpid_B_Laying_S5_0 LSpid_B_Laying_A2_S5.hkx 
+
+' B_LSpid_B_FaceF
+b -Tn B_LSpid_B_FaceF_S1_0 LSpid_B_FaceF_A2_S1.hkx 
+b -Tn B_LSpid_B_FaceF_S2_0 LSpid_B_FaceF_A2_S2.hkx 
+b -Tn B_LSpid_B_FaceF_S3_0 LSpid_B_FaceF_A2_S3.hkx 
+b -Tn B_LSpid_B_FaceF_S4_0 LSpid_B_FaceF_A2_S4.hkx 
+b -Tn B_LSpid_B_FaceF_S5_0 LSpid_B_FaceF_A2_S5.hkx 
+
+' B_LSpid_B_MissA
+b -Tn B_LSpid_B_MissA_S1_0 LSpid_B_MissA_A2_S1.hkx 
+b -Tn B_LSpid_B_MissA_S2_0 LSpid_B_MissA_A2_S2.hkx 
+b -Tn B_LSpid_B_MissA_S3_0 LSpid_B_MissA_A2_S3.hkx 
+b -Tn B_LSpid_B_MissA_S4_0 LSpid_B_MissA_A2_S4.hkx 
+b -Tn B_LSpid_B_MissA_S5_0 LSpid_B_MissA_A2_S5.hkx 
+
+' B_GSpid_B_Behind
+b -Tn B_GSpid_B_Behind_S1_0 GSpid_B_Behind_A2_S1.hkx 
+b -Tn B_GSpid_B_Behind_S2_0 GSpid_B_Behind_A2_S2.hkx 
+b -Tn B_GSpid_B_Behind_S3_0 GSpid_B_Behind_A2_S3.hkx 
+b -Tn B_GSpid_B_Behind_S4_0 GSpid_B_Behind_A2_S4.hkx 
+b -Tn B_GSpid_B_Behind_S5_0 GSpid_B_Behind_A2_S5.hkx 
+
+' B_GSpid_B_Dog
+b -Tn B_GSpid_B_Dog_S1_0 GSpid_B_Dog_A2_S1.hkx 
+b -Tn B_GSpid_B_Dog_S2_0 GSpid_B_Dog_A2_S2.hkx 
+b -Tn B_GSpid_B_Dog_S3_0 GSpid_B_Dog_A2_S3.hkx 
+b -Tn B_GSpid_B_Dog_S4_0 GSpid_B_Dog_A2_S4.hkx 
+b -Tn B_GSpid_B_Dog_S5_0 GSpid_B_Dog_A2_S5.hkx 
+b -Tn B_GSpid_B_Dog_S6_0 GSpid_B_Dog_A2_S6.hkx 
+
+' B_GSpid_B_Miss
+b -Tn B_GSpid_B_Miss_S1_0 GSpid_B_Miss_A2_S1.hkx 
+b -Tn B_GSpid_B_Miss_S2_0 GSpid_B_Miss_A2_S2.hkx 
+b -Tn B_GSpid_B_Miss_S3_0 GSpid_B_Miss_A2_S3.hkx 
+b -Tn B_GSpid_B_Miss_S4_0 GSpid_B_Miss_A2_S4.hkx 
+b -Tn B_GSpid_B_Miss_S5_0 GSpid_B_Miss_A2_S5.hkx 
+
+' B_GSpid_B_DogAnal
+b -Tn B_GSpid_B_DogAnal_S1_0 GSpid_B_DogAnal_A2_S1.hkx 
+b -Tn B_GSpid_B_DogAnal_S2_0 GSpid_B_DogAnal_A2_S2.hkx 
+b -Tn B_GSpid_B_DogAnal_S3_0 GSpid_B_DogAnal_A2_S3.hkx 
+b -Tn B_GSpid_B_DogAnal_S4_0 GSpid_B_DogAnal_A2_S4.hkx 
+b -Tn B_GSpid_B_DogAnal_S5_0 GSpid_B_DogAnal_A2_S5.hkx 

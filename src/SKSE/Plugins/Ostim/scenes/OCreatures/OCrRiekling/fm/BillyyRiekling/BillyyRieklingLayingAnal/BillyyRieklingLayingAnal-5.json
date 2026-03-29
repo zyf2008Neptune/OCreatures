@@ -1,0 +1,49 @@
+{
+    "name": "Billyy Riekling Laying Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyRieklingLayingAnal-4",
+    "speeds": [
+        {
+            "animation": "B_Riek_B_LayA_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingfront",
+				"ontop",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Riekling"
+    ]
+}

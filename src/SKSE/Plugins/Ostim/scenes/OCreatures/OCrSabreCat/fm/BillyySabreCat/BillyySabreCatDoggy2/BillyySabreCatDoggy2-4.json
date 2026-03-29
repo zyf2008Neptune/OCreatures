@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Sabre Cat Doggy 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyySabreCatDoggy2-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyySabreCatDoggy2-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyySabreCatHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/sabrecat/sabrecat"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Cat_B_Dog2_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crsabrecat",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyySabreCatDoggy2-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyySabreCatDoggy2-5"
+			},
+            "tags": [
+                "lyingfront"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"sabrecat"
+    ]
+}

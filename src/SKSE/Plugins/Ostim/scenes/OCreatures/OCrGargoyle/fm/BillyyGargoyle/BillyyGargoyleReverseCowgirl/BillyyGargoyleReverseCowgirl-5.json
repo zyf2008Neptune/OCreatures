@@ -1,0 +1,49 @@
+{
+    "name": "Billyy Gargoyle Reverse Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyGargoyleReverseCowgirl-4",
+    "speeds": [
+        {
+            "animation": "B_Garg_B_RCow_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGargoyle",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting",
+				"climaxing",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Gargoyle"
+    ]
+}

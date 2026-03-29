@@ -1,0 +1,19 @@
+{
+	"condition":{
+		"info": "OCrSprigganRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd77"
+	},
+	"type": "crspriggan",
+	"requirements": {
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"vagina": true,
+		"breast": true,
+		"nipple": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

@@ -1,0 +1,74 @@
+{
+    "name": "Billyy Atronach Storm Floating Rock Dildos 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyAtronachStormFloatingRockDildos2-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+		{
+            "destination": "BillyyAtronachStormFloatingRockDildos2-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyAtronachStormHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Atronach/AtronachStorm"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_StormA_B_FRDil2_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crAtronachStorm",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "boobjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"AtronachStorm"
+    ]
+}

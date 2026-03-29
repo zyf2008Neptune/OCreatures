@@ -1,0 +1,42 @@
+{
+    "name": "Billyy Dwarven Sphere Holding",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDwarvenSphereHolding-4",
+    "speeds": [
+        {
+            "animation": "B_DSphere_B_Hold_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenSphere",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenSphere"
+    ]
+}

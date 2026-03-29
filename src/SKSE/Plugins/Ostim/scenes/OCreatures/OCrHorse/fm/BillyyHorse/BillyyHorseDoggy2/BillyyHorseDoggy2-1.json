@@ -1,0 +1,58 @@
+{
+    "name": "Billyy Horse Doggy 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyHorseHubFM",
+            "description": "Billyy Horse Doggy 2",
+            "icon": "OCreatures/horse/horsevag"
+        },
+        {
+            "destination": "BillyyHorseDoggy2-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyHorseHubFM",
+            "description": "Return",
+            "icon": "OCreatures/horse/horse"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Horse_B_Dog2_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crhorse",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"bendover"
+            ]
+        }
+    ],
+    "actions": [
+		{
+            "type": "spectating",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"horse"
+    ]
+}

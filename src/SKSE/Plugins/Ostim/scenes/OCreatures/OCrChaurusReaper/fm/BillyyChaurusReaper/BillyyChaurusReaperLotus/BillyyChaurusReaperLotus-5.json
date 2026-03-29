@@ -1,0 +1,49 @@
+{
+    "name": "Billyy Chaurus Reaper Lotus",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusReaperLotus-4",
+    "speeds": [
+        {
+            "animation": "B_ChauR_B_Lotus_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurusReaper",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting",
+				"climaxing",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

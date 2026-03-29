@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrChaurusRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd67"
+	},
+	"type": "crchaurus",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

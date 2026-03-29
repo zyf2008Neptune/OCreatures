@@ -1,0 +1,42 @@
+{
+    "name": "Billyy Falmer Holding Nelson",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyFalmerHoldingNelson-4",
+    "speeds": [
+        {
+            "animation": "B_Falm_B_HNel_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Falmer"
+    ]
+}

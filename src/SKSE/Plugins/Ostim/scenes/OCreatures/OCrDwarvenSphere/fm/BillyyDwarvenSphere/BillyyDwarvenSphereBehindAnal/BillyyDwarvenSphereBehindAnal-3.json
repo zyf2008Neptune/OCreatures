@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Dwarven Sphere Behind Anal",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDwarvenSphereBehindAnal-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyDwarvenSphereBehindAnal-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyDwarvenSphereHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Dwarven/DwarvenSphere"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_DSphere_B_BhdA_S3"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenSphere",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenSphere"
+    ]
+}

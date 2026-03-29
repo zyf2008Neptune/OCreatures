@@ -1,0 +1,733 @@
+Version V1.0
+
+' B_DPriest_B_MMiss
+b -Tn,o,AVbHumanoidFootIKDisable B_DPriest_B_MMiss_S1_1 DPriest_B_MMiss_A1_S1.hkx AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMCN AO_BMCsp AO_BMC_Ash AO_BMC_Bsh
+b -Tn,o B_DPriest_B_MMiss_S2_1 DPriest_B_MMiss_A1_S2.hkx AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMCN AO_BMCsp AO_BMC_Ash AO_BMC_Bsh
+b -Tn,o B_DPriest_B_MMiss_S3_1 DPriest_B_MMiss_A1_S3.hkx AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMCN AO_BMCsp AO_BMC_Ash AO_BMC_Bsh
+b -Tn,o B_DPriest_B_MMiss_S4_1 DPriest_B_MMiss_A1_S4.hkx AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMCN AO_BMCsp AO_BMC_Ash AO_BMC_Bsh
+b -Tn,o B_DPriest_B_MMiss_S5_1 DPriest_B_MMiss_A1_S5.hkx AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMCN AO_BMCsp AO_BMC_Ash AO_BMC_Bsh
+
+' B_DPriest_B_MBJ
+b -Tn,o,AVbHumanoidFootIKDisable B_DPriest_B_MBJ_S1_1 DPriest_B_MBJ_A1_S1.hkx AO_BStaff AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMC_A AO_BMCN
+b -Tn,o B_DPriest_B_MBJ_S2_1 DPriest_B_MBJ_A1_S2.hkx AO_BStaff AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMC_A AO_BMCN
+b -Tn,o B_DPriest_B_MBJ_S3_1 DPriest_B_MBJ_A1_S3.hkx AO_BStaff AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMC_A AO_BMCN
+b -Tn,o B_DPriest_B_MBJ_S4_1 DPriest_B_MBJ_A1_S4.hkx AO_BStaff AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMC_A AO_BMCN
+b -Tn,o B_DPriest_B_MBJ_S5_1 DPriest_B_MBJ_A1_S5.hkx AO_BStaff AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMC_A AO_BMCN
+
+' B_DPriest_B_MBehindA
+b -Tn,o,AVbHumanoidFootIKDisable B_DPriest_B_MBehindA_S1_1 DPriest_B_MBehindA_A1_S1.hkx AO_BStaff AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMCN AO_BMCsp AO_BMC_Aalt
+b -Tn,o B_DPriest_B_MBehindA_S2_1 DPriest_B_MBehindA_A1_S2.hkx AO_BStaff AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMCN AO_BMCsp AO_BMC_AshSm
+b -Tn,o B_DPriest_B_MBehindA_S3_1 DPriest_B_MBehindA_A1_S3.hkx AO_BStaff AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMCN AO_BMCsp AO_BMC_AshSm
+b -Tn,o B_DPriest_B_MBehindA_S4_1 DPriest_B_MBehindA_A1_S4.hkx AO_BStaff AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMCN AO_BMCsp AO_BMC_AshSm
+b -Tn,o B_DPriest_B_MBehindA_S5_1 DPriest_B_MBehindA_A1_S5.hkx AO_BStaff AO_BMCLF AO_BMCLW AO_BMCRF AO_BMCRW AO_BMCN AO_BMCsp AO_BMC_AshSm
+
+' B_Drau_B_Miss
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_Miss_S1_1 Drau_B_Miss_A1_S1.hkx 
+b -Tn B_Drau_B_Miss_S2_1 Drau_B_Miss_A1_S2.hkx 
+b -Tn B_Drau_B_Miss_S3_1 Drau_B_Miss_A1_S3.hkx 
+b -Tn B_Drau_B_Miss_S4_1 Drau_B_Miss_A1_S4.hkx 
+b -Tn B_Drau_B_Miss_S5_1 Drau_B_Miss_A1_S5.hkx 
+
+' B_Drau_B_MatP
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_MatP_S1_1 Drau_B_MatP_A1_S1.hkx 
+b -Tn B_Drau_B_MatP_S2_1 Drau_B_MatP_A1_S2.hkx 
+b -Tn B_Drau_B_MatP_S3_1 Drau_B_MatP_A1_S3.hkx 
+b -Tn B_Drau_B_MatP_S4_1 Drau_B_MatP_A1_S4.hkx 
+b -Tn B_Drau_B_MatP_S5_1 Drau_B_MatP_A1_S5.hkx 
+
+' B_Drau_B_Dog
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_Dog_S1_1 Drau_B_Dog_A1_S1.hkx 
+b -Tn B_Drau_B_Dog_S2_1 Drau_B_Dog_A1_S2.hkx 
+b -Tn B_Drau_B_Dog_S3_1 Drau_B_Dog_A1_S3.hkx 
+b -Tn B_Drau_B_Dog_S4_1 Drau_B_Dog_A1_S4.hkx 
+b -Tn B_Drau_B_Dog_S5_1 Drau_B_Dog_A1_S5.hkx 
+
+' B_Drau_B_Std
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_Std_S1_1 Drau_B_Std_A1_S1.hkx 
+b -Tn B_Drau_B_Std_S2_1 Drau_B_Std_A1_S2.hkx 
+b -Tn B_Drau_B_Std_S3_1 Drau_B_Std_A1_S3.hkx 
+b -Tn B_Drau_B_Std_S4_1 Drau_B_Std_A1_S4.hkx 
+b -Tn B_Drau_B_Std_S5_1 Drau_B_Std_A1_S5.hkx 
+
+' B_Drau_B_RCG
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_RCG_S1_1 Drau_B_RCG_A1_S1.hkx 
+b -Tn B_Drau_B_RCG_S2_1 Drau_B_RCG_A1_S2.hkx 
+b -Tn B_Drau_B_RCG_S3_1 Drau_B_RCG_A1_S3.hkx 
+b -Tn B_Drau_B_RCG_S4_1 Drau_B_RCG_A1_S4.hkx 
+b -Tn B_Drau_B_RCG_S5_1 Drau_B_RCG_A1_S5.hkx 
+
+' B_Drau_B_Cow
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_Cow_S1_1 Drau_B_Cow_A1_S1.hkx 
+b -Tn B_Drau_B_Cow_S2_1 Drau_B_Cow_A1_S2.hkx 
+b -Tn B_Drau_B_Cow_S3_1 Drau_B_Cow_A1_S3.hkx 
+b -Tn B_Drau_B_Cow_S4_1 Drau_B_Cow_A1_S4.hkx 
+b -Tn B_Drau_B_Cow_S5_1 Drau_B_Cow_A1_S5.hkx 
+
+' B_Drau_B_Hold
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_Hold_S1_1 Drau_B_Hold_A1_S1.hkx 
+b -Tn B_Drau_B_Hold_S2_1 Drau_B_Hold_A1_S2.hkx 
+b -Tn B_Drau_B_Hold_S3_1 Drau_B_Hold_A1_S3.hkx 
+b -Tn B_Drau_B_Hold_S4_1 Drau_B_Hold_A1_S4.hkx 
+b -Tn B_Drau_B_Hold_S5_1 Drau_B_Hold_A1_S5.hkx 
+
+' B_Drau_B_HoldNel
+b -Tn B_Drau_B_HoldNel_S1_1 Drau_B_HoldNel_A1_S1.hkx 
+b -Tn B_Drau_B_HoldNel_S2_1 Drau_B_HoldNel_A1_S2.hkx 
+b -Tn B_Drau_B_HoldNel_S3_1 Drau_B_HoldNel_A1_S3.hkx 
+b -Tn B_Drau_B_HoldNel_S4_1 Drau_B_HoldNel_A1_S4.hkx 
+b -Tn B_Drau_B_HoldNel_S5_1 Drau_B_HoldNel_A1_S5.hkx 
+
+' B_Drau_B_69
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_69_S1_1 Drau_B_69_A1_S1.hkx 
+b -Tn B_Drau_B_69_S2_1 Drau_B_69_A1_S2.hkx 
+b -Tn B_Drau_B_69_S3_1 Drau_B_69_A1_S3.hkx 
+b -Tn B_Drau_B_69_S4_1 Drau_B_69_A1_S4.hkx 
+b -Tn B_Drau_B_69_S5_1 Drau_B_69_A1_S5.hkx 
+
+' B_Drau_B_KFF2
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_KFF2_S1_1 Drau_B_KFF2_A1_S1.hkx 
+b -Tn B_Drau_B_KFF2_S2_1 Drau_B_KFF2_A1_S2.hkx 
+b -Tn B_Drau_B_KFF2_S3_1 Drau_B_KFF2_A1_S3.hkx 
+b -Tn B_Drau_B_KFF2_S4_1 Drau_B_KFF2_A1_S4.hkx 
+b -Tn B_Drau_B_KFF2_S5_1 Drau_B_KFF2_A1_S5.hkx 
+
+' B_Drau_B_KBJ2
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_KBJ2_S1_1 Drau_B_KBJ2_A1_S1.hkx 
+b -Tn B_Drau_B_KBJ2_S2_1 Drau_B_KBJ2_A1_S2.hkx 
+b -Tn B_Drau_B_KBJ2_S3_1 Drau_B_KBJ2_A1_S3.hkx 
+b -Tn B_Drau_B_KBJ2_S4_1 Drau_B_KBJ2_A1_S4.hkx 
+b -Tn B_Drau_B_KBJ2_S5_1 Drau_B_KBJ2_A1_S5.hkx 
+b -Tn B_Drau_B_KBJ2_S6_1 Drau_B_KBJ2_A1_S6.hkx 
+b -Tn B_Drau_B_KBJ2_S7_1 Drau_B_KBJ2_A1_S7.hkx 
+
+' B_Drau_B_BehA
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_BehA_S1_1 Drau_B_BehA_A1_S1.hkx 
+b -Tn B_Drau_B_BehA_S2_1 Drau_B_BehA_A1_S2.hkx 
+b -Tn B_Drau_B_BehA_S3_1 Drau_B_BehA_A1_S3.hkx 
+b -Tn B_Drau_B_BehA_S4_1 Drau_B_BehA_A1_S4.hkx 
+b -Tn B_Drau_B_BehA_S5_1 Drau_B_BehA_A1_S5.hkx 
+
+' B_Drau_B_DogA
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_DogA_S1_1 Drau_B_DogA_A1_S1.hkx 
+b -Tn B_Drau_B_DogA_S2_1 Drau_B_DogA_A1_S2.hkx 
+b -Tn B_Drau_B_DogA_S3_1 Drau_B_DogA_A1_S3.hkx 
+b -Tn B_Drau_B_DogA_S4_1 Drau_B_DogA_A1_S4.hkx 
+b -Tn B_Drau_B_DogA_S5_1 Drau_B_DogA_A1_S5.hkx 
+
+' B_Drau_B_3pLSpit
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_3pLSpit_S1_1 Drau_B_3pLSpit_A1_S1.hkx 
+b -Tn B_Drau_B_3pLSpit_S2_1 Drau_B_3pLSpit_A1_S2.hkx 
+b -Tn B_Drau_B_3pLSpit_S3_1 Drau_B_3pLSpit_A1_S3.hkx 
+b -Tn B_Drau_B_3pLSpit_S4_1 Drau_B_3pLSpit_A1_S4.hkx 
+b -Tn B_Drau_B_3pLSpit_S5_1 Drau_B_3pLSpit_A1_S5.hkx 
+
+' B_Drau_B_3pKnSpit
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_3pKnSpit_S1_1 Drau_B_3pKnSpit_A1_S1.hkx 
+b -Tn B_Drau_B_3pKnSpit_S2_1 Drau_B_3pKnSpit_A1_S2.hkx 
+b -Tn B_Drau_B_3pKnSpit_S3_1 Drau_B_3pKnSpit_A1_S3.hkx 
+b -Tn B_Drau_B_3pKnSpit_S4_1 Drau_B_3pKnSpit_A1_S4.hkx 
+b -Tn B_Drau_B_3pKnSpit_S5_1 Drau_B_3pKnSpit_A1_S5.hkx 
+
+' B_Drau_B_3pHangSpit
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_3pHangSpit_S1_1 Drau_B_3pHangSpit_A1_S1.hkx 
+b -Tn B_Drau_B_3pHangSpit_S2_1 Drau_B_3pHangSpit_A1_S2.hkx 
+b -Tn B_Drau_B_3pHangSpit_S3_1 Drau_B_3pHangSpit_A1_S3.hkx 
+b -Tn B_Drau_B_3pHangSpit_S4_1 Drau_B_3pHangSpit_A1_S4.hkx 
+b -Tn B_Drau_B_3pHangSpit_S5_1 Drau_B_3pHangSpit_A1_S5.hkx 
+
+' B_Drau_B_3pGangHang
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_3pGangHang_S1_1 Drau_B_3pGangHang_A1_S1.hkx 
+b -Tn B_Drau_B_3pGangHang_S2_1 Drau_B_3pGangHang_A1_S2.hkx 
+b -Tn B_Drau_B_3pGangHang_S3_1 Drau_B_3pGangHang_A1_S3.hkx 
+b -Tn B_Drau_B_3pGangHang_S4_1 Drau_B_3pGangHang_A1_S4.hkx 
+b -Tn B_Drau_B_3pGangHang_S5_1 Drau_B_3pGangHang_A1_S5.hkx 
+
+' B_Drau_B_3pCGDP
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_3pCGDP_S1_1 Drau_B_3pCGDP_A1_S1.hkx 
+b -Tn B_Drau_B_3pCGDP_S2_1 Drau_B_3pCGDP_A1_S2.hkx 
+b -Tn B_Drau_B_3pCGDP_S3_1 Drau_B_3pCGDP_A1_S3.hkx 
+b -Tn B_Drau_B_3pCGDP_S4_1 Drau_B_3pCGDP_A1_S4.hkx 
+b -Tn B_Drau_B_3pCGDP_S5_1 Drau_B_3pCGDP_A1_S5.hkx 
+
+' B_Drau_B_3pHoldDP2
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_3pHoldDP2_S1_1 Drau_B_3pHoldDP2_A1_S1.hkx 
+b -Tn B_Drau_B_3pHoldDP2_S2_1 Drau_B_3pHoldDP2_A1_S2.hkx 
+b -Tn B_Drau_B_3pHoldDP2_S3_1 Drau_B_3pHoldDP2_A1_S3.hkx 
+b -Tn B_Drau_B_3pHoldDP2_S4_1 Drau_B_3pHoldDP2_A1_S4.hkx 
+b -Tn B_Drau_B_3pHoldDP2_S5_1 Drau_B_3pHoldDP2_A1_S5.hkx 
+
+' B_Drau_B_4pGangHang
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_4pGangHang_S1_1 Drau_B_4pGangHang_A1_S1.hkx 
+b -Tn B_Drau_B_4pGangHang_S2_1 Drau_B_4pGangHang_A1_S2.hkx 
+b -Tn B_Drau_B_4pGangHang_S3_1 Drau_B_4pGangHang_A1_S3.hkx 
+b -Tn B_Drau_B_4pGangHang_S4_1 Drau_B_4pGangHang_A1_S4.hkx 
+b -Tn B_Drau_B_4pGangHang_S5_1 Drau_B_4pGangHang_A1_S5.hkx 
+
+' B_Drau_B_5pGangHang
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_5pGangHang_S1_1 Drau_B_5pGangHang_A1_S1.hkx 
+b -Tn B_Drau_B_5pGangHang_S2_1 Drau_B_5pGangHang_A1_S2.hkx 
+b -Tn B_Drau_B_5pGangHang_S3_1 Drau_B_5pGangHang_A1_S3.hkx 
+b -Tn B_Drau_B_5pGangHang_S4_1 Drau_B_5pGangHang_A1_S4.hkx 
+b -Tn B_Drau_B_5pGangHang_S5_1 Drau_B_5pGangHang_A1_S5.hkx 
+
+' B_Drau_B_FFCMis
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_FFCMis_S1_1 Drau_B_FFCMis_A1_S1.hkx 
+b -Tn B_Drau_B_FFCMis_S2_1 Drau_B_FFCMis_A1_S2.hkx 
+b -Tn B_Drau_B_FFCMis_S3_1 Drau_B_FFCMis_A1_S3.hkx 
+b -Tn B_Drau_B_FFCMis_S4_1 Drau_B_FFCMis_A1_S4.hkx 
+b -Tn B_Drau_B_FFCMis_S5_1 Drau_B_FFCMis_A1_S5.hkx 
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_FFCMis_S1_2 Drau_B_FFCMis_A2_S1.hkx 
+b -Tn B_Drau_B_FFCMis_S2_2 Drau_B_FFCMis_A2_S2.hkx 
+b -Tn B_Drau_B_FFCMis_S3_2 Drau_B_FFCMis_A2_S3.hkx 
+b -Tn B_Drau_B_FFCMis_S4_2 Drau_B_FFCMis_A2_S4.hkx 
+b -Tn B_Drau_B_FFCMis_S5_2 Drau_B_FFCMis_A2_S5.hkx 
+
+' B_Drau_B_FFCDog
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_FFCDog_S1_1 Drau_B_FFCDog_A1_S1.hkx 
+b -Tn B_Drau_B_FFCDog_S2_1 Drau_B_FFCDog_A1_S2.hkx 
+b -Tn B_Drau_B_FFCDog_S3_1 Drau_B_FFCDog_A1_S3.hkx 
+b -Tn B_Drau_B_FFCDog_S4_1 Drau_B_FFCDog_A1_S4.hkx 
+b -Tn B_Drau_B_FFCDog_S5_1 Drau_B_FFCDog_A1_S5.hkx 
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_FFCDog_S1_2 Drau_B_FFCDog_A2_S1.hkx 
+b -Tn B_Drau_B_FFCDog_S2_2 Drau_B_FFCDog_A2_S2.hkx 
+b -Tn B_Drau_B_FFCDog_S3_2 Drau_B_FFCDog_A2_S3.hkx 
+b -Tn B_Drau_B_FFCDog_S4_2 Drau_B_FFCDog_A2_S4.hkx 
+b -Tn B_Drau_B_FFCDog_S5_2 Drau_B_FFCDog_A2_S5.hkx 
+
+' B_Drau_B_FFCFacefuck
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_FFCFacefuck_S1_1 Drau_B_FFCFacefuck_A1_S1.hkx 
+b -Tn B_Drau_B_FFCFacefuck_S2_1 Drau_B_FFCFacefuck_A1_S2.hkx 
+b -Tn B_Drau_B_FFCFacefuck_S3_1 Drau_B_FFCFacefuck_A1_S3.hkx 
+b -Tn B_Drau_B_FFCFacefuck_S4_1 Drau_B_FFCFacefuck_A1_S4.hkx 
+b -Tn B_Drau_B_FFCFacefuck_S5_1 Drau_B_FFCFacefuck_A1_S5.hkx 
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_FFCFacefuck_S1_2 Drau_B_FFCFacefuck_A2_S1.hkx 
+b -Tn B_Drau_B_FFCFacefuck_S2_2 Drau_B_FFCFacefuck_A2_S2.hkx 
+b -Tn B_Drau_B_FFCFacefuck_S3_2 Drau_B_FFCFacefuck_A2_S3.hkx 
+b -Tn B_Drau_B_FFCFacefuck_S4_2 Drau_B_FFCFacefuck_A2_S4.hkx 
+b -Tn B_Drau_B_FFCFacefuck_S5_2 Drau_B_FFCFacefuck_A2_S5.hkx 
+
+' B_Drau_B_FFCHoldA
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_FFCHoldA_S1_1 Drau_B_FFCHoldA_A1_S1.hkx 
+b -Tn B_Drau_B_FFCHoldA_S2_1 Drau_B_FFCHoldA_A1_S2.hkx 
+b -Tn B_Drau_B_FFCHoldA_S3_1 Drau_B_FFCHoldA_A1_S3.hkx 
+b -Tn B_Drau_B_FFCHoldA_S4_1 Drau_B_FFCHoldA_A1_S4.hkx 
+b -Tn B_Drau_B_FFCHoldA_S5_1 Drau_B_FFCHoldA_A1_S5.hkx 
+b -Tn,AVbHumanoidFootIKDisable B_Drau_B_FFCHoldA_S1_2 Drau_B_FFCHoldA_A2_S1.hkx 
+b -Tn B_Drau_B_FFCHoldA_S2_2 Drau_B_FFCHoldA_A2_S2.hkx 
+b -Tn B_Drau_B_FFCHoldA_S3_2 Drau_B_FFCHoldA_A2_S3.hkx 
+b -Tn B_Drau_B_FFCHoldA_S4_2 Drau_B_FFCHoldA_A2_S4.hkx 
+b -Tn B_Drau_B_FFCHoldA_S5_2 Drau_B_FFCHoldA_A2_S5.hkx 
+
+' B_Falm_B_Miss2
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_Miss2_S1_1 Falm_B_Miss2_A1_S1.hkx 
+b -Tn B_Falm_B_Miss2_S2_1 Falm_B_Miss2_A1_S2.hkx 
+b -Tn B_Falm_B_Miss2_S3_1 Falm_B_Miss2_A1_S3.hkx 
+b -Tn B_Falm_B_Miss2_S4_1 Falm_B_Miss2_A1_S4.hkx 
+b -Tn B_Falm_B_Miss2_S5_1 Falm_B_Miss2_A1_S5.hkx 
+
+' B_Falm_B_Dog2
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_Dog2_S1_1 Falm_B_Dog2_A1_S1.hkx 
+b -Tn B_Falm_B_Dog2_S2_1 Falm_B_Dog2_A1_S2.hkx 
+b -Tn B_Falm_B_Dog2_S3_1 Falm_B_Dog2_A1_S3.hkx 
+b -Tn B_Falm_B_Dog2_S4_1 Falm_B_Dog2_A1_S4.hkx 
+b -Tn B_Falm_B_Dog2_S5_1 Falm_B_Dog2_A1_S5.hkx 
+
+' B_Falm_B_Kneel
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_Kneel_S1_1 Falm_B_Kneel_A1_S1.hkx 
+b -Tn B_Falm_B_Kneel_S2_1 Falm_B_Kneel_A1_S2.hkx 
+b -Tn B_Falm_B_Kneel_S3_1 Falm_B_Kneel_A1_S3.hkx 
+b -Tn B_Falm_B_Kneel_S4_1 Falm_B_Kneel_A1_S4.hkx 
+b -Tn B_Falm_B_Kneel_S5_1 Falm_B_Kneel_A1_S5.hkx 
+
+' B_Falm_B_Cow2
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_Cow2_S1_1 Falm_B_Cow2_A1_S1.hkx 
+b -Tn B_Falm_B_Cow2_S2_1 Falm_B_Cow2_A1_S2.hkx 
+b -Tn B_Falm_B_Cow2_S3_1 Falm_B_Cow2_A1_S3.hkx 
+b -Tn B_Falm_B_Cow2_S4_1 Falm_B_Cow2_A1_S4.hkx 
+b -Tn B_Falm_B_Cow2_S5_1 Falm_B_Cow2_A1_S5.hkx 
+b -Tn B_Falm_B_Cow2_S6_1 Falm_B_Cow2_A1_S6.hkx 
+
+' B_Falm_B_Spoon
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_Spoon_S1_1 Falm_B_Spoon_A1_S1.hkx 
+b -Tn B_Falm_B_Spoon_S2_1 Falm_B_Spoon_A1_S2.hkx 
+b -Tn B_Falm_B_Spoon_S3_1 Falm_B_Spoon_A1_S3.hkx 
+b -Tn B_Falm_B_Spoon_S4_1 Falm_B_Spoon_A1_S4.hkx 
+b -Tn B_Falm_B_Spoon_S5_1 Falm_B_Spoon_A1_S5.hkx 
+
+' B_Falm_B_Lotus
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_Lotus_S1_1 Falm_B_Lotus_A1_S1.hkx 
+b -Tn B_Falm_B_Lotus_S2_1 Falm_B_Lotus_A1_S2.hkx 
+b -Tn B_Falm_B_Lotus_S3_1 Falm_B_Lotus_A1_S3.hkx 
+b -Tn B_Falm_B_Lotus_S4_1 Falm_B_Lotus_A1_S4.hkx 
+b -Tn B_Falm_B_Lotus_S5_1 Falm_B_Lotus_A1_S5.hkx 
+
+' B_Falm_B_KLotus
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_KLotus_S1_1 Falm_B_KLotus_A1_S1.hkx 
+b -Tn B_Falm_B_KLotus_S2_1 Falm_B_KLotus_A1_S2.hkx 
+b -Tn B_Falm_B_KLotus_S3_1 Falm_B_KLotus_A1_S3.hkx 
+b -Tn B_Falm_B_KLotus_S4_1 Falm_B_KLotus_A1_S4.hkx 
+b -Tn B_Falm_B_KLotus_S5_1 Falm_B_KLotus_A1_S5.hkx 
+
+' B_Falm_B_Behind2
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_Behind2_S1_1 Falm_B_Behind2_A1_S1.hkx 
+b -Tn B_Falm_B_Behind2_S2_1 Falm_B_Behind2_A1_S2.hkx 
+b -Tn B_Falm_B_Behind2_S3_1 Falm_B_Behind2_A1_S3.hkx 
+b -Tn B_Falm_B_Behind2_S4_1 Falm_B_Behind2_A1_S4.hkx 
+b -Tn B_Falm_B_Behind2_S5_1 Falm_B_Behind2_A1_S5.hkx 
+
+' B_Falm_B_Stand
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_Stand_S1_1 Falm_B_Stand_A1_S1.hkx 
+b -Tn B_Falm_B_Stand_S2_1 Falm_B_Stand_A1_S2.hkx 
+b -Tn B_Falm_B_Stand_S3_1 Falm_B_Stand_A1_S3.hkx 
+b -Tn B_Falm_B_Stand_S4_1 Falm_B_Stand_A1_S4.hkx 
+b -Tn B_Falm_B_Stand_S5_1 Falm_B_Stand_A1_S5.hkx 
+
+' B_Falm_B_Hold2
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_Hold2_S1_1 Falm_B_Hold2_A1_S1.hkx 
+b -Tn B_Falm_B_Hold2_S2_1 Falm_B_Hold2_A1_S2.hkx 
+b -Tn B_Falm_B_Hold2_S3_1 Falm_B_Hold2_A1_S3.hkx 
+b -Tn B_Falm_B_Hold2_S4_1 Falm_B_Hold2_A1_S4.hkx 
+b -Tn B_Falm_B_Hold2_S5_1 Falm_B_Hold2_A1_S5.hkx 
+
+' B_Falm_B_Hang
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_Hang_S1_1 Falm_B_Hang_A1_S1.hkx 
+b -Tn B_Falm_B_Hang_S2_1 Falm_B_Hang_A1_S2.hkx 
+b -Tn B_Falm_B_Hang_S3_1 Falm_B_Hang_A1_S3.hkx 
+b -Tn B_Falm_B_Hang_S4_1 Falm_B_Hang_A1_S4.hkx 
+b -Tn B_Falm_B_Hang_S5_1 Falm_B_Hang_A1_S5.hkx 
+
+' B_Falm_B_HNel
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_HNel_S1_1 Falm_B_HNel_A1_S1.hkx 
+b -Tn B_Falm_B_HNel_S2_1 Falm_B_HNel_A1_S2.hkx 
+b -Tn B_Falm_B_HNel_S3_1 Falm_B_HNel_A1_S3.hkx 
+b -Tn B_Falm_B_HNel_S4_1 Falm_B_HNel_A1_S4.hkx 
+b -Tn B_Falm_B_HNel_S5_1 Falm_B_HNel_A1_S5.hkx 
+
+' B_Falm_B_KneelBJ2
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_KneelBJ2_S1_1 Falm_B_KneelBJ2_A1_S1.hkx 
+b -Tn B_Falm_B_KneelBJ2_S2_1 Falm_B_KneelBJ2_A1_S2.hkx 
+b -Tn B_Falm_B_KneelBJ2_S3_1 Falm_B_KneelBJ2_A1_S3.hkx 
+b -Tn B_Falm_B_KneelBJ2_S4_1 Falm_B_KneelBJ2_A1_S4.hkx 
+b -Tn B_Falm_B_KneelBJ2_S5_1 Falm_B_KneelBJ2_A1_S5.hkx 
+
+' B_Falm_B_SquatBJ
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_SquatBJ_S1_1 Falm_B_SquatBJ_A1_S1.hkx 
+b -Tn B_Falm_B_SquatBJ_S2_1 Falm_B_SquatBJ_A1_S2.hkx 
+b -Tn B_Falm_B_SquatBJ_S3_1 Falm_B_SquatBJ_A1_S3.hkx 
+b -Tn B_Falm_B_SquatBJ_S4_1 Falm_B_SquatBJ_A1_S4.hkx 
+b -Tn B_Falm_B_SquatBJ_S5_1 Falm_B_SquatBJ_A1_S5.hkx 
+
+' B_Falm_B_Lay69
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_Lay69_S1_1 Falm_B_Lay69_A1_S1.hkx 
+b -Tn B_Falm_B_Lay69_S2_1 Falm_B_Lay69_A1_S2.hkx 
+b -Tn B_Falm_B_Lay69_S3_1 Falm_B_Lay69_A1_S3.hkx 
+b -Tn B_Falm_B_Lay69_S4_1 Falm_B_Lay69_A1_S4.hkx 
+b -Tn B_Falm_B_Lay69_S5_1 Falm_B_Lay69_A1_S5.hkx 
+
+' B_Falm_B_HoldNelA
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_HoldNelA_S1_1 Falm_B_HoldNelA_A1_S1.hkx 
+b -Tn B_Falm_B_HoldNelA_S2_1 Falm_B_HoldNelA_A1_S2.hkx 
+b -Tn B_Falm_B_HoldNelA_S3_1 Falm_B_HoldNelA_A1_S3.hkx 
+b -Tn B_Falm_B_HoldNelA_S4_1 Falm_B_HoldNelA_A1_S4.hkx 
+b -Tn B_Falm_B_HoldNelA_S5_1 Falm_B_HoldNelA_A1_S5.hkx 
+
+' B_Falm_B_LayBackA
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_LayBackA_S1_1 Falm_B_LayBackA_A1_S1.hkx 
+b -Tn B_Falm_B_LayBackA_S2_1 Falm_B_LayBackA_A1_S2.hkx 
+b -Tn B_Falm_B_LayBackA_S3_1 Falm_B_LayBackA_A1_S3.hkx 
+b -Tn B_Falm_B_LayBackA_S4_1 Falm_B_LayBackA_A1_S4.hkx 
+b -Tn B_Falm_B_LayBackA_S5_1 Falm_B_LayBackA_A1_S5.hkx 
+
+' B_Falm_B_3pStandSpit
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_3pStandSpit_S1_1 Falm_B_3pStandSpit_A1_S1.hkx 
+b -Tn B_Falm_B_3pStandSpit_S2_1 Falm_B_3pStandSpit_A1_S2.hkx 
+b -Tn B_Falm_B_3pStandSpit_S3_1 Falm_B_3pStandSpit_A1_S3.hkx 
+b -Tn B_Falm_B_3pStandSpit_S4_1 Falm_B_3pStandSpit_A1_S4.hkx 
+b -Tn B_Falm_B_3pStandSpit_S5_1 Falm_B_3pStandSpit_A1_S5.hkx 
+
+' B_Falm_B_3pRCG
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_3pRCG_S1_1 Falm_B_3pRCG_A1_S1.hkx 
+b -Tn B_Falm_B_3pRCG_S2_1 Falm_B_3pRCG_A1_S2.hkx 
+b -Tn B_Falm_B_3pRCG_S3_1 Falm_B_3pRCG_A1_S3.hkx 
+b -Tn B_Falm_B_3pRCG_S4_1 Falm_B_3pRCG_A1_S4.hkx 
+b -Tn B_Falm_B_3pRCG_S5_1 Falm_B_3pRCG_A1_S5.hkx 
+
+' B_Falm_B_3pDogDP2
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_3pDogDP2_S1_1 Falm_B_3pDogDP2_A1_S1.hkx 
+b -Tn B_Falm_B_3pDogDP2_S2_1 Falm_B_3pDogDP2_A1_S2.hkx 
+b -Tn B_Falm_B_3pDogDP2_S3_1 Falm_B_3pDogDP2_A1_S3.hkx 
+b -Tn B_Falm_B_3pDogDP2_S4_1 Falm_B_3pDogDP2_A1_S4.hkx 
+b -Tn B_Falm_B_3pDogDP2_S5_1 Falm_B_3pDogDP2_A1_S5.hkx 
+
+' B_Falm_B_3pLayDP
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_3pLayDP_S1_1 Falm_B_3pLayDP_A1_S1.hkx 
+b -Tn B_Falm_B_3pLayDP_S2_1 Falm_B_3pLayDP_A1_S2.hkx 
+b -Tn B_Falm_B_3pLayDP_S3_1 Falm_B_3pLayDP_A1_S3.hkx 
+b -Tn B_Falm_B_3pLayDP_S4_1 Falm_B_3pLayDP_A1_S4.hkx 
+b -Tn B_Falm_B_3pLayDP_S5_1 Falm_B_3pLayDP_A1_S5.hkx 
+
+' B_Falm_B_3pServ1
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_3pServ1_S1_1 Falm_B_3pServ1_A1_S1.hkx 
+b -Tn B_Falm_B_3pServ1_S2_1 Falm_B_3pServ1_A1_S2.hkx 
+b -Tn B_Falm_B_3pServ1_S3_1 Falm_B_3pServ1_A1_S3.hkx 
+b -Tn B_Falm_B_3pServ1_S4_1 Falm_B_3pServ1_A1_S4.hkx 
+b -Tn B_Falm_B_3pServ1_S5_1 Falm_B_3pServ1_A1_S5.hkx 
+
+' B_Falm_B_3pServ2
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_3pServ2_S1_1 Falm_B_3pServ2_A1_S1.hkx 
+b -Tn B_Falm_B_3pServ2_S2_1 Falm_B_3pServ2_A1_S2.hkx 
+b -Tn B_Falm_B_3pServ2_S3_1 Falm_B_3pServ2_A1_S3.hkx 
+b -Tn B_Falm_B_3pServ2_S4_1 Falm_B_3pServ2_A1_S4.hkx 
+b -Tn B_Falm_B_3pServ2_S5_1 Falm_B_3pServ2_A1_S5.hkx 
+b -Tn B_Falm_B_3pServ2_S6_1 Falm_B_3pServ2_A1_S6.hkx 
+
+' B_Falm_B_4pGB1
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_4pGB1_S1_1 Falm_B_4pGB1_A1_S1.hkx 
+b -Tn B_Falm_B_4pGB1_S2_1 Falm_B_4pGB1_A1_S2.hkx 
+b -Tn B_Falm_B_4pGB1_S3_1 Falm_B_4pGB1_A1_S3.hkx 
+b -Tn B_Falm_B_4pGB1_S4_1 Falm_B_4pGB1_A1_S4.hkx 
+b -Tn B_Falm_B_4pGB1_S5_1 Falm_B_4pGB1_A1_S5.hkx 
+
+' B_Falm_B_5pGB1
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_5pGB1_S1_1 Falm_B_5pGB1_A1_S1.hkx 
+b -Tn B_Falm_B_5pGB1_S2_1 Falm_B_5pGB1_A1_S2.hkx 
+b -Tn B_Falm_B_5pGB1_S3_1 Falm_B_5pGB1_A1_S3.hkx 
+b -Tn B_Falm_B_5pGB1_S4_1 Falm_B_5pGB1_A1_S4.hkx 
+b -Tn B_Falm_B_5pGB1_S5_1 Falm_B_5pGB1_A1_S5.hkx 
+
+' B_Falm_B_FFCLaySrv
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_FFCLaySrv_S1_1 Falm_B_FFCLaySrv_A1_S1.hkx 
+b -Tn B_Falm_B_FFCLaySrv_S2_1 Falm_B_FFCLaySrv_A1_S2.hkx 
+b -Tn B_Falm_B_FFCLaySrv_S3_1 Falm_B_FFCLaySrv_A1_S3.hkx 
+b -Tn B_Falm_B_FFCLaySrv_S4_1 Falm_B_FFCLaySrv_A1_S4.hkx 
+b -Tn B_Falm_B_FFCLaySrv_S5_1 Falm_B_FFCLaySrv_A1_S5.hkx 
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_FFCLaySrv_S1_2 Falm_B_FFCLaySrv_A2_S1.hkx 
+b -Tn B_Falm_B_FFCLaySrv_S2_2 Falm_B_FFCLaySrv_A2_S2.hkx 
+b -Tn B_Falm_B_FFCLaySrv_S3_2 Falm_B_FFCLaySrv_A2_S3.hkx 
+b -Tn B_Falm_B_FFCLaySrv_S4_2 Falm_B_FFCLaySrv_A2_S4.hkx 
+b -Tn B_Falm_B_FFCLaySrv_S5_2 Falm_B_FFCLaySrv_A2_S5.hkx 
+
+' B_Falm_B_FFCDog
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_FFCDog_S1_1 Falm_B_FFCDog_A1_S1.hkx 
+b -Tn B_Falm_B_FFCDog_S2_1 Falm_B_FFCDog_A1_S2.hkx 
+b -Tn B_Falm_B_FFCDog_S3_1 Falm_B_FFCDog_A1_S3.hkx 
+b -Tn B_Falm_B_FFCDog_S4_1 Falm_B_FFCDog_A1_S4.hkx 
+b -Tn B_Falm_B_FFCDog_S5_1 Falm_B_FFCDog_A1_S5.hkx 
+b -Tn B_Falm_B_FFCDog_S6_1 Falm_B_FFCDog_A1_S6.hkx 
+b -Tn B_Falm_B_FFCDog_S7_1 Falm_B_FFCDog_A1_S7.hkx 
+b -Tn B_Falm_B_FFCDog_S8_1 Falm_B_FFCDog_A1_S8.hkx 
+b -Tn B_Falm_B_FFCDog_S9_1 Falm_B_FFCDog_A1_S9.hkx 
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_FFCDog_S1_2 Falm_B_FFCDog_A2_S1.hkx 
+b -Tn B_Falm_B_FFCDog_S2_2 Falm_B_FFCDog_A2_S2.hkx 
+b -Tn B_Falm_B_FFCDog_S3_2 Falm_B_FFCDog_A2_S3.hkx 
+b -Tn B_Falm_B_FFCDog_S4_2 Falm_B_FFCDog_A2_S4.hkx 
+b -Tn B_Falm_B_FFCDog_S5_2 Falm_B_FFCDog_A2_S5.hkx 
+b -Tn B_Falm_B_FFCDog_S6_2 Falm_B_FFCDog_A2_S6.hkx 
+b -Tn B_Falm_B_FFCDog_S7_2 Falm_B_FFCDog_A2_S7.hkx 
+b -Tn B_Falm_B_FFCDog_S8_2 Falm_B_FFCDog_A2_S8.hkx 
+b -Tn B_Falm_B_FFCDog_S9_2 Falm_B_FFCDog_A2_S9.hkx 
+
+' B_Falm_B_FFCDogMis
+b -Tn,AVbHumanoidFootIKDisable B_Falm_B_FFCDogMis_S1_1 Falm_B_FFCDogMis_A1_S1.hkx 
+b -Tn B_Falm_B_FFCDogMis_S2_1 Falm_B_FFCDogMis_A1_S2.hkx 
+b -Tn B_Falm_B_FFCDogMis_S3_1 Falm_B_FFCDogMis_A1_S3.hkx 
+b -Tn B_Falm_B_FFCDogMis_S4_1 Falm_B_FFCDogMis_A1_S4.hkx 
+b -Tn B_Falm_B_FFCDogMis_S5_1 Falm_B_FFCDogMis_A1_S5.hkx 
+b -Tn B_Falm_B_FFCDogMis_S6_1 Falm_B_FFCDogMis_A1_S6.hkx 
+b -Tn B_Falm_B_FFCDogMis_S7_1 Falm_B_FFCDogMis_A1_S7.hkx 
+b -Tn B_Falm_B_FFCDogMis_S8_1 Falm_B_FFCDogMis_A1_S8.hkx 
+b -Tn B_Falm_B_FFCDogMis_S1_2 Falm_B_FFCDogMis_A2_S1.hkx 
+b -Tn B_Falm_B_FFCDogMis_S2_2 Falm_B_FFCDogMis_A2_S2.hkx 
+b -Tn B_Falm_B_FFCDogMis_S3_2 Falm_B_FFCDogMis_A2_S3.hkx 
+b -Tn B_Falm_B_FFCDogMis_S4_2 Falm_B_FFCDogMis_A2_S4.hkx 
+b -Tn B_Falm_B_FFCDogMis_S5_2 Falm_B_FFCDogMis_A2_S5.hkx 
+b -Tn B_Falm_B_FFCDogMis_S6_2 Falm_B_FFCDogMis_A2_S6.hkx 
+b -Tn B_Falm_B_FFCDogMis_S7_2 Falm_B_FFCDogMis_A2_S7.hkx 
+b -Tn B_Falm_B_FFCDogMis_S8_2 Falm_B_FFCDogMis_A2_S8.hkx 
+
+' B_Riek_B_Miss
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_Miss_S1_1 Riek_B_Miss_A1_S1.hkx 
+b -Tn B_Riek_B_Miss_S2_1 Riek_B_Miss_A1_S2.hkx 
+b -Tn B_Riek_B_Miss_S3_1 Riek_B_Miss_A1_S3.hkx 
+b -Tn B_Riek_B_Miss_S4_1 Riek_B_Miss_A1_S4.hkx 
+b -Tn B_Riek_B_Miss_S5_1 Riek_B_Miss_A1_S5.hkx 
+
+' B_Riek_B_Spoon
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_Spoon_S1_1 Riek_B_Spoon_A1_S1.hkx 
+b -Tn B_Riek_B_Spoon_S2_1 Riek_B_Spoon_A1_S2.hkx 
+b -Tn B_Riek_B_Spoon_S3_1 Riek_B_Spoon_A1_S3.hkx 
+b -Tn B_Riek_B_Spoon_S4_1 Riek_B_Spoon_A1_S4.hkx 
+b -Tn B_Riek_B_Spoon_S5_1 Riek_B_Spoon_A1_S5.hkx 
+
+' B_Riek_B_Dog
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_Dog_S1_1 Riek_B_Dog_A1_S1.hkx 
+b -Tn B_Riek_B_Dog_S2_1 Riek_B_Dog_A1_S2.hkx 
+b -Tn B_Riek_B_Dog_S3_1 Riek_B_Dog_A1_S3.hkx 
+b -Tn B_Riek_B_Dog_S4_1 Riek_B_Dog_A1_S4.hkx 
+b -Tn B_Riek_B_Dog_S5_1 Riek_B_Dog_A1_S5.hkx 
+
+' B_Riek_B_Cow1
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_Cow1_S1_1 Riek_B_Cow1_A1_S1.hkx 
+b -Tn B_Riek_B_Cow1_S2_1 Riek_B_Cow1_A1_S2.hkx 
+b -Tn B_Riek_B_Cow1_S3_1 Riek_B_Cow1_A1_S3.hkx 
+b -Tn B_Riek_B_Cow1_S4_1 Riek_B_Cow1_A1_S4.hkx 
+b -Tn B_Riek_B_Cow1_S5_1 Riek_B_Cow1_A1_S5.hkx 
+
+' B_Riek_B_Cow2
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_Cow2_S1_1 Riek_B_Cow2_A1_S1.hkx 
+b -Tn B_Riek_B_Cow2_S2_1 Riek_B_Cow2_A1_S2.hkx 
+b -Tn B_Riek_B_Cow2_S3_1 Riek_B_Cow2_A1_S3.hkx 
+b -Tn B_Riek_B_Cow2_S4_1 Riek_B_Cow2_A1_S4.hkx 
+b -Tn B_Riek_B_Cow2_S5_1 Riek_B_Cow2_A1_S5.hkx 
+b -Tn B_Riek_B_Cow2_S6_1 Riek_B_Cow2_A1_S6.hkx 
+
+' B_Riek_B_RCow
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_RCow_S1_1 Riek_B_RCow_A1_S1.hkx 
+b -Tn B_Riek_B_RCow_S2_1 Riek_B_RCow_A1_S2.hkx 
+b -Tn B_Riek_B_RCow_S3_1 Riek_B_RCow_A1_S3.hkx 
+b -Tn B_Riek_B_RCow_S4_1 Riek_B_RCow_A1_S4.hkx 
+b -Tn B_Riek_B_RCow_S5_1 Riek_B_RCow_A1_S5.hkx 
+
+' B_Riek_B_Lotus
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_Lotus_S1_1 Riek_B_Lotus_A1_S1.hkx 
+b -Tn B_Riek_B_Lotus_S2_1 Riek_B_Lotus_A1_S2.hkx 
+b -Tn B_Riek_B_Lotus_S3_1 Riek_B_Lotus_A1_S3.hkx 
+b -Tn B_Riek_B_Lotus_S4_1 Riek_B_Lotus_A1_S4.hkx 
+b -Tn B_Riek_B_Lotus_S5_1 Riek_B_Lotus_A1_S5.hkx 
+
+' B_Riek_B_Stand
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_Stand_S1_1 Riek_B_Stand_A1_S1.hkx 
+b -Tn B_Riek_B_Stand_S2_1 Riek_B_Stand_A1_S2.hkx 
+b -Tn B_Riek_B_Stand_S3_1 Riek_B_Stand_A1_S3.hkx 
+b -Tn B_Riek_B_Stand_S4_1 Riek_B_Stand_A1_S4.hkx 
+b -Tn B_Riek_B_Stand_S5_1 Riek_B_Stand_A1_S5.hkx 
+
+' B_Riek_B_Pile
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_Pile_S1_1 Riek_B_Pile_A1_S1.hkx 
+b -Tn B_Riek_B_Pile_S2_1 Riek_B_Pile_A1_S2.hkx 
+b -Tn B_Riek_B_Pile_S3_1 Riek_B_Pile_A1_S3.hkx 
+b -Tn B_Riek_B_Pile_S4_1 Riek_B_Pile_A1_S4.hkx 
+b -Tn B_Riek_B_Pile_S5_1 Riek_B_Pile_A1_S5.hkx 
+
+' B_Riek_B_FF
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_FF_S1_1 Riek_B_FF_A1_S1.hkx 
+b -Tn B_Riek_B_FF_S2_1 Riek_B_FF_A1_S2.hkx 
+b -Tn B_Riek_B_FF_S3_1 Riek_B_FF_A1_S3.hkx 
+b -Tn B_Riek_B_FF_S4_1 Riek_B_FF_A1_S4.hkx 
+b -Tn B_Riek_B_FF_S5_1 Riek_B_FF_A1_S5.hkx 
+
+' B_Riek_B_LayFF
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_LayFF_S1_1 Riek_B_LayFF_A1_S1.hkx 
+b -Tn B_Riek_B_LayFF_S2_1 Riek_B_LayFF_A1_S2.hkx 
+b -Tn B_Riek_B_LayFF_S3_1 Riek_B_LayFF_A1_S3.hkx 
+b -Tn B_Riek_B_LayFF_S4_1 Riek_B_LayFF_A1_S4.hkx 
+b -Tn B_Riek_B_LayFF_S5_1 Riek_B_LayFF_A1_S5.hkx 
+
+' B_Riek_B_KnelBJ
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_KnelBJ_S1_1 Riek_B_KnelBJ_A1_S1.hkx 
+b -Tn B_Riek_B_KnelBJ_S2_1 Riek_B_KnelBJ_A1_S2.hkx 
+b -Tn B_Riek_B_KnelBJ_S3_1 Riek_B_KnelBJ_A1_S3.hkx 
+b -Tn B_Riek_B_KnelBJ_S4_1 Riek_B_KnelBJ_A1_S4.hkx 
+b -Tn B_Riek_B_KnelBJ_S5_1 Riek_B_KnelBJ_A1_S5.hkx 
+
+' B_Riek_B_BoobJ
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_BoobJ_S1_1 Riek_B_BoobJ_A1_S1.hkx 
+b -Tn B_Riek_B_BoobJ_S2_1 Riek_B_BoobJ_A1_S2.hkx 
+b -Tn B_Riek_B_BoobJ_S3_1 Riek_B_BoobJ_A1_S3.hkx 
+b -Tn B_Riek_B_BoobJ_S4_1 Riek_B_BoobJ_A1_S4.hkx 
+b -Tn B_Riek_B_BoobJ_S5_1 Riek_B_BoobJ_A1_S5.hkx 
+
+' B_Riek_B_Cunn1
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_Cunn1_S1_1 Riek_B_Cunn1_A1_S1.hkx 
+b -Tn B_Riek_B_Cunn1_S2_1 Riek_B_Cunn1_A1_S2.hkx 
+b -Tn B_Riek_B_Cunn1_S3_1 Riek_B_Cunn1_A1_S3.hkx 
+b -Tn B_Riek_B_Cunn1_S4_1 Riek_B_Cunn1_A1_S4.hkx 
+b -Tn B_Riek_B_Cunn1_S5_1 Riek_B_Cunn1_A1_S5.hkx 
+
+' B_Riek_B_KneelA
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_KneelA_S1_1 Riek_B_KneelA_A1_S1.hkx 
+b -Tn B_Riek_B_KneelA_S2_1 Riek_B_KneelA_A1_S2.hkx 
+b -Tn B_Riek_B_KneelA_S3_1 Riek_B_KneelA_A1_S3.hkx 
+b -Tn B_Riek_B_KneelA_S4_1 Riek_B_KneelA_A1_S4.hkx 
+b -Tn B_Riek_B_KneelA_S5_1 Riek_B_KneelA_A1_S5.hkx 
+
+' B_Riek_B_DogA
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_DogA_S1_1 Riek_B_DogA_A1_S1.hkx 
+b -Tn B_Riek_B_DogA_S2_1 Riek_B_DogA_A1_S2.hkx 
+b -Tn B_Riek_B_DogA_S3_1 Riek_B_DogA_A1_S3.hkx 
+b -Tn B_Riek_B_DogA_S4_1 Riek_B_DogA_A1_S4.hkx 
+b -Tn B_Riek_B_DogA_S5_1 Riek_B_DogA_A1_S5.hkx 
+b -Tn B_Riek_B_DogA_S6_1 Riek_B_DogA_A1_S6.hkx 
+
+' B_Riek_B_LayA
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_LayA_S1_1 Riek_B_LayA_A1_S1.hkx 
+b -Tn B_Riek_B_LayA_S2_1 Riek_B_LayA_A1_S2.hkx 
+b -Tn B_Riek_B_LayA_S3_1 Riek_B_LayA_A1_S3.hkx 
+b -Tn B_Riek_B_LayA_S4_1 Riek_B_LayA_A1_S4.hkx 
+b -Tn B_Riek_B_LayA_S5_1 Riek_B_LayA_A1_S5.hkx 
+
+' B_Riek_B_3pLaySpitA
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_3pLaySpitA_S1_1 Riek_B_3pLaySpitA_A1_S1.hkx 
+b -Tn B_Riek_B_3pLaySpitA_S2_1 Riek_B_3pLaySpitA_A1_S2.hkx 
+b -Tn B_Riek_B_3pLaySpitA_S3_1 Riek_B_3pLaySpitA_A1_S3.hkx 
+b -Tn B_Riek_B_3pLaySpitA_S4_1 Riek_B_3pLaySpitA_A1_S4.hkx 
+b -Tn B_Riek_B_3pLaySpitA_S5_1 Riek_B_3pLaySpitA_A1_S5.hkx 
+
+' B_Riek_B_3pDogDP
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_3pDogDP_S1_1 Riek_B_3pDogDP_A1_S1.hkx 
+b -Tn B_Riek_B_3pDogDP_S2_1 Riek_B_3pDogDP_A1_S2.hkx 
+b -Tn B_Riek_B_3pDogDP_S3_1 Riek_B_3pDogDP_A1_S3.hkx 
+b -Tn B_Riek_B_3pDogDP_S4_1 Riek_B_3pDogDP_A1_S4.hkx 
+b -Tn B_Riek_B_3pDogDP_S5_1 Riek_B_3pDogDP_A1_S5.hkx 
+
+' B_Riek_B_3pCGDP
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_3pCGDP_S1_1 Riek_B_3pCGDP_A1_S1.hkx 
+b -Tn B_Riek_B_3pCGDP_S2_1 Riek_B_3pCGDP_A1_S2.hkx 
+b -Tn B_Riek_B_3pCGDP_S3_1 Riek_B_3pCGDP_A1_S3.hkx 
+b -Tn B_Riek_B_3pCGDP_S4_1 Riek_B_3pCGDP_A1_S4.hkx 
+b -Tn B_Riek_B_3pCGDP_S5_1 Riek_B_3pCGDP_A1_S5.hkx 
+
+' B_Riek_B_3pDogDVDP
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_3pDogDVDP_S1_1 Riek_B_3pDogDVDP_A1_S1.hkx 
+b -Tn B_Riek_B_3pDogDVDP_S2_1 Riek_B_3pDogDVDP_A1_S2.hkx 
+b -Tn B_Riek_B_3pDogDVDP_S3_1 Riek_B_3pDogDVDP_A1_S3.hkx 
+b -Tn B_Riek_B_3pDogDVDP_S4_1 Riek_B_3pDogDVDP_A1_S4.hkx 
+b -Tn B_Riek_B_3pDogDVDP_S5_1 Riek_B_3pDogDVDP_A1_S5.hkx 
+
+' B_Riek_B_4pGB1
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_4pGB1_S1_1 Riek_B_4pGB1_A1_S1.hkx 
+b -Tn B_Riek_B_4pGB1_S2_1 Riek_B_4pGB1_A1_S2.hkx 
+b -Tn B_Riek_B_4pGB1_S3_1 Riek_B_4pGB1_A1_S3.hkx 
+b -Tn B_Riek_B_4pGB1_S4_1 Riek_B_4pGB1_A1_S4.hkx 
+b -Tn B_Riek_B_4pGB1_S5_1 Riek_B_4pGB1_A1_S5.hkx 
+
+' B_Riek_B_4pGB2v1
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_4pGB2v1_S1_1 Riek_B_4pGB2v1_A1_S1.hkx 
+b -Tn B_Riek_B_4pGB2v1_S2_1 Riek_B_4pGB2v1_A1_S2.hkx 
+b -Tn B_Riek_B_4pGB2v1_S3_1 Riek_B_4pGB2v1_A1_S3.hkx 
+b -Tn B_Riek_B_4pGB2v1_S4_1 Riek_B_4pGB2v1_A1_S4.hkx 
+b -Tn B_Riek_B_4pGB2v1_S5_1 Riek_B_4pGB2v1_A1_S5.hkx 
+
+' B_Riek_B_4pGB2v2
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_4pGB2v2_S1_1 Riek_B_4pGB2v2_A1_S1.hkx 
+b -Tn B_Riek_B_4pGB2v2_S2_1 Riek_B_4pGB2v2_A1_S2.hkx 
+b -Tn B_Riek_B_4pGB2v2_S3_1 Riek_B_4pGB2v2_A1_S3.hkx 
+b -Tn B_Riek_B_4pGB2v2_S4_1 Riek_B_4pGB2v2_A1_S4.hkx 
+b -Tn B_Riek_B_4pGB2v2_S5_1 Riek_B_4pGB2v2_A1_S5.hkx 
+
+' B_Riek_B_5pGB1
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_5pGB1_S1_1 Riek_B_5pGB1_A1_S1.hkx 
+b -Tn B_Riek_B_5pGB1_S2_1 Riek_B_5pGB1_A1_S2.hkx 
+b -Tn B_Riek_B_5pGB1_S3_1 Riek_B_5pGB1_A1_S3.hkx 
+b -Tn B_Riek_B_5pGB1_S4_1 Riek_B_5pGB1_A1_S4.hkx 
+b -Tn B_Riek_B_5pGB1_S5_1 Riek_B_5pGB1_A1_S5.hkx 
+
+' B_Riek_B_FFCMiss
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_FFCMiss_S1_1 Riek_B_FFCMiss_A1_S1.hkx 
+b -Tn B_Riek_B_FFCMiss_S2_1 Riek_B_FFCMiss_A1_S2.hkx 
+b -Tn B_Riek_B_FFCMiss_S3_1 Riek_B_FFCMiss_A1_S3.hkx 
+b -Tn B_Riek_B_FFCMiss_S4_1 Riek_B_FFCMiss_A1_S4.hkx 
+b -Tn B_Riek_B_FFCMiss_S5_1 Riek_B_FFCMiss_A1_S5.hkx 
+b -Tn B_Riek_B_FFCMiss_S6_1 Riek_B_FFCMiss_A1_S6.hkx 
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_FFCMiss_S1_2 Riek_B_FFCMiss_A2_S1.hkx 
+b -Tn B_Riek_B_FFCMiss_S2_2 Riek_B_FFCMiss_A2_S2.hkx 
+b -Tn B_Riek_B_FFCMiss_S3_2 Riek_B_FFCMiss_A2_S3.hkx 
+b -Tn B_Riek_B_FFCMiss_S4_2 Riek_B_FFCMiss_A2_S4.hkx 
+b -Tn B_Riek_B_FFCMiss_S5_2 Riek_B_FFCMiss_A2_S5.hkx 
+b -Tn B_Riek_B_FFCMiss_S6_2 Riek_B_FFCMiss_A2_S6.hkx 
+
+' B_Riek_B_FFCCow
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_FFCCow_S1_1 Riek_B_FFCCow_A1_S1.hkx 
+b -Tn B_Riek_B_FFCCow_S2_1 Riek_B_FFCCow_A1_S2.hkx 
+b -Tn B_Riek_B_FFCCow_S3_1 Riek_B_FFCCow_A1_S3.hkx 
+b -Tn B_Riek_B_FFCCow_S4_1 Riek_B_FFCCow_A1_S4.hkx 
+b -Tn B_Riek_B_FFCCow_S5_1 Riek_B_FFCCow_A1_S5.hkx 
+b -Tn B_Riek_B_FFCCow_S6_1 Riek_B_FFCCow_A1_S6.hkx 
+b -Tn B_Riek_B_FFCCow_S7_1 Riek_B_FFCCow_A1_S7.hkx 
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_FFCCow_S1_2 Riek_B_FFCCow_A2_S1.hkx 
+b -Tn B_Riek_B_FFCCow_S2_2 Riek_B_FFCCow_A2_S2.hkx 
+b -Tn B_Riek_B_FFCCow_S3_2 Riek_B_FFCCow_A2_S3.hkx 
+b -Tn B_Riek_B_FFCCow_S4_2 Riek_B_FFCCow_A2_S4.hkx 
+b -Tn B_Riek_B_FFCCow_S5_2 Riek_B_FFCCow_A2_S5.hkx 
+b -Tn B_Riek_B_FFCCow_S6_2 Riek_B_FFCCow_A2_S6.hkx 
+b -Tn B_Riek_B_FFCCow_S7_2 Riek_B_FFCCow_A2_S7.hkx 
+
+' B_Riek_B_FFCDogBJ
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_FFCDogBJ_S1_1 Riek_B_FFCDogBJ_A1_S1.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S2_1 Riek_B_FFCDogBJ_A1_S2.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S3_1 Riek_B_FFCDogBJ_A1_S3.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S4_1 Riek_B_FFCDogBJ_A1_S4.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S5_1 Riek_B_FFCDogBJ_A1_S5.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S6_1 Riek_B_FFCDogBJ_A1_S6.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S7_1 Riek_B_FFCDogBJ_A1_S7.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S8_1 Riek_B_FFCDogBJ_A1_S8.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S9_1 Riek_B_FFCDogBJ_A1_S9.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S10_1 Riek_B_FFCDogBJ_A1_S10.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S11_1 Riek_B_FFCDogBJ_A1_S11.hkx 
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_FFCDogBJ_S1_2 Riek_B_FFCDogBJ_A2_S1.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S2_2 Riek_B_FFCDogBJ_A2_S2.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S3_2 Riek_B_FFCDogBJ_A2_S3.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S4_2 Riek_B_FFCDogBJ_A2_S4.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S5_2 Riek_B_FFCDogBJ_A2_S5.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S6_2 Riek_B_FFCDogBJ_A2_S6.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S7_2 Riek_B_FFCDogBJ_A2_S7.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S8_2 Riek_B_FFCDogBJ_A2_S8.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S9_2 Riek_B_FFCDogBJ_A2_S9.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S10_2 Riek_B_FFCDogBJ_A2_S10.hkx 
+b -Tn B_Riek_B_FFCDogBJ_S11_2 Riek_B_FFCDogBJ_A2_S11.hkx 
+
+' B_Riek_B_FFCLaySrv
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_FFCLaySrv_S1_1 Riek_B_FFCLaySrv_A1_S1.hkx 
+b -Tn B_Riek_B_FFCLaySrv_S2_1 Riek_B_FFCLaySrv_A1_S2.hkx 
+b -Tn B_Riek_B_FFCLaySrv_S3_1 Riek_B_FFCLaySrv_A1_S3.hkx 
+b -Tn B_Riek_B_FFCLaySrv_S4_1 Riek_B_FFCLaySrv_A1_S4.hkx 
+b -Tn B_Riek_B_FFCLaySrv_S5_1 Riek_B_FFCLaySrv_A1_S5.hkx 
+b -Tn B_Riek_B_FFCLaySrv_S6_1 Riek_B_FFCLaySrv_A1_S6.hkx 
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_FFCLaySrv_S1_2 Riek_B_FFCLaySrv_A2_S1.hkx 
+b -Tn B_Riek_B_FFCLaySrv_S2_2 Riek_B_FFCLaySrv_A2_S2.hkx 
+b -Tn B_Riek_B_FFCLaySrv_S3_2 Riek_B_FFCLaySrv_A2_S3.hkx 
+b -Tn B_Riek_B_FFCLaySrv_S4_2 Riek_B_FFCLaySrv_A2_S4.hkx 
+b -Tn B_Riek_B_FFCLaySrv_S5_2 Riek_B_FFCLaySrv_A2_S5.hkx 
+b -Tn B_Riek_B_FFCLaySrv_S6_2 Riek_B_FFCLaySrv_A2_S6.hkx 
+
+' B_Riek_B_FFCKnSrv
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_FFCKnSrv_S1_1 Riek_B_FFCKnSrv_A1_S1.hkx 
+b -Tn B_Riek_B_FFCKnSrv_S2_1 Riek_B_FFCKnSrv_A1_S2.hkx 
+b -Tn B_Riek_B_FFCKnSrv_S3_1 Riek_B_FFCKnSrv_A1_S3.hkx 
+b -Tn B_Riek_B_FFCKnSrv_S4_1 Riek_B_FFCKnSrv_A1_S4.hkx 
+b -Tn B_Riek_B_FFCKnSrv_S5_1 Riek_B_FFCKnSrv_A1_S5.hkx 
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_FFCKnSrv_S1_2 Riek_B_FFCKnSrv_A2_S1.hkx 
+b -Tn B_Riek_B_FFCKnSrv_S2_2 Riek_B_FFCKnSrv_A2_S2.hkx 
+b -Tn B_Riek_B_FFCKnSrv_S3_2 Riek_B_FFCKnSrv_A2_S3.hkx 
+b -Tn B_Riek_B_FFCKnSrv_S4_2 Riek_B_FFCKnSrv_A2_S4.hkx 
+b -Tn B_Riek_B_FFCKnSrv_S5_2 Riek_B_FFCKnSrv_A2_S5.hkx 
+
+' B_Riek_B_FFCFaceF
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_FFCFaceF_S1_1 Riek_B_FFCFaceF_A1_S1.hkx 
+b -Tn B_Riek_B_FFCFaceF_S2_1 Riek_B_FFCFaceF_A1_S2.hkx 
+b -Tn B_Riek_B_FFCFaceF_S3_1 Riek_B_FFCFaceF_A1_S3.hkx 
+b -Tn B_Riek_B_FFCFaceF_S4_1 Riek_B_FFCFaceF_A1_S4.hkx 
+b -Tn B_Riek_B_FFCFaceF_S5_1 Riek_B_FFCFaceF_A1_S5.hkx 
+b -Tn B_Riek_B_FFCFaceF_S6_1 Riek_B_FFCFaceF_A1_S6.hkx 
+b -Tn B_Riek_B_FFCFaceF_S7_1 Riek_B_FFCFaceF_A1_S7.hkx 
+b -Tn,AVbHumanoidFootIKDisable B_Riek_B_FFCFaceF_S1_2 Riek_B_FFCFaceF_A2_S1.hkx 
+b -Tn B_Riek_B_FFCFaceF_S2_2 Riek_B_FFCFaceF_A2_S2.hkx 
+b -Tn B_Riek_B_FFCFaceF_S3_2 Riek_B_FFCFaceF_A2_S3.hkx 
+b -Tn B_Riek_B_FFCFaceF_S4_2 Riek_B_FFCFaceF_A2_S4.hkx 
+b -Tn B_Riek_B_FFCFaceF_S5_2 Riek_B_FFCFaceF_A2_S5.hkx 
+b -Tn B_Riek_B_FFCFaceF_S6_2 Riek_B_FFCFaceF_A2_S6.hkx 
+b -Tn B_Riek_B_FFCFaceF_S7_2 Riek_B_FFCFaceF_A2_S7.hkx 
+
+' B_Vamp_B_Miss
+b -Tn,AVbHumanoidFootIKDisable B_Vamp_B_Miss_S1_1 Vamp_B_Miss_A1_S1.hkx 
+b -Tn B_Vamp_B_Miss_S2_1 Vamp_B_Miss_A1_S2.hkx 
+b -Tn B_Vamp_B_Miss_S3_1 Vamp_B_Miss_A1_S3.hkx 
+b -Tn B_Vamp_B_Miss_S4_1 Vamp_B_Miss_A1_S4.hkx 
+b -Tn B_Vamp_B_Miss_S5_1 Vamp_B_Miss_A1_S5.hkx 
+
+' B_Vamp_B_Dog
+b -Tn,AVbHumanoidFootIKDisable B_Vamp_B_Dog_S1_1 Vamp_B_Dog_A1_S1.hkx 
+b -Tn B_Vamp_B_Dog_S2_1 Vamp_B_Dog_A1_S2.hkx 
+b -Tn B_Vamp_B_Dog_S3_1 Vamp_B_Dog_A1_S3.hkx 
+b -Tn B_Vamp_B_Dog_S4_1 Vamp_B_Dog_A1_S4.hkx 
+b -Tn B_Vamp_B_Dog_S5_1 Vamp_B_Dog_A1_S5.hkx 

@@ -1,0 +1,53 @@
+{
+    "name": "Billyy Riekling Standing Cunnilingus",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyRieklingStandingCunnilingus-4",
+    "speeds": [
+        {
+            "animation": "B_Riek_B_Cunn1_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Cunnilingus",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "malemasturbation",
+            "actor": 0,
+            "target": 0
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Riekling"
+    ]
+}

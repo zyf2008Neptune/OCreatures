@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Spider Giant Doggy Anal",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyySpiderGiantDoggyAnal-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyySpiderGiantDoggyAnal-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyySpiderGiantHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Spider/Spider"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_GSpid_B_DogAnal_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpiderGiant",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyySpiderGiantDoggyAnal-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyySpiderGiantDoggyAnal-5"
+			},
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spider"
+    ]
+}

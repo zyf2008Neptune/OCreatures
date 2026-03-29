@@ -1,0 +1,48 @@
+{
+    "name": "Billyy VampireLord Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyVampireLordDoggy-4",
+    "speeds": [
+        {
+            "animation": "B_Vamp_B_Dog_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crVampireLord",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "vampirebite",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"VampireLord"
+    ]
+}

@@ -1,0 +1,81 @@
+Version V1.0
+
+' B_ChauH_B_Dog
+b -Tn B_ChauH_B_Dog_S1_0 ChauH_B_Dog_A2_S1.hkx 
+b -Tn B_ChauH_B_Dog_S2_0 ChauH_B_Dog_A2_S2.hkx 
+b -Tn B_ChauH_B_Dog_S3_0 ChauH_B_Dog_A2_S3.hkx 
+b -Tn B_ChauH_B_Dog_S4_0 ChauH_B_Dog_A2_S4.hkx 
+b -Tn B_ChauH_B_Dog_S5_0 ChauH_B_Dog_A2_S5.hkx 
+
+' B_ChauH_B_Behind
+b -Tn B_ChauH_B_Behind_S1_0 ChauH_B_Behind_A2_S1.hkx 
+b -Tn B_ChauH_B_Behind_S2_0 ChauH_B_Behind_A2_S2.hkx 
+b -Tn B_ChauH_B_Behind_S3_0 ChauH_B_Behind_A2_S3.hkx 
+b -Tn B_ChauH_B_Behind_S4_0 ChauH_B_Behind_A2_S4.hkx 
+b -Tn B_ChauH_B_Behind_S5_0 ChauH_B_Behind_A2_S5.hkx 
+
+' B_ChauH_B_Hold
+b -Tn B_ChauH_B_Hold_S1_0 ChauH_B_Hold_A2_S1.hkx 
+b -Tn B_ChauH_B_Hold_S2_0 ChauH_B_Hold_A2_S2.hkx 
+b -Tn B_ChauH_B_Hold_S3_0 ChauH_B_Hold_A2_S3.hkx 
+b -Tn B_ChauH_B_Hold_S4_0 ChauH_B_Hold_A2_S4.hkx 
+b -Tn B_ChauH_B_Hold_S5_0 ChauH_B_Hold_A2_S5.hkx 
+
+' B_ChauH_B_Hang
+b -Tn B_ChauH_B_Hang_S1_0 ChauH_B_Hang_A2_S1.hkx 
+b -Tn B_ChauH_B_Hang_S2_0 ChauH_B_Hang_A2_S2.hkx 
+b -Tn B_ChauH_B_Hang_S3_0 ChauH_B_Hang_A2_S3.hkx 
+b -Tn B_ChauH_B_Hang_S4_0 ChauH_B_Hang_A2_S4.hkx 
+b -Tn B_ChauH_B_Hang_S5_0 ChauH_B_Hang_A2_S5.hkx 
+
+' B_ChauH_B_Miss
+b -Tn B_ChauH_B_Miss_S1_0 ChauH_B_Miss_A2_S1.hkx 
+b -Tn B_ChauH_B_Miss_S2_0 ChauH_B_Miss_A2_S2.hkx 
+b -Tn B_ChauH_B_Miss_S3_0 ChauH_B_Miss_A2_S3.hkx 
+b -Tn B_ChauH_B_Miss_S4_0 ChauH_B_Miss_A2_S4.hkx 
+b -Tn B_ChauH_B_Miss_S5_0 ChauH_B_Miss_A2_S5.hkx 
+
+' B_ChauH_B_Hold69
+b -Tn B_ChauH_B_Hold69_S1_0 ChauH_B_Hold69_A2_S1.hkx 
+b -Tn B_ChauH_B_Hold69_S2_0 ChauH_B_Hold69_A2_S2.hkx 
+b -Tn B_ChauH_B_Hold69_S3_0 ChauH_B_Hold69_A2_S3.hkx 
+b -Tn B_ChauH_B_Hold69_S4_0 ChauH_B_Hold69_A2_S4.hkx 
+b -Tn B_ChauH_B_Hold69_S5_0 ChauH_B_Hold69_A2_S5.hkx 
+
+' B_ChauH_B_BoobJ
+b -Tn B_ChauH_B_BoobJ_S1_0 ChauH_B_BoobJ_A2_S1.hkx 
+b -Tn B_ChauH_B_BoobJ_S2_0 ChauH_B_BoobJ_A2_S2.hkx 
+b -Tn B_ChauH_B_BoobJ_S3_0 ChauH_B_BoobJ_A2_S3.hkx 
+b -Tn B_ChauH_B_BoobJ_S4_0 ChauH_B_BoobJ_A2_S4.hkx 
+b -Tn,o B_ChauH_B_BoobJ_S5_0 ChauH_B_BoobJ_A2_S5.hkx AO_BChaurHuntCumBJ
+
+' B_ChauH_B_HoldA
+b -Tn B_ChauH_B_HoldA_S1_0 ChauH_B_HoldA_A2_S1.hkx 
+b -Tn B_ChauH_B_HoldA_S2_0 ChauH_B_HoldA_A2_S2.hkx 
+b -Tn B_ChauH_B_HoldA_S3_0 ChauH_B_HoldA_A2_S3.hkx 
+b -Tn B_ChauH_B_HoldA_S4_0 ChauH_B_HoldA_A2_S4.hkx 
+b -Tn B_ChauH_B_HoldA_S5_0 ChauH_B_HoldA_A2_S5.hkx 
+
+' B_ChauH_B_3pSpit
+b -Tn B_ChauH_B_3pSpit_S1_0 ChauH_B_3pSpit_A2_S1.hkx 
+b -Tn B_ChauH_B_3pSpit_S2_0 ChauH_B_3pSpit_A2_S2.hkx 
+b -Tn B_ChauH_B_3pSpit_S3_0 ChauH_B_3pSpit_A2_S3.hkx 
+b -Tn B_ChauH_B_3pSpit_S4_0 ChauH_B_3pSpit_A2_S4.hkx 
+b -Tn B_ChauH_B_3pSpit_S5_0 ChauH_B_3pSpit_A2_S5.hkx 
+b -Tn B_ChauH_B_3pSpit_S1_2 ChauH_B_3pSpit_A3_S1.hkx 
+b -Tn B_ChauH_B_3pSpit_S2_2 ChauH_B_3pSpit_A3_S2.hkx 
+b -Tn B_ChauH_B_3pSpit_S3_2 ChauH_B_3pSpit_A3_S3.hkx 
+b -Tn B_ChauH_B_3pSpit_S4_2 ChauH_B_3pSpit_A3_S4.hkx 
+b -Tn B_ChauH_B_3pSpit_S5_2 ChauH_B_3pSpit_A3_S5.hkx 
+
+' B_ChauH_B_3pDP
+b -Tn B_ChauH_B_3pDP_S1_0 ChauH_B_3pDP_A2_S1.hkx 
+b -Tn B_ChauH_B_3pDP_S2_0 ChauH_B_3pDP_A2_S2.hkx 
+b -Tn B_ChauH_B_3pDP_S3_0 ChauH_B_3pDP_A2_S3.hkx 
+b -Tn B_ChauH_B_3pDP_S4_0 ChauH_B_3pDP_A2_S4.hkx 
+b -Tn B_ChauH_B_3pDP_S5_0 ChauH_B_3pDP_A2_S5.hkx 
+b -Tn B_ChauH_B_3pDP_S1_2 ChauH_B_3pDP_A3_S1.hkx 
+b -Tn B_ChauH_B_3pDP_S2_2 ChauH_B_3pDP_A3_S2.hkx 
+b -Tn B_ChauH_B_3pDP_S3_2 ChauH_B_3pDP_A3_S3.hkx 
+b -Tn B_ChauH_B_3pDP_S4_2 ChauH_B_3pDP_A3_S4.hkx 
+b -Tn B_ChauH_B_3pDP_S5_2 ChauH_B_3pDP_A3_S5.hkx 

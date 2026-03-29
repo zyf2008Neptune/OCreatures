@@ -1,0 +1,19 @@
+{
+	"condition":{
+		"info": "OCrAtronachFlameRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd7c"
+	},
+	"type": "cratronachflame",
+	"requirements": {
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"vagina": true,
+		"breast": true,
+		"nipple": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

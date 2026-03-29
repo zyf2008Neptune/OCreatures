@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Skeever Missionary 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySkeeverMissionary2-4",
+    "speeds": [
+        {
+            "animation": "B_Skee_B_Miss2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crskeever",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "leglocking",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"skeever"
+    ]
+}

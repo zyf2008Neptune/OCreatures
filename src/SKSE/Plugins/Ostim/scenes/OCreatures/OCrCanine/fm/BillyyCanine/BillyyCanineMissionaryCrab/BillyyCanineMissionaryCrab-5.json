@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Canine Missionary Crab",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyCanineMissionaryCrab-4",
+    "speeds": [
+        {
+            "animation": "B_Can_B_MissCrab_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

@@ -1,0 +1,7 @@
+Version V1.0
+
+' MNCsabrecatvaginal
+b -Tn MNCsabrecatvaginal_S1_0 sabrecatvaginal_A2_S1.hkx
+b -Tn MNCsabrecatvaginal_S2_0 sabrecatvaginal_A2_S2.hkx
+b -Tn MNCsabrecatvaginal_S3_0 sabrecatvaginal_A2_S3.hkx
+b -Tn MNCsabrecatvaginal_S4_0 sabrecatvaginal_A2_S4.hkx

@@ -1,0 +1,133 @@
+{
+    "name": "BillyyFalmer5pGangbang1",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyFalmer5pGangbang1-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyFalmer5pGangbang1-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyFalmerHubFMMMM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/falmer/falmer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Falm_B_5pGB1_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyFalmer5pGangbang1-5"
+			},
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "kneeling"
+            ]
+        },
+		{
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyFalmer5pGangbang1-5"
+			},
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "squatting"
+            ]
+        },
+		{
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyFalmer5pGangbang1-5"
+			},
+			"animationIndex": 3,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+		{
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyFalmer5pGangbang1-5"
+			},
+			"animationIndex": 4,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "kneeling"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyFalmer5pGangbang1-5"
+			},
+			"animationIndex": 1,
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 4,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 4
+        },
+		{
+            "type": "analsex",
+            "actor": 1,
+            "target": 4
+        },
+		{
+            "type": "holdinghip",
+            "actor": 3,
+            "target": 4
+        },
+		{
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 3
+        },
+		{
+            "type": "handjob",
+            "actor": 4,
+            "target": 3
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "falmer"
+    ]
+}

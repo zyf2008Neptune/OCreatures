@@ -1,0 +1,68 @@
+{
+    "name": "Billyy Lurker Holding 3",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyLurkerHolding3-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyLurkerHolding3-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		{
+            "destination": "BillyyLurkerHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Lurker/Lurker"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Lurk_B_Hold3_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crLurker",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"bendover"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Lurker"
+    ]
+}

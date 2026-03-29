@@ -1,0 +1,76 @@
+{
+    "name": "BillyyChaurusFlyer3pDoublePenetration",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "BillyyChaurusFlyerHubFMM",
+            "description": "BillyyChaurusFlyer3pDoublePenetration",
+            "icon": "OCreatures/chaurus/chaurusvaganal"
+        },
+        {
+            "destination": "BillyyChaurusFlyer3pDoublePenetration-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyChaurusFlyerHubFMM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/chaurus/chaurusFlyer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_ChauH_B_3pDP_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crchaurusFlyer",
+            "intendedSex": "male",
+			"animationIndex": 0,
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+            "type": "crchaurusFlyer",
+            "intendedSex": "male",
+			"animationIndex": 2,
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+		{
+            "type": "lickingnipple",
+            "actor": 0,
+            "target": 2
+        },
+        {
+            "type": "thighjob",
+            "actor": 2,
+            "target": 1,
+			"performer": 1
+        }
+	],
+    "tags": [
+        "billyy",
+        "creature",
+        "chaurusFlyer"
+    ]
+}

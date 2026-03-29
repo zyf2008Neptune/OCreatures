@@ -1,0 +1,67 @@
+{
+    "name": "Billyy Werewolf Footjob",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyWerewolfHubFM",
+            "description": "Billyy Werewolf Footjob",
+            "icon": "OCreatures/Werewolf/Werewolffoot"
+        },
+        {
+            "destination": "BillyyWerewolfFootjob-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyWerewolfHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Werewolf/Werewolf"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_WW_B_FJ_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "footjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+			"type": "kissingfoot",
+			"actor": 0,
+			"target": 1
+		},
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Werewolf"
+    ]
+}

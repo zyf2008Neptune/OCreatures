@@ -1,0 +1,14 @@
+{
+	"condition":{
+		"info": "OCrSlaughterfishRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd87"
+	},
+	"type": "crslaughterfish",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true
+	}
+}

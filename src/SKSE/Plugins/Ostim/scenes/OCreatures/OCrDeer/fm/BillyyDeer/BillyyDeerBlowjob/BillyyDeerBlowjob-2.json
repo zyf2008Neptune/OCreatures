@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Deer Blowjob",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDeerBlowjob-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+		{
+            "destination": "BillyyDeerBlowjob-1",
+			"description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyDeerHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Deer/Deer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Deer_B_Blowjob_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDeer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Deer"
+    ]
+}

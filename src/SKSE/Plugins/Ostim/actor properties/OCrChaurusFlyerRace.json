@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrChaurusFlyerRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd68"
+	},
+	"type": "crchaurusflyer",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

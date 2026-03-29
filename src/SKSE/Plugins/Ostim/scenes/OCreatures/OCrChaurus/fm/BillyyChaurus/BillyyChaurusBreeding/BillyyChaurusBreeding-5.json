@@ -1,0 +1,46 @@
+{
+    "name": "Billyy Chaurus Breeding",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusBreeding-4",
+    "speeds": [
+        {
+            "animation": "B_Chaurus_B_Breed_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurus",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "vaginaltoying",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

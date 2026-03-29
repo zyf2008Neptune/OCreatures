@@ -1,0 +1,7 @@
+Version V1.0
+
+' MNCrabbitSLDvaginal
+b -Tn MNCrabbitSLDvaginal_S1_0 rabbitSLDvaginal_A2_S1.hkx
+b -Tn MNCrabbitSLDvaginal_S2_0 rabbitSLDvaginal_A2_S2.hkx
+b -Tn MNCrabbitSLDvaginal_S3_0 rabbitSLDvaginal_A2_S3.hkx
+b -Tn MNCrabbitSLDvaginal_S4_0 rabbitSLDvaginal_A2_S4.hkx

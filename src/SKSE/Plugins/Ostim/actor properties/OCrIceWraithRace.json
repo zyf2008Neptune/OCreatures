@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrIceWraithRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd85"
+	},
+	"type": "cricewraith",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

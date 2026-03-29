@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Goat Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyGoatDoggy-4",
+    "speeds": [
+        {
+            "animation": "B_Goat_B_Doggy_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGoat",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Goat"
+    ]
+}

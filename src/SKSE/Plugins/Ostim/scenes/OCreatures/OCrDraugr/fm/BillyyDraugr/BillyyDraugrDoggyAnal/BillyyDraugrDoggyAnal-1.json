@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Draugr Doggy Anal",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyDraugrHubFM",
+            "description": "Billyy Draugr Doggy Anal",
+            "icon": "OCreatures/Draugr/Draugranal"
+        },
+        {
+            "destination": "BillyyDraugrDoggyAnal-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyDraugrHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Draugr/Draugr"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Drau_B_DogA_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "squatting"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Draugr"
+    ]
+}

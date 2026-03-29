@@ -1,0 +1,62 @@
+{
+    "name": "Billyy Falmer Laying 69",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyFalmerHubFM",
+            "description": "Billyy Falmer Laying 69",
+            "icon": "OCreatures/Falmer/Falmeroral"
+        },
+        {
+            "destination": "BillyyFalmerLaying69-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyFalmerHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Falmer/Falmer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Falm_B_Lay69_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "layingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "squatting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "lickingvagina",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "handjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Falmer"
+    ]
+}

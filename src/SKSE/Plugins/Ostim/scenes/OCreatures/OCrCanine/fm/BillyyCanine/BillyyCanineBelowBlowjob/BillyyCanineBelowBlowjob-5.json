@@ -1,0 +1,42 @@
+{
+    "name": "Billyy Canine Below Blowjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyCanineBelowBlowjob-4",
+    "speeds": [
+        {
+            "animation": "B_Can_B_BlwBJ_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

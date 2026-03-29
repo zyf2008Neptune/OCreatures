@@ -1,0 +1,44 @@
+{
+    "name": "BillyySabreCatHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrSabreCatIdleFM",
+            "description": "Billyy Sabre Cat Hub",
+            "icon": "OCreatures/SabreCat/SabreCat"
+        },
+		{
+            "destination": "OCrSabreCatIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_Cat_B_Dog2_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSabreCat",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"SabreCat"
+    ]
+}

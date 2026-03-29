@@ -1,0 +1,49 @@
+{
+    "name": "Billyy Draugr Standing",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDraugrStanding-4",
+    "speeds": [
+        {
+            "animation": "B_Drau_B_Std_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "Standing",
+				"climaxing",
+				"bendover"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "pullinghair",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Draugr"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Troll Missionary 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyTrollMissionary2-4",
+    "speeds": [
+        {
+            "animation": "B_Troll_B_Miss2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crTroll",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "spreadlegs",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Troll"
+    ]
+}

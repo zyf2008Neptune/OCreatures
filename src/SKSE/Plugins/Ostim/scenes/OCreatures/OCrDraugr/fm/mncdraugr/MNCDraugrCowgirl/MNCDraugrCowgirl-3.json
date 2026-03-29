@@ -1,0 +1,64 @@
+{
+    "name": "MNCDraugrCowgirl",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCDraugrCowgirl-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "MNCDraugrCowgirl-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCDraugrHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/draugr/draugr"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCleitodraugrcowgirl_S3"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdraugr",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1,
+			"performer": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "draugr"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "name": "BillyyGargoyle3pFFCOrgy",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "BillyyGargoyleHubFFM",
+            "description": "BillyyGargoyle3pFFCOrgy",
+            "icon": "OCreatures/gargoyle/gargoyleoral"
+        },
+        {
+            "destination": "BillyyGargoyle3pFFCOrgy-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyGargoyleHubFFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/gargoyle/gargoyle"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Garg_B_3pFFC_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGargoyle",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "sitting"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingside",
+				"ontop"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 2,
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "lickingpenis",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "lickingpenis",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "gropingtesticles",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "gargoyle"
+    ]
+}

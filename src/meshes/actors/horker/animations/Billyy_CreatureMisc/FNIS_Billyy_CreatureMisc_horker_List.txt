@@ -1,0 +1,29 @@
+Version V1.0
+
+' B_Horker_BillyyCowgirl
+b -Tn B_Horker_BillyyCowgirl_S1_0 Horker_BillyyCowgirl_A2_S1.hkx 
+b -Tn B_Horker_BillyyCowgirl_S2_0 Horker_BillyyCowgirl_A2_S2.hkx 
+b -Tn B_Horker_BillyyCowgirl_S3_0 Horker_BillyyCowgirl_A2_S3.hkx 
+b -Tn B_Horker_BillyyCowgirl_S4_0 Horker_BillyyCowgirl_A2_S4.hkx 
+b -Tn B_Horker_BillyyCowgirl_S5_0 Horker_BillyyCowgirl_A2_S5.hkx 
+
+' B_Hork_B_Side
+b -Tn B_Hork_B_Side_S1_0 Hork_B_Side_A2_S1.hkx 
+b -Tn B_Hork_B_Side_S2_0 Hork_B_Side_A2_S2.hkx 
+b -Tn B_Hork_B_Side_S3_0 Hork_B_Side_A2_S3.hkx 
+b -Tn B_Hork_B_Side_S4_0 Hork_B_Side_A2_S4.hkx 
+b -Tn B_Hork_B_Side_S5_0 Hork_B_Side_A2_S5.hkx 
+
+' B_Hork_B_Miss
+b -Tn B_Hork_B_Miss_S1_0 Hork_B_Miss_A2_S1.hkx 
+b -Tn B_Hork_B_Miss_S2_0 Hork_B_Miss_A2_S2.hkx 
+b -Tn B_Hork_B_Miss_S3_0 Hork_B_Miss_A2_S3.hkx 
+b -Tn B_Hork_B_Miss_S4_0 Hork_B_Miss_A2_S4.hkx 
+b -Tn B_Hork_B_Miss_S5_0 Hork_B_Miss_A2_S5.hkx 
+
+' B_Hork_B_BJ
+b -Tn B_Hork_B_BJ_S1_0 Hork_B_BJ_A2_S1.hkx 
+b -Tn B_Hork_B_BJ_S2_0 Hork_B_BJ_A2_S2.hkx 
+b -Tn B_Hork_B_BJ_S3_0 Hork_B_BJ_A2_S3.hkx 
+b -Tn B_Hork_B_BJ_S4_0 Hork_B_BJ_A2_S4.hkx 
+b -Tn B_Hork_B_BJ_S5_0 Hork_B_BJ_A2_S5.hkx 

@@ -1,0 +1,46 @@
+{
+    "name": "MNCDragonPriestHubFM",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrDragonPriestIdleFM",
+            "description": "mnc DragonPriest Hub",
+            "icon": "OCreatures/dragonpriest/dragonpriest"
+        },
+        {
+            "destination": "OCrDragonPriestIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_DPriest_B_MMiss_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdragonpriest",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "dragonpriest"
+    ]
+}

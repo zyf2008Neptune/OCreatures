@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Spider Large FaceFuck",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySpiderLargeFaceFuck-4",
+    "speeds": [
+        {
+            "animation": "B_LSpid_B_FaceF_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpiderLarge",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spider"
+    ]
+}

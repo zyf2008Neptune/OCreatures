@@ -1,0 +1,36 @@
+Version V1.0
+
+' MNCleitodraugranaldoggy
+b -Tn MNCleitodraugranaldoggy_S1_0 leitodraugranaldoggy_a2_s1.hkx
+b -Tn MNCleitodraugranaldoggy_S2_0 leitodraugranaldoggy_a2_s2.hkx
+b -Tn MNCleitodraugranaldoggy_S3_0 leitodraugranaldoggy_a2_s3.hkx
+b -Tn MNCleitodraugranaldoggy_S4_0 leitodraugranaldoggy_a2_s4.hkx
+b -Tn MNCleitodraugranaldoggy_S5_0 leitodraugranaldoggy_a2_s5.hkx
+
+' MNCleitodraugrbj
+b -Tn MNCleitodraugrbj_S1_0 leitodraugrbj_a2_s1.hkx
+b -Tn MNCleitodraugrbj_S2_0 leitodraugrbj_a2_s2.hkx
+b -Tn MNCleitodraugrbj_S3_0 leitodraugrbj_a2_s3.hkx
+b -Tn MNCleitodraugrbj_S4_0 leitodraugrbj_a2_s4.hkx
+b -Tn MNCleitodraugrbj_S5_0 leitodraugrbj_a2_s5.hkx
+
+' MNCleitodraugrcowgirl
+b -Tn MNCleitodraugrcowgirl_S1_0 leitodraugrcowgirl_a2_s1.hkx
+b -Tn MNCleitodraugrcowgirl_S2_0 leitodraugrcowgirl_a2_s2.hkx
+b -Tn MNCleitodraugrcowgirl_S3_0 leitodraugrcowgirl_a2_s3.hkx
+b -Tn MNCleitodraugrcowgirl_S4_0 leitodraugrcowgirl_a2_s4.hkx
+b -Tn MNCleitodraugrcowgirl_S5_0 leitodraugrcowgirl_a2_s5.hkx
+
+' MNCleitodraugrdoggy
+b -Tn MNCleitodraugrdoggy_S1_0 leitodraugrdoggy_a2_s1.hkx
+b -Tn MNCleitodraugrdoggy_S2_0 leitodraugrdoggy_a2_s2.hkx
+b -Tn MNCleitodraugrdoggy_S3_0 leitodraugrdoggy_a2_s3.hkx
+b -Tn MNCleitodraugrdoggy_S4_0 leitodraugrdoggy_a2_s4.hkx
+b -Tn MNCleitodraugrdoggy_S5_0 leitodraugrdoggy_a2_s5.hkx
+
+' MNCleitodraugrmissionary
+b -Tn MNCleitodraugrmissionary_S1_0 leitodraugrmissionary_a2_s1.hkx
+b -Tn MNCleitodraugrmissionary_S2_0 leitodraugrmissionary_a2_s2.hkx
+b -Tn MNCleitodraugrmissionary_S3_0 leitodraugrmissionary_a2_s3.hkx
+b -Tn MNCleitodraugrmissionary_S4_0 leitodraugrmissionary_a2_s4.hkx
+b -Tn MNCleitodraugrmissionary_S5_0 leitodraugrmissionary_a2_s5.hkx

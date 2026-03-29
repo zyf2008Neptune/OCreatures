@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Spider Large Behind",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySpiderLargeBehind-4",
+    "speeds": [
+        {
+            "animation": "B_LSpid_B_Behind_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpiderLarge",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spider"
+    ]
+}

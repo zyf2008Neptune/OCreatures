@@ -1,0 +1,35 @@
+{
+    "name": "OCrIceWraithIdleFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [],
+    "speeds": [
+        {
+            "animation": "B_IceWraith_BillyyIceDildo1_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crIceWraith",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"IceWraith"
+    ]
+}

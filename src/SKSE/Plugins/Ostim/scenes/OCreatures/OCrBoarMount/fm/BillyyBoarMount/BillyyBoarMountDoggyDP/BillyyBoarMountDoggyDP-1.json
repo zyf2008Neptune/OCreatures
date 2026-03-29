@@ -1,0 +1,68 @@
+{
+    "name": "Billyy Boar Mount Doggy DP",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyBoarMountHubFM",
+            "description": "Billyy Boar Mount Doggy DP",
+            "icon": "OCreatures/boar/boarvaganal"
+        },
+        {
+            "destination": "BillyyBoarMountDoggyDP-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyBoarMountHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/boar/boarMount"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Boar_B_DogDP_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crboarMount",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "rimjob",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"boarMount"
+    ]
+}

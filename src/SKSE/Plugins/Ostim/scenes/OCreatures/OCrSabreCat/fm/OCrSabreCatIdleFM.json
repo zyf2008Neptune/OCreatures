@@ -1,0 +1,35 @@
+{
+    "name": "OCrSabreCatIdleFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [],
+    "speeds": [
+        {
+            "animation": "B_Cat_B_Dog2_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crsabrecat",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"sabrecat"
+    ]
+}

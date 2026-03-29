@@ -1,0 +1,43 @@
+{
+    "name": "Billyy SlaughterFish Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySlaughterFishDoggy-4",
+    "speeds": [
+        {
+            "animation": "B_SlaughterFish_BillyyDoggy_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSlaughterFish",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"SlaughterFish"
+    ]
+}

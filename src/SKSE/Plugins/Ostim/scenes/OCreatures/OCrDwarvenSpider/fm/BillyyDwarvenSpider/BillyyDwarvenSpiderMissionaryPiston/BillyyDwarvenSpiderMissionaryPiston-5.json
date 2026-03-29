@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Dwarven Spider Missionary Piston",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDwarvenSpiderMissionaryPiston-4",
+    "speeds": [
+        {
+            "animation": "B_DSpider_B_MissPist_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenSpider",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"spreadlegs"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenSpider"
+    ]
+}

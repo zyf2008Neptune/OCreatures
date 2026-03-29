@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrCanineRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd65"
+	},
+	"type": "crcanine",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

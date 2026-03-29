@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Dwarven Sphere Holding",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDwarvenSphereHolding-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyDwarvenSphereHolding-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyDwarvenSphereHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Dwarven/DwarvenSphere"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_DSphere_B_Hold_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenSphere",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenSphere"
+    ]
+}

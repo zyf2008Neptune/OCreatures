@@ -1,0 +1,44 @@
+{
+    "name": "BillyySprigganHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrSprigganIdleFF",
+            "description": "Billyy Spriggan Hub",
+            "icon": "OCreatures/Spriggan/Spriggan"
+        },
+		{
+            "destination": "OCrSprigganIdleFF",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_Sprig_B_Behind_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpriggan",
+			"intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"Spriggan"
+    ]
+}

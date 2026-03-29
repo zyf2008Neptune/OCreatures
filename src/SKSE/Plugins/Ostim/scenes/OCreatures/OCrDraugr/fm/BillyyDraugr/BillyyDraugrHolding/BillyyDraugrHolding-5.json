@@ -1,0 +1,58 @@
+{
+    "name": "Billyy Draugr Holding",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDraugrHolding-4",
+    "speeds": [
+        {
+            "animation": "B_Drau_B_Hold_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "kissing",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Draugr"
+    ]
+}

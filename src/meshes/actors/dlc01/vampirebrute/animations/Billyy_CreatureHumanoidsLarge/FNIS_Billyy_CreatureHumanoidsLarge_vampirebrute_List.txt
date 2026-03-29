@@ -1,0 +1,55 @@
+Version V1.0
+
+' B_Garg_B_Behind
+b -Tn B_Garg_B_Behind_S1_0 Garg_B_Behind_A2_S1.hkx 
+b -Tn B_Garg_B_Behind_S2_0 Garg_B_Behind_A2_S2.hkx 
+b -Tn B_Garg_B_Behind_S3_0 Garg_B_Behind_A2_S3.hkx 
+b -Tn B_Garg_B_Behind_S4_0 Garg_B_Behind_A2_S4.hkx 
+b -Tn B_Garg_B_Behind_S5_0 Garg_B_Behind_A2_S5.hkx 
+
+' B_Garg_B_Doggy2
+b -Tn B_Garg_B_Doggy2_S1_0 Garg_B_Doggy2_A2_S1.hkx 
+b -Tn B_Garg_B_Doggy2_S2_0 Garg_B_Doggy2_A2_S2.hkx 
+b -Tn B_Garg_B_Doggy2_S3_0 Garg_B_Doggy2_A2_S3.hkx 
+b -Tn B_Garg_B_Doggy2_S4_0 Garg_B_Doggy2_A2_S4.hkx 
+b -Tn B_Garg_B_Doggy2_S5_0 Garg_B_Doggy2_A2_S5.hkx 
+
+' B_Garg_B_Hold
+b -Tn B_Garg_B_Hold_S1_0 Garg_B_Hold_A2_S1.hkx 
+b -Tn B_Garg_B_Hold_S2_0 Garg_B_Hold_A2_S2.hkx 
+b -Tn B_Garg_B_Hold_S3_0 Garg_B_Hold_A2_S3.hkx 
+b -Tn B_Garg_B_Hold_S4_0 Garg_B_Hold_A2_S4.hkx 
+b -Tn B_Garg_B_Hold_S5_0 Garg_B_Hold_A2_S5.hkx 
+
+' B_Garg_B_Miss2
+b -Tn B_Garg_B_Miss2_S1_0 Garg_B_Miss2_A2_S1.hkx 
+b -Tn B_Garg_B_Miss2_S2_0 Garg_B_Miss2_A2_S2.hkx 
+b -Tn B_Garg_B_Miss2_S3_0 Garg_B_Miss2_A2_S3.hkx 
+b -Tn B_Garg_B_Miss2_S4_0 Garg_B_Miss2_A2_S4.hkx 
+b -Tn B_Garg_B_Miss2_S5_0 Garg_B_Miss2_A2_S5.hkx 
+
+' B_Garg_B_RCow
+b -Tn B_Garg_B_RCow_S1_0 Garg_B_RCow_A2_S1.hkx 
+b -Tn B_Garg_B_RCow_S2_0 Garg_B_RCow_A2_S2.hkx 
+b -Tn B_Garg_B_RCow_S3_0 Garg_B_RCow_A2_S3.hkx 
+b -Tn B_Garg_B_RCow_S4_0 Garg_B_RCow_A2_S4.hkx 
+b -Tn B_Garg_B_RCow_S5_0 Garg_B_RCow_A2_S5.hkx 
+
+' B_Garg_B_LayA
+b -Tn B_Garg_B_LayA_S1_0 Garg_B_LayA_A2_S1.hkx 
+b -Tn B_Garg_B_LayA_S2_0 Garg_B_LayA_A2_S2.hkx 
+b -Tn B_Garg_B_LayA_S3_0 Garg_B_LayA_A2_S3.hkx 
+b -Tn B_Garg_B_LayA_S4_0 Garg_B_LayA_A2_S4.hkx 
+b -Tn B_Garg_B_LayA_S5_0 Garg_B_LayA_A2_S5.hkx 
+
+' B_Garg_B_3pHang2
+b -Tn B_Garg_B_3pHang2_S1_0 Garg_B_3pHang2_A2_S1.hkx 
+b -Tn B_Garg_B_3pHang2_S2_0 Garg_B_3pHang2_A2_S2.hkx 
+b -Tn B_Garg_B_3pHang2_S3_0 Garg_B_3pHang2_A2_S3.hkx 
+b -Tn B_Garg_B_3pHang2_S4_0 Garg_B_3pHang2_A2_S4.hkx 
+b -Tn B_Garg_B_3pHang2_S5_0 Garg_B_3pHang2_A2_S5.hkx 
+b -Tn B_Garg_B_3pHang2_S1_2 Garg_B_3pHang2_A3_S1.hkx 
+b -Tn B_Garg_B_3pHang2_S2_2 Garg_B_3pHang2_A3_S2.hkx 
+b -Tn B_Garg_B_3pHang2_S3_2 Garg_B_3pHang2_A3_S3.hkx 
+b -Tn B_Garg_B_3pHang2_S4_2 Garg_B_3pHang2_A3_S4.hkx 
+b -Tn B_Garg_B_3pHang2_S5_2 Garg_B_3pHang2_A3_S5.hkx 

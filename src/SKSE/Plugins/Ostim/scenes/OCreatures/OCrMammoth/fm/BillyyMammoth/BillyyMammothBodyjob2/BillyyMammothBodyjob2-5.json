@@ -1,0 +1,59 @@
+{
+    "name": "Billyy Mammoth Bodyjob 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyMammothBodyjob2-4",
+    "speeds": [
+        {
+            "animation": "B_Mammoth_BillyyBodyjob2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crMammoth",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "facial",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "boobjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "cumonchest",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "grindingpenis",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Mammoth"
+    ]
+}

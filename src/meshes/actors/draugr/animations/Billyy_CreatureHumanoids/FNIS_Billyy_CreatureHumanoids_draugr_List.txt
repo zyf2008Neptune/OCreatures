@@ -1,0 +1,233 @@
+Version V1.0
+
+' B_Drau_B_Miss
+b -Tn B_Drau_B_Miss_S1_0 Drau_B_Miss_A2_S1.hkx 
+b -Tn B_Drau_B_Miss_S2_0 Drau_B_Miss_A2_S2.hkx 
+b -Tn B_Drau_B_Miss_S3_0 Drau_B_Miss_A2_S3.hkx 
+b -Tn B_Drau_B_Miss_S4_0 Drau_B_Miss_A2_S4.hkx 
+b -Tn B_Drau_B_Miss_S5_0 Drau_B_Miss_A2_S5.hkx 
+
+' B_Drau_B_MatP
+b -Tn B_Drau_B_MatP_S1_0 Drau_B_MatP_A2_S1.hkx 
+b -Tn B_Drau_B_MatP_S2_0 Drau_B_MatP_A2_S2.hkx 
+b -Tn B_Drau_B_MatP_S3_0 Drau_B_MatP_A2_S3.hkx 
+b -Tn B_Drau_B_MatP_S4_0 Drau_B_MatP_A2_S4.hkx 
+b -Tn B_Drau_B_MatP_S5_0 Drau_B_MatP_A2_S5.hkx 
+
+' B_Drau_B_Dog
+b -Tn B_Drau_B_Dog_S1_0 Drau_B_Dog_A2_S1.hkx 
+b -Tn B_Drau_B_Dog_S2_0 Drau_B_Dog_A2_S2.hkx 
+b -Tn B_Drau_B_Dog_S3_0 Drau_B_Dog_A2_S3.hkx 
+b -Tn B_Drau_B_Dog_S4_0 Drau_B_Dog_A2_S4.hkx 
+b -Tn B_Drau_B_Dog_S5_0 Drau_B_Dog_A2_S5.hkx 
+
+' B_Drau_B_Std
+b -Tn B_Drau_B_Std_S1_0 Drau_B_Std_A2_S1.hkx 
+b -Tn B_Drau_B_Std_S2_0 Drau_B_Std_A2_S2.hkx 
+b -Tn B_Drau_B_Std_S3_0 Drau_B_Std_A2_S3.hkx 
+b -Tn B_Drau_B_Std_S4_0 Drau_B_Std_A2_S4.hkx 
+b -Tn B_Drau_B_Std_S5_0 Drau_B_Std_A2_S5.hkx 
+
+' B_Drau_B_RCG
+b -Tn B_Drau_B_RCG_S1_0 Drau_B_RCG_A2_S1.hkx 
+b -Tn B_Drau_B_RCG_S2_0 Drau_B_RCG_A2_S2.hkx 
+b -Tn B_Drau_B_RCG_S3_0 Drau_B_RCG_A2_S3.hkx 
+b -Tn B_Drau_B_RCG_S4_0 Drau_B_RCG_A2_S4.hkx 
+b -Tn B_Drau_B_RCG_S5_0 Drau_B_RCG_A2_S5.hkx 
+
+' B_Drau_B_Cow
+b -Tn B_Drau_B_Cow_S1_0 Drau_B_Cow_A2_S1.hkx 
+b -Tn B_Drau_B_Cow_S2_0 Drau_B_Cow_A2_S2.hkx 
+b -Tn B_Drau_B_Cow_S3_0 Drau_B_Cow_A2_S3.hkx 
+b -Tn B_Drau_B_Cow_S4_0 Drau_B_Cow_A2_S4.hkx 
+b -Tn B_Drau_B_Cow_S5_0 Drau_B_Cow_A2_S5.hkx 
+
+' B_Drau_B_Hold
+b -Tn B_Drau_B_Hold_S1_0 Drau_B_Hold_A2_S1.hkx 
+b -Tn B_Drau_B_Hold_S2_0 Drau_B_Hold_A2_S2.hkx 
+b -Tn B_Drau_B_Hold_S3_0 Drau_B_Hold_A2_S3.hkx 
+b -Tn B_Drau_B_Hold_S4_0 Drau_B_Hold_A2_S4.hkx 
+b -Tn B_Drau_B_Hold_S5_0 Drau_B_Hold_A2_S5.hkx 
+
+' B_Drau_B_HoldNel
+b -Tn B_Drau_B_HoldNel_S1_0 Drau_B_HoldNel_A2_S1.hkx 
+b -Tn B_Drau_B_HoldNel_S2_0 Drau_B_HoldNel_A2_S2.hkx 
+b -Tn B_Drau_B_HoldNel_S3_0 Drau_B_HoldNel_A2_S3.hkx 
+b -Tn B_Drau_B_HoldNel_S4_0 Drau_B_HoldNel_A2_S4.hkx 
+b -Tn B_Drau_B_HoldNel_S5_0 Drau_B_HoldNel_A2_S5.hkx 
+
+' B_Drau_B_69
+b -Tn B_Drau_B_69_S1_0 Drau_B_69_A2_S1.hkx 
+b -Tn B_Drau_B_69_S2_0 Drau_B_69_A2_S2.hkx 
+b -Tn B_Drau_B_69_S3_0 Drau_B_69_A2_S3.hkx 
+b -Tn B_Drau_B_69_S4_0 Drau_B_69_A2_S4.hkx 
+b -Tn B_Drau_B_69_S5_0 Drau_B_69_A2_S5.hkx 
+
+' B_Drau_B_KFF2
+b -Tn B_Drau_B_KFF2_S1_0 Drau_B_KFF2_A2_S1.hkx 
+b -Tn B_Drau_B_KFF2_S2_0 Drau_B_KFF2_A2_S2.hkx 
+b -Tn B_Drau_B_KFF2_S3_0 Drau_B_KFF2_A2_S3.hkx 
+b -Tn B_Drau_B_KFF2_S4_0 Drau_B_KFF2_A2_S4.hkx 
+b -Tn B_Drau_B_KFF2_S5_0 Drau_B_KFF2_A2_S5.hkx 
+
+' B_Drau_B_KBJ2
+b -Tn B_Drau_B_KBJ2_S1_0 Drau_B_KBJ2_A2_S1.hkx 
+b -Tn B_Drau_B_KBJ2_S2_0 Drau_B_KBJ2_A2_S2.hkx 
+b -Tn B_Drau_B_KBJ2_S3_0 Drau_B_KBJ2_A2_S3.hkx 
+b -Tn B_Drau_B_KBJ2_S4_0 Drau_B_KBJ2_A2_S4.hkx 
+b -Tn B_Drau_B_KBJ2_S5_0 Drau_B_KBJ2_A2_S5.hkx 
+b -Tn B_Drau_B_KBJ2_S6_0 Drau_B_KBJ2_A2_S6.hkx 
+b -Tn B_Drau_B_KBJ2_S7_0 Drau_B_KBJ2_A2_S7.hkx 
+
+' B_Drau_B_BehA
+b -Tn B_Drau_B_BehA_S1_0 Drau_B_BehA_A2_S1.hkx 
+b -Tn B_Drau_B_BehA_S2_0 Drau_B_BehA_A2_S2.hkx 
+b -Tn B_Drau_B_BehA_S3_0 Drau_B_BehA_A2_S3.hkx 
+b -Tn B_Drau_B_BehA_S4_0 Drau_B_BehA_A2_S4.hkx 
+b -Tn B_Drau_B_BehA_S5_0 Drau_B_BehA_A2_S5.hkx 
+
+' B_Drau_B_DogA
+b -Tn B_Drau_B_DogA_S1_0 Drau_B_DogA_A2_S1.hkx 
+b -Tn B_Drau_B_DogA_S2_0 Drau_B_DogA_A2_S2.hkx 
+b -Tn B_Drau_B_DogA_S3_0 Drau_B_DogA_A2_S3.hkx 
+b -Tn B_Drau_B_DogA_S4_0 Drau_B_DogA_A2_S4.hkx 
+b -Tn B_Drau_B_DogA_S5_0 Drau_B_DogA_A2_S5.hkx 
+
+' B_Drau_B_3pLSpit
+b -Tn B_Drau_B_3pLSpit_S1_0 Drau_B_3pLSpit_A2_S1.hkx 
+b -Tn B_Drau_B_3pLSpit_S2_0 Drau_B_3pLSpit_A2_S2.hkx 
+b -Tn B_Drau_B_3pLSpit_S3_0 Drau_B_3pLSpit_A2_S3.hkx 
+b -Tn B_Drau_B_3pLSpit_S4_0 Drau_B_3pLSpit_A2_S4.hkx 
+b -Tn B_Drau_B_3pLSpit_S5_0 Drau_B_3pLSpit_A2_S5.hkx 
+b -Tn B_Drau_B_3pLSpit_S1_2 Drau_B_3pLSpit_A3_S1.hkx 
+b -Tn B_Drau_B_3pLSpit_S2_2 Drau_B_3pLSpit_A3_S2.hkx 
+b -Tn B_Drau_B_3pLSpit_S3_2 Drau_B_3pLSpit_A3_S3.hkx 
+b -Tn B_Drau_B_3pLSpit_S4_2 Drau_B_3pLSpit_A3_S4.hkx 
+b -Tn B_Drau_B_3pLSpit_S5_2 Drau_B_3pLSpit_A3_S5.hkx 
+
+' B_Drau_B_3pKnSpit
+b -Tn B_Drau_B_3pKnSpit_S1_0 Drau_B_3pKnSpit_A2_S1.hkx 
+b -Tn B_Drau_B_3pKnSpit_S2_0 Drau_B_3pKnSpit_A2_S2.hkx 
+b -Tn B_Drau_B_3pKnSpit_S3_0 Drau_B_3pKnSpit_A2_S3.hkx 
+b -Tn B_Drau_B_3pKnSpit_S4_0 Drau_B_3pKnSpit_A2_S4.hkx 
+b -Tn B_Drau_B_3pKnSpit_S5_0 Drau_B_3pKnSpit_A2_S5.hkx 
+b -Tn B_Drau_B_3pKnSpit_S1_2 Drau_B_3pKnSpit_A3_S1.hkx 
+b -Tn B_Drau_B_3pKnSpit_S2_2 Drau_B_3pKnSpit_A3_S2.hkx 
+b -Tn B_Drau_B_3pKnSpit_S3_2 Drau_B_3pKnSpit_A3_S3.hkx 
+b -Tn B_Drau_B_3pKnSpit_S4_2 Drau_B_3pKnSpit_A3_S4.hkx 
+b -Tn B_Drau_B_3pKnSpit_S5_2 Drau_B_3pKnSpit_A3_S5.hkx 
+
+' B_Drau_B_3pHangSpit
+b -Tn B_Drau_B_3pHangSpit_S1_0 Drau_B_3pHangSpit_A2_S1.hkx 
+b -Tn B_Drau_B_3pHangSpit_S2_0 Drau_B_3pHangSpit_A2_S2.hkx 
+b -Tn B_Drau_B_3pHangSpit_S3_0 Drau_B_3pHangSpit_A2_S3.hkx 
+b -Tn B_Drau_B_3pHangSpit_S4_0 Drau_B_3pHangSpit_A2_S4.hkx 
+b -Tn B_Drau_B_3pHangSpit_S5_0 Drau_B_3pHangSpit_A2_S5.hkx 
+b -Tn B_Drau_B_3pHangSpit_S1_2 Drau_B_3pHangSpit_A3_S1.hkx 
+b -Tn B_Drau_B_3pHangSpit_S2_2 Drau_B_3pHangSpit_A3_S2.hkx 
+b -Tn B_Drau_B_3pHangSpit_S3_2 Drau_B_3pHangSpit_A3_S3.hkx 
+b -Tn B_Drau_B_3pHangSpit_S4_2 Drau_B_3pHangSpit_A3_S4.hkx 
+b -Tn B_Drau_B_3pHangSpit_S5_2 Drau_B_3pHangSpit_A3_S5.hkx 
+
+' B_Drau_B_3pGangHang
+b -Tn B_Drau_B_3pGangHang_S1_0 Drau_B_3pGangHang_A2_S1.hkx 
+b -Tn B_Drau_B_3pGangHang_S2_0 Drau_B_3pGangHang_A2_S2.hkx 
+b -Tn B_Drau_B_3pGangHang_S3_0 Drau_B_3pGangHang_A2_S3.hkx 
+b -Tn B_Drau_B_3pGangHang_S4_0 Drau_B_3pGangHang_A2_S4.hkx 
+b -Tn B_Drau_B_3pGangHang_S5_0 Drau_B_3pGangHang_A2_S5.hkx 
+b -Tn B_Drau_B_3pGangHang_S1_2 Drau_B_3pGangHang_A3_S1.hkx 
+b -Tn B_Drau_B_3pGangHang_S2_2 Drau_B_3pGangHang_A3_S2.hkx 
+b -Tn B_Drau_B_3pGangHang_S3_2 Drau_B_3pGangHang_A3_S3.hkx 
+b -Tn B_Drau_B_3pGangHang_S4_2 Drau_B_3pGangHang_A3_S4.hkx 
+b -Tn B_Drau_B_3pGangHang_S5_2 Drau_B_3pGangHang_A3_S5.hkx 
+
+' B_Drau_B_3pCGDP
+b -Tn B_Drau_B_3pCGDP_S1_0 Drau_B_3pCGDP_A2_S1.hkx 
+b -Tn B_Drau_B_3pCGDP_S2_0 Drau_B_3pCGDP_A2_S2.hkx 
+b -Tn B_Drau_B_3pCGDP_S3_0 Drau_B_3pCGDP_A2_S3.hkx 
+b -Tn B_Drau_B_3pCGDP_S4_0 Drau_B_3pCGDP_A2_S4.hkx 
+b -Tn B_Drau_B_3pCGDP_S5_0 Drau_B_3pCGDP_A2_S5.hkx 
+b -Tn B_Drau_B_3pCGDP_S1_2 Drau_B_3pCGDP_A3_S1.hkx 
+b -Tn B_Drau_B_3pCGDP_S2_2 Drau_B_3pCGDP_A3_S2.hkx 
+b -Tn B_Drau_B_3pCGDP_S3_2 Drau_B_3pCGDP_A3_S3.hkx 
+b -Tn B_Drau_B_3pCGDP_S4_2 Drau_B_3pCGDP_A3_S4.hkx 
+b -Tn B_Drau_B_3pCGDP_S5_2 Drau_B_3pCGDP_A3_S5.hkx 
+
+' B_Drau_B_3pHoldDP2
+b -Tn B_Drau_B_3pHoldDP2_S1_0 Drau_B_3pHoldDP2_A2_S1.hkx 
+b -Tn B_Drau_B_3pHoldDP2_S2_0 Drau_B_3pHoldDP2_A2_S2.hkx 
+b -Tn B_Drau_B_3pHoldDP2_S3_0 Drau_B_3pHoldDP2_A2_S3.hkx 
+b -Tn B_Drau_B_3pHoldDP2_S4_0 Drau_B_3pHoldDP2_A2_S4.hkx 
+b -Tn B_Drau_B_3pHoldDP2_S5_0 Drau_B_3pHoldDP2_A2_S5.hkx 
+b -Tn B_Drau_B_3pHoldDP2_S1_2 Drau_B_3pHoldDP2_A3_S1.hkx 
+b -Tn B_Drau_B_3pHoldDP2_S2_2 Drau_B_3pHoldDP2_A3_S2.hkx 
+b -Tn B_Drau_B_3pHoldDP2_S3_2 Drau_B_3pHoldDP2_A3_S3.hkx 
+b -Tn B_Drau_B_3pHoldDP2_S4_2 Drau_B_3pHoldDP2_A3_S4.hkx 
+b -Tn B_Drau_B_3pHoldDP2_S5_2 Drau_B_3pHoldDP2_A3_S5.hkx 
+
+' B_Drau_B_4pGangHang
+b -Tn B_Drau_B_4pGangHang_S1_0 Drau_B_4pGangHang_A2_S1.hkx 
+b -Tn B_Drau_B_4pGangHang_S2_0 Drau_B_4pGangHang_A2_S2.hkx 
+b -Tn B_Drau_B_4pGangHang_S3_0 Drau_B_4pGangHang_A2_S3.hkx 
+b -Tn B_Drau_B_4pGangHang_S4_0 Drau_B_4pGangHang_A2_S4.hkx 
+b -Tn B_Drau_B_4pGangHang_S5_0 Drau_B_4pGangHang_A2_S5.hkx 
+b -Tn B_Drau_B_4pGangHang_S1_2 Drau_B_4pGangHang_A3_S1.hkx 
+b -Tn B_Drau_B_4pGangHang_S2_2 Drau_B_4pGangHang_A3_S2.hkx 
+b -Tn B_Drau_B_4pGangHang_S3_2 Drau_B_4pGangHang_A3_S3.hkx 
+b -Tn B_Drau_B_4pGangHang_S4_2 Drau_B_4pGangHang_A3_S4.hkx 
+b -Tn B_Drau_B_4pGangHang_S5_2 Drau_B_4pGangHang_A3_S5.hkx 
+b -Tn B_Drau_B_4pGangHang_S1_3 Drau_B_4pGangHang_A4_S1.hkx 
+b -Tn B_Drau_B_4pGangHang_S2_3 Drau_B_4pGangHang_A4_S2.hkx 
+b -Tn B_Drau_B_4pGangHang_S3_3 Drau_B_4pGangHang_A4_S3.hkx 
+b -Tn B_Drau_B_4pGangHang_S4_3 Drau_B_4pGangHang_A4_S4.hkx 
+b -Tn,o B_Drau_B_4pGangHang_S5_3 Drau_B_4pGangHang_A4_S5.hkx AO_BDraugrCumGB1
+
+' B_Drau_B_5pGangHang
+b -Tn B_Drau_B_5pGangHang_S1_0 Drau_B_5pGangHang_A2_S1.hkx 
+b -Tn B_Drau_B_5pGangHang_S2_0 Drau_B_5pGangHang_A2_S2.hkx 
+b -Tn B_Drau_B_5pGangHang_S3_0 Drau_B_5pGangHang_A2_S3.hkx 
+b -Tn B_Drau_B_5pGangHang_S4_0 Drau_B_5pGangHang_A2_S4.hkx 
+b -Tn B_Drau_B_5pGangHang_S5_0 Drau_B_5pGangHang_A2_S5.hkx 
+b -Tn B_Drau_B_5pGangHang_S1_2 Drau_B_5pGangHang_A3_S1.hkx 
+b -Tn B_Drau_B_5pGangHang_S2_2 Drau_B_5pGangHang_A3_S2.hkx 
+b -Tn B_Drau_B_5pGangHang_S3_2 Drau_B_5pGangHang_A3_S3.hkx 
+b -Tn B_Drau_B_5pGangHang_S4_2 Drau_B_5pGangHang_A3_S4.hkx 
+b -Tn B_Drau_B_5pGangHang_S5_2 Drau_B_5pGangHang_A3_S5.hkx 
+b -Tn B_Drau_B_5pGangHang_S1_3 Drau_B_5pGangHang_A4_S1.hkx 
+b -Tn B_Drau_B_5pGangHang_S2_3 Drau_B_5pGangHang_A4_S2.hkx 
+b -Tn B_Drau_B_5pGangHang_S3_3 Drau_B_5pGangHang_A4_S3.hkx 
+b -Tn B_Drau_B_5pGangHang_S4_3 Drau_B_5pGangHang_A4_S4.hkx 
+b -Tn,o B_Drau_B_5pGangHang_S5_3 Drau_B_5pGangHang_A4_S5.hkx AO_BDraugrCumGB1
+b -Tn B_Drau_B_5pGangHang_S1_4 Drau_B_5pGangHang_A5_S1.hkx 
+b -Tn B_Drau_B_5pGangHang_S2_4 Drau_B_5pGangHang_A5_S2.hkx 
+b -Tn B_Drau_B_5pGangHang_S3_4 Drau_B_5pGangHang_A5_S3.hkx 
+b -Tn B_Drau_B_5pGangHang_S4_4 Drau_B_5pGangHang_A5_S4.hkx 
+b -Tn,o B_Drau_B_5pGangHang_S5_4 Drau_B_5pGangHang_A5_S5.hkx AO_BDraugrCumGB1
+
+' B_Drau_B_FFCMis
+b -Tn B_Drau_B_FFCMis_S1_0 Drau_B_FFCMis_A3_S1.hkx 
+b -Tn B_Drau_B_FFCMis_S2_0 Drau_B_FFCMis_A3_S2.hkx 
+b -Tn B_Drau_B_FFCMis_S3_0 Drau_B_FFCMis_A3_S3.hkx 
+b -Tn B_Drau_B_FFCMis_S4_0 Drau_B_FFCMis_A3_S4.hkx 
+b -Tn B_Drau_B_FFCMis_S5_0 Drau_B_FFCMis_A3_S5.hkx 
+
+' B_Drau_B_FFCDog
+b -Tn B_Drau_B_FFCDog_S1_0 Drau_B_FFCDog_A3_S1.hkx 
+b -Tn B_Drau_B_FFCDog_S2_0 Drau_B_FFCDog_A3_S2.hkx 
+b -Tn B_Drau_B_FFCDog_S3_0 Drau_B_FFCDog_A3_S3.hkx 
+b -Tn B_Drau_B_FFCDog_S4_0 Drau_B_FFCDog_A3_S4.hkx 
+b -Tn B_Drau_B_FFCDog_S5_0 Drau_B_FFCDog_A3_S5.hkx 
+
+' B_Drau_B_FFCFacefuck
+b -Tn B_Drau_B_FFCFacefuck_S1_0 Drau_B_FFCFacefuck_A3_S1.hkx 
+b -Tn B_Drau_B_FFCFacefuck_S2_0 Drau_B_FFCFacefuck_A3_S2.hkx 
+b -Tn B_Drau_B_FFCFacefuck_S3_0 Drau_B_FFCFacefuck_A3_S3.hkx 
+b -Tn B_Drau_B_FFCFacefuck_S4_0 Drau_B_FFCFacefuck_A3_S4.hkx 
+b -Tn B_Drau_B_FFCFacefuck_S5_0 Drau_B_FFCFacefuck_A3_S5.hkx 
+
+' B_Drau_B_FFCHoldA
+b -Tn B_Drau_B_FFCHoldA_S1_0 Drau_B_FFCHoldA_A3_S1.hkx 
+b -Tn B_Drau_B_FFCHoldA_S2_0 Drau_B_FFCHoldA_A3_S2.hkx 
+b -Tn B_Drau_B_FFCHoldA_S3_0 Drau_B_FFCHoldA_A3_S3.hkx 
+b -Tn B_Drau_B_FFCHoldA_S4_0 Drau_B_FFCHoldA_A3_S4.hkx 
+b -Tn B_Drau_B_FFCHoldA_S5_0 Drau_B_FFCHoldA_A3_S5.hkx 

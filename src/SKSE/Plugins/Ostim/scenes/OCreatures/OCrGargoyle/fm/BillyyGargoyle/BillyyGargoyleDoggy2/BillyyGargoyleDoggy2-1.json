@@ -1,0 +1,68 @@
+{
+    "name": "Billyy Gargoyle Doggy 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyGargoyleHubFM",
+            "description": "Billyy Gargoyle Doggy2",
+            "icon": "OCreatures/Gargoyle/Gargoylevag"
+        },
+        {
+            "destination": "BillyyGargoyleDoggy2-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyGargoyleHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Gargoyle/Gargoyle"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Garg_B_Doggy2_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGargoyle",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"bendover"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+			"type": "holdingneck",
+			"actor": 0,
+			"target": 1
+		},
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Gargoyle"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Scrib Blowjob",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyScribHubFM",
+            "description": "Billyy Scrib Blowjob",
+            "icon": "OCreatures/Scrib/Scriboral"
+        },
+        {
+            "destination": "BillyyScribBlowjob-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyScribHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Scrib/Scrib"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_AHop_B_BJ_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crScrib",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "handjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Scrib"
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "name": "BillyyBoarMountHubFFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrBoarMountIdleFFM",
+            "description": "billyy Boar Mount Hub",
+            "icon": "OCreatures/boar/boarmount"
+        },
+        {
+            "destination": "OCrBoarMountIdleFFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Boar_B_FFC1_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crboarmount",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"feeOnGround": "false",
+			"animationIndex": 1,
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"feeOnGround": "false",
+			"animationIndex": 2,
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "boarmount"
+    ]
+}

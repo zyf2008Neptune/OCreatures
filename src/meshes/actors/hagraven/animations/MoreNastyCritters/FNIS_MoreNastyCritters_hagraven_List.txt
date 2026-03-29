@@ -1,0 +1,13 @@
+Version V1.0
+
+' MNCNecroHagravenDoggy
+b -Tn MNCNecroHagravenDoggy_S1_0 NecroHagravenDoggy_A2_s1.hkx
+b -Tn MNCNecroHagravenDoggy_S2_0 NecroHagravenDoggy_A2_s2.hkx
+b -Tn MNCNecroHagravenDoggy_S3_0 NecroHagravenDoggy_A2_s3.hkx
+b -Tn MNCNecroHagravenDoggy_S4_0 NecroHagravenDoggy_A2_s4.hkx
+
+' MNChagravenforce
+b -Tn MNChagravenforce_S1_0 hagravenforce_A2_S1.hkx
+b -Tn MNChagravenforce_S2_0 hagravenforce_A2_S2.hkx
+b -Tn MNChagravenforce_S3_0 hagravenforce_A2_S3.hkx
+b -Tn MNChagravenforce_S4_0 hagravenforce_A2_S4.hkx

@@ -1,0 +1,72 @@
+{
+    "name": "Billyy Chaurus Flyer Boobjob",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyChaurusFlyerBoobjob-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyChaurusFlyerBoobjob-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+		 {
+            "destination": "BillyyChaurusFlyerHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Chaurus/Chaurusflyer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_ChauH_B_BoobJ_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurusFlyer",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyChaurusFlyerBoobjob-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analtoying",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "boobjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

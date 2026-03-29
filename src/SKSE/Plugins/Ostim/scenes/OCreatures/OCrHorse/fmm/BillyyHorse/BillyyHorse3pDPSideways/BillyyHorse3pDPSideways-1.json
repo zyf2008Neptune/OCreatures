@@ -1,0 +1,75 @@
+{
+    "name": "BillyyHorse3pDPSideways",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "BillyyHorseHubFMM",
+            "description": "BillyyHorse3pDPSideways",
+            "icon": "OCreatures/horse/horseanal"
+        },
+        {
+            "destination": "BillyyHorse3pDPSideways-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyHorseHubFMM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/horse/horse"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Horse_B_3pDPSide_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crhorse",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingside"
+            ]
+        },
+		{
+			"type": "crhorse",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingside"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "handjob",
+            "actor": 2,
+            "target": 0
+        },
+		{
+            "type": "handjob",
+            "actor": 2,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "horse"
+    ]
+}

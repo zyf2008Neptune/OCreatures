@@ -1,0 +1,43 @@
+{
+    "name": "MNCBoarsVag",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCBoarsVag-3",
+    "speeds": [
+        {
+            "animation": "MNCboarvaginal_S4"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crboar",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "boar"
+    ]
+}

@@ -1,0 +1,64 @@
+Version V1.0
+
+' B_Boar_B_Dog
+b -Tn B_Boar_B_Dog_S1_0 Boar_B_Dog_A2_S1.hkx 
+b -Tn B_Boar_B_Dog_S2_0 Boar_B_Dog_A2_S2.hkx 
+b -Tn B_Boar_B_Dog_S3_0 Boar_B_Dog_A2_S3.hkx 
+b -Tn B_Boar_B_Dog_S4_0 Boar_B_Dog_A2_S4.hkx 
+b -Tn B_Boar_B_Dog_S5_0 Boar_B_Dog_A2_S5.hkx 
+
+' B_Boar_B_Miss3
+b -Tn B_Boar_B_Miss3_S1_0 Boar_B_Miss3_A2_S1.hkx 
+b -Tn B_Boar_B_Miss3_S2_0 Boar_B_Miss3_A2_S2.hkx 
+b -Tn B_Boar_B_Miss3_S3_0 Boar_B_Miss3_A2_S3.hkx 
+b -Tn B_Boar_B_Miss3_S4_0 Boar_B_Miss3_A2_S4.hkx 
+b -Tn B_Boar_B_Miss3_S5_0 Boar_B_Miss3_A2_S5.hkx 
+
+' B_Boar_B_FaceF2
+b -Tn B_Boar_B_FaceF2_S1_0 Boar_B_FaceF2_A2_S1.hkx 
+b -Tn B_Boar_B_FaceF2_S2_0 Boar_B_FaceF2_A2_S2.hkx 
+b -Tn B_Boar_B_FaceF2_S3_0 Boar_B_FaceF2_A2_S3.hkx 
+b -Tn B_Boar_B_FaceF2_S4_0 Boar_B_FaceF2_A2_S4.hkx 
+b -Tn B_Boar_B_FaceF2_S5_0 Boar_B_FaceF2_A2_S5.hkx 
+
+' B_Boar_B_LayA
+b -Tn B_Boar_B_LayA_S1_0 Boar_B_LayA_A2_S1.hkx 
+b -Tn B_Boar_B_LayA_S2_0 Boar_B_LayA_A2_S2.hkx 
+b -Tn B_Boar_B_LayA_S3_0 Boar_B_LayA_A2_S3.hkx 
+b -Tn B_Boar_B_LayA_S4_0 Boar_B_LayA_A2_S4.hkx 
+b -Tn B_Boar_B_LayA_S5_0 Boar_B_LayA_A2_S5.hkx 
+
+' B_Boar_B_SideSpit
+b -Tn B_Boar_B_SideSpit_S1_0 Boar_B_SideSpit_A2_S1.hkx 
+b -Tn B_Boar_B_SideSpit_S2_0 Boar_B_SideSpit_A2_S2.hkx 
+b -Tn B_Boar_B_SideSpit_S3_0 Boar_B_SideSpit_A2_S3.hkx 
+b -Tn B_Boar_B_SideSpit_S4_0 Boar_B_SideSpit_A2_S4.hkx 
+b -Tn B_Boar_B_SideSpit_S5_0 Boar_B_SideSpit_A2_S5.hkx 
+
+' B_Boar_B_69Spit
+b -Tn B_Boar_B_69Spit_S1_0 Boar_B_69Spit_A2_S1.hkx 
+b -Tn B_Boar_B_69Spit_S2_0 Boar_B_69Spit_A2_S2.hkx 
+b -Tn B_Boar_B_69Spit_S3_0 Boar_B_69Spit_A2_S3.hkx 
+b -Tn B_Boar_B_69Spit_S4_0 Boar_B_69Spit_A2_S4.hkx 
+b -Tn B_Boar_B_69Spit_S5_0 Boar_B_69Spit_A2_S5.hkx 
+
+' B_Boar_B_DogDP
+b -Tn B_Boar_B_DogDP_S1_0 Boar_B_DogDP_A2_S1.hkx 
+b -Tn B_Boar_B_DogDP_S2_0 Boar_B_DogDP_A2_S2.hkx 
+b -Tn B_Boar_B_DogDP_S3_0 Boar_B_DogDP_A2_S3.hkx 
+b -Tn B_Boar_B_DogDP_S4_0 Boar_B_DogDP_A2_S4.hkx 
+b -Tn B_Boar_B_DogDP_S5_0 Boar_B_DogDP_A2_S5.hkx 
+
+' B_Boar_B_SideDP
+b -Tn B_Boar_B_SideDP_S1_0 Boar_B_SideDP_A2_S1.hkx 
+b -Tn B_Boar_B_SideDP_S2_0 Boar_B_SideDP_A2_S2.hkx 
+b -Tn B_Boar_B_SideDP_S3_0 Boar_B_SideDP_A2_S3.hkx 
+b -Tn B_Boar_B_SideDP_S4_0 Boar_B_SideDP_A2_S4.hkx 
+b -Tn B_Boar_B_SideDP_S5_0 Boar_B_SideDP_A2_S5.hkx 
+
+' B_Boar_B_FFC1
+b -Tn B_Boar_B_FFC1_S1_0 Boar_B_FFC1_A3_S1.hkx 
+b -Tn B_Boar_B_FFC1_S2_0 Boar_B_FFC1_A3_S2.hkx 
+b -Tn B_Boar_B_FFC1_S3_0 Boar_B_FFC1_A3_S3.hkx 
+b -Tn B_Boar_B_FFC1_S4_0 Boar_B_FFC1_A3_S4.hkx 
+b -Tn B_Boar_B_FFC1_S5_0 Boar_B_FFC1_A3_S5.hkx 

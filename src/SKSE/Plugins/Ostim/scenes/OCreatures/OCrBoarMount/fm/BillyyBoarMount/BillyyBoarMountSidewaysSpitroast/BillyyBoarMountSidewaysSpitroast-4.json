@@ -1,0 +1,73 @@
+{
+    "name": "Billyy Boar Mount Sideways Spitroast",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyBoarMountSidewaysSpitroast-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyBoarMountSidewaysSpitroast-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyBoarMountHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/boar/boarMount"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Boar_B_SideSpit_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crboarMount",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyBoarMountSidewaysSpitroast-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyBoarMountSidewaysSpitroast-5"
+			},
+            "tags": [
+                "squatting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "pullinghair",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"boarMount"
+    ]
+}

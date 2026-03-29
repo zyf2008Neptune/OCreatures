@@ -1,0 +1,17 @@
+Version V1.0
+
+' MNCRieklingTest
+b -Tn MNCRieklingTest_S1_0 RieklingTest_A2_S1.HKX
+b -Tn MNCRieklingTest_S2_0 RieklingTest_A2_S2.HKX
+b -Tn MNCRieklingTest_S3_0 RieklingTest_A2_S3.HKX
+b -Tn MNCRieklingTest_S4_0 RieklingTest_A2_S4.HKX
+
+' MNCrieklingdouble
+b -Tn MNCrieklingdouble_S1_0 rieklingdouble_a2_s1.HKX
+b -Tn MNCrieklingdouble_S2_0 rieklingdouble_a2_s2.HKX
+b -Tn MNCrieklingdouble_S3_0 rieklingdouble_a2_s3.HKX
+b -Tn MNCrieklingdouble_S4_0 rieklingdouble_a2_s4.HKX
+b -Tn MNCrieklingdouble_S1_2 rieklingdouble_a3_s1.HKX
+b -Tn MNCrieklingdouble_S2_2 rieklingdouble_a3_s2.HKX
+b -Tn MNCrieklingdouble_S3_2 rieklingdouble_a3_s3.HKX
+b -Tn MNCrieklingdouble_S4_2 rieklingdouble_a3_s4.HKX

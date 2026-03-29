@@ -1,0 +1,57 @@
+{
+    "name": "MNCLurkerHarrassment",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "MNCLurkerHubFM",
+            "description": "MNCLurkerHarrassment",
+            "icon": "OCreatures/lurker/lurkervag"
+        },
+        {
+            "destination": "MNCLurkerHarrassment-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "MNCLurkerHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/lurker/lurker"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCbenthiclurkerPanicFondleTest_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crlurker",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "lurker"
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "name": "Billyy Gargoyle Doggy 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyGargoyleDoggy2-4",
+    "speeds": [
+        {
+            "animation": "B_Garg_B_Doggy2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGargoyle",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "squatting",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+			"type": "pullinghair",
+			"actor": 0,
+			"target": 1
+		},
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Gargoyle"
+    ]
+}

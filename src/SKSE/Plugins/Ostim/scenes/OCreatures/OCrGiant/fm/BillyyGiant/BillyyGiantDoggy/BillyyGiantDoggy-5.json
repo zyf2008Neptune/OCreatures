@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Giant Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyGiantDoggy-4",
+    "speeds": [
+        {
+            "animation": "B_Giant_B_Dog_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGiant",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Giant"
+    ]
+}

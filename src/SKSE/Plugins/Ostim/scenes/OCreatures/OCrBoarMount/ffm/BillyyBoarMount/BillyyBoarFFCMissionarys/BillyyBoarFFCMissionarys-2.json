@@ -1,0 +1,79 @@
+{
+    "name": "BillyyBoarFFCMissionarys",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyBoarFFCMissionarys-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyBoarFFCMissionarys-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyBoarMountHubFFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/boar/boarMount"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Boar_B_FFC1_S2"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crboarMount",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0,
+            "performer": 1
+        },
+        {
+            "type": "cunnilingus",
+            "actor": 2,
+            "target": 1
+        },
+		{
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 2
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "boarMount"
+    ]
+}

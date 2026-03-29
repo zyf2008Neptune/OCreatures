@@ -1,0 +1,14 @@
+Version V1.0
+
+' MNCHorseDoggystyle2
+b -Tn MNCHorseDoggystyle2_S1_0 HorseDoggystyle2_A2_S1.HKX
+b -Tn MNCHorseDoggystyle2_S2_0 HorseDoggystyle2_A2_S2.HKX
+b -Tn MNCHorseDoggystyle2_S3_0 HorseDoggystyle2_A2_S3.HKX
+b -Tn MNCHorseDoggystyle2_S4_0 HorseDoggystyle2_A2_S4.HKX
+
+' MNCHorseC4
+b -Tn MNCHorseC4_S1_0 HorseC4_A2_S1.HKX
+b -Tn MNCHorseC4_S2_0 HorseC4_A2_S2.HKX
+b -Tn MNCHorseC4_S3_0 HorseC4_A2_S3.HKX
+b -Tn MNCHorseC4_S4_0 HorseC4_A2_S4.HKX
+b -Tn MNCHorseC4_S5_0 HorseC4_A2_S5.HKX

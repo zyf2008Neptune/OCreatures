@@ -1,0 +1,43 @@
+Version V1.0
+
+' B_Can_B_LPillDog
+b -Tn B_Can_B_LPillDog_S1_0 Can_B_LPillDog_A2_S1.hkx 
+b -Tn B_Can_B_LPillDog_S2_0 Can_B_LPillDog_A2_S2.hkx 
+b -Tn B_Can_B_LPillDog_S3_0 Can_B_LPillDog_A2_S3.hkx 
+b -Tn B_Can_B_LPillDog_S4_0 Can_B_LPillDog_A2_S4.hkx 
+b -Tn B_Can_B_LPillDog_S5_0 Can_B_LPillDog_A2_S5.hkx 
+
+' B_Can_B_LPillCunn
+b -Tn B_Can_B_LPillCunn_S1_0 Can_B_LPillCunn_A2_S1.hkx 
+b -Tn B_Can_B_LPillCunn_S2_0 Can_B_LPillCunn_A2_S2.hkx 
+b -Tn B_Can_B_LPillCunn_S3_0 Can_B_LPillCunn_A2_S3.hkx 
+b -Tn B_Can_B_LPillCunn_S4_0 Can_B_LPillCunn_A2_S4.hkx 
+b -Tn B_Can_B_LPillCunn_S5_0 Can_B_LPillCunn_A2_S5.hkx 
+
+' B_Can_B_LPillFF
+b -Tn B_Can_B_LPillFF_S1_0 Can_B_LPillFF_A2_S1.hkx 
+b -Tn B_Can_B_LPillFF_S2_0 Can_B_LPillFF_A2_S2.hkx 
+b -Tn B_Can_B_LPillFF_S3_0 Can_B_LPillFF_A2_S3.hkx 
+b -Tn B_Can_B_LPillFF_S4_0 Can_B_LPillFF_A2_S4.hkx 
+b -Tn B_Can_B_LPillFF_S5_0 Can_B_LPillFF_A2_S5.hkx 
+
+' B_Can_B_LPillDAnal
+b -Tn B_Can_B_LPillDAnal_S1_0 Can_B_LPillDAnal_A2_S1.hkx 
+b -Tn B_Can_B_LPillDAnal_S2_0 Can_B_LPillDAnal_A2_S2.hkx 
+b -Tn B_Can_B_LPillDAnal_S3_0 Can_B_LPillDAnal_A2_S3.hkx 
+b -Tn B_Can_B_LPillDAnal_S4_0 Can_B_LPillDAnal_A2_S4.hkx 
+b -Tn B_Can_B_LPillDAnal_S5_0 Can_B_LPillDAnal_A2_S5.hkx 
+
+' B_Can_B_3pLPillSpit
+b -Tn B_Can_B_3pLPillSpit_S1_0 Can_B_3pLPillSpit_A2_S1.hkx 
+b -Tn B_Can_B_3pLPillSpit_S2_0 Can_B_3pLPillSpit_A2_S2.hkx 
+b -Tn B_Can_B_3pLPillSpit_S3_0 Can_B_3pLPillSpit_A2_S3.hkx 
+b -Tn B_Can_B_3pLPillSpit_S4_0 Can_B_3pLPillSpit_A2_S4.hkx 
+b -Tn B_Can_B_3pLPillSpit_S5_0 Can_B_3pLPillSpit_A2_S5.hkx 
+b -Tn B_Can_B_3pLPillSpit_S6_0 Can_B_3pLPillSpit_A2_S6.hkx 
+b -Tn B_Can_B_3pLPillSpit_S1_2 Can_B_3pLPillSpit_A3_S1.hkx 
+b -Tn B_Can_B_3pLPillSpit_S2_2 Can_B_3pLPillSpit_A3_S2.hkx 
+b -Tn B_Can_B_3pLPillSpit_S3_2 Can_B_3pLPillSpit_A3_S3.hkx 
+b -Tn B_Can_B_3pLPillSpit_S4_2 Can_B_3pLPillSpit_A3_S4.hkx 
+b -Tn B_Can_B_3pLPillSpit_S5_2 Can_B_3pLPillSpit_A3_S5.hkx 
+b -Tn B_Can_B_3pLPillSpit_S6_2 Can_B_3pLPillSpit_A3_S6.hkx 

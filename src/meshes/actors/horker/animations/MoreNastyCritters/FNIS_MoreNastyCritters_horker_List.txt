@@ -1,0 +1,7 @@
+Version V1.0
+
+' MNChorkerSLDvaginal
+b -Tn MNChorkerSLDvaginal_S1_0 horkerSLDvaginal_A2_S1.hkx
+b -Tn MNChorkerSLDvaginal_S2_0 horkerSLDvaginal_A2_S2.hkx
+b -Tn MNChorkerSLDvaginal_S3_0 horkerSLDvaginal_A2_S3.hkx
+b -Tn MNChorkerSLDvaginal_S4_0 horkerSLDvaginal_A2_S4.hkx

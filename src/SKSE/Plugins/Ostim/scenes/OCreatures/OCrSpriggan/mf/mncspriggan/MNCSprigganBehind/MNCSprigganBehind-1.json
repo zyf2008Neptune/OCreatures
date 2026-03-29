@@ -1,0 +1,63 @@
+{
+    "name": "MNCSprigganBehind",
+    "modpack": "MNCCreatures",
+    "length": 6,
+    "navigations": [
+        {
+            "origin": "MNCSprigganHubMF",
+            "description": "MNCSprigganBehind",
+            "icon": "OCreatures/spriggan/sprigganvag"
+        },
+        {
+            "destination": "MNCSprigganBehind-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "MNCSprigganHubMF",
+            "description": "Return to Hub",
+            "icon": "OCreatures/spriggan/spriggan"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCsprbehind_S1"
+        }
+    ],
+    "actors": [
+        {
+            "intendedSex": "male",
+			"animationIndex": 1,
+            "requirements": [],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "type": "crspriggan",
+            "intendedSex": "female",
+			"animationIndex": 0,
+            "requirements": [],
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingneck",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "spriggan"
+    ]
+}

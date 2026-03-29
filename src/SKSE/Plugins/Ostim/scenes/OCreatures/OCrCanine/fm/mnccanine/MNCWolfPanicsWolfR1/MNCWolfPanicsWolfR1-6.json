@@ -1,0 +1,43 @@
+{
+    "name": "MNCWolfPanicsWolfR1",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCWolfPanicsWolfR1-5",
+    "speeds": [
+        {
+            "animation": "MNCWolfR1_S6"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crcanine",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "canine"
+    ]
+}

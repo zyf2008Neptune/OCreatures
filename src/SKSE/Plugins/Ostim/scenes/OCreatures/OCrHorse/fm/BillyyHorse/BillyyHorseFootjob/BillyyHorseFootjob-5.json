@@ -1,0 +1,42 @@
+{
+    "name": "Billyy Horse Footjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyHorseFootjob-4",
+    "speeds": [
+        {
+            "animation": "B_Horse_B_Footjob_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crhorse",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "cumonchest",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"horse"
+    ]
+}

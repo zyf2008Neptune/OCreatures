@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Draugr Kneeling Facefuck 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDraugrKneelingFacefuck2-4",
+    "speeds": [
+        {
+            "animation": "B_Drau_B_KFF2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Draugr"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "name": "BillyyWerewolf3pDoublePen2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyWerewolf3pDoublePen2-4",
+    "speeds": [
+        {
+            "animation": "B_WW_B_3pDP2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "allfours",
+				"ontop",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingfront",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 2
+        },
+        {
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 2
+        },
+		{
+            "type": "hugging",
+            "actor": 2,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "werewolf"
+    ]
+}

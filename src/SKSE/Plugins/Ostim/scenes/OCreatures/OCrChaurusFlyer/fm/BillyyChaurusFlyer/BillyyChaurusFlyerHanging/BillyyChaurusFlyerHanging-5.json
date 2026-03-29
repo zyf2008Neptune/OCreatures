@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Chaurus Flyer Hanging",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusFlyerHanging-4",
+    "speeds": [
+        {
+            "animation": "B_ChauH_B_Hang_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurusFlyer",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analtoying",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

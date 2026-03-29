@@ -1,0 +1,36 @@
+Version V1.0
+
+' B_StormA_B_Bhd
+b -Tn B_StormA_B_Bhd_S1_0 StormA_B_Bhd_A2_S1.hkx 
+b -Tn B_StormA_B_Bhd_S2_0 StormA_B_Bhd_A2_S2.hkx 
+b -Tn B_StormA_B_Bhd_S3_0 StormA_B_Bhd_A2_S3.hkx 
+b -Tn B_StormA_B_Bhd_S4_0 StormA_B_Bhd_A2_S4.hkx 
+b -Tn B_StormA_B_Bhd_S5_0 StormA_B_Bhd_A2_S5.hkx 
+
+' B_StormA_B_Hold
+b -Tn B_StormA_B_Hold_S1_0 StormA_B_Hold_A2_S1.hkx 
+b -Tn B_StormA_B_Hold_S2_0 StormA_B_Hold_A2_S2.hkx 
+b -Tn B_StormA_B_Hold_S3_0 StormA_B_Hold_A2_S3.hkx 
+b -Tn B_StormA_B_Hold_S4_0 StormA_B_Hold_A2_S4.hkx 
+b -Tn B_StormA_B_Hold_S5_0 StormA_B_Hold_A2_S5.hkx 
+
+' B_StormA_B_FRDil1
+b -Tn B_StormA_B_FRDil1_S1_0 StormA_B_FRDil1_A2_S1.hkx 
+b -Tn B_StormA_B_FRDil1_S2_0 StormA_B_FRDil1_A2_S2.hkx 
+b -Tn B_StormA_B_FRDil1_S3_0 StormA_B_FRDil1_A2_S3.hkx 
+b -Tn B_StormA_B_FRDil1_S4_0 StormA_B_FRDil1_A2_S4.hkx 
+b -Tn B_StormA_B_FRDil1_S5_0 StormA_B_FRDil1_A2_S5.hkx 
+
+' B_StormA_B_FRDil2
+b -Tn B_StormA_B_FRDil2_S1_0 StormA_B_FRDil2_A2_S1.hkx 
+b -Tn B_StormA_B_FRDil2_S2_0 StormA_B_FRDil2_A2_S2.hkx 
+b -Tn B_StormA_B_FRDil2_S3_0 StormA_B_FRDil2_A2_S3.hkx 
+b -Tn B_StormA_B_FRDil2_S4_0 StormA_B_FRDil2_A2_S4.hkx 
+b -Tn B_StormA_B_FRDil2_S5_0 StormA_B_FRDil2_A2_S5.hkx 
+
+' B_StormA_B_LArm1
+b -Tn B_StormA_B_LArm1_S1_0 StormA_B_LArm1_A2_S1.hkx 
+b -Tn B_StormA_B_LArm1_S2_0 StormA_B_LArm1_A2_S2.hkx 
+b -Tn B_StormA_B_LArm1_S3_0 StormA_B_LArm1_A2_S3.hkx 
+b -Tn B_StormA_B_LArm1_S4_0 StormA_B_LArm1_A2_S4.hkx 
+b -Tn B_StormA_B_LArm1_S5_0 StormA_B_LArm1_A2_S5.hkx 

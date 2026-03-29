@@ -1,0 +1,8 @@
+Version V1.0
+
+' B_Garg_B_3pFFC
+b -Tn B_Garg_B_3pFFC_S1_0 Garg_B_3pFFC_A3_S1.hkx 
+b -Tn B_Garg_B_3pFFC_S2_0 Garg_B_3pFFC_A3_S2.hkx 
+b -Tn B_Garg_B_3pFFC_S3_0 Garg_B_3pFFC_A3_S3.hkx 
+b -Tn B_Garg_B_3pFFC_S4_0 Garg_B_3pFFC_A3_S4.hkx 
+b -Tn B_Garg_B_3pFFC_S5_0 Garg_B_3pFFC_A3_S5.hkx 

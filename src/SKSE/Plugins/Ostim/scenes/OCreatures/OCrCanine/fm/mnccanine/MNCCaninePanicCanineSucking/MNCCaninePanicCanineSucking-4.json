@@ -1,0 +1,42 @@
+{
+    "name": "MNCCaninePanicCanineSucking",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCCaninePanicCanineSucking-3",
+    "speeds": [
+        {
+            "animation": "MNCCanineC2_S4"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crcanine",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingside"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "canine"
+    ]
+}

@@ -1,0 +1,90 @@
+Version V1.0
+
+' MNCWolfR1
+b -Tn MNCWolfR1_S1_0 WolfR1_A2_S1.HKX
+b -Tn MNCWolfR1_S2_0 WolfR1_A2_S2.HKX
+b -Tn MNCWolfR1_S3_0 WolfR1_A2_S3.HKX
+b -Tn MNCWolfR1_S4_0 WolfR1_A2_S4.HKX
+b -Tn MNCWolfR1_S5_0 WolfR1_A2_S5.HKX
+b -Tn MNCWolfR1_S6_0 WolfR1_A2_S6.HKX
+
+' MNCCanineC1
+b -Tn MNCCanineC1_S1_0 CanineC1_A2_S1.HKX
+b -Tn MNCCanineC1_S2_0 CanineC1_A2_S2.HKX
+b -Tn MNCCanineC1_S3_0 CanineC1_A2_S3.HKX
+b -Tn MNCCanineC1_S4_0 CanineC1_A2_S4.HKX
+
+' MNCCanineonback
+b -Tn MNCCanineonback_S1_0 Canineonback_A2_S1.HKX
+b -Tn MNCCanineonback_S2_0 Canineonback_A2_S2.HKX
+b -Tn MNCCanineonback_S3_0 Canineonback_A2_S3.HKX
+b -Tn MNCCanineonback_S4_0 Canineonback_A2_S4.HKX
+b -Tn MNCCanineonback_S5_0 Canineonback_A2_S5.HKX
+b -Tn MNCCanineonback_S6_0 Canineonback_A2_S6.HKX
+
+' MNCCaninespooning
+b -Tn MNCCaninespooning_S1_0 Caninespooning_A2_S1.HKX
+b -Tn MNCCaninespooning_S2_0 Caninespooning_A2_S2.HKX
+b -Tn MNCCaninespooning_S3_0 Caninespooning_A2_S3.HKX
+
+' MNCCanineC2
+b -Tn MNCCanineC2_S1_0 CanineC2_A2_S1.HKX
+b -Tn MNCCanineC2_S2_0 CanineC2_A2_S2.HKX
+b -Tn MNCCanineC2_S3_0 CanineC2_A2_S3.HKX
+b -Tn MNCCanineC2_S4_0 CanineC2_A2_S4.HKX
+
+' MNCleitoCanineanaldoggy
+b -Tn MNCleitoCanineanaldoggy_S1_0 leitoCanineanaldoggy_a2_s1.hkx
+b -Tn MNCleitoCanineanaldoggy_S2_0 leitoCanineanaldoggy_a2_s2.hkx
+b -Tn MNCleitoCanineanaldoggy_S3_0 leitoCanineanaldoggy_a2_s3.hkx
+b -Tn MNCleitoCanineanaldoggy_S4_0 leitoCanineanaldoggy_a2_s4.hkx
+b -Tn MNCleitoCanineanaldoggy_S5_0 leitoCanineanaldoggy_a2_s5.hkx
+
+' MNCleitoCaninebj
+b -Tn MNCleitoCaninebj_S1_0 leitoCaninebj_a2_s1.hkx
+b -Tn MNCleitoCaninebj_S2_0 leitoCaninebj_a2_s2.hkx
+b -Tn MNCleitoCaninebj_S3_0 leitoCaninebj_a2_s3.hkx
+b -Tn MNCleitoCaninebj_S4_0 leitoCaninebj_a2_s4.hkx
+b -Tn MNCleitoCaninebj_S5_0 leitoCaninebj_a2_s5.hkx
+
+' MNCleitoCaninecunnilingus
+b -Tn MNCleitoCaninecunnilingus_S1_0 leitoCaninecunnilingus_a2_s1.hkx
+b -Tn MNCleitoCaninecunnilingus_S2_0 leitoCaninecunnilingus_a2_s2.hkx
+b -Tn MNCleitoCaninecunnilingus_S3_0 leitoCaninecunnilingus_a2_s3.hkx
+b -Tn MNCleitoCaninecunnilingus_S4_0 leitoCaninecunnilingus_a2_s4.hkx
+b -Tn MNCleitoCaninecunnilingus_S5_0 leitoCaninecunnilingus_a2_s5.hkx
+
+' MNCleitoCaninedoggy
+b -Tn MNCleitoCaninedoggy_S1_0 leitoCaninedoggy_a2_s1.hkx
+b -Tn MNCleitoCaninedoggy_S2_0 leitoCaninedoggy_a2_s2.hkx
+b -Tn MNCleitoCaninedoggy_S3_0 leitoCaninedoggy_a2_s3.hkx
+b -Tn MNCleitoCaninedoggy_S4_0 leitoCaninedoggy_a2_s4.hkx
+b -Tn MNCleitoCaninedoggy_S5_0 leitoCaninedoggy_a2_s5.hkx
+
+' MNCleitoCaninemissionary
+b -Tn MNCleitoCaninemissionary_S1_0 leitoCaninemissionary_a2_s1.hkx
+b -Tn MNCleitoCaninemissionary_S2_0 leitoCaninemissionary_a2_s2.hkx
+b -Tn MNCleitoCaninemissionary_S3_0 leitoCaninemissionary_a2_s3.hkx
+b -Tn MNCleitoCaninemissionary_S4_0 leitoCaninemissionary_a2_s4.hkx
+b -Tn MNCleitoCaninemissionary_S5_0 leitoCaninemissionary_a2_s5.hkx
+
+' MNCleitoCaninemfc1
+b -Tn MNCleitoCaninemfc1_S1_0 leitoCaninemfc1_a3_s1.hkx
+b -Tn MNCleitoCaninemfc1_S2_0 leitoCaninemfc1_a3_s2.hkx
+b -Tn MNCleitoCaninemfc1_S3_0 leitoCaninemfc1_a3_s3.hkx
+b -Tn MNCleitoCaninemfc1_S4_0 leitoCaninemfc1_a3_s4.hkx
+b -Tn MNCleitoCaninemfc1_S5_0 leitoCaninemfc1_a3_s5.hkx
+
+' MNCleitoCaninemfc2
+b -Tn MNCleitoCaninemfc2_S1_0 leitoCaninemfc2_a3_s1.hkx
+b -Tn MNCleitoCaninemfc2_S2_0 leitoCaninemfc2_a3_s2.hkx
+b -Tn MNCleitoCaninemfc2_S3_0 leitoCaninemfc2_a3_s3.hkx
+b -Tn MNCleitoCaninemfc2_S4_0 leitoCaninemfc2_a3_s4.hkx
+b -Tn MNCleitoCaninemfc2_S5_0 leitoCaninemfc2_a3_s5.hkx
+
+' MNCleitoCaninencboundmfc
+b -Tn MNCleitoCaninencboundmfc_S1_0 leitoCaninencboundmfc_a3_s1.hkx
+b -Tn MNCleitoCaninencboundmfc_S2_0 leitoCaninencboundmfc_a3_s2.hkx
+b -Tn MNCleitoCaninencboundmfc_S3_0 leitoCaninencboundmfc_a3_s3.hkx
+b -Tn MNCleitoCaninencboundmfc_S4_0 leitoCaninencboundmfc_a3_s4.hkx
+b -Tn MNCleitoCaninencboundmfc_S5_0 leitoCaninencboundmfc_a3_s5.hkx

@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrSpiderGiantRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd8A"
+	},
+	"type": "crspidergiant",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

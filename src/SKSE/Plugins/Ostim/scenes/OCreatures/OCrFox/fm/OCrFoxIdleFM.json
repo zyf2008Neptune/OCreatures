@@ -1,0 +1,35 @@
+{
+    "name": "OCrFoxIdleFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [],
+    "speeds": [
+        {
+            "animation": "B_Fox_B_Doggy_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFox",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"Fox"
+    ]
+}

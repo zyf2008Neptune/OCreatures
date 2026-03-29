@@ -1,0 +1,15 @@
+{
+	"condition":{
+		"info": "OCrAtronachStormRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd7e"
+	},
+	"type": "cratronachstorm",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"hand": true,
+		"foot": true
+	}
+}

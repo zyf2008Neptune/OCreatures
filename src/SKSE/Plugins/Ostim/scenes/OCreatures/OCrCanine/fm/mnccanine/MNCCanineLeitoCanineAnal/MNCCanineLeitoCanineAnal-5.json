@@ -1,0 +1,43 @@
+{
+    "name": "MNCCanineLeitoCanineAnal",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCCanineLeitoCanineAnal-4",
+    "speeds": [
+        {
+            "animation": "MNCleitoCanineanaldoggy_S5"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crcanine",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "canine"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "name": "Billyy Riekling Cowgirl 1",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyRieklingCowgirl1-4",
+    "speeds": [
+        {
+            "animation": "B_Riek_B_Cow1_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crRiekling",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "squatting",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Riekling"
+    ]
+}

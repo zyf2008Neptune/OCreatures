@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Canine Laying Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyCanineLayingAnal-4",
+    "speeds": [
+        {
+            "animation": "B_Can_B_LayA_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

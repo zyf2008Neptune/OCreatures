@@ -1,0 +1,64 @@
+{
+    "name": "MNCBearBehind",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCBearBehind-4",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "MNCBearBehind-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCBearHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/bear/bear"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCSmokeyStanding_S3"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crbear",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ],
+            "autoTransitions": {
+                "climax": "MNCBearBehind-4"
+            }
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"bendover"
+            ],
+            "autoTransitions": {
+                "climax": "MNCBearBehind-4"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "bear"
+    ]
+}

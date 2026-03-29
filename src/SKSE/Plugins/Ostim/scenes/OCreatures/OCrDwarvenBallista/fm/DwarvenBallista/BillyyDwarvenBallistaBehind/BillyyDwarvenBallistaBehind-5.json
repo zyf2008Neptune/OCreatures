@@ -1,0 +1,42 @@
+{
+    "name": "Billyy Dwarven Ballista Behind",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDwarvenBallistaBehind-4",
+    "speeds": [
+        {
+            "animation": "B_DwBall_B_Bhd_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenBallista",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenBallista"
+    ]
+}

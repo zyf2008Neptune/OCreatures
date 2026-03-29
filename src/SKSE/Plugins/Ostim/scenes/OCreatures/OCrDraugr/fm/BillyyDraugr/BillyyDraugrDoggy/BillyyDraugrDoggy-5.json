@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Draugr Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDraugrDoggy-4",
+    "speeds": [
+        {
+            "animation": "B_Drau_B_Dog_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDraugr",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Draugr"
+    ]
+}

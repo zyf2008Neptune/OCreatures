@@ -1,0 +1,29 @@
+Version V1.0
+
+' B_Cat_B_Miss2
+b -Tn B_Cat_B_Miss2_S1_0 Cat_B_Miss2_A2_S1.hkx 
+b -Tn B_Cat_B_Miss2_S2_0 Cat_B_Miss2_A2_S2.hkx 
+b -Tn B_Cat_B_Miss2_S3_0 Cat_B_Miss2_A2_S3.hkx 
+b -Tn B_Cat_B_Miss2_S4_0 Cat_B_Miss2_A2_S4.hkx 
+b -Tn B_Cat_B_Miss2_S5_0 Cat_B_Miss2_A2_S5.hkx 
+
+' B_Cat_B_Dog2
+b -Tn B_Cat_B_Dog2_S1_0 Cat_B_Dog2_A2_S1.hkx 
+b -Tn B_Cat_B_Dog2_S2_0 Cat_B_Dog2_A2_S2.hkx 
+b -Tn B_Cat_B_Dog2_S3_0 Cat_B_Dog2_A2_S3.hkx 
+b -Tn B_Cat_B_Dog2_S4_0 Cat_B_Dog2_A2_S4.hkx 
+b -Tn B_Cat_B_Dog2_S5_0 Cat_B_Dog2_A2_S5.hkx 
+
+' B_Cat_B_RCow
+b -Tn B_Cat_B_RCow_S1_0 Cat_B_RCow_A2_S1.hkx 
+b -Tn B_Cat_B_RCow_S2_0 Cat_B_RCow_A2_S2.hkx 
+b -Tn B_Cat_B_RCow_S3_0 Cat_B_RCow_A2_S3.hkx 
+b -Tn B_Cat_B_RCow_S4_0 Cat_B_RCow_A2_S4.hkx 
+b -Tn B_Cat_B_RCow_S5_0 Cat_B_RCow_A2_S5.hkx 
+
+' B_Cat_B_FF2
+b -Tn B_Cat_B_FF2_S1_0 Cat_B_FF2_A2_S1.hkx 
+b -Tn B_Cat_B_FF2_S2_0 Cat_B_FF2_A2_S2.hkx 
+b -Tn B_Cat_B_FF2_S3_0 Cat_B_FF2_A2_S3.hkx 
+b -Tn B_Cat_B_FF2_S4_0 Cat_B_FF2_A2_S4.hkx 
+b -Tn B_Cat_B_FF2_S5_0 Cat_B_FF2_A2_S5.hkx 

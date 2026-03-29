@@ -1,0 +1,7 @@
+Version V1.0
+
+' MNCcowlick
+b -Tn MNCcowlick_S1_0 cowlick_A2_S1.hkx
+b -Tn MNCcowlick_S2_0 cowlick_A2_S2.hkx
+b -Tn MNCcowlick_S3_0 cowlick_A2_S3.hkx
+b -Tn MNCcowlick_S4_0 cowlick_A2_S4.hkx

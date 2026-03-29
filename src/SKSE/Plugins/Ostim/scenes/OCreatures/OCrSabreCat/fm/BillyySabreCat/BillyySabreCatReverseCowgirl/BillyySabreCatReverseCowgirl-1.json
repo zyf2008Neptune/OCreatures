@@ -1,0 +1,59 @@
+{
+    "name": "Billyy Sabre Cat Reverse Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyySabreCatHubFM",
+            "description": "Billyy Sabre Cat Reverse Cowgirl",
+            "icon": "OCreatures/sabrecat/sabrecatvag"
+        },
+        {
+            "destination": "BillyySabreCatReverseCowgirl-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyySabreCatHubFM",
+            "description": "Return",
+            "icon": "OCreatures/sabrecat/sabrecat"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Cat_B_RCow_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crsabrecat",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1,
+			"performaer": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"sabrecat"
+    ]
+}

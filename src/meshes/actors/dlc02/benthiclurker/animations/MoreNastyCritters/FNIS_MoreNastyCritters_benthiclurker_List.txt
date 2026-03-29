@@ -1,0 +1,18 @@
+Version V1.0
+
+' MNCbenthiclurkerPenetration
+b -Tn MNCbenthiclurkerPenetration_S1_0 benthiclurkerPenetration_A2_S1.hkx
+b -Tn MNCbenthiclurkerPenetration_S2_0 benthiclurkerPenetration_A2_S2.hkx
+b -Tn MNCbenthiclurkerPenetration_S3_0 benthiclurkerPenetration_A2_S3.hkx
+b -Tn MNCbenthiclurkerPenetration_S4_0 benthiclurkerPenetration_A2_S4.hkx
+
+' MNCbenthiclurkerPanicFondleTest
+b -Tn MNCbenthiclurkerPanicFondleTest_S1_0 benthiclurkerPanicFondleTest_A2_S1.HKX
+b -Tn MNCbenthiclurkerPanicFondleTest_S2_0 benthiclurkerPanicFondleTest_A2_S2.HKX
+b -Tn MNCbenthiclurkerPanicFondleTest_S3_0 benthiclurkerPanicFondleTest_A2_S3.HKX
+
+' MNCbenthiclurkerPanicPenetrationTest
+b -Tn MNCbenthiclurkerPanicPenetrationTest_S1_0 benthiclurkerPanicPenetrationTest_A2_S1.HKX
+b -Tn MNCbenthiclurkerPanicPenetrationTest_S2_0 benthiclurkerPanicPenetrationTest_A2_S2.HKX
+b -Tn MNCbenthiclurkerPanicPenetrationTest_S3_0 benthiclurkerPanicPenetrationTest_A2_S3.HKX
+b -Tn MNCbenthiclurkerPanicPenetrationTest_S4_0 benthiclurkerPanicPenetrationTest_A2_S4.HKX

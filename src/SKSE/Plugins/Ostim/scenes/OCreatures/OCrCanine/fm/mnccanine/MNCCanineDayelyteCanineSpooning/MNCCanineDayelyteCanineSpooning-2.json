@@ -1,0 +1,73 @@
+{
+    "name": "MNCCanineDayelyteCanineSpooning",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCCanineDayelyteCanineSpooning-3",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "MNCCanineDayelyteCanineSpooning-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCCanineHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/canine/canine"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCCaninespooning_S2"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crcanine",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingside"
+            ],
+            "autoTransitions": {
+                "climax": "MNCCanineDayelyteCanineSpooning-3"
+            }
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingside"
+            ],
+            "autoTransitions": {
+                "climax": "MNCCanineDayelyteCanineSpooning-3"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "canine"
+    ]
+}

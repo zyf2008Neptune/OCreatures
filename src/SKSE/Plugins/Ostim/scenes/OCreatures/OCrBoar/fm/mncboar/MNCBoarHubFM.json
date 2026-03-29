@@ -1,0 +1,46 @@
+{
+    "name": "MNCBoarHubFM",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrBoarIdleFM",
+            "description": "mnc Boar Hub",
+            "icon": "OCreatures/boar/boar"
+        },
+        {
+            "destination": "OCrBoarIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Boar_B_Dog_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crboar",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "boar"
+    ]
+}

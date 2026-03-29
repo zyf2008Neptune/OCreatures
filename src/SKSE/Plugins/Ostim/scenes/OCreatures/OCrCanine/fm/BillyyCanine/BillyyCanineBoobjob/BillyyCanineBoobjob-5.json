@@ -1,0 +1,47 @@
+{
+    "name": "Billyy Canine Boobjob",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyCanineBoobjob-4",
+    "speeds": [
+        {
+            "animation": "B_Can_B_BoobJ_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "gropingtesticles",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

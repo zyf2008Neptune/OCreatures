@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Atronach Frost Frozen Hug",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyAtronachFrostFrozenHug-4",
+    "speeds": [
+        {
+            "animation": "B_FrostA_B_FrozH_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crAtronachFrost",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"AtronachFrost"
+    ]
+}

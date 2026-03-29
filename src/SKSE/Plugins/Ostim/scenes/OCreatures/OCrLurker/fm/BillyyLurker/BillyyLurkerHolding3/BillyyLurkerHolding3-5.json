@@ -1,0 +1,48 @@
+{
+    "name": "Billyy Lurker Holding 3",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyLurkerHolding3-4",
+    "speeds": [
+        {
+            "animation": "B_Lurk_B_Hold3_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crLurker",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Lurker"
+    ]
+}

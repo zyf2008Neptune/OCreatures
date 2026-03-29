@@ -1,0 +1,15 @@
+{
+	"condition":{
+		"info": "OCrNetchRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd8f"
+	},
+	"type": "crnetch",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrWerewolfRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd7A"
+	},
+	"type": "crwerewolf",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

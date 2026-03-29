@@ -1,0 +1,44 @@
+{
+    "name": "Billyy Horker Sideways",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyHorkerSideways-4",
+    "speeds": [
+        {
+            "animation": "B_Hork_B_Side_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crHorker",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingside",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingside",
+				"spreadlegs",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Horker"
+    ]
+}

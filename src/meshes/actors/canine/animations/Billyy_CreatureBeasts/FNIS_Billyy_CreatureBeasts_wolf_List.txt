@@ -1,0 +1,288 @@
+Version V1.0
+
+' B_Can_B_Dog
+b -Tn B_Can_B_Dog_S1_0 Can_B_Dog_A2_S1.hkx 
+b -Tn B_Can_B_Dog_S2_0 Can_B_Dog_A2_S2.hkx 
+b -Tn B_Can_B_Dog_S3_0 Can_B_Dog_A2_S3.hkx 
+b -Tn B_Can_B_Dog_S4_0 Can_B_Dog_A2_S4.hkx 
+b -Tn B_Can_B_Dog_S5_0 Can_B_Dog_A2_S5.hkx 
+
+' B_Can_B_Dog2
+b -Tn B_Can_B_Dog2_S1_0 Can_B_Dog2_A2_S1.hkx 
+b -Tn B_Can_B_Dog2_S2_0 Can_B_Dog2_A2_S2.hkx 
+b -Tn B_Can_B_Dog2_S3_0 Can_B_Dog2_A2_S3.hkx 
+b -Tn B_Can_B_Dog2_S4_0 Can_B_Dog2_A2_S4.hkx 
+b -Tn B_Can_B_Dog2_S5_0 Can_B_Dog2_A2_S5.hkx 
+
+' B_Can_B_Dog3
+b -Tn B_Can_B_Dog3_S1_0 Can_B_Dog3_A2_S1.hkx 
+b -Tn B_Can_B_Dog3_S2_0 Can_B_Dog3_A2_S2.hkx 
+b -Tn B_Can_B_Dog3_S3_0 Can_B_Dog3_A2_S3.hkx 
+b -Tn B_Can_B_Dog3_S4_0 Can_B_Dog3_A2_S4.hkx 
+b -Tn B_Can_B_Dog3_S5_0 Can_B_Dog3_A2_S5.hkx 
+
+' B_Can_B_CG
+b -Tn B_Can_B_CG_S1_0 Can_B_CG_A2_S1.hkx 
+b -Tn B_Can_B_CG_S2_0 Can_B_CG_A2_S2.hkx 
+b -Tn B_Can_B_CG_S3_0 Can_B_CG_A2_S3.hkx 
+b -Tn B_Can_B_CG_S4_0 Can_B_CG_A2_S4.hkx 
+b -Tn B_Can_B_CG_S5_0 Can_B_CG_A2_S5.hkx 
+
+' B_Can_B_RCG
+b -Tn B_Can_B_RCG_S1_0 Can_B_RCG_A2_S1.hkx 
+b -Tn B_Can_B_RCG_S2_0 Can_B_RCG_A2_S2.hkx 
+b -Tn B_Can_B_RCG_S3_0 Can_B_RCG_A2_S3.hkx 
+b -Tn B_Can_B_RCG_S4_0 Can_B_RCG_A2_S4.hkx 
+b -Tn B_Can_B_RCG_S5_0 Can_B_RCG_A2_S5.hkx 
+
+' B_Can_B_Miss
+b -Tn B_Can_B_Miss_S1_0 Can_B_Miss_A2_S1.hkx 
+b -Tn B_Can_B_Miss_S2_0 Can_B_Miss_A2_S2.hkx 
+b -Tn B_Can_B_Miss_S3_0 Can_B_Miss_A2_S3.hkx 
+b -Tn B_Can_B_Miss_S4_0 Can_B_Miss_A2_S4.hkx 
+b -Tn B_Can_B_Miss_S5_0 Can_B_Miss_A2_S5.hkx 
+
+' B_Can_B_Miss2
+b -Tn B_Can_B_Miss2_S1_0 Can_B_Miss2_A2_S1.hkx 
+b -Tn B_Can_B_Miss2_S2_0 Can_B_Miss2_A2_S2.hkx 
+b -Tn B_Can_B_Miss2_S3_0 Can_B_Miss2_A2_S3.hkx 
+b -Tn B_Can_B_Miss2_S4_0 Can_B_Miss2_A2_S4.hkx 
+b -Tn B_Can_B_Miss2_S5_0 Can_B_Miss2_A2_S5.hkx 
+
+' B_Can_B_Mating
+b -Tn B_Can_B_Mating_S1_0 Can_B_Mating_A2_S1.hkx 
+b -Tn B_Can_B_Mating_S2_0 Can_B_Mating_A2_S2.hkx 
+b -Tn B_Can_B_Mating_S3_0 Can_B_Mating_A2_S3.hkx 
+b -Tn B_Can_B_Mating_S4_0 Can_B_Mating_A2_S4.hkx 
+b -Tn B_Can_B_Mating_S5_0 Can_B_Mating_A2_S5.hkx 
+
+' B_Can_B_MissCrab
+b -Tn B_Can_B_MissCrab_S1_0 Can_B_MissCrab_A2_S1.hkx 
+b -Tn B_Can_B_MissCrab_S2_0 Can_B_MissCrab_A2_S2.hkx 
+b -Tn B_Can_B_MissCrab_S3_0 Can_B_MissCrab_A2_S3.hkx 
+b -Tn B_Can_B_MissCrab_S4_0 Can_B_MissCrab_A2_S4.hkx 
+b -Tn B_Can_B_MissCrab_S5_0 Can_B_MissCrab_A2_S5.hkx 
+b -Tn B_Can_B_MissCrab_S6_0 Can_B_MissCrab_A2_S6.hkx 
+b -Tn B_Can_B_MissCrab_S7_0 Can_B_MissCrab_A2_S7.hkx 
+
+' B_Can_B_Side
+b -Tn B_Can_B_Side_S1_0 Can_B_Side_A2_S1.hkx 
+b -Tn B_Can_B_Side_S2_0 Can_B_Side_A2_S2.hkx 
+b -Tn B_Can_B_Side_S3_0 Can_B_Side_A2_S3.hkx 
+b -Tn B_Can_B_Side_S4_0 Can_B_Side_A2_S4.hkx 
+b -Tn B_Can_B_Side_S5_0 Can_B_Side_A2_S5.hkx 
+
+' B_Can_B_BlwBJ
+b -Tn B_Can_B_BlwBJ_S1_0 Can_B_BlwBJ_A2_S1.hkx 
+b -Tn B_Can_B_BlwBJ_S2_0 Can_B_BlwBJ_A2_S2.hkx 
+b -Tn B_Can_B_BlwBJ_S3_0 Can_B_BlwBJ_A2_S3.hkx 
+b -Tn B_Can_B_BlwBJ_S4_0 Can_B_BlwBJ_A2_S4.hkx 
+b -Tn B_Can_B_BlwBJ_S5_0 Can_B_BlwBJ_A2_S5.hkx 
+
+' B_Can_B_LayBJW
+b -Tn B_Can_B_LayBJW_S1_0 Can_B_LayBJW_A2_S1.hkx 
+b -Tn B_Can_B_LayBJW_S2_0 Can_B_LayBJW_A2_S2.hkx 
+b -Tn B_Can_B_LayBJW_S3_0 Can_B_LayBJW_A2_S3.hkx 
+b -Tn B_Can_B_LayBJW_S4_0 Can_B_LayBJW_A2_S4.hkx 
+b -Tn B_Can_B_LayBJW_S5_0 Can_B_LayBJW_A2_S5.hkx 
+b -Tn B_Can_B_LayBJW_S6_0 Can_B_LayBJW_A2_S6.hkx 
+b -Tn B_Can_B_LayBJW_S7_0 Can_B_LayBJW_A2_S7.hkx 
+b -Tn B_Can_B_LayBJW_S8_0 Can_B_LayBJW_A2_S8.hkx 
+b -Tn B_Can_B_LayBJW_S9_0 Can_B_LayBJW_A2_S9.hkx 
+b -Tn B_Can_B_LayBJW_S10_0 Can_B_LayBJW_A2_S10.hkx 
+
+' B_Can_B_FaceF
+b -Tn B_Can_B_FaceF_S1_0 Can_B_FaceF_A2_S1.hkx 
+b -Tn B_Can_B_FaceF_S2_0 Can_B_FaceF_A2_S2.hkx 
+b -Tn B_Can_B_FaceF_S3_0 Can_B_FaceF_A2_S3.hkx 
+b -Tn B_Can_B_FaceF_S4_0 Can_B_FaceF_A2_S4.hkx 
+b -Tn B_Can_B_FaceF_S5_0 Can_B_FaceF_A2_S5.hkx 
+
+' B_Can_B_69FaceF
+b -Tn B_Can_B_69FaceF_S1_0 Can_B_69FaceF_A2_S1.hkx 
+b -Tn B_Can_B_69FaceF_S2_0 Can_B_69FaceF_A2_S2.hkx 
+b -Tn B_Can_B_69FaceF_S3_0 Can_B_69FaceF_A2_S3.hkx 
+b -Tn B_Can_B_69FaceF_S4_0 Can_B_69FaceF_A2_S4.hkx 
+b -Tn B_Can_B_69FaceF_S5_0 Can_B_69FaceF_A2_S5.hkx 
+
+' B_Can_B_DogFF
+b -Tn B_Can_B_DogFF_S1_0 Can_B_DogFF_A2_S1.hkx 
+b -Tn B_Can_B_DogFF_S2_0 Can_B_DogFF_A2_S2.hkx 
+b -Tn B_Can_B_DogFF_S3_0 Can_B_DogFF_A2_S3.hkx 
+b -Tn B_Can_B_DogFF_S4_0 Can_B_DogFF_A2_S4.hkx 
+b -Tn B_Can_B_DogFF_S5_0 Can_B_DogFF_A2_S5.hkx 
+
+' B_Can_B_BoobJ
+b -Tn B_Can_B_BoobJ_S1_0 Can_B_BoobJ_A2_S1.hkx 
+b -Tn B_Can_B_BoobJ_S2_0 Can_B_BoobJ_A2_S2.hkx 
+b -Tn B_Can_B_BoobJ_S3_0 Can_B_BoobJ_A2_S3.hkx 
+b -Tn B_Can_B_BoobJ_S4_0 Can_B_BoobJ_A2_S4.hkx 
+b -Tn B_Can_B_BoobJ_S5_0 Can_B_BoobJ_A2_S5.hkx 
+
+' B_Can_B_BehCunn
+b -Tn B_Can_B_BehCunn_S1_0 Can_B_BehCunn_A2_S1.hkx 
+b -Tn B_Can_B_BehCunn_S2_0 Can_B_BehCunn_A2_S2.hkx 
+b -Tn B_Can_B_BehCunn_S3_0 Can_B_BehCunn_A2_S3.hkx 
+b -Tn B_Can_B_BehCunn_S4_0 Can_B_BehCunn_A2_S4.hkx 
+b -Tn B_Can_B_BehCunn_S5_0 Can_B_BehCunn_A2_S5.hkx 
+
+' B_Can_B_DogA
+b -Tn B_Can_B_DogA_S1_0 Can_B_DogA_A2_S1.hkx 
+b -Tn B_Can_B_DogA_S2_0 Can_B_DogA_A2_S2.hkx 
+b -Tn B_Can_B_DogA_S3_0 Can_B_DogA_A2_S3.hkx 
+b -Tn B_Can_B_DogA_S4_0 Can_B_DogA_A2_S4.hkx 
+b -Tn B_Can_B_DogA_S5_0 Can_B_DogA_A2_S5.hkx 
+
+' B_Can_B_ScrDogA
+b -Tn B_Can_B_ScrDogA_S1_0 Can_B_ScrDogA_A2_S1.hkx 
+b -Tn B_Can_B_ScrDogA_S2_0 Can_B_ScrDogA_A2_S2.hkx 
+b -Tn B_Can_B_ScrDogA_S3_0 Can_B_ScrDogA_A2_S3.hkx 
+b -Tn B_Can_B_ScrDogA_S4_0 Can_B_ScrDogA_A2_S4.hkx 
+b -Tn B_Can_B_ScrDogA_S5_0 Can_B_ScrDogA_A2_S5.hkx 
+b -Tn B_Can_B_ScrDogA_S6_0 Can_B_ScrDogA_A2_S6.hkx 
+
+' B_Can_B_SpoonA
+b -Tn B_Can_B_SpoonA_S1_0 Can_B_SpoonA_A2_S1.hkx 
+b -Tn B_Can_B_SpoonA_S2_0 Can_B_SpoonA_A2_S2.hkx 
+b -Tn B_Can_B_SpoonA_S3_0 Can_B_SpoonA_A2_S3.hkx 
+b -Tn B_Can_B_SpoonA_S4_0 Can_B_SpoonA_A2_S4.hkx 
+b -Tn B_Can_B_SpoonA_S5_0 Can_B_SpoonA_A2_S5.hkx 
+
+' B_Can_B_LayA
+b -Tn B_Can_B_LayA_S1_0 Can_B_LayA_A2_S1.hkx 
+b -Tn B_Can_B_LayA_S2_0 Can_B_LayA_A2_S2.hkx 
+b -Tn B_Can_B_LayA_S3_0 Can_B_LayA_A2_S3.hkx 
+b -Tn B_Can_B_LayA_S4_0 Can_B_LayA_A2_S4.hkx 
+b -Tn B_Can_B_LayA_S5_0 Can_B_LayA_A2_S5.hkx 
+
+' B_Can_B_3pDogSpit
+b -Tn B_Can_B_3pDogSpit_S1_0 Can_B_3pDogSpit_A2_S1.hkx 
+b -Tn B_Can_B_3pDogSpit_S2_0 Can_B_3pDogSpit_A2_S2.hkx 
+b -Tn B_Can_B_3pDogSpit_S3_0 Can_B_3pDogSpit_A2_S3.hkx 
+b -Tn B_Can_B_3pDogSpit_S4_0 Can_B_3pDogSpit_A2_S4.hkx 
+b -Tn B_Can_B_3pDogSpit_S5_0 Can_B_3pDogSpit_A2_S5.hkx 
+b -Tn B_Can_B_3pDogSpit_S1_2 Can_B_3pDogSpit_A3_S1.hkx 
+b -Tn B_Can_B_3pDogSpit_S2_2 Can_B_3pDogSpit_A3_S2.hkx 
+b -Tn B_Can_B_3pDogSpit_S3_2 Can_B_3pDogSpit_A3_S3.hkx 
+b -Tn B_Can_B_3pDogSpit_S4_2 Can_B_3pDogSpit_A3_S4.hkx 
+b -Tn B_Can_B_3pDogSpit_S5_2 Can_B_3pDogSpit_A3_S5.hkx 
+
+' B_Can_B_3pDogSpit2
+b -Tn B_Can_B_3pDogSpit2_S1_0 Can_B_3pDogSpit2_A2_S1.hkx 
+b -Tn B_Can_B_3pDogSpit2_S2_0 Can_B_3pDogSpit2_A2_S2.hkx 
+b -Tn B_Can_B_3pDogSpit2_S3_0 Can_B_3pDogSpit2_A2_S3.hkx 
+b -Tn B_Can_B_3pDogSpit2_S4_0 Can_B_3pDogSpit2_A2_S4.hkx 
+b -Tn B_Can_B_3pDogSpit2_S5_0 Can_B_3pDogSpit2_A2_S5.hkx 
+b -Tn B_Can_B_3pDogSpit2_S1_2 Can_B_3pDogSpit2_A3_S1.hkx 
+b -Tn B_Can_B_3pDogSpit2_S2_2 Can_B_3pDogSpit2_A3_S2.hkx 
+b -Tn B_Can_B_3pDogSpit2_S3_2 Can_B_3pDogSpit2_A3_S3.hkx 
+b -Tn B_Can_B_3pDogSpit2_S4_2 Can_B_3pDogSpit2_A3_S4.hkx 
+b -Tn B_Can_B_3pDogSpit2_S5_2 Can_B_3pDogSpit2_A3_S5.hkx 
+
+' B_Can_B_3pSide
+b -Tn B_Can_B_3pSide_S1_0 Can_B_3pSide_A2_S1.hkx 
+b -Tn B_Can_B_3pSide_S2_0 Can_B_3pSide_A2_S2.hkx 
+b -Tn B_Can_B_3pSide_S3_0 Can_B_3pSide_A2_S3.hkx 
+b -Tn B_Can_B_3pSide_S4_0 Can_B_3pSide_A2_S4.hkx 
+b -Tn B_Can_B_3pSide_S5_0 Can_B_3pSide_A2_S5.hkx 
+b -Tn B_Can_B_3pSide_S1_2 Can_B_3pSide_A3_S1.hkx 
+b -Tn B_Can_B_3pSide_S2_2 Can_B_3pSide_A3_S2.hkx 
+b -Tn B_Can_B_3pSide_S3_2 Can_B_3pSide_A3_S3.hkx 
+b -Tn B_Can_B_3pSide_S4_2 Can_B_3pSide_A3_S4.hkx 
+b -Tn B_Can_B_3pSide_S5_2 Can_B_3pSide_A3_S5.hkx 
+
+' B_Can_B_3pSpitA
+b -Tn B_Can_B_3pSpitA_S1_0 Can_B_3pSpitA_A2_S1.hkx 
+b -Tn B_Can_B_3pSpitA_S2_0 Can_B_3pSpitA_A2_S2.hkx 
+b -Tn B_Can_B_3pSpitA_S3_0 Can_B_3pSpitA_A2_S3.hkx 
+b -Tn B_Can_B_3pSpitA_S4_0 Can_B_3pSpitA_A2_S4.hkx 
+b -Tn B_Can_B_3pSpitA_S5_0 Can_B_3pSpitA_A2_S5.hkx 
+b -Tn B_Can_B_3pSpitA_S1_2 Can_B_3pSpitA_A3_S1.hkx 
+b -Tn B_Can_B_3pSpitA_S2_2 Can_B_3pSpitA_A3_S2.hkx 
+b -Tn B_Can_B_3pSpitA_S3_2 Can_B_3pSpitA_A3_S3.hkx 
+b -Tn B_Can_B_3pSpitA_S4_2 Can_B_3pSpitA_A3_S4.hkx 
+b -Tn B_Can_B_3pSpitA_S5_2 Can_B_3pSpitA_A3_S5.hkx 
+
+' B_Can_B_3pDP
+b -Tn B_Can_B_3pDP_S1_0 Can_B_3pDP_A2_S1.hkx 
+b -Tn B_Can_B_3pDP_S2_0 Can_B_3pDP_A2_S2.hkx 
+b -Tn B_Can_B_3pDP_S3_0 Can_B_3pDP_A2_S3.hkx 
+b -Tn B_Can_B_3pDP_S4_0 Can_B_3pDP_A2_S4.hkx 
+b -Tn B_Can_B_3pDP_S5_0 Can_B_3pDP_A2_S5.hkx 
+b -Tn B_Can_B_3pDP_S1_2 Can_B_3pDP_A3_S1.hkx 
+b -Tn B_Can_B_3pDP_S2_2 Can_B_3pDP_A3_S2.hkx 
+b -Tn B_Can_B_3pDP_S3_2 Can_B_3pDP_A3_S3.hkx 
+b -Tn B_Can_B_3pDP_S4_2 Can_B_3pDP_A3_S4.hkx 
+b -Tn B_Can_B_3pDP_S5_2 Can_B_3pDP_A3_S5.hkx 
+
+' B_Can_B_3pDP2
+b -Tn B_Can_B_3pDP2_S1_0 Can_B_3pDP2_A2_S1.hkx 
+b -Tn B_Can_B_3pDP2_S2_0 Can_B_3pDP2_A2_S2.hkx 
+b -Tn B_Can_B_3pDP2_S3_0 Can_B_3pDP2_A2_S3.hkx 
+b -Tn B_Can_B_3pDP2_S4_0 Can_B_3pDP2_A2_S4.hkx 
+b -Tn B_Can_B_3pDP2_S5_0 Can_B_3pDP2_A2_S5.hkx 
+b -Tn B_Can_B_3pDP2_S1_2 Can_B_3pDP2_A3_S1.hkx 
+b -Tn B_Can_B_3pDP2_S2_2 Can_B_3pDP2_A3_S2.hkx 
+b -Tn B_Can_B_3pDP2_S3_2 Can_B_3pDP2_A3_S3.hkx 
+b -Tn B_Can_B_3pDP2_S4_2 Can_B_3pDP2_A3_S4.hkx 
+b -Tn B_Can_B_3pDP2_S5_2 Can_B_3pDP2_A3_S5.hkx 
+
+' B_Can_B_4pDog
+b -Tn B_Can_B_4pDog_S1_0 Can_B_4pDog_A2_S1.hkx 
+b -Tn B_Can_B_4pDog_S2_0 Can_B_4pDog_A2_S2.hkx 
+b -Tn B_Can_B_4pDog_S3_0 Can_B_4pDog_A2_S3.hkx 
+b -Tn B_Can_B_4pDog_S4_0 Can_B_4pDog_A2_S4.hkx 
+b -Tn B_Can_B_4pDog_S5_0 Can_B_4pDog_A2_S5.hkx 
+b -Tn B_Can_B_4pDog_S6_0 Can_B_4pDog_A2_S6.hkx 
+b -Tn B_Can_B_4pDog_S7_0 Can_B_4pDog_A2_S7.hkx 
+b -Tn B_Can_B_4pDog_S1_2 Can_B_4pDog_A3_S1.hkx 
+b -Tn B_Can_B_4pDog_S2_2 Can_B_4pDog_A3_S2.hkx 
+b -Tn B_Can_B_4pDog_S3_2 Can_B_4pDog_A3_S3.hkx 
+b -Tn B_Can_B_4pDog_S4_2 Can_B_4pDog_A3_S4.hkx 
+b -Tn B_Can_B_4pDog_S5_2 Can_B_4pDog_A3_S5.hkx 
+b -Tn B_Can_B_4pDog_S6_2 Can_B_4pDog_A3_S6.hkx 
+b -Tn B_Can_B_4pDog_S7_2 Can_B_4pDog_A3_S7.hkx 
+b -Tn B_Can_B_4pDog_S1_3 Can_B_4pDog_A4_S1.hkx 
+b -Tn B_Can_B_4pDog_S2_3 Can_B_4pDog_A4_S2.hkx 
+b -Tn B_Can_B_4pDog_S3_3 Can_B_4pDog_A4_S3.hkx 
+b -Tn B_Can_B_4pDog_S4_3 Can_B_4pDog_A4_S4.hkx 
+b -Tn B_Can_B_4pDog_S5_3 Can_B_4pDog_A4_S5.hkx 
+b -Tn B_Can_B_4pDog_S6_3 Can_B_4pDog_A4_S6.hkx 
+b -Tn B_Can_B_4pDog_S7_3 Can_B_4pDog_A4_S7.hkx 
+
+' B_Can_B_5pDog
+b -Tn B_Can_B_5pDog_S1_0 Can_B_5pDog_A2_S1.hkx 
+b -Tn B_Can_B_5pDog_S2_0 Can_B_5pDog_A2_S2.hkx 
+b -Tn B_Can_B_5pDog_S3_0 Can_B_5pDog_A2_S3.hkx 
+b -Tn B_Can_B_5pDog_S4_0 Can_B_5pDog_A2_S4.hkx 
+b -Tn B_Can_B_5pDog_S5_0 Can_B_5pDog_A2_S5.hkx 
+b -Tn B_Can_B_5pDog_S6_0 Can_B_5pDog_A2_S6.hkx 
+b -Tn B_Can_B_5pDog_S7_0 Can_B_5pDog_A2_S7.hkx 
+b -Tn B_Can_B_5pDog_S1_2 Can_B_5pDog_A3_S1.hkx 
+b -Tn B_Can_B_5pDog_S2_2 Can_B_5pDog_A3_S2.hkx 
+b -Tn B_Can_B_5pDog_S3_2 Can_B_5pDog_A3_S3.hkx 
+b -Tn B_Can_B_5pDog_S4_2 Can_B_5pDog_A3_S4.hkx 
+b -Tn B_Can_B_5pDog_S5_2 Can_B_5pDog_A3_S5.hkx 
+b -Tn B_Can_B_5pDog_S6_2 Can_B_5pDog_A3_S6.hkx 
+b -Tn B_Can_B_5pDog_S7_2 Can_B_5pDog_A3_S7.hkx 
+b -Tn B_Can_B_5pDog_S1_3 Can_B_5pDog_A4_S1.hkx 
+b -Tn B_Can_B_5pDog_S2_3 Can_B_5pDog_A4_S2.hkx 
+b -Tn B_Can_B_5pDog_S3_3 Can_B_5pDog_A4_S3.hkx 
+b -Tn B_Can_B_5pDog_S4_3 Can_B_5pDog_A4_S4.hkx 
+b -Tn B_Can_B_5pDog_S5_3 Can_B_5pDog_A4_S5.hkx 
+b -Tn B_Can_B_5pDog_S6_3 Can_B_5pDog_A4_S6.hkx 
+b -Tn B_Can_B_5pDog_S7_3 Can_B_5pDog_A4_S7.hkx 
+b -Tn B_Can_B_5pDog_S1_4 Can_B_5pDog_A5_S1.hkx 
+b -Tn B_Can_B_5pDog_S2_4 Can_B_5pDog_A5_S2.hkx 
+b -Tn B_Can_B_5pDog_S3_4 Can_B_5pDog_A5_S3.hkx 
+b -Tn B_Can_B_5pDog_S4_4 Can_B_5pDog_A5_S4.hkx 
+b -Tn B_Can_B_5pDog_S5_4 Can_B_5pDog_A5_S5.hkx 
+b -Tn B_Can_B_5pDog_S6_4 Can_B_5pDog_A5_S6.hkx 
+b -Tn B_Can_B_5pDog_S7_4 Can_B_5pDog_A5_S7.hkx 
+
+' B_Can_B_FFC1
+b -Tn B_Can_B_FFC1_S1_0 Can_B_FFC1_A3_S1.hkx 
+b -Tn B_Can_B_FFC1_S2_0 Can_B_FFC1_A3_S2.hkx 
+b -Tn B_Can_B_FFC1_S3_0 Can_B_FFC1_A3_S3.hkx 
+b -Tn B_Can_B_FFC1_S4_0 Can_B_FFC1_A3_S4.hkx 
+b -Tn B_Can_B_FFC1_S5_0 Can_B_FFC1_A3_S5.hkx 

@@ -1,0 +1,67 @@
+{
+    "name": "Billyy Troll Laying Blowjob",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyTrollHubFM",
+            "description": "Billyy Troll Laying Blowjob",
+            "icon": "OCreatures/Troll/Trolloral"
+        },
+        {
+            "destination": "BillyyTrollLayingBlowjob-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyTrollHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Troll/Troll"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Troll_B_LayBJ_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crTroll",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "handjob",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "gropingbutt",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Troll"
+    ]
+}

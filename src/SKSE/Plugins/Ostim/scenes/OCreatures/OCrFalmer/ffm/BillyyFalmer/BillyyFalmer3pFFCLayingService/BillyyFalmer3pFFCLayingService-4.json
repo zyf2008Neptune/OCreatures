@@ -1,0 +1,86 @@
+{
+    "name": "BillyyFalmer3pFFCLayingService",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyFalmer3pFFCLayingService-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+        {
+            "destination": "BillyyFalmer3pFFCLayingService-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyFalmerHubFFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/falmer/falmer"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Falm_B_FFCLaySrv_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFalmer",
+			"intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyFalmer3pFFCLayingService-5"
+			},
+			"animationIndex": 0,
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingside",
+				"ontop"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyFalmer3pFFCLayingService-5"
+			},
+			"animationIndex": 2,
+            "tags": [
+                "sitting",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "lickingtesticles",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "blowjob",
+            "actor": 2,
+            "target": 0
+        },
+        {
+            "type": "lickingvagina",
+            "actor": 0,
+            "target": 2
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "falmer"
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "name": "MNCChaurusflyersVag",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCChaurusflyersVag-4",
+    "speeds": [
+        {
+            "animation": "MNCchaurflySLDvaginal_S5"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crchaurusflyer",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "chaurusflyer",
+		"aggresive"
+    ]
+}

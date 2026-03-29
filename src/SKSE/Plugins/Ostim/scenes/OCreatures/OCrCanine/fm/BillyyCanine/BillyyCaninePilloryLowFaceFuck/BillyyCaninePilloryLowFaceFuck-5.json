@@ -1,0 +1,44 @@
+{
+    "name": "Billyy Canine Pillory Low FaceFuck",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyCaninePilloryLowFaceFuck-4",
+    "speeds": [
+        {
+            "animation": "B_Can_B_LPillFF_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "name": "MNCWerewolfRoughAnal",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCWerewolfRoughAnal-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "MNCWerewolfRoughAnal-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCWerewolfHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/werewolf/werewolf"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCWerewolfRedone_S2"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crwerewolf",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "werewolf"
+    ]
+}

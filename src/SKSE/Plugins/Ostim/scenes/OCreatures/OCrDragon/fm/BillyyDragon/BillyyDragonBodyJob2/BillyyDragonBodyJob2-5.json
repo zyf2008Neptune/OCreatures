@@ -1,0 +1,51 @@
+{
+    "name": "BillyyDragonBodyJob2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDragonBodyJob2-4",
+    "speeds": [
+        {
+            "animation": "B_Dragon_BillyyBodyJob2_S5"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdragon",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "cumonvulva",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "cumonbutt",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "dragon"
+    ]
+}

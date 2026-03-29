@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Boar Laying Anal",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyBoarLayingAnal-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+             "destination": "BillyyBoarLayingAnal-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyBoarHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/boar/boar"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Boar_B_LayA_S2"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crBoar",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingfront"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Boar"
+    ]
+}

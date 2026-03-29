@@ -1,0 +1,44 @@
+{
+    "name": "Billyy Boar Missionary 3",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyBoarMissionary3-4",
+    "speeds": [
+        {
+            "animation": "B_Boar_B_Miss3_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crBoar",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"spreadlegs",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Boar"
+    ]
+}

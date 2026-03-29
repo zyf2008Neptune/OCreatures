@@ -1,0 +1,42 @@
+{
+    "name": "MNCHorsePanicHorseSucking",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCHorsePanicHorseSucking-4",
+    "speeds": [
+        {
+            "animation": "MNCHorseC4_S5"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crhorse",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "facial",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "horse"
+    ]
+}

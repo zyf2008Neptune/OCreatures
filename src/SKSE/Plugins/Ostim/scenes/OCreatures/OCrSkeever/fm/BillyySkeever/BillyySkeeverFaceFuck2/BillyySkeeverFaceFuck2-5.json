@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Skeever FaceFuck 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySkeeverFaceFuck2-4",
+    "speeds": [
+        {
+            "animation": "B_Skee_B_FaceF2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crskeever",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"spreadlegs"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"skeever"
+    ]
+}

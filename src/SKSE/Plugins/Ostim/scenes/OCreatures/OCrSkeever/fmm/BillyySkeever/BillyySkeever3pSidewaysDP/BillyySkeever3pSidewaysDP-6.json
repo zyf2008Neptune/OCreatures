@@ -1,0 +1,77 @@
+{
+    "name": "BillyySkeever3pSidewaysDP",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySkeever3pSidewaysDP-5",
+    "speeds": [
+        {
+            "animation": "B_Skee_B_3pSideDP_S6"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crskeever",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crskeever",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingside",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingside",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 2
+        },
+        {
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 2
+        },
+		{
+            "type": "hugging",
+            "actor": 0,
+            "target": 2
+        },
+		{
+            "type": "hugging",
+            "actor": 1,
+            "target": 2
+        },
+		{
+            "type": "leglocking",
+            "actor": 2,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "skeever"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "BillyyDragonBodyJob3Cowgirl",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyDragonBodyJob3Cowgirl-4",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyDragonBodyJob3Cowgirl-2",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyDragonHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/dragon/dragon"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Dragon_BillyyBodyJob3Cowgirl_S3"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdragon",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "sitting",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "grindingpenis",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "boobjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "dragon"
+    ]
+}

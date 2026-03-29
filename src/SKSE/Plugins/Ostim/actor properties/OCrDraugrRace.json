@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrDraugrRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd71"
+	},
+	"type": "crdraugr",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

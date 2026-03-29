@@ -1,0 +1,76 @@
+{
+    "name": "BillyyScrib3pSpitroast",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "BillyyScribHubFMM",
+            "description": "BillyyScrib3pSpitroast",
+            "icon": "OCreatures/Scrib/Scribvagoral"
+        },
+        {
+            "destination": "BillyyScrib3pSpitroast-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyScribHubFMM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Scrib/Scrib"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_AHop_B_3pSpit_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crScrib",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crScrib",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "sitting"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 2,
+            "target": 0,
+			"performer": 0
+        },
+        {
+            "type": "lickingvagina",
+            "actor": 1,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "Scrib"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrBoarRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd8d"
+	},
+	"type": "crboar",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

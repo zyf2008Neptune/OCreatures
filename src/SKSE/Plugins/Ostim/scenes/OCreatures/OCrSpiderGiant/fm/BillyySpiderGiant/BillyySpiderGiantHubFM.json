@@ -1,0 +1,44 @@
+{
+    "name": "BillyySpiderGiantHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrSpiderGiantIdleFM",
+            "description": "Billyy Spider Giant Hub",
+            "icon": "OCreatures/Spider/Spider"
+        },
+		{
+            "destination": "OCrSpiderGiantIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_GSpid_B_Behind_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpiderGiant",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"SpiderGiant"
+    ]
+}

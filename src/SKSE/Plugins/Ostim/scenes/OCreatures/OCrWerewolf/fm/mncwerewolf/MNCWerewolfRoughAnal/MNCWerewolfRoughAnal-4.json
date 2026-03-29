@@ -1,0 +1,41 @@
+{
+    "name": "MNCWerewolfRoughAnal",
+    "modpack": "MNCCreatures",
+    "length": 8,
+    "destination": "MNCWerewolfRoughAnal-3",
+    "speeds": [
+        {
+            "animation": "MNCWerewolfRedone_S4"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crwerewolf",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "werewolf"
+    ]
+}

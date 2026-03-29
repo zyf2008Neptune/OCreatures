@@ -1,0 +1,44 @@
+{
+    "name": "Billyy Canine Pillory Low Doggy",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyCaninePilloryLowDoggy-4",
+    "speeds": [
+        {
+            "animation": "B_Can_B_LPillDog_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crcanine",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours",
+				"climaxing",
+				"suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"canine"
+    ]
+}

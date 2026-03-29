@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Mammoth Bodyjob 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyyMammothHubFM",
+            "description": "Billyy Mammoth Bodyjob 2",
+            "icon": "OCreatures/Mammoth/Mammothfoot"
+        },
+        {
+            "destination": "BillyyMammothBodyjob2-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyMammothHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Mammoth/Mammoth"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Mammoth_BillyyBodyjob2_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crMammoth",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+		{
+            "type": "footjob",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Mammoth"
+    ]
+}

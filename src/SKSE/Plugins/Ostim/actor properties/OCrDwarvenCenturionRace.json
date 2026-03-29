@@ -1,0 +1,15 @@
+{
+	"condition":{
+		"info": "OCrDwarvenCenturionRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd81"
+	},
+	"type": "crdwarvencenturion",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

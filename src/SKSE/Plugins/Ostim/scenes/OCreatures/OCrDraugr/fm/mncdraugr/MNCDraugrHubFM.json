@@ -1,0 +1,46 @@
+{
+    "name": "MNCDraugrHubFM",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrDraugrIdleFM",
+            "description": "mnc Draugr Hub",
+            "icon": "OCreatures/draugr/draugr"
+        },
+        {
+            "destination": "OCrDraugrIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Drau_B_Hold_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crdraugr",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "draugr"
+    ]
+}

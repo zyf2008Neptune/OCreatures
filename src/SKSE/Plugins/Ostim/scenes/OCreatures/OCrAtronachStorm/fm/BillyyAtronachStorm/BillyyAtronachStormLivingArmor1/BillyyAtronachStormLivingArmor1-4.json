@@ -1,0 +1,88 @@
+{
+    "name": "Billyy Atronach Storm Living Armor 1",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyAtronachStormLivingArmor1-5",
+            "description": "Next (Climax)",
+            "icon": "OStim/symbols/climax"
+        },
+		{
+            "destination": "BillyyAtronachStormLivingArmor1-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyAtronachStormHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/Atronach/AtronachStorm"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_StormA_B_LArm1_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crAtronachStorm",
+            "intendedSex": "male",
+			"autoTransitions": {
+				"climax": "BillyyAtronachStormLivingArmor1-5"
+			},
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+			"autoTransitions": {
+				"climax": "BillyyAtronachStormLivingArmor1-5"
+			},
+            "tags": [
+                "suspended"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "rubbingclitoris",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingarm",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingleg",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "gropingbreast",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"AtronachStorm"
+    ]
+}

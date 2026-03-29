@@ -1,0 +1,59 @@
+{
+    "name": "Billyy Skeever 69",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyySkeever69-4",
+    "speeds": [
+        {
+            "animation": "B_Skee_B_69_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crskeever",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "kneeling",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "cunnilingus",
+            "actor": 0,
+            "target": 1
+        },
+		 {
+            "type": "gropingtesticles",
+            "actor": 1,
+            "target": 0
+        },
+		 {
+            "type": "deepthroat",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "holdinghip",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"skeever"
+    ]
+}

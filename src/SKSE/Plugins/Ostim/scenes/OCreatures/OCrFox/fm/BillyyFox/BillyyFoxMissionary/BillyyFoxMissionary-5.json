@@ -1,0 +1,53 @@
+{
+    "name": "Billyy Fox Missionary",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyFoxMissionary-4",
+    "speeds": [
+        {
+            "animation": "B_Fox_B_Miss_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crFox",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "hugging",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "leglocking",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Fox"
+    ]
+}

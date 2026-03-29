@@ -1,0 +1,124 @@
+{
+    "name": "BillyyWerewolf5pGangbang1",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "BillyyWerewolf5pGangbang1-5",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyyWerewolf5pGangbang1-3",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "BillyyWerewolfHubFMMMM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/werewolf/werewolf"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_WW_B_5pGB1_S4"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"animationIndex": 3,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"animationIndex": 4,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "lyingback",
+				"ontop"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "deepthroat",
+            "actor": 4,
+            "target": 0,
+            "performer": 0
+        },
+        {
+            "type": "holdinghead",
+            "actor": 0,
+            "target": 4
+        },
+		{
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 4
+        },
+		{
+            "type": "holdingbody",
+            "actor": 1,
+            "target": 4
+        },
+		{
+            "type": "handjob",
+            "actor": 4,
+            "target": 2
+        },
+		{
+            "type": "analsex",
+            "actor": 3,
+            "target": 4
+        },
+		{
+            "type": "holdingleg",
+            "actor": 3,
+            "target": 4
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "werewolf"
+    ]
+}

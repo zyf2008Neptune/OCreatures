@@ -1,0 +1,43 @@
+Version V1.0
+
+' B_Sprig_B_Behind
+b -Tn,o B_Sprig_B_Behind_S1_0 Sprig_B_Behind_A2_S1.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+b -Tn,o B_Sprig_B_Behind_S2_0 Sprig_B_Behind_A2_S2.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+b -Tn,o B_Sprig_B_Behind_S3_0 Sprig_B_Behind_A2_S3.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+b -Tn,o B_Sprig_B_Behind_S4_0 Sprig_B_Behind_A2_S4.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+b -Tn,o B_Sprig_B_Behind_S5_0 Sprig_B_Behind_A2_S5.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+
+' B_Sprig_B_Doggy
+b -Tn,o B_Sprig_B_Doggy_S1_0 Sprig_B_Doggy_A2_S1.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+b -Tn,o B_Sprig_B_Doggy_S2_0 Sprig_B_Doggy_A2_S2.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+b -Tn,o B_Sprig_B_Doggy_S3_0 Sprig_B_Doggy_A2_S3.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+b -Tn,o B_Sprig_B_Doggy_S4_0 Sprig_B_Doggy_A2_S4.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+b -Tn,o B_Sprig_B_Doggy_S5_0 Sprig_B_Doggy_A2_S5.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+
+' B_Sprig_B_CG
+b -Tn,o B_Sprig_B_CG_S1_0 Sprig_B_CG_A2_S1.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+b -Tn,o B_Sprig_B_CG_S2_0 Sprig_B_CG_A2_S2.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+b -Tn,o B_Sprig_B_CG_S3_0 Sprig_B_CG_A2_S3.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+b -Tn,o B_Sprig_B_CG_S4_0 Sprig_B_CG_A2_S4.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+b -Tn,o B_Sprig_B_CG_S5_0 Sprig_B_CG_A2_S5.hkx AOSprigganDickPelvis1 AOSprigganDickPelvis2
+
+' B_Sprig_B_BJ
+b -Tn,o B_Sprig_B_BJ_S1_0 Sprig_B_BJ_A2_S1.hkx AOSprigganDickPelvis1
+b -Tn,o B_Sprig_B_BJ_S2_0 Sprig_B_BJ_A2_S2.hkx AOSprigganDickPelvis1
+b -Tn,o B_Sprig_B_BJ_S3_0 Sprig_B_BJ_A2_S3.hkx AOSprigganDickPelvis1
+b -Tn,o B_Sprig_B_BJ_S4_0 Sprig_B_BJ_A2_S4.hkx AOSprigganDickPelvis1
+b -Tn,o B_Sprig_B_BJ_S5_0 Sprig_B_BJ_A2_S5.hkx AOSprigganDickPelvis1
+
+' B_Sprig_B_THold
+b -Tn B_Sprig_B_THold_S1_0 Sprig_B_THold_A2_S1.hkx 
+b -Tn B_Sprig_B_THold_S2_0 Sprig_B_THold_A2_S2.hkx 
+b -Tn B_Sprig_B_THold_S3_0 Sprig_B_THold_A2_S3.hkx 
+b -Tn B_Sprig_B_THold_S4_0 Sprig_B_THold_A2_S4.hkx 
+b -Tn B_Sprig_B_THold_S5_0 Sprig_B_THold_A2_S5.hkx 
+
+' B_Sprig_B_TMiss
+b -Tn B_Sprig_B_TMiss_S1_0 Sprig_B_TMiss_A2_S1.hkx 
+b -Tn B_Sprig_B_TMiss_S2_0 Sprig_B_TMiss_A2_S2.hkx 
+b -Tn B_Sprig_B_TMiss_S3_0 Sprig_B_TMiss_A2_S3.hkx 
+b -Tn B_Sprig_B_TMiss_S4_0 Sprig_B_TMiss_A2_S4.hkx 
+b -Tn B_Sprig_B_TMiss_S5_0 Sprig_B_TMiss_A2_S5.hkx 

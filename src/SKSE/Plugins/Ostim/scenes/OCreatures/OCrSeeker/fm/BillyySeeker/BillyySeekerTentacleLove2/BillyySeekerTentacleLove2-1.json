@@ -1,0 +1,63 @@
+{
+    "name": "Billyy Seeker Tentacle Love 2",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "BillyySeekerHubFM",
+            "description": "Billyy Seeker Tentacle Love 2",
+            "icon": "OCreatures/Seeker/SeekerVAO"
+        },
+        {
+            "destination": "BillyySeekerTentacleLove2-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "BillyySeekerHubFM",
+            "description": "Return",
+            "icon": "OCreatures/Seeker/Seeker"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Seek_B_TLov2_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSeeker",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "grindingpenis",
+            "actor": 1,
+            "target": 0,
+			"performer": 0
+        },
+		{
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Seeker"
+    ]
+}

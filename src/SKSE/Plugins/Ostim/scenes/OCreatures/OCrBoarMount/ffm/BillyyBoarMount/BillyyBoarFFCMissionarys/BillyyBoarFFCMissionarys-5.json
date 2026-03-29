@@ -1,0 +1,75 @@
+{
+    "name": "BillyyBoarFFCMissionarys",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyBoarFFCMissionarys-4",
+    "speeds": [
+        {
+            "animation": "B_Boar_B_FFC1_S5"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crboarMount",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 2
+        },
+        {
+            "type": "leglocking",
+            "actor": 1,
+            "target": 0
+        },
+		{
+            "type": "leglocking",
+            "actor": 2,
+            "target": 0
+        },
+        {
+            "type": "holdinghands",
+            "actor": 2,
+            "target": 1
+        },
+		{
+            "type": "kissing",
+            "actor": 2,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "boarMount"
+    ]
+}

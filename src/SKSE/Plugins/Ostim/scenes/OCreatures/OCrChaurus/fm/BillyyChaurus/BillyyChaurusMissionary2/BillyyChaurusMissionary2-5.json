@@ -1,0 +1,43 @@
+{
+    "name": "Billyy Chaurus Missionary 2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyChaurusMissionary2-4",
+    "speeds": [
+        {
+            "animation": "B_Chaur_B_Miss2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crChaurus",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Chaurus"
+    ]
+}

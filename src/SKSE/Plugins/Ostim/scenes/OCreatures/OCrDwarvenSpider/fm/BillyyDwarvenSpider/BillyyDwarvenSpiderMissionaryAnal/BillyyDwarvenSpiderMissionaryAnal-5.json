@@ -1,0 +1,42 @@
+{
+    "name": "Billyy Dwarven Spider Missionary Anal",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyDwarvenSpiderMissionaryAnal-4",
+    "speeds": [
+        {
+            "animation": "B_DSpider_B_MissA_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crDwarvenSpider",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"DwarvenSpider"
+    ]
+}

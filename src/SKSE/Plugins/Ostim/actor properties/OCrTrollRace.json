@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrTrollRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd78"
+	},
+	"type": "crtroll",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

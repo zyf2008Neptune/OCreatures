@@ -1,0 +1,44 @@
+{
+    "name": "BillyySkeeverHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrSkeeverIdleFM",
+            "description": "Billyy Skeever Hub",
+            "icon": "OCreatures/Skeever/Skeever"
+        },
+		{
+            "destination": "OCrSkeeverIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_Skee_B_Cunn_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSkeever",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"Skeever"
+    ]
+}

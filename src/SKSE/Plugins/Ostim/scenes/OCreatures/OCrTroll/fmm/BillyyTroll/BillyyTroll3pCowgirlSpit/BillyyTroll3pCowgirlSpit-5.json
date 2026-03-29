@@ -1,0 +1,78 @@
+{
+    "name": "BillyyTroll3pCowgirlSpit",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyTroll3pCowgirlSpit-4",
+    "speeds": [
+        {
+            "animation": "B_Troll_B_3pCowSpit_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crTroll",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+		{
+			"type": "crTroll",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "lyingback",
+				"climaxing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "sitting",
+				"ontop",
+				"climaxing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "blowjob",
+            "actor": 2,
+            "target": 0
+        },
+        {
+            "type": "handjob",
+            "actor": 2,
+            "target": 0
+        },
+		{
+            "type": "gropingtesticles",
+            "actor": 2,
+            "target": 0
+        },
+		{
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 2
+        },
+		{
+            "type": "holdinghip",
+            "actor": 1,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "troll"
+    ]
+}

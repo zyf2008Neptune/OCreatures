@@ -1,0 +1,46 @@
+{
+    "name": "MNCChaurusFlyerHubFM",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrChaurusFlyerIdleFM",
+            "description": "mnc ChaurusFlyer Hub",
+            "icon": "OCreatures/chaurusflyer/chaurusflyer"
+        },
+        {
+            "destination": "OCrChaurusFlyerIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_ChauH_B_Hang_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crchaurusflyer",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "chaurusflyer"
+    ]
+}

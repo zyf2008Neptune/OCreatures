@@ -1,0 +1,47 @@
+{
+    "name": "Billyy Giant Standing Service",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyGiantStandingService-4",
+    "speeds": [
+        {
+            "animation": "B_Giant_B_StdServ_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crGiant",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing",
+				"climaxing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "facial",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "gropingtesticles",
+            "actor": 1,
+            "target": 0
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Giant"
+    ]
+}

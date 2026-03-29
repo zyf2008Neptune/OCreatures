@@ -1,0 +1,183 @@
+Version V1.0
+
+' B_Deer_B_Miss
+b -Tn,AVbHumanoidFootIKDisable B_Deer_B_Miss_S1_1 Deer_B_Miss_A1_S1.hkx 
+b -Tn B_Deer_B_Miss_S2_1 Deer_B_Miss_A1_S2.hkx 
+b -Tn B_Deer_B_Miss_S3_1 Deer_B_Miss_A1_S3.hkx 
+b -Tn B_Deer_B_Miss_S4_1 Deer_B_Miss_A1_S4.hkx 
+b -Tn B_Deer_B_Miss_S5_1 Deer_B_Miss_A1_S5.hkx 
+
+' B_Deer_B_Dog
+b -Tn,AVbHumanoidFootIKDisable B_Deer_B_Dog_S1_1 Deer_B_Dog_A1_S1.hkx 
+b -Tn B_Deer_B_Dog_S2_1 Deer_B_Dog_A1_S2.hkx 
+b -Tn B_Deer_B_Dog_S3_1 Deer_B_Dog_A1_S3.hkx 
+b -Tn B_Deer_B_Dog_S4_1 Deer_B_Dog_A1_S4.hkx 
+b -Tn B_Deer_B_Dog_S5_1 Deer_B_Dog_A1_S5.hkx 
+
+' B_Deer_B_Blowjob
+b -Tn,AVbHumanoidFootIKDisable B_Deer_B_Blowjob_S1_1 Deer_B_Blowjob_A1_S1.hkx 
+b -Tn B_Deer_B_Blowjob_S2_1 Deer_B_Blowjob_A1_S2.hkx 
+b -Tn B_Deer_B_Blowjob_S3_1 Deer_B_Blowjob_A1_S3.hkx 
+b -Tn B_Deer_B_Blowjob_S4_1 Deer_B_Blowjob_A1_S4.hkx 
+b -Tn B_Deer_B_Blowjob_S5_1 Deer_B_Blowjob_A1_S5.hkx 
+
+' B_Deer_B_PileA
+b -Tn,AVbHumanoidFootIKDisable B_Deer_B_PileA_S1_1 Deer_B_PileA_A1_S1.hkx 
+b -Tn B_Deer_B_PileA_S2_1 Deer_B_PileA_A1_S2.hkx 
+b -Tn B_Deer_B_PileA_S3_1 Deer_B_PileA_A1_S3.hkx 
+b -Tn B_Deer_B_PileA_S4_1 Deer_B_PileA_A1_S4.hkx 
+b -Tn B_Deer_B_PileA_S5_1 Deer_B_PileA_A1_S5.hkx 
+
+' B_Dragon_BillyyBodyJob1
+b -Tn,AVbHumanoidFootIKDisable B_Dragon_BillyyBodyJob1_S1_1 Dragon_BillyyBodyJob1_A1_S1.hkx 
+b -Tn B_Dragon_BillyyBodyJob1_S2_1 Dragon_BillyyBodyJob1_A1_S2.hkx 
+b -Tn B_Dragon_BillyyBodyJob1_S3_1 Dragon_BillyyBodyJob1_A1_S3.hkx 
+b -Tn B_Dragon_BillyyBodyJob1_S4_1 Dragon_BillyyBodyJob1_A1_S4.hkx 
+b -Tn B_Dragon_BillyyBodyJob1_S5_1 Dragon_BillyyBodyJob1_A1_S5.hkx 
+
+' B_Dragon_BillyyBodyJob2
+b -Tn,AVbHumanoidFootIKDisable B_Dragon_BillyyBodyJob2_S1_1 Dragon_BillyyBodyJob2_A1_S1.hkx 
+b -Tn B_Dragon_BillyyBodyJob2_S2_1 Dragon_BillyyBodyJob2_A1_S2.hkx 
+b -Tn B_Dragon_BillyyBodyJob2_S3_1 Dragon_BillyyBodyJob2_A1_S3.hkx 
+b -Tn B_Dragon_BillyyBodyJob2_S4_1 Dragon_BillyyBodyJob2_A1_S4.hkx 
+b -Tn B_Dragon_BillyyBodyJob2_S5_1 Dragon_BillyyBodyJob2_A1_S5.hkx 
+
+' B_Dragon_BillyyBodyJob3Cowgirl
+b -Tn,AVbHumanoidFootIKDisable B_Dragon_BillyyBodyJob3Cowgirl_S1_1 Dragon_BillyyBodyJob3Cowgirl_A1_S1.hkx 
+b -Tn B_Dragon_BillyyBodyJob3Cowgirl_S2_1 Dragon_BillyyBodyJob3Cowgirl_A1_S2.hkx 
+b -Tn B_Dragon_BillyyBodyJob3Cowgirl_S3_1 Dragon_BillyyBodyJob3Cowgirl_A1_S3.hkx 
+b -Tn B_Dragon_BillyyBodyJob3Cowgirl_S4_1 Dragon_BillyyBodyJob3Cowgirl_A1_S4.hkx 
+b -Tn B_Dragon_BillyyBodyJob3Cowgirl_S5_1 Dragon_BillyyBodyJob3Cowgirl_A1_S5.hkx 
+
+' B_Goat_BillyyMissionary
+b -Tn,AVbHumanoidFootIKDisable B_Goat_BillyyMissionary_S1_1 Goat_BillyyMissionary_A1_S1.hkx 
+b -Tn B_Goat_BillyyMissionary_S2_1 Goat_BillyyMissionary_A1_S2.hkx 
+b -Tn B_Goat_BillyyMissionary_S3_1 Goat_BillyyMissionary_A1_S3.hkx 
+b -Tn B_Goat_BillyyMissionary_S4_1 Goat_BillyyMissionary_A1_S4.hkx 
+b -Tn B_Goat_BillyyMissionary_S5_1 Goat_BillyyMissionary_A1_S5.hkx 
+
+' B_Goat_B_Doggy
+b -Tn,AVbHumanoidFootIKDisable B_Goat_B_Doggy_S1_1 Goat_B_Doggy_A1_S1.hkx 
+b -Tn B_Goat_B_Doggy_S2_1 Goat_B_Doggy_A1_S2.hkx 
+b -Tn B_Goat_B_Doggy_S3_1 Goat_B_Doggy_A1_S3.hkx 
+b -Tn B_Goat_B_Doggy_S4_1 Goat_B_Doggy_A1_S4.hkx 
+b -Tn B_Goat_B_Doggy_S5_1 Goat_B_Doggy_A1_S5.hkx 
+
+' B_Fox_B_Doggy
+b -Tn,AVbHumanoidFootIKDisable B_Fox_B_Doggy_S1_1 Fox_B_Doggy_A1_S1.hkx 
+b -Tn B_Fox_B_Doggy_S2_1 Fox_B_Doggy_A1_S2.hkx 
+b -Tn B_Fox_B_Doggy_S3_1 Fox_B_Doggy_A1_S3.hkx 
+b -Tn B_Fox_B_Doggy_S4_1 Fox_B_Doggy_A1_S4.hkx 
+b -Tn B_Fox_B_Doggy_S5_1 Fox_B_Doggy_A1_S5.hkx 
+
+' B_Fox_B_Miss
+b -Tn,AVbHumanoidFootIKDisable B_Fox_B_Miss_S1_1 Fox_B_Miss_A1_S1.hkx 
+b -Tn B_Fox_B_Miss_S2_1 Fox_B_Miss_A1_S2.hkx 
+b -Tn B_Fox_B_Miss_S3_1 Fox_B_Miss_A1_S3.hkx 
+b -Tn B_Fox_B_Miss_S4_1 Fox_B_Miss_A1_S4.hkx 
+b -Tn B_Fox_B_Miss_S5_1 Fox_B_Miss_A1_S5.hkx 
+
+' B_Fox_B_LayA
+b -Tn,AVbHumanoidFootIKDisable B_Fox_B_LayA_S1_1 Fox_B_LayA_A1_S1.hkx 
+b -Tn B_Fox_B_LayA_S2_1 Fox_B_LayA_A1_S2.hkx 
+b -Tn B_Fox_B_LayA_S3_1 Fox_B_LayA_A1_S3.hkx 
+b -Tn B_Fox_B_LayA_S4_1 Fox_B_LayA_A1_S4.hkx 
+b -Tn B_Fox_B_LayA_S5_1 Fox_B_LayA_A1_S5.hkx 
+
+' B_Hag_B_Fly1
+b -Tn,AVbHumanoidFootIKDisable B_Hag_B_Fly1_S1_1 Hag_B_Fly1_A1_S1.hkx 
+b -Tn B_Hag_B_Fly1_S2_1 Hag_B_Fly1_A1_S2.hkx 
+b -Tn B_Hag_B_Fly1_S3_1 Hag_B_Fly1_A1_S3.hkx 
+b -Tn B_Hag_B_Fly1_S4_1 Hag_B_Fly1_A1_S4.hkx 
+b -Tn B_Hag_B_Fly1_S5_1 Hag_B_Fly1_A1_S5.hkx 
+
+' B_Horker_BillyyCowgirl
+b -Tn,AVbHumanoidFootIKDisable B_Horker_BillyyCowgirl_S1_1 Horker_BillyyCowgirl_A1_S1.hkx 
+b -Tn B_Horker_BillyyCowgirl_S2_1 Horker_BillyyCowgirl_A1_S2.hkx 
+b -Tn B_Horker_BillyyCowgirl_S3_1 Horker_BillyyCowgirl_A1_S3.hkx 
+b -Tn B_Horker_BillyyCowgirl_S4_1 Horker_BillyyCowgirl_A1_S4.hkx 
+b -Tn B_Horker_BillyyCowgirl_S5_1 Horker_BillyyCowgirl_A1_S5.hkx 
+
+' B_Hork_B_Side
+b -Tn,AVbHumanoidFootIKDisable B_Hork_B_Side_S1_1 Hork_B_Side_A1_S1.hkx 
+b -Tn B_Hork_B_Side_S2_1 Hork_B_Side_A1_S2.hkx 
+b -Tn B_Hork_B_Side_S3_1 Hork_B_Side_A1_S3.hkx 
+b -Tn B_Hork_B_Side_S4_1 Hork_B_Side_A1_S4.hkx 
+b -Tn B_Hork_B_Side_S5_1 Hork_B_Side_A1_S5.hkx 
+
+' B_Hork_B_Miss
+b -Tn,AVbHumanoidFootIKDisable B_Hork_B_Miss_S1_1 Hork_B_Miss_A1_S1.hkx 
+b -Tn B_Hork_B_Miss_S2_1 Hork_B_Miss_A1_S2.hkx 
+b -Tn B_Hork_B_Miss_S3_1 Hork_B_Miss_A1_S3.hkx 
+b -Tn B_Hork_B_Miss_S4_1 Hork_B_Miss_A1_S4.hkx 
+b -Tn B_Hork_B_Miss_S5_1 Hork_B_Miss_A1_S5.hkx 
+
+' B_Hork_B_BJ
+b -Tn,AVbHumanoidFootIKDisable B_Hork_B_BJ_S1_1 Hork_B_BJ_A1_S1.hkx 
+b -Tn B_Hork_B_BJ_S2_1 Hork_B_BJ_A1_S2.hkx 
+b -Tn B_Hork_B_BJ_S3_1 Hork_B_BJ_A1_S3.hkx 
+b -Tn B_Hork_B_BJ_S4_1 Hork_B_BJ_A1_S4.hkx 
+b -Tn B_Hork_B_BJ_S5_1 Hork_B_BJ_A1_S5.hkx 
+
+' B_IceWraith_BillyyIceDildo1
+b -Tn,o,AVbHumanoidFootIKDisable B_IceWraith_BillyyIceDildo1_S1_1 IceWraith_BillyyIceDildo1_A1_S1.hkx AOIceDildoA AOIceDildoB AOWraithIce1_1
+b -Tn,o B_IceWraith_BillyyIceDildo1_S2_1 IceWraith_BillyyIceDildo1_A1_S2.hkx AOIceDildoA AOIceDildoB AOWraithIce1_2
+b -Tn,o B_IceWraith_BillyyIceDildo1_S3_1 IceWraith_BillyyIceDildo1_A1_S3.hkx AOIceDildoA AOIceDildoB AOWraithIce1_3
+b -Tn,o B_IceWraith_BillyyIceDildo1_S4_1 IceWraith_BillyyIceDildo1_A1_S4.hkx AOIceDildoA AOIceDildoB AOWraithIce1_4
+b -Tn,o B_IceWraith_BillyyIceDildo1_S5_1 IceWraith_BillyyIceDildo1_A1_S5.hkx AOIceDildoA AOIceDildoB AOWraithIce1_5
+
+' B_IceWraith_BillyyIceDildo2
+b -Tn,o,AVbHumanoidFootIKDisable B_IceWraith_BillyyIceDildo2_S1_1 IceWraith_BillyyIceDildo2_A1_S1.hkx AOIceDildoA AOIceDildoB AOWraithIce2_1
+b -Tn,o B_IceWraith_BillyyIceDildo2_S2_1 IceWraith_BillyyIceDildo2_A1_S2.hkx AOIceDildoA AOIceDildoB AOWraithIce2_2
+b -Tn,o B_IceWraith_BillyyIceDildo2_S3_1 IceWraith_BillyyIceDildo2_A1_S3.hkx AOIceDildoA AOIceDildoB AOWraithIce2_3
+b -Tn,o B_IceWraith_BillyyIceDildo2_S4_1 IceWraith_BillyyIceDildo2_A1_S4.hkx AOIceDildoA AOIceDildoB AOWraithIce2_4
+b -Tn,o B_IceWraith_BillyyIceDildo2_S5_1 IceWraith_BillyyIceDildo2_A1_S5.hkx AOIceDildoA AOIceDildoB AOWraithIce2_5
+
+' B_Mammoth_BillyyBodyjob1
+b -Tn,AVbHumanoidFootIKDisable B_Mammoth_BillyyBodyjob1_S1_1 Mammoth_BillyyBodyjob1_A1_S1.hkx 
+b -Tn B_Mammoth_BillyyBodyjob1_S2_1 Mammoth_BillyyBodyjob1_A1_S2.hkx 
+b -Tn B_Mammoth_BillyyBodyjob1_S3_1 Mammoth_BillyyBodyjob1_A1_S3.hkx 
+b -Tn B_Mammoth_BillyyBodyjob1_S4_1 Mammoth_BillyyBodyjob1_A1_S4.hkx 
+b -Tn B_Mammoth_BillyyBodyjob1_S5_1 Mammoth_BillyyBodyjob1_A1_S5.hkx 
+
+' B_Mammoth_BillyyBodyjob2
+b -Tn,AVbHumanoidFootIKDisable B_Mammoth_BillyyBodyjob2_S1_1 Mammoth_BillyyBodyjob2_A1_S1.hkx 
+b -Tn B_Mammoth_BillyyBodyjob2_S2_1 Mammoth_BillyyBodyjob2_A1_S2.hkx 
+b -Tn B_Mammoth_BillyyBodyjob2_S3_1 Mammoth_BillyyBodyjob2_A1_S3.hkx 
+b -Tn B_Mammoth_BillyyBodyjob2_S4_1 Mammoth_BillyyBodyjob2_A1_S4.hkx 
+b -Tn B_Mammoth_BillyyBodyjob2_S5_1 Mammoth_BillyyBodyjob2_A1_S5.hkx 
+
+' B_Mammoth_BillyyService
+b -Tn,AVbHumanoidFootIKDisable B_Mammoth_BillyyService_S1_1 Mammoth_BillyyService_A1_S1.hkx 
+b -Tn B_Mammoth_BillyyService_S2_1 Mammoth_BillyyService_A1_S2.hkx 
+b -Tn B_Mammoth_BillyyService_S3_1 Mammoth_BillyyService_A1_S3.hkx 
+b -Tn B_Mammoth_BillyyService_S4_1 Mammoth_BillyyService_A1_S4.hkx 
+b -Tn B_Mammoth_BillyyService_S5_1 Mammoth_BillyyService_A1_S5.hkx 
+
+' B_Rabbit_BillyyMissionary
+b -Tn,AVbHumanoidFootIKDisable B_Rabbit_BillyyMissionary_S1_1 Rabbit_BillyyMissionary_A1_S1.hkx 
+b -Tn B_Rabbit_BillyyMissionary_S2_1 Rabbit_BillyyMissionary_A1_S2.hkx 
+b -Tn B_Rabbit_BillyyMissionary_S3_1 Rabbit_BillyyMissionary_A1_S3.hkx 
+b -Tn B_Rabbit_BillyyMissionary_S4_1 Rabbit_BillyyMissionary_A1_S4.hkx 
+b -Tn B_Rabbit_BillyyMissionary_S5_1 Rabbit_BillyyMissionary_A1_S5.hkx 
+
+' B_Rabbit_BillyyFaceFuck
+b -Tn,AVbHumanoidFootIKDisable B_Rabbit_BillyyFaceFuck_S1_1 Rabbit_BillyyFaceFuck_A1_S1.hkx 
+b -Tn B_Rabbit_BillyyFaceFuck_S2_1 Rabbit_BillyyFaceFuck_A1_S2.hkx 
+b -Tn B_Rabbit_BillyyFaceFuck_S3_1 Rabbit_BillyyFaceFuck_A1_S3.hkx 
+b -Tn B_Rabbit_BillyyFaceFuck_S4_1 Rabbit_BillyyFaceFuck_A1_S4.hkx 
+b -Tn B_Rabbit_BillyyFaceFuck_S5_1 Rabbit_BillyyFaceFuck_A1_S5.hkx 
+
+' B_SlaughterFish_BillyyDoggy
+b -Tn,AVbHumanoidFootIKDisable B_SlaughterFish_BillyyDoggy_S1_1 SlaughterFish_BillyyDoggy_A1_S1.hkx 
+b -Tn B_SlaughterFish_BillyyDoggy_S2_1 SlaughterFish_BillyyDoggy_A1_S2.hkx 
+b -Tn B_SlaughterFish_BillyyDoggy_S3_1 SlaughterFish_BillyyDoggy_A1_S3.hkx 
+b -Tn B_SlaughterFish_BillyyDoggy_S4_1 SlaughterFish_BillyyDoggy_A1_S4.hkx 
+b -Tn B_SlaughterFish_BillyyDoggy_S5_1 SlaughterFish_BillyyDoggy_A1_S5.hkx 
+
+' B_SlaughterFish_BillyyMissionary
+b -Tn,AVbHumanoidFootIKDisable B_SlaughterFish_BillyyMissionary_S1_1 SlaughterFish_BillyyMissionary_A1_S1.hkx 
+b -Tn B_SlaughterFish_BillyyMissionary_S2_1 SlaughterFish_BillyyMissionary_A1_S2.hkx 
+b -Tn B_SlaughterFish_BillyyMissionary_S3_1 SlaughterFish_BillyyMissionary_A1_S3.hkx 
+b -Tn B_SlaughterFish_BillyyMissionary_S4_1 SlaughterFish_BillyyMissionary_A1_S4.hkx 
+b -Tn B_SlaughterFish_BillyyMissionary_S5_1 SlaughterFish_BillyyMissionary_A1_S5.hkx 

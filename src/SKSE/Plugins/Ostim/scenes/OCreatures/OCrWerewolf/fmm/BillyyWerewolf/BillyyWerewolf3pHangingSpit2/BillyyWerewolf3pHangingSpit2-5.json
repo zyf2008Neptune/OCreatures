@@ -1,0 +1,60 @@
+{
+    "name": "BillyyWerewolf3pHangingSpit2",
+    "modpack": "BillyyCreatures",
+    "length": 8,
+    "destination": "BillyyWerewolf3pHangingSpit2-4",
+    "speeds": [
+        {
+            "animation": "B_WW_B_3pHang2_S5"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"animationIndex": 0,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+			"type": "crWerewolf",
+            "intendedSex": "male",
+			"animationIndex": 2,
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+		{
+            "intendedSex": "female",
+			"animationIndex": 1,
+            "tags": [
+                "suspended"
+            ]
+        }
+    ],
+    "actions": [
+		{
+            "type": "deepthroat",
+            "actor": 2,
+            "target": 0,
+            "performer": 0
+        },
+        {
+            "type": "vaginalsex",
+            "actor": 1,
+            "target": 2
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+        "werewolf"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "name": "BillyyBearHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+	"navigations": [
+		{
+            "origin": "OCrBearIdleFM",
+            "description": "Billyy Bear Hub",
+            "icon": "OCreatures/Bear/Bear"
+        },
+		{
+            "destination": "OCrBearIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+	],
+    "speeds": [
+        {
+            "animation": "B_Bear_B_StandA_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crBear",
+			"intendedSex": "male",
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+		"intro",
+        "creature",
+		"Bear"
+    ]
+}

@@ -1,0 +1,7 @@
+Version V1.0
+
+' MNCboarvaginal
+b -Tn MNCboarvaginal_S1_0 boarvaginal_A2_S1.hkx
+b -Tn MNCboarvaginal_S2_0 boarvaginal_A2_S2.hkx
+b -Tn MNCboarvaginal_S3_0 boarvaginal_A2_S3.hkx
+b -Tn MNCboarvaginal_S4_0 boarvaginal_A2_S4.hkx

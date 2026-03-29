@@ -1,0 +1,240 @@
+Version V1.0
+
+' B_WW_B_Dog2
+b -Tn B_WW_B_Dog2_S1_0 WW_B_Dog2_A2_S1.hkx 
+b -Tn B_WW_B_Dog2_S2_0 WW_B_Dog2_A2_S2.hkx 
+b -Tn B_WW_B_Dog2_S3_0 WW_B_Dog2_A2_S3.hkx 
+b -Tn B_WW_B_Dog2_S4_0 WW_B_Dog2_A2_S4.hkx 
+b -Tn B_WW_B_Dog2_S5_0 WW_B_Dog2_A2_S5.hkx 
+
+' B_WW_B_Miss2
+b -Tn B_WW_B_Miss2_S1_0 WW_B_Miss2_A2_S1.hkx 
+b -Tn B_WW_B_Miss2_S2_0 WW_B_Miss2_A2_S2.hkx 
+b -Tn B_WW_B_Miss2_S3_0 WW_B_Miss2_A2_S3.hkx 
+b -Tn B_WW_B_Miss2_S4_0 WW_B_Miss2_A2_S4.hkx 
+b -Tn B_WW_B_Miss2_S5_0 WW_B_Miss2_A2_S5.hkx 
+
+' B_WW_B_MissHang2
+b -Tn B_WW_B_MissHang2_S1_0 WW_B_MissHang2_A2_S1.hkx 
+b -Tn B_WW_B_MissHang2_S2_0 WW_B_MissHang2_A2_S2.hkx 
+b -Tn B_WW_B_MissHang2_S3_0 WW_B_MissHang2_A2_S3.hkx 
+b -Tn B_WW_B_MissHang2_S4_0 WW_B_MissHang2_A2_S4.hkx 
+b -Tn B_WW_B_MissHang2_S5_0 WW_B_MissHang2_A2_S5.hkx 
+
+' B_WW_B_Cow
+b -Tn B_WW_B_Cow_S1_0 WW_B_Cow_A2_S1.hkx 
+b -Tn B_WW_B_Cow_S2_0 WW_B_Cow_A2_S2.hkx 
+b -Tn B_WW_B_Cow_S3_0 WW_B_Cow_A2_S3.hkx 
+b -Tn B_WW_B_Cow_S4_0 WW_B_Cow_A2_S4.hkx 
+b -Tn B_WW_B_Cow_S5_0 WW_B_Cow_A2_S5.hkx 
+
+' B_WW_B_RCow
+b -Tn B_WW_B_RCow_S1_0 WW_B_RCow_A2_S1.hkx 
+b -Tn B_WW_B_RCow_S2_0 WW_B_RCow_A2_S2.hkx 
+b -Tn B_WW_B_RCow_S3_0 WW_B_RCow_A2_S3.hkx 
+b -Tn B_WW_B_RCow_S4_0 WW_B_RCow_A2_S4.hkx 
+b -Tn B_WW_B_RCow_S5_0 WW_B_RCow_A2_S5.hkx 
+b -Tn B_WW_B_RCow_S6_0 WW_B_RCow_A2_S6.hkx 
+
+' B_WW_B_LegUp
+b -Tn B_WW_B_LegUp_S1_0 WW_B_LegUp_A2_S1.hkx 
+b -Tn B_WW_B_LegUp_S2_0 WW_B_LegUp_A2_S2.hkx 
+b -Tn B_WW_B_LegUp_S3_0 WW_B_LegUp_A2_S3.hkx 
+b -Tn B_WW_B_LegUp_S4_0 WW_B_LegUp_A2_S4.hkx 
+b -Tn B_WW_B_LegUp_S5_0 WW_B_LegUp_A2_S5.hkx 
+
+' B_WW_B_PilD
+b -Tn B_WW_B_PilD_S1_0 WW_B_PilD_A2_S1.hkx 
+b -Tn B_WW_B_PilD_S2_0 WW_B_PilD_A2_S2.hkx 
+b -Tn B_WW_B_PilD_S3_0 WW_B_PilD_A2_S3.hkx 
+b -Tn B_WW_B_PilD_S4_0 WW_B_PilD_A2_S4.hkx 
+b -Tn B_WW_B_PilD_S5_0 WW_B_PilD_A2_S5.hkx 
+
+' B_WW_B_LNel
+b -Tn B_WW_B_LNel_S1_0 WW_B_LNel_A2_S1.hkx 
+b -Tn B_WW_B_LNel_S2_0 WW_B_LNel_A2_S2.hkx 
+b -Tn B_WW_B_LNel_S3_0 WW_B_LNel_A2_S3.hkx 
+b -Tn B_WW_B_LNel_S4_0 WW_B_LNel_A2_S4.hkx 
+b -Tn B_WW_B_LNel_S5_0 WW_B_LNel_A2_S5.hkx 
+
+' B_WW_B_Lay
+b -Tn B_WW_B_Lay_S1_0 WW_B_Lay_A2_S1.hkx 
+b -Tn B_WW_B_Lay_S2_0 WW_B_Lay_A2_S2.hkx 
+b -Tn B_WW_B_Lay_S3_0 WW_B_Lay_A2_S3.hkx 
+b -Tn B_WW_B_Lay_S4_0 WW_B_Lay_A2_S4.hkx 
+b -Tn B_WW_B_Lay_S5_0 WW_B_Lay_A2_S5.hkx 
+
+' B_WW_B_Spoon
+b -Tn B_WW_B_Spoon_S1_0 WW_B_Spoon_A2_S1.hkx 
+b -Tn B_WW_B_Spoon_S2_0 WW_B_Spoon_A2_S2.hkx 
+b -Tn B_WW_B_Spoon_S3_0 WW_B_Spoon_A2_S3.hkx 
+b -Tn B_WW_B_Spoon_S4_0 WW_B_Spoon_A2_S4.hkx 
+b -Tn B_WW_B_Spoon_S5_0 WW_B_Spoon_A2_S5.hkx 
+b -Tn B_WW_B_Spoon_S6_0 WW_B_Spoon_A2_S6.hkx 
+
+' B_WW_B_Stand2
+b -Tn B_WW_B_Stand2_S1_0 WW_B_Stand2_A2_S1.hkx 
+b -Tn B_WW_B_Stand2_S2_0 WW_B_Stand2_A2_S2.hkx 
+b -Tn B_WW_B_Stand2_S3_0 WW_B_Stand2_A2_S3.hkx 
+b -Tn B_WW_B_Stand2_S4_0 WW_B_Stand2_A2_S4.hkx 
+b -Tn B_WW_B_Stand2_S5_0 WW_B_Stand2_A2_S5.hkx 
+
+' B_WW_B_Holding2
+b -Tn B_WW_B_Holding2_S1_0 WW_B_Holding2_A2_S1.hkx 
+b -Tn B_WW_B_Holding2_S2_0 WW_B_Holding2_A2_S2.hkx 
+b -Tn B_WW_B_Holding2_S3_0 WW_B_Holding2_A2_S3.hkx 
+b -Tn B_WW_B_Holding2_S4_0 WW_B_Holding2_A2_S4.hkx 
+b -Tn B_WW_B_Holding2_S5_0 WW_B_Holding2_A2_S5.hkx 
+
+' B_WW_B_Hang
+b -Tn B_WW_B_Hang_S1_0 WW_B_Hang_A2_S1.hkx 
+b -Tn B_WW_B_Hang_S2_0 WW_B_Hang_A2_S2.hkx 
+b -Tn B_WW_B_Hang_S3_0 WW_B_Hang_A2_S3.hkx 
+b -Tn B_WW_B_Hang_S4_0 WW_B_Hang_A2_S4.hkx 
+b -Tn B_WW_B_Hang_S5_0 WW_B_Hang_A2_S5.hkx 
+
+' B_WW_B_HoldNel
+b -Tn B_WW_B_HoldNel_S1_0 WW_B_HoldNel_A2_S1.hkx 
+b -Tn B_WW_B_HoldNel_S2_0 WW_B_HoldNel_A2_S2.hkx 
+b -Tn B_WW_B_HoldNel_S3_0 WW_B_HoldNel_A2_S3.hkx 
+b -Tn B_WW_B_HoldNel_S4_0 WW_B_HoldNel_A2_S4.hkx 
+b -Tn B_WW_B_HoldNel_S5_0 WW_B_HoldNel_A2_S5.hkx 
+
+' B_WW_B_FF
+b -Tn B_WW_B_FF_S1_0 WW_B_FF_A2_S1.hkx 
+b -Tn B_WW_B_FF_S2_0 WW_B_FF_A2_S2.hkx 
+b -Tn B_WW_B_FF_S3_0 WW_B_FF_A2_S3.hkx 
+b -Tn B_WW_B_FF_S4_0 WW_B_FF_A2_S4.hkx 
+b -Tn B_WW_B_FF_S5_0 WW_B_FF_A2_S5.hkx 
+
+' B_WW_B_Lay69
+b -Tn B_WW_B_Lay69_S1_0 WW_B_Lay69_A2_S1.hkx 
+b -Tn B_WW_B_Lay69_S2_0 WW_B_Lay69_A2_S2.hkx 
+b -Tn B_WW_B_Lay69_S3_0 WW_B_Lay69_A2_S3.hkx 
+b -Tn B_WW_B_Lay69_S4_0 WW_B_Lay69_A2_S4.hkx 
+b -Tn B_WW_B_Lay69_S5_0 WW_B_Lay69_A2_S5.hkx 
+
+' B_WW_B_LaySrv
+b -Tn B_WW_B_LaySrv_S1_0 WW_B_LaySrv_A2_S1.hkx 
+b -Tn B_WW_B_LaySrv_S2_0 WW_B_LaySrv_A2_S2.hkx 
+b -Tn B_WW_B_LaySrv_S3_0 WW_B_LaySrv_A2_S3.hkx 
+b -Tn B_WW_B_LaySrv_S4_0 WW_B_LaySrv_A2_S4.hkx 
+b -Tn B_WW_B_LaySrv_S5_0 WW_B_LaySrv_A2_S5.hkx 
+
+' B_WW_B_CunnMiss
+b -Tn B_WW_B_CunnMiss_S1_0 WW_B_CunnMiss_A2_S1.hkx 
+b -Tn B_WW_B_CunnMiss_S2_0 WW_B_CunnMiss_A2_S2.hkx 
+b -Tn B_WW_B_CunnMiss_S3_0 WW_B_CunnMiss_A2_S3.hkx 
+b -Tn B_WW_B_CunnMiss_S4_0 WW_B_CunnMiss_A2_S4.hkx 
+b -Tn B_WW_B_CunnMiss_S5_0 WW_B_CunnMiss_A2_S5.hkx 
+
+' B_WW_B_FJ
+b -Tn B_WW_B_FJ_S1_0 WW_B_FJ_A2_S1.hkx 
+b -Tn B_WW_B_FJ_S2_0 WW_B_FJ_A2_S2.hkx 
+b -Tn B_WW_B_FJ_S3_0 WW_B_FJ_A2_S3.hkx 
+b -Tn B_WW_B_FJ_S4_0 WW_B_FJ_A2_S4.hkx 
+b -Tn,o B_WW_B_FJ_S5_0 WW_B_FJ_A2_S5.hkx AO_BWWCumFJ
+
+' B_WW_B_HoldA2
+b -Tn B_WW_B_HoldA2_S1_0 WW_B_HoldA2_A2_S1.hkx 
+b -Tn B_WW_B_HoldA2_S2_0 WW_B_HoldA2_A2_S2.hkx 
+b -Tn B_WW_B_HoldA2_S3_0 WW_B_HoldA2_A2_S3.hkx 
+b -Tn B_WW_B_HoldA2_S4_0 WW_B_HoldA2_A2_S4.hkx 
+b -Tn B_WW_B_HoldA2_S5_0 WW_B_HoldA2_A2_S5.hkx 
+
+' B_WW_B_DogA2
+b -Tn B_WW_B_DogA2_S1_0 WW_B_DogA2_A2_S1.hkx 
+b -Tn B_WW_B_DogA2_S2_0 WW_B_DogA2_A2_S2.hkx 
+b -Tn B_WW_B_DogA2_S3_0 WW_B_DogA2_A2_S3.hkx 
+b -Tn B_WW_B_DogA2_S4_0 WW_B_DogA2_A2_S4.hkx 
+b -Tn B_WW_B_DogA2_S5_0 WW_B_DogA2_A2_S5.hkx 
+
+' B_WW_B_3pHang2
+b -Tn B_WW_B_3pHang2_S1_0 WW_B_3pHang2_A2_S1.hkx 
+b -Tn B_WW_B_3pHang2_S2_0 WW_B_3pHang2_A2_S2.hkx 
+b -Tn B_WW_B_3pHang2_S3_0 WW_B_3pHang2_A2_S3.hkx 
+b -Tn B_WW_B_3pHang2_S4_0 WW_B_3pHang2_A2_S4.hkx 
+b -Tn B_WW_B_3pHang2_S5_0 WW_B_3pHang2_A2_S5.hkx 
+b -Tn B_WW_B_3pHang2_S1_2 WW_B_3pHang2_A3_S1.hkx 
+b -Tn B_WW_B_3pHang2_S2_2 WW_B_3pHang2_A3_S2.hkx 
+b -Tn B_WW_B_3pHang2_S3_2 WW_B_3pHang2_A3_S3.hkx 
+b -Tn B_WW_B_3pHang2_S4_2 WW_B_3pHang2_A3_S4.hkx 
+b -Tn B_WW_B_3pHang2_S5_2 WW_B_3pHang2_A3_S5.hkx 
+
+' B_WW_B_3pCG
+b -Tn B_WW_B_3pCG_S1_0 WW_B_3pCG_A2_S1.hkx 
+b -Tn B_WW_B_3pCG_S2_0 WW_B_3pCG_A2_S2.hkx 
+b -Tn B_WW_B_3pCG_S3_0 WW_B_3pCG_A2_S3.hkx 
+b -Tn B_WW_B_3pCG_S4_0 WW_B_3pCG_A2_S4.hkx 
+b -Tn B_WW_B_3pCG_S5_0 WW_B_3pCG_A2_S5.hkx 
+b -Tn B_WW_B_3pCG_S1_2 WW_B_3pCG_A3_S1.hkx 
+b -Tn B_WW_B_3pCG_S2_2 WW_B_3pCG_A3_S2.hkx 
+b -Tn B_WW_B_3pCG_S3_2 WW_B_3pCG_A3_S3.hkx 
+b -Tn B_WW_B_3pCG_S4_2 WW_B_3pCG_A3_S4.hkx 
+b -Tn B_WW_B_3pCG_S5_2 WW_B_3pCG_A3_S5.hkx 
+
+' B_WW_B_3pDP2
+b -Tn B_WW_B_3pDP2_S1_0 WW_B_3pDP2_A2_S1.hkx 
+b -Tn B_WW_B_3pDP2_S2_0 WW_B_3pDP2_A2_S2.hkx 
+b -Tn B_WW_B_3pDP2_S3_0 WW_B_3pDP2_A2_S3.hkx 
+b -Tn B_WW_B_3pDP2_S4_0 WW_B_3pDP2_A2_S4.hkx 
+b -Tn B_WW_B_3pDP2_S5_0 WW_B_3pDP2_A2_S5.hkx 
+b -Tn B_WW_B_3pDP2_S1_2 WW_B_3pDP2_A3_S1.hkx 
+b -Tn B_WW_B_3pDP2_S2_2 WW_B_3pDP2_A3_S2.hkx 
+b -Tn B_WW_B_3pDP2_S3_2 WW_B_3pDP2_A3_S3.hkx 
+b -Tn B_WW_B_3pDP2_S4_2 WW_B_3pDP2_A3_S4.hkx 
+b -Tn B_WW_B_3pDP2_S5_2 WW_B_3pDP2_A3_S5.hkx 
+
+' B_WW_B_4pGB1
+b -Tn B_WW_B_4pGB1_S1_0 WW_B_4pGB1_A2_S1.hkx 
+b -Tn B_WW_B_4pGB1_S2_0 WW_B_4pGB1_A2_S2.hkx 
+b -Tn B_WW_B_4pGB1_S3_0 WW_B_4pGB1_A2_S3.hkx 
+b -Tn B_WW_B_4pGB1_S4_0 WW_B_4pGB1_A2_S4.hkx 
+b -Tn B_WW_B_4pGB1_S5_0 WW_B_4pGB1_A2_S5.hkx 
+b -Tn B_WW_B_4pGB1_S6_0 WW_B_4pGB1_A2_S6.hkx 
+b -Tn B_WW_B_4pGB1_S1_2 WW_B_4pGB1_A3_S1.hkx 
+b -Tn B_WW_B_4pGB1_S2_2 WW_B_4pGB1_A3_S2.hkx 
+b -Tn B_WW_B_4pGB1_S3_2 WW_B_4pGB1_A3_S3.hkx 
+b -Tn B_WW_B_4pGB1_S4_2 WW_B_4pGB1_A3_S4.hkx 
+b -Tn B_WW_B_4pGB1_S5_2 WW_B_4pGB1_A3_S5.hkx 
+b -Tn B_WW_B_4pGB1_S6_2 WW_B_4pGB1_A3_S6.hkx 
+b -Tn B_WW_B_4pGB1_S1_3 WW_B_4pGB1_A4_S1.hkx 
+b -Tn B_WW_B_4pGB1_S2_3 WW_B_4pGB1_A4_S2.hkx 
+b -Tn B_WW_B_4pGB1_S3_3 WW_B_4pGB1_A4_S3.hkx 
+b -Tn B_WW_B_4pGB1_S4_3 WW_B_4pGB1_A4_S4.hkx 
+b -Tn B_WW_B_4pGB1_S5_3 WW_B_4pGB1_A4_S5.hkx 
+b -Tn B_WW_B_4pGB1_S6_3 WW_B_4pGB1_A4_S6.hkx 
+
+' B_WW_B_5pGB1
+b -Tn B_WW_B_5pGB1_S1_0 WW_B_5pGB1_A2_S1.hkx 
+b -Tn B_WW_B_5pGB1_S2_0 WW_B_5pGB1_A2_S2.hkx 
+b -Tn B_WW_B_5pGB1_S3_0 WW_B_5pGB1_A2_S3.hkx 
+b -Tn B_WW_B_5pGB1_S4_0 WW_B_5pGB1_A2_S4.hkx 
+b -Tn B_WW_B_5pGB1_S5_0 WW_B_5pGB1_A2_S5.hkx 
+b -Tn B_WW_B_5pGB1_S6_0 WW_B_5pGB1_A2_S6.hkx 
+b -Tn B_WW_B_5pGB1_S1_2 WW_B_5pGB1_A3_S1.hkx 
+b -Tn B_WW_B_5pGB1_S2_2 WW_B_5pGB1_A3_S2.hkx 
+b -Tn B_WW_B_5pGB1_S3_2 WW_B_5pGB1_A3_S3.hkx 
+b -Tn B_WW_B_5pGB1_S4_2 WW_B_5pGB1_A3_S4.hkx 
+b -Tn B_WW_B_5pGB1_S5_2 WW_B_5pGB1_A3_S5.hkx 
+b -Tn B_WW_B_5pGB1_S6_2 WW_B_5pGB1_A3_S6.hkx 
+b -Tn B_WW_B_5pGB1_S1_3 WW_B_5pGB1_A4_S1.hkx 
+b -Tn B_WW_B_5pGB1_S2_3 WW_B_5pGB1_A4_S2.hkx 
+b -Tn B_WW_B_5pGB1_S3_3 WW_B_5pGB1_A4_S3.hkx 
+b -Tn B_WW_B_5pGB1_S4_3 WW_B_5pGB1_A4_S4.hkx 
+b -Tn B_WW_B_5pGB1_S5_3 WW_B_5pGB1_A4_S5.hkx 
+b -Tn,o B_WW_B_5pGB1_S6_3 WW_B_5pGB1_A4_S6.hkx AO_BWWCumFJ
+b -Tn B_WW_B_5pGB1_S1_4 WW_B_5pGB1_A5_S1.hkx 
+b -Tn B_WW_B_5pGB1_S2_4 WW_B_5pGB1_A5_S2.hkx 
+b -Tn B_WW_B_5pGB1_S3_4 WW_B_5pGB1_A5_S3.hkx 
+b -Tn B_WW_B_5pGB1_S4_4 WW_B_5pGB1_A5_S4.hkx 
+b -Tn B_WW_B_5pGB1_S5_4 WW_B_5pGB1_A5_S5.hkx 
+b -Tn B_WW_B_5pGB1_S6_4 WW_B_5pGB1_A5_S6.hkx 
+
+' B_WW_B_FFCServKneel
+b -Tn B_WW_B_FFCServKneel_S1_0 WW_B_FFCServKneel_A3_S1.hkx 
+b -Tn B_WW_B_FFCServKneel_S2_0 WW_B_FFCServKneel_A3_S2.hkx 
+b -Tn B_WW_B_FFCServKneel_S3_0 WW_B_FFCServKneel_A3_S3.hkx 
+b -Tn B_WW_B_FFCServKneel_S4_0 WW_B_FFCServKneel_A3_S4.hkx 
+b -Tn B_WW_B_FFCServKneel_S5_0 WW_B_FFCServKneel_A3_S5.hkx 
+b -Tn B_WW_B_FFCServKneel_S6_0 WW_B_FFCServKneel_A3_S6.hkx 

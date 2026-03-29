@@ -1,0 +1,16 @@
+{
+	"condition":{
+		"info": "OCrDragonRaceCondition",
+		"mod":"OCreatures.esp",
+		"formid":"0xd8e"
+	},
+	"type": "crdragon",
+	"requirements":{
+		"penis": true,
+		"testicles": true,
+		"anus": true,
+		"mouth": true,
+		"hand": true,
+		"foot": true
+	}
+}

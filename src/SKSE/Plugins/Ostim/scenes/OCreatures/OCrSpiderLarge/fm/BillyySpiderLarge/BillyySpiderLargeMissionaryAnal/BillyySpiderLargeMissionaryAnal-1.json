@@ -1,0 +1,57 @@
+{
+    "name": "Billyy Spider Large Missionary Anal",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+		{
+            "origin": "OCrSpiderLargeIdleFM",
+            "description": "Billyy Spider Large Missionary Anal",
+            "icon": "OCreatures/Spider/Spideranal"
+        },
+        {
+            "destination": "BillyySpiderLargeMissionaryAnal-2",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "OCrSpiderLargeIdleFM",
+            "description": "Return",
+            "icon": "OCreatures/Spider/Spider"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_LSpid_B_MissA_S1"
+        }
+    ],
+    "actors": [
+        {
+			"type": "crSpiderLarge",
+            "intendedSex": "male",
+			"requirements": [
+				"penis"
+			],
+            "tags": [
+                "standing"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "allfours"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "analsex",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "billyy",
+        "creature",
+		"Spider"
+    ]
+}

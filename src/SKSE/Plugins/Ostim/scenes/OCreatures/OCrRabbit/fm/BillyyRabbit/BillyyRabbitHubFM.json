@@ -1,0 +1,47 @@
+{
+    "name": "BillyyRabbitHubFM",
+    "modpack": "BillyyCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "origin": "OCrRabbitIdleFM",
+            "description": "billyy Rabbit Hub",
+            "icon": "OCreatures/rabbit/rabbit"
+        },
+        {
+            "destination": "OCrRabbitIdleFM",
+            "description": "Exit Hub",
+            "icon": "OStim/symbols/return",
+			"priority": -1000
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "B_Rabbit_BillyyFaceFuck_S1"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crrabbit",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "lyingback"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "standing"
+            ]
+        }
+    ],
+    "tags": [
+        "idle",
+        "intro",
+        "creature",
+        "rabbit"
+    ]
+}

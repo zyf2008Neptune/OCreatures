@@ -1,0 +1,63 @@
+{
+    "name": "MNCRieklingRieklingTest",
+    "modpack": "MNCCreatures",
+    "length": 2,
+    "navigations": [
+        {
+            "destination": "MNCRieklingRieklingTest-3",
+            "description": "Next",
+            "icon": "OStim/symbols/next"
+        },
+        {
+            "destination": "MNCRieklingRieklingTest-1",
+            "description": "Return",
+            "icon": "OStim/symbols/return"
+        },
+        {
+            "destination": "MNCRieklingHubFM",
+            "description": "Return to Hub",
+            "icon": "OCreatures/riekling/riekling"
+        }
+    ],
+    "speeds": [
+        {
+            "animation": "MNCRieklingTest_S2"
+        }
+    ],
+    "actors": [
+        {
+            "type": "crriekling",
+            "intendedSex": "male",
+            "requirements": [
+                "penis"
+            ],
+            "tags": [
+                "kneeling"
+            ]
+        },
+        {
+            "intendedSex": "female",
+            "tags": [
+                "lyingback",
+				"spreadlegs"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+		{
+            "type": "holdingthigh",
+            "actor": 0,
+            "target": 1
+        }
+    ],
+    "tags": [
+        "mnc",
+        "creature",
+        "riekling"
+    ]
+}
