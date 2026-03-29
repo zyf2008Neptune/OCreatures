@@ -1,24 +1,24 @@
-Scriptname CreatureFrameworkUtil hidden
+Scriptname CreatureFrameworkUtility hidden
 {Utility script | Creature Framework}
 
 ; Get the version of the mod
 int function GetVersion() global
-	return 31000
+	return 40000
 endFunction
 
 ; Get the textual representation of the version of the mod
 string function GetVersionString() global
-	return "3.1"
+	return "4.0"
 endFunction
 
 ; Get the framework script
 CreatureFramework function GetAPI() global
-	return Game.GetFormFromFile(0xD62, "CreatureFramework.esm") as CreatureFramework
+	return Game.GetFormFromFile(0xCF01, "CreatureFramework.esm") as CreatureFramework
 endFunction
 
 ; Get the configuration script
-CFConfigMenu function GetConfig() global
-	return Game.GetFormFromFile(0xD63, "CreatureFramework.esm") as CFConfigMenu
+CreatureFrameworkConfig function GetConfig() global
+	return Game.GetFormFromFile(0xCF02, "CreatureFramework.esm") as CreatureFrameworkConfig
 endFunction
 
 ; Get the key of a JMap that corresponds to the index of a JArray of its keys
@@ -219,4 +219,15 @@ Form[] function FormArrayFromJArray(int obj) global
 	endWhile
 	JValue.Release(obj)
 	return array
+endFunction
+
+; Send a debug message to the Papyrus log and the console if debugging is enabled
+function Log(string _message) global
+	CreatureFrameworkConfig config = GetConfig()
+	if config.DbgOutputLog
+		Debug.Trace("[CF]" + _message)
+	endIf
+	if config.DbgOutputConsole
+		MiscUtil.PrintConsole("[CF]" + _message)
+	endIf
 endFunction
